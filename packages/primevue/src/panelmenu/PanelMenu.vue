@@ -53,10 +53,10 @@
 </template>
 
 <script>
+import ChevronDownIcon from '@peacepiece-compatibility/icons/chevrondown';
+import ChevronRightIcon from '@peacepiece-compatibility/icons/chevronright';
 import { findSingle, focus, getAttribute } from '@primeuix/utils/dom';
 import { equals, isNotEmpty, resolve } from '@primeuix/utils/object';
-import ChevronDownIcon from '@primevue/icons/chevrondown';
-import ChevronRightIcon from '@primevue/icons/chevronright';
 import { mergeProps } from 'vue';
 import BasePanelMenu from './BasePanelMenu.vue';
 import PanelMenuList from './PanelMenuList.vue';

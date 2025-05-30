@@ -19,8 +19,8 @@
 </template>
 
 <script setup lang="ts">
-import AngleDownIcon from '@primevue/icons/angledown';
-import AngleUpIcon from '@primevue/icons/angleup';
+import AngleDownIcon from '@peacepiece-compatibility/icons/angledown';
+import AngleUpIcon from '@peacepiece-compatibility/icons/angleup';
 import InputNumber, { type InputNumberPassThroughOptions, type InputNumberProps } from 'primevue/inputnumber';
 import { ref } from 'vue';
 import { ptViewMerge } from './utils';
@@ -29,7 +29,7 @@ interface Props extends /* @vue-ignore */ InputNumberProps {}
 defineProps<Props>();
 
 const theme = ref<InputNumberPassThroughOptions>({
-    root: `inline-flex relative 
+    root: `inline-flex relative
         p-vertical:flex-col p-fluid:w-full`,
     pcInputText: {
         root: `appearance-none rounded-md outline-hidden flex-auto
@@ -37,10 +37,10 @@ const theme = ref<InputNumberPassThroughOptions>({
         p-filled:bg-surface-50 dark:p-filled:bg-surface-800
         text-surface-700 dark:text-surface-0
         placeholder:text-surface-500 dark:placeholder:text-surface-400
-        border border-surface-300 dark:border-surface-700 
+        border border-surface-300 dark:border-surface-700
         enabled:hover:border-surface-400 dark:enabled:hover:border-surface-600
         enabled:focus:border-primary
-        disabled:bg-surface-200 disabled:text-surface-500 
+        disabled:bg-surface-200 disabled:text-surface-500
         dark:disabled:bg-surface-700 dark:disabled:text-surface-400
         p-invalid:border-red-400 dark:p-invalid:border-red-300
         p-invalid:placeholder:text-red-600 dark:p-invalid:placeholder:text-red-400

@@ -14,7 +14,7 @@
 
 <script>
 import { cn } from '@primeuix/utils';
-import TimesCircleIcon from '@primevue/icons/timescircle';
+import TimesCircleIcon from '@peacepiece-compatibility/icons/timescircle';
 import BaseChip from './BaseChip.vue';
 
 export default {

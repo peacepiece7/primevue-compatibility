@@ -1,5 +1,5 @@
 {
-    "name": "@primevue/forms",
+    "name": "@peacepiece-compatibility/forms",
     "version": "4.3.4",
     "author": "PrimeTek Informatics",
     "description": "",
@@ -54,7 +54,7 @@
     "dependencies": {
         "@primeuix/utils": "catalog:",
         "@primeuix/forms": "catalog:",
-        "@primevue/core": "workspace:*"
+        "@peacepiece-compatibility/core": "workspace:*"
     },
     "engines": {
         "node": ">=12.11.0"

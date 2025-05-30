@@ -93,11 +93,11 @@
 </template>
 
 <script>
+import ChevronDownIcon from '@peacepiece-compatibility/icons/chevrondown';
+import ChevronRightIcon from '@peacepiece-compatibility/icons/chevronright';
 import { equals, isNotEmpty, resolveFieldData } from '@primeuix/utils/object';
 import BaseComponent from '@primevue/core/basecomponent';
 import { getVNodeProp } from '@primevue/core/utils';
-import ChevronDownIcon from '@primevue/icons/chevrondown';
-import ChevronRightIcon from '@primevue/icons/chevronright';
 import { mergeProps } from 'vue';
 import BodyCell from './BodyCell.vue';
 

@@ -84,12 +84,12 @@
 </template>
 
 <script>
+import SortAltIcon from '@peacepiece-compatibility/icons/sortalt';
+import SortAmountDownIcon from '@peacepiece-compatibility/icons/sortamountdown';
+import SortAmountUpAltIcon from '@peacepiece-compatibility/icons/sortamountupalt';
 import { getAttribute, getIndex, getNextElementSibling, getOuterWidth, getPreviousElementSibling } from '@primeuix/utils/dom';
 import BaseComponent from '@primevue/core/basecomponent';
 import { getVNodeProp } from '@primevue/core/utils';
-import SortAltIcon from '@primevue/icons/sortalt';
-import SortAmountDownIcon from '@primevue/icons/sortamountdown';
-import SortAmountUpAltIcon from '@primevue/icons/sortamountupalt';
 import Badge from 'primevue/badge';
 import { mergeProps } from 'vue';
 import ColumnFilter from './ColumnFilter.vue';

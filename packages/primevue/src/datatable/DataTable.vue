@@ -321,33 +321,33 @@
 </template>
 
 <script>
+import ArrowDownIcon from '@peacepiece-compatibility/icons/arrowdown';
+import ArrowUpIcon from '@peacepiece-compatibility/icons/arrowup';
+import SpinnerIcon from '@peacepiece-compatibility/icons/spinner';
 import { cn } from '@primeuix/utils';
 import {
-    addClass,
-    addStyle,
-    clearSelection,
-    exportCSV,
-    find,
-    findSingle,
-    focus,
-    getAttribute,
-    getHiddenElementOuterHeight,
-    getHiddenElementOuterWidth,
-    getIndex,
-    getOffset,
-    getOuterHeight,
-    getOuterWidth,
-    isClickable,
-    isRTL,
-    removeClass,
-    setAttribute
+addClass,
+addStyle,
+clearSelection,
+exportCSV,
+find,
+findSingle,
+focus,
+getAttribute,
+getHiddenElementOuterHeight,
+getHiddenElementOuterWidth,
+getIndex,
+getOffset,
+getOuterHeight,
+getOuterWidth,
+isClickable,
+isRTL,
+removeClass,
+setAttribute
 } from '@primeuix/utils/dom';
 import { equals, findIndexInList, isEmpty, isNotEmpty, localeComparator, reorderArray, resolveFieldData, sort } from '@primeuix/utils/object';
 import { FilterMatchMode, FilterOperator, FilterService } from '@primevue/core/api';
 import { HelperSet, getVNodeProp } from '@primevue/core/utils';
-import ArrowDownIcon from '@primevue/icons/arrowdown';
-import ArrowUpIcon from '@primevue/icons/arrowup';
-import SpinnerIcon from '@primevue/icons/spinner';
 import Paginator from 'primevue/paginator';
 import VirtualScroller from 'primevue/virtualscroller';
 import BaseDataTable from './BaseDataTable.vue';

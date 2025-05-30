@@ -14,8 +14,8 @@
 </template>
 
 <script setup>
+import { zodResolver } from '@peacepiece-compatibility/forms/resolvers/zod';
 import { isNotEmpty } from '@primeuix/utils';
-import { zodResolver } from '@primevue/forms/resolvers/zod';
 import { z } from 'zod';
 import DynamicFormControl from './DynamicFormControl.vue';
 import DynamicFormField from './DynamicFormField.vue';

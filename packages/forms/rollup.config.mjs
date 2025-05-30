@@ -43,7 +43,7 @@ const ALIAS_ENTRIES = [
             return targetFile ? path.join(folderPath, targetFile) : null;
         }
     },
-    { find: '@primevue/forms/useform', replacement: path.resolve(__dirname, './src/useform/index.js') }
+    { find: '@peacepiece-compatibility/forms/useform', replacement: path.resolve(__dirname, './src/useform/index.js') }
 ];
 
 // plugins

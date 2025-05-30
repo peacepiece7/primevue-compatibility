@@ -5,8 +5,8 @@
 </template>
 
 <script>
+import { useForm } from '@peacepiece-compatibility/forms/useform';
 import { omit } from '@primeuix/utils';
-import { useForm } from '@primevue/forms/useform';
 import { ref } from 'vue';
 import BaseForm from './BaseForm.vue';
 

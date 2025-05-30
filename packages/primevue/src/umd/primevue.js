@@ -4,8 +4,8 @@
 export * from '@primevue/core';
 
 // BaseIcon
-export { default as BaseIcon } from '@primevue/icons/baseicon';
-export { default as BaseIconStyle } from '@primevue/icons/baseicon/style';
+export { default as BaseIcon } from '@peacepiece-compatibility/icons/baseicon';
+export { default as BaseIconStyle } from '@peacepiece-compatibility/icons/baseicon/style';
 
 // Themes
 export * from '@primeuix/styled';

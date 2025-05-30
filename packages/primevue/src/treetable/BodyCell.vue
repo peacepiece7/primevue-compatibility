@@ -41,15 +41,15 @@
 </template>
 
 <script>
+import CheckIcon from '@peacepiece-compatibility/icons/check';
+import ChevronDownIcon from '@peacepiece-compatibility/icons/chevrondown';
+import ChevronRightIcon from '@peacepiece-compatibility/icons/chevronright';
+import MinusIcon from '@peacepiece-compatibility/icons/minus';
+import SpinnerIcon from '@peacepiece-compatibility/icons/spinner';
 import { getNextElementSibling, getOuterWidth, getPreviousElementSibling } from '@primeuix/utils/dom';
 import { resolveFieldData } from '@primeuix/utils/object';
 import BaseComponent from '@primevue/core/basecomponent';
 import { getVNodeProp } from '@primevue/core/utils';
-import CheckIcon from '@primevue/icons/check';
-import ChevronDownIcon from '@primevue/icons/chevrondown';
-import ChevronRightIcon from '@primevue/icons/chevronright';
-import MinusIcon from '@primevue/icons/minus';
-import SpinnerIcon from '@primevue/icons/spinner';
 import Checkbox from 'primevue/checkbox';
 import Ripple from 'primevue/ripple';
 import { mergeProps } from 'vue';

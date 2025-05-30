@@ -72,10 +72,10 @@
 </template>
 
 <script>
+import AngleDownIcon from '@peacepiece-compatibility/icons/angledown';
+import AngleRightIcon from '@peacepiece-compatibility/icons/angleright';
 import { isNotEmpty, resolve } from '@primeuix/utils/object';
 import BaseComponent from '@primevue/core/basecomponent';
-import AngleDownIcon from '@primevue/icons/angledown';
-import AngleRightIcon from '@primevue/icons/angleright';
 import Ripple from 'primevue/ripple';
 import { mergeProps } from 'vue';
 

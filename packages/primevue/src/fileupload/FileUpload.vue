@@ -85,10 +85,10 @@
 </template>
 
 <script>
+import PlusIcon from '@peacepiece-compatibility/icons/plus';
+import TimesIcon from '@peacepiece-compatibility/icons/times';
+import UploadIcon from '@peacepiece-compatibility/icons/upload';
 import { addClass, removeClass } from '@primeuix/utils/dom';
-import PlusIcon from '@primevue/icons/plus';
-import TimesIcon from '@primevue/icons/times';
-import UploadIcon from '@primevue/icons/upload';
 import Button from 'primevue/button';
 import Message from 'primevue/message';
 import ProgressBar from 'primevue/progressbar';

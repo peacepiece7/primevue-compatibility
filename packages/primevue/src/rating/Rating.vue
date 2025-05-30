@@ -29,11 +29,11 @@
 </template>
 
 <script>
+import BanIcon from '@peacepiece-compatibility/icons/ban';
+import StarIcon from '@peacepiece-compatibility/icons/star';
+import StarFillIcon from '@peacepiece-compatibility/icons/starfill';
 import { cn } from '@primeuix/utils';
 import { focus, getFirstFocusableElement } from '@primeuix/utils/dom';
-import BanIcon from '@primevue/icons/ban';
-import StarIcon from '@primevue/icons/star';
-import StarFillIcon from '@primevue/icons/starfill';
 import BaseRating from './BaseRating.vue';
 
 export default {

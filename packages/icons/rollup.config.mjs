@@ -43,8 +43,8 @@ const ALIAS_ENTRIES = [
             return targetFile ? path.join(folderPath, targetFile) : null;
         }
     },
-    { find: '@primevue/icons/baseicon/style', replacement: path.resolve(__dirname, './src/baseicon/style/BaseIconStyle.js') },
-    { find: '@primevue/icons/baseicon', replacement: path.resolve(__dirname, './src/baseicon/BaseIcon.vue') }
+    { find: '@peacepiece-compatibility/icons/baseicon/style', replacement: path.resolve(__dirname, './src/baseicon/style/BaseIconStyle.js') },
+    { find: '@peacepiece-compatibility/icons/baseicon', replacement: path.resolve(__dirname, './src/baseicon/BaseIcon.vue') }
 ];
 
 // plugins

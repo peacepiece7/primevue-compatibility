@@ -133,16 +133,16 @@
 </template>
 
 <script>
+import BarsIcon from '@peacepiece-compatibility/icons/bars';
+import CheckIcon from '@peacepiece-compatibility/icons/check';
+import ChevronDownIcon from '@peacepiece-compatibility/icons/chevrondown';
+import ChevronRightIcon from '@peacepiece-compatibility/icons/chevronright';
+import PencilIcon from '@peacepiece-compatibility/icons/pencil';
+import TimesIcon from '@peacepiece-compatibility/icons/times';
 import { getAttribute, getFirstFocusableElement, getNextElementSibling, getOuterWidth, getPreviousElementSibling, invokeElementMethod } from '@primeuix/utils/dom';
 import { resolveFieldData } from '@primeuix/utils/object';
 import BaseComponent from '@primevue/core/basecomponent';
 import { getVNodeProp } from '@primevue/core/utils';
-import BarsIcon from '@primevue/icons/bars';
-import CheckIcon from '@primevue/icons/check';
-import ChevronDownIcon from '@primevue/icons/chevrondown';
-import ChevronRightIcon from '@primevue/icons/chevronright';
-import PencilIcon from '@primevue/icons/pencil';
-import TimesIcon from '@primevue/icons/times';
 import Button from 'primevue/button';
 import OverlayEventBus from 'primevue/overlayeventbus';
 import Ripple from 'primevue/ripple';

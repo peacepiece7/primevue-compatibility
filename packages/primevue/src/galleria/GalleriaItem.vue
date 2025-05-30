@@ -36,10 +36,10 @@
 </template>
 
 <script>
+import ChevronLeftIcon from '@peacepiece-compatibility/icons/chevronleft';
+import ChevronRightIcon from '@peacepiece-compatibility/icons/chevronright';
 import { find, findSingle, getAttribute } from '@primeuix/utils/dom';
 import BaseComponent from '@primevue/core/basecomponent';
-import ChevronLeftIcon from '@primevue/icons/chevronleft';
-import ChevronRightIcon from '@primevue/icons/chevronright';
 import Ripple from 'primevue/ripple';
 
 export default {

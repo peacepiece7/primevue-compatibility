@@ -20,7 +20,7 @@
 </template>
 
 <script setup lang="ts">
-import TimesIcon from '@primevue/icons/times';
+import TimesIcon from '@peacepiece-compatibility/icons/times';
 import Drawer, { type DrawerPassThroughOptions, type DrawerProps } from 'primevue/drawer';
 import { ref } from 'vue';
 import SecondaryButton from './SecondaryButton.vue';

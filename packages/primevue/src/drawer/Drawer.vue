@@ -46,7 +46,7 @@
 import { cn } from '@primeuix/utils';
 import { addClass, focus } from '@primeuix/utils/dom';
 import { ZIndex } from '@primeuix/utils/zindex';
-import TimesIcon from '@primevue/icons/times';
+import TimesIcon from '@peacepiece-compatibility/icons/times';
 import Button from 'primevue/button';
 import FocusTrap from 'primevue/focustrap';
 import Portal from 'primevue/portal';

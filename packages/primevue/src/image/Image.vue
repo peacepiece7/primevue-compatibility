@@ -56,14 +56,14 @@
 </template>
 
 <script>
+import EyeIcon from '@peacepiece-compatibility/icons/eye';
+import RefreshIcon from '@peacepiece-compatibility/icons/refresh';
+import SearchMinusIcon from '@peacepiece-compatibility/icons/searchminus';
+import SearchPlusIcon from '@peacepiece-compatibility/icons/searchplus';
+import TimesIcon from '@peacepiece-compatibility/icons/times';
+import UndoIcon from '@peacepiece-compatibility/icons/undo';
 import { addClass, focus, isAttributeEquals } from '@primeuix/utils/dom';
 import { ZIndex } from '@primeuix/utils/zindex';
-import EyeIcon from '@primevue/icons/eye';
-import RefreshIcon from '@primevue/icons/refresh';
-import SearchMinusIcon from '@primevue/icons/searchminus';
-import SearchPlusIcon from '@primevue/icons/searchplus';
-import TimesIcon from '@primevue/icons/times';
-import UndoIcon from '@primevue/icons/undo';
 import FocusTrap from 'primevue/focustrap';
 import Portal from 'primevue/portal';
 import { blockBodyScroll, unblockBodyScroll } from 'primevue/utils';

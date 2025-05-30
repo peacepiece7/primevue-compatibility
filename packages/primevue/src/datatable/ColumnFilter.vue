@@ -164,16 +164,16 @@
 </template>
 
 <script>
+import FilterIcon from '@peacepiece-compatibility/icons/filter';
+import FilterFillIcon from '@peacepiece-compatibility/icons/filterfill';
+import FilterSlashIcon from '@peacepiece-compatibility/icons/filterslash';
+import PlusIcon from '@peacepiece-compatibility/icons/plus';
+import TrashIcon from '@peacepiece-compatibility/icons/trash';
 import { absolutePosition, addStyle, focus, getAttribute, isTouchDevice } from '@primeuix/utils/dom';
 import { ZIndex } from '@primeuix/utils/zindex';
 import { FilterOperator } from '@primevue/core/api';
 import BaseComponent from '@primevue/core/basecomponent';
 import { ConnectedOverlayScrollHandler } from '@primevue/core/utils';
-import FilterIcon from '@primevue/icons/filter';
-import FilterFillIcon from '@primevue/icons/filterfill';
-import FilterSlashIcon from '@primevue/icons/filterslash';
-import PlusIcon from '@primevue/icons/plus';
-import TrashIcon from '@primevue/icons/trash';
 import Button from 'primevue/button';
 import FocusTrap from 'primevue/focustrap';
 import OverlayEventBus from 'primevue/overlayeventbus';

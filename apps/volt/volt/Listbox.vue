@@ -16,7 +16,7 @@
 </template>
 
 <script setup lang="ts">
-import SearchIcon from '@primevue/icons/search';
+import SearchIcon from '@peacepiece-compatibility/icons/search';
 import Listbox, { type ListboxPassThroughOptions, type ListboxProps } from 'primevue/listbox';
 import { ref } from 'vue';
 import { ptViewMerge } from './utils';

@@ -6,7 +6,7 @@
 
 <script>
 import BaseComponent from '@primevue/core/basecomponent';
-import AngleLeftIcon from '@primevue/icons/angleleft';
+import AngleLeftIcon from '@peacepiece-compatibility/icons/angleleft';
 import Ripple from 'primevue/ripple';
 
 export default {

@@ -16,7 +16,7 @@
         "incremental": true,
         "baseUrl": ".",
         "paths": {
-            "@primevue/icons/*": ["./src/*"],
+            "@peacepiece-compatibility/icons/*": ["./src/*"],
             "@primevue/core/*": ["../../packages/core/src/*"]
         }
     },

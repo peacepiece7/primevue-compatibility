@@ -45,7 +45,7 @@
 
 <script>
 import { findSingle, getHeight, getWidth, isVisible } from '@primeuix/utils/dom';
-import SpinnerIcon from '@primevue/icons/spinner';
+import SpinnerIcon from '@peacepiece-compatibility/icons/spinner';
 import BaseVirtualScroller from './BaseVirtualScroller.vue';
 
 export default {

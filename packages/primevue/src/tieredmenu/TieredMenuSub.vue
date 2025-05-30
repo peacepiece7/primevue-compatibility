@@ -79,7 +79,7 @@
 import { nestedPosition } from '@primeuix/utils/dom';
 import { isNotEmpty, resolve } from '@primeuix/utils/object';
 import BaseComponent from '@primevue/core/basecomponent';
-import AngleRightIcon from '@primevue/icons/angleright';
+import AngleRightIcon from '@peacepiece-compatibility/icons/angleright';
 import Ripple from 'primevue/ripple';
 import { mergeProps } from 'vue';
 

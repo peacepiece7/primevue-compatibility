@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import ChevronRightIcon from '@primevue/icons/chevronright';
+import ChevronRightIcon from '@peacepiece-compatibility/icons/chevronright';
 import BaseBreadcrumb from './BaseBreadcrumb.vue';
 import BreadcrumbItem from './BreadcrumbItem.vue';
 

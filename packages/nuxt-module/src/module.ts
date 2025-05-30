@@ -1,7 +1,7 @@
 import { addPlugin, addPluginTemplate, addTemplate, createResolver, defineNuxtModule } from '@nuxt/kit';
+import type { MetaType } from '@peacepiece-compatibility/metadata';
 import { isNotEmpty } from '@primeuix/utils';
 import { PrimeVueResolver } from '@primevue/auto-import-resolver';
-import type { MetaType } from '@primevue/metadata';
 import { normalize } from 'pathe';
 import Components from 'unplugin-vue-components/nuxt';
 import { register } from './register';

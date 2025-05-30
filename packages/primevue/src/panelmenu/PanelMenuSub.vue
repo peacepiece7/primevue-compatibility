@@ -72,10 +72,10 @@
 </template>
 
 <script>
+import ChevronDownIcon from '@peacepiece-compatibility/icons/chevrondown';
+import ChevronRightIcon from '@peacepiece-compatibility/icons/chevronright';
 import { isNotEmpty, resolve } from '@primeuix/utils/object';
 import BaseComponent from '@primevue/core/basecomponent';
-import ChevronDownIcon from '@primevue/icons/chevrondown';
-import ChevronRightIcon from '@primevue/icons/chevronright';
 import Ripple from 'primevue/ripple';
 import { mergeProps } from 'vue';
 

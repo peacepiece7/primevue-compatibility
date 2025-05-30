@@ -66,7 +66,7 @@
 <script>
 import { equals, isNotEmpty, resolveFieldData } from '@primeuix/utils/object';
 import BaseComponent from '@primevue/core/basecomponent';
-import AngleRightIcon from '@primevue/icons/angleright';
+import AngleRightIcon from '@peacepiece-compatibility/icons/angleright';
 import Ripple from 'primevue/ripple';
 export default {
     name: 'CascadeSelectSub',

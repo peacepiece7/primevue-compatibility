@@ -205,13 +205,13 @@
 </template>
 
 <script>
+import ChevronDownIcon from '@peacepiece-compatibility/icons/chevrondown';
+import SpinnerIcon from '@peacepiece-compatibility/icons/spinner';
 import { cn } from '@primeuix/utils';
 import { absolutePosition, addStyle, findSingle, focus, getOuterWidth, isTouchDevice, relativePosition } from '@primeuix/utils/dom';
 import { equals, findLastIndex, isEmpty, isNotEmpty, resolveFieldData } from '@primeuix/utils/object';
 import { ZIndex } from '@primeuix/utils/zindex';
 import { ConnectedOverlayScrollHandler } from '@primevue/core/utils';
-import ChevronDownIcon from '@primevue/icons/chevrondown';
-import SpinnerIcon from '@primevue/icons/spinner';
 import Chip from 'primevue/chip';
 import InputText from 'primevue/inputtext';
 import OverlayEventBus from 'primevue/overlayeventbus';

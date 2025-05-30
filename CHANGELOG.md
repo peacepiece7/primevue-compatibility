@@ -428,7 +428,7 @@
 
 - Stepper: design-token updates [\#6707](https://github.com/primefaces/primevue/issues/6707)
 - Update the bundle of primevue package [\#6702](https://github.com/primefaces/primevue/issues/6702)
-- Update the bundle of @primevue/icons package [\#6701](https://github.com/primefaces/primevue/issues/6701)
+- Update the bundle of @peacepiece-compatibility/icons package [\#6701](https://github.com/primefaces/primevue/issues/6701)
 - Improve support for Buttons in InputGroupAddon [\#6695](https://github.com/primefaces/primevue/issues/6695)
 - New Component: FormField [\#6693](https://github.com/primefaces/primevue/issues/6693)
 - RTL support for Misc components [\#6691](https://github.com/primefaces/primevue/issues/6691)

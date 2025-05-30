@@ -72,13 +72,13 @@
 </template>
 
 <script>
+import CheckIcon from '@peacepiece-compatibility/icons/check';
+import ChevronDownIcon from '@peacepiece-compatibility/icons/chevrondown';
+import ChevronRightIcon from '@peacepiece-compatibility/icons/chevronright';
+import MinusIcon from '@peacepiece-compatibility/icons/minus';
+import SpinnerIcon from '@peacepiece-compatibility/icons/spinner';
 import { find, findSingle, getAttribute } from '@primeuix/utils/dom';
 import BaseComponent from '@primevue/core/basecomponent';
-import CheckIcon from '@primevue/icons/check';
-import ChevronDownIcon from '@primevue/icons/chevrondown';
-import ChevronRightIcon from '@primevue/icons/chevronright';
-import MinusIcon from '@primevue/icons/minus';
-import SpinnerIcon from '@primevue/icons/spinner';
 import Checkbox from 'primevue/checkbox';
 import Ripple from 'primevue/ripple';
 

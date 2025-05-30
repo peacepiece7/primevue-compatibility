@@ -101,12 +101,12 @@
 </template>
 
 <script>
+import ChevronDownIcon from '@peacepiece-compatibility/icons/chevrondown';
+import ChevronLeftIcon from '@peacepiece-compatibility/icons/chevronleft';
+import ChevronRightIcon from '@peacepiece-compatibility/icons/chevronright';
+import ChevronUpIcon from '@peacepiece-compatibility/icons/chevronup';
 import { addClass, find, findSingle, getAttribute, removeClass, setAttribute } from '@primeuix/utils/dom';
 import { localeComparator, sort } from '@primeuix/utils/object';
-import ChevronDownIcon from '@primevue/icons/chevrondown';
-import ChevronLeftIcon from '@primevue/icons/chevronleft';
-import ChevronRightIcon from '@primevue/icons/chevronright';
-import ChevronUpIcon from '@primevue/icons/chevronup';
 import Button from 'primevue/button';
 import Ripple from 'primevue/ripple';
 import BaseCarousel from './BaseCarousel.vue';

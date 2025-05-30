@@ -132,13 +132,13 @@
 </template>
 
 <script>
+import BlankIcon from '@peacepiece-compatibility/icons/blank';
+import CheckIcon from '@peacepiece-compatibility/icons/check';
+import SearchIcon from '@peacepiece-compatibility/icons/search';
 import { cn } from '@primeuix/utils';
 import { findSingle, focus, getFirstFocusableElement, isElement } from '@primeuix/utils/dom';
 import { equals, findLastIndex, isNotEmpty, isPrintableCharacter, resolveFieldData } from '@primeuix/utils/object';
 import { FilterService } from '@primevue/core/api';
-import BlankIcon from '@primevue/icons/blank';
-import CheckIcon from '@primevue/icons/check';
-import SearchIcon from '@primevue/icons/search';
 import IconField from 'primevue/iconfield';
 import InputIcon from 'primevue/inputicon';
 import InputText from 'primevue/inputtext';

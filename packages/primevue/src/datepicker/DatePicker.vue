@@ -561,16 +561,16 @@
 </template>
 
 <script>
+import CalendarIcon from '@peacepiece-compatibility/icons/calendar';
+import ChevronDownIcon from '@peacepiece-compatibility/icons/chevrondown';
+import ChevronLeftIcon from '@peacepiece-compatibility/icons/chevronleft';
+import ChevronRightIcon from '@peacepiece-compatibility/icons/chevronright';
+import ChevronUpIcon from '@peacepiece-compatibility/icons/chevronup';
 import { cn } from '@primeuix/utils';
 import { absolutePosition, addStyle, find, findSingle, getAttribute, getFocusableElements, getIndex, getOuterWidth, isTouchDevice, relativePosition, setAttribute } from '@primeuix/utils/dom';
 import { localeComparator } from '@primeuix/utils/object';
 import { ZIndex } from '@primeuix/utils/zindex';
 import { ConnectedOverlayScrollHandler } from '@primevue/core/utils';
-import CalendarIcon from '@primevue/icons/calendar';
-import ChevronDownIcon from '@primevue/icons/chevrondown';
-import ChevronLeftIcon from '@primevue/icons/chevronleft';
-import ChevronRightIcon from '@primevue/icons/chevronright';
-import ChevronUpIcon from '@primevue/icons/chevronup';
 import Button from 'primevue/button';
 import InputText from 'primevue/inputtext';
 import OverlayEventBus from 'primevue/overlayeventbus';

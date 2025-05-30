@@ -59,8 +59,8 @@ const ALIAS_ENTRIES = [
     { find: '@primevue/core/usestyle', replacement: path.resolve(__dirname, '../core/src/usestyle/UseStyle.js') },
     { find: '@primevue/core/utils', replacement: path.resolve(__dirname, '../core/src/utils/Utils.js') },
     { find: '@primevue/core', replacement: path.resolve(__dirname, '../core/src/index.js') },
-    { find: '@primevue/icons/baseicon/style', replacement: path.resolve(__dirname, '../icons/src/baseicon/style/BaseIconStyle.js') },
-    { find: '@primevue/icons/baseicon', replacement: path.resolve(__dirname, '../icons/src/baseicon/BaseIcon.vue') }
+    { find: '@peacepiece-compatibility/icons/baseicon/style', replacement: path.resolve(__dirname, '../icons/src/baseicon/style/BaseIconStyle.js') },
+    { find: '@peacepiece-compatibility/icons/baseicon', replacement: path.resolve(__dirname, '../icons/src/baseicon/BaseIcon.vue') }
 ];
 
 // plugins

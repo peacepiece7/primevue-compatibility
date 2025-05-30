@@ -9,7 +9,7 @@
     </svg>
 </template>
 <script>
-import BaseIcon from '@primevue/icons/baseicon';
+import BaseIcon from '@peacepiece-compatibility/icons/baseicon';
 
 export default {
     name: 'AngleDoubleLeftIcon',

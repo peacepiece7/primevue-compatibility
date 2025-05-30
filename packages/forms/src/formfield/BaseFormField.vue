@@ -1,6 +1,6 @@
 <script>
-import BaseComponent from '@primevue/core/basecomponent';
-import FormFieldStyle from '@primevue/forms/formfield/style';
+import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
+import FormFieldStyle from '@peacepiece-compatibility/forms/formfield/style';
 
 export default {
     name: 'BaseFormField',

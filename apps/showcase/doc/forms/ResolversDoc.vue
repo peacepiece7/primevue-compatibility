@@ -45,10 +45,10 @@
 </template>
 
 <script>
-import { superStructResolver } from '@primevue/forms/resolvers/superstruct';
-import { valibotResolver } from '@primevue/forms/resolvers/valibot';
-import { yupResolver } from '@primevue/forms/resolvers/yup';
-import { zodResolver } from '@primevue/forms/resolvers/zod';
+import { superStructResolver } from '@peacepiece-compatibility/forms/resolvers/superstruct';
+import { valibotResolver } from '@peacepiece-compatibility/forms/resolvers/valibot';
+import { yupResolver } from '@peacepiece-compatibility/forms/resolvers/yup';
+import { zodResolver } from '@peacepiece-compatibility/forms/resolvers/zod';
 import * as s from 'superstruct';
 import * as v from 'valibot';
 import * as yup from 'yup';
@@ -118,8 +118,8 @@ export default {
 
 <script>
 import { superStructResolver } from '@primevue/forms/resolvers/superstruct';
-import { valibotResolver } from '@primevue/forms/resolvers/valibot';
-import { yupResolver } from '@primevue/forms/resolvers/yup';
+import { valibotResolver } from '@peacepiece-compatibility/forms/resolvers/valibot';
+import { yupResolver } from '@peacepiece-compatibility/forms/resolvers/yup';
 import { zodResolver } from '@primevue/forms/resolvers/zod';
 import * as s from 'superstruct';
 import * as v from 'valibot';
@@ -233,8 +233,8 @@ export default {
 <script setup>
 import { ref, watch } from 'vue';
 import { superStructResolver } from '@primevue/forms/resolvers/superstruct';
-import { valibotResolver } from '@primevue/forms/resolvers/valibot';
-import { yupResolver } from '@primevue/forms/resolvers/yup';
+import { valibotResolver } from '@peacepiece-compatibility/forms/resolvers/valibot';
+import { yupResolver } from '@peacepiece-compatibility/forms/resolvers/yup';
 import { zodResolver } from '@primevue/forms/resolvers/zod';
 import * as s from 'superstruct';
 import * as v from 'valibot';

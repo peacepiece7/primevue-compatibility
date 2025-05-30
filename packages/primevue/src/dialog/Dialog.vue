@@ -64,12 +64,12 @@
 </template>
 
 <script>
+import TimesIcon from '@peacepiece-compatibility/icons/times';
+import WindowMaximizeIcon from '@peacepiece-compatibility/icons/windowmaximize';
+import WindowMinimizeIcon from '@peacepiece-compatibility/icons/windowminimize';
 import { cn } from '@primeuix/utils';
 import { addClass, addStyle, focus, getOuterHeight, getOuterWidth, getViewport, setAttribute } from '@primeuix/utils/dom';
 import { ZIndex } from '@primeuix/utils/zindex';
-import TimesIcon from '@primevue/icons/times';
-import WindowMaximizeIcon from '@primevue/icons/windowmaximize';
-import WindowMinimizeIcon from '@primevue/icons/windowminimize';
 import Button from 'primevue/button';
 import FocusTrap from 'primevue/focustrap';
 import Portal from 'primevue/portal';

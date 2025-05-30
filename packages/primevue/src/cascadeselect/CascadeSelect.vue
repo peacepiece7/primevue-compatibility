@@ -93,14 +93,14 @@
 </template>
 
 <script>
+import AngleRightIcon from '@peacepiece-compatibility/icons/angleright';
+import ChevronDownIcon from '@peacepiece-compatibility/icons/chevrondown';
+import SpinnerIcon from '@peacepiece-compatibility/icons/spinner';
+import TimesIcon from '@peacepiece-compatibility/icons/times';
 import { absolutePosition, addStyle, findSingle, focus, getOuterWidth, isTouchDevice, relativePosition } from '@primeuix/utils/dom';
 import { equals, findLastIndex, isEmpty, isNotEmpty, isPrintableCharacter, isString, resolveFieldData } from '@primeuix/utils/object';
 import { ZIndex } from '@primeuix/utils/zindex';
 import { ConnectedOverlayScrollHandler } from '@primevue/core/utils';
-import AngleRightIcon from '@primevue/icons/angleright';
-import ChevronDownIcon from '@primevue/icons/chevrondown';
-import SpinnerIcon from '@primevue/icons/spinner';
-import TimesIcon from '@primevue/icons/times';
 import OverlayEventBus from 'primevue/overlayeventbus';
 import Portal from 'primevue/portal';
 import BaseCascadeSelect from './BaseCascadeSelect.vue';

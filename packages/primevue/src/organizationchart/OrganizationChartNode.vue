@@ -52,10 +52,10 @@
 </template>
 
 <script>
+import ChevronDownIcon from '@peacepiece-compatibility/icons/chevrondown';
+import ChevronUpIcon from '@peacepiece-compatibility/icons/chevronup';
 import { isAttributeEquals } from '@primeuix/utils/dom';
 import BaseComponent from '@primevue/core/basecomponent';
-import ChevronDownIcon from '@primevue/icons/chevrondown';
-import ChevronUpIcon from '@primevue/icons/chevronup';
 
 export default {
     name: 'OrganizationChartNode',

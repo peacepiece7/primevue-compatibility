@@ -31,10 +31,10 @@
 </template>
 
 <script>
+import CheckIcon from '@peacepiece-compatibility/icons/check';
+import MinusIcon from '@peacepiece-compatibility/icons/minus';
 import { cn } from '@primeuix/utils';
 import { contains, equals } from '@primeuix/utils/object';
-import CheckIcon from '@primevue/icons/check';
-import MinusIcon from '@primevue/icons/minus';
 import BaseCheckbox from './BaseCheckbox.vue';
 
 export default {

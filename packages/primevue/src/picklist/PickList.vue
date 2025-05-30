@@ -166,16 +166,16 @@
 </template>
 
 <script>
+import AngleDoubleDownIcon from '@peacepiece-compatibility/icons/angledoubledown';
+import AngleDoubleLeftIcon from '@peacepiece-compatibility/icons/angledoubleleft';
+import AngleDoubleRightIcon from '@peacepiece-compatibility/icons/angledoubleright';
+import AngleDoubleUpIcon from '@peacepiece-compatibility/icons/angledoubleup';
+import AngleDownIcon from '@peacepiece-compatibility/icons/angledown';
+import AngleLeftIcon from '@peacepiece-compatibility/icons/angleleft';
+import AngleRightIcon from '@peacepiece-compatibility/icons/angleright';
+import AngleUpIcon from '@peacepiece-compatibility/icons/angleup';
 import { find, scrollInView, setAttribute } from '@primeuix/utils/dom';
 import { findIndexInList, isEmpty } from '@primeuix/utils/object';
-import AngleDoubleDownIcon from '@primevue/icons/angledoubledown';
-import AngleDoubleLeftIcon from '@primevue/icons/angledoubleleft';
-import AngleDoubleRightIcon from '@primevue/icons/angledoubleright';
-import AngleDoubleUpIcon from '@primevue/icons/angledoubleup';
-import AngleDownIcon from '@primevue/icons/angledown';
-import AngleLeftIcon from '@primevue/icons/angleleft';
-import AngleRightIcon from '@primevue/icons/angleright';
-import AngleUpIcon from '@primevue/icons/angleup';
 import Button from 'primevue/button';
 import Listbox from 'primevue/listbox';
 import Ripple from 'primevue/ripple';

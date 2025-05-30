@@ -28,8 +28,8 @@
 </template>
 
 <script>
-import ChevronRightIcon from '@primevue/icons/chevronright';
-import ChevronUpIcon from '@primevue/icons/chevronup';
+import ChevronRightIcon from '@peacepiece-compatibility/icons/chevronright';
+import ChevronUpIcon from '@peacepiece-compatibility/icons/chevronup';
 import AccordionContent from 'primevue/accordioncontent';
 import AccordionHeader from 'primevue/accordionheader';
 import AccordionPanel from 'primevue/accordionpanel';

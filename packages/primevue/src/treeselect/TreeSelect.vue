@@ -129,12 +129,12 @@
 </template>
 
 <script>
+import ChevronDownIcon from '@peacepiece-compatibility/icons/chevrondown';
+import TimesIcon from '@peacepiece-compatibility/icons/times';
 import { absolutePosition, addStyle, find, findSingle, focus, getFirstFocusableElement, getFocusableElements, getLastFocusableElement, getOuterWidth, isTouchDevice, relativePosition } from '@primeuix/utils/dom';
 import { isEmpty, isNotEmpty } from '@primeuix/utils/object';
 import { ZIndex } from '@primeuix/utils/zindex';
 import { ConnectedOverlayScrollHandler } from '@primevue/core/utils';
-import ChevronDownIcon from '@primevue/icons/chevrondown';
-import TimesIcon from '@primevue/icons/times';
 import Chip from 'primevue/chip';
 import OverlayEventBus from 'primevue/overlayeventbus';
 import Portal from 'primevue/portal';

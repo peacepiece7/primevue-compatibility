@@ -95,11 +95,11 @@
 </template>
 
 <script setup>
-import CalendarIcon from '@primevue/icons/calendar';
-import ChevronDownIcon from '@primevue/icons/chevrondown';
-import ChevronLeftIcon from '@primevue/icons/chevronleft';
-import ChevronRightIcon from '@primevue/icons/chevronright';
-import ChevronUpIcon from '@primevue/icons/chevronup';
+import CalendarIcon from '@peacepiece-compatibility/icons/calendar';
+import ChevronDownIcon from '@peacepiece-compatibility/icons/chevrondown';
+import ChevronLeftIcon from '@peacepiece-compatibility/icons/chevronleft';
+import ChevronRightIcon from '@peacepiece-compatibility/icons/chevronright';
+import ChevronUpIcon from '@peacepiece-compatibility/icons/chevronup';
 import DatePicker from 'primevue/datepicker';
 import { ref } from 'vue';
 import SecondaryButton from './SecondaryButton.vue';

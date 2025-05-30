@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import { zodResolver } from '@primevue/forms/resolvers/zod';
+import { zodResolver } from '@peacepiece-compatibility/forms/resolvers/zod';
 import { z } from 'zod';
 
 export default {
@@ -26,13 +26,16 @@ export default {
             },
             resolver: zodResolver(
                 z.object({
-                    date: z.preprocess((val) => {
-                        if (val === '' || val === null) {
-                            return null;
-                        }
+                    date: z.preprocess(
+                        (val) => {
+                            if (val === '' || val === null) {
+                                return null;
+                            }
 
-                        return new Date(val);
-                    }, z.union([z.date(), z.null().refine((val) => val !== null, { message: 'Date is required.' })]))
+                            return new Date(val);
+                        },
+                        z.union([z.date(), z.null().refine((val) => val !== null, { message: 'Date is required.' })])
+                    )
                 })
             ),
             code: {
@@ -59,7 +62,7 @@ export default {
 </template>
 
 <script>
-import { zodResolver } from '@primevue/forms/resolvers/zod';
+import { zodResolver } from '@peacepiece-compatibility/forms/resolvers/zod';
 import { z } from 'zod';
 
 export default {
@@ -107,7 +110,7 @@ export default {
 
 <script setup>
 import { ref } from 'vue';
-import { zodResolver } from '@primevue/forms/resolvers/zod';
+import { zodResolver } from '@peacepiece-compatibility/forms/resolvers/zod';
 import { useToast } from "primevue/usetoast";
 import { z } from 'zod';
 

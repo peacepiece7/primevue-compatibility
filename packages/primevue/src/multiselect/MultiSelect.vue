@@ -223,17 +223,17 @@
 </template>
 
 <script>
+import CheckIcon from '@peacepiece-compatibility/icons/check';
+import ChevronDownIcon from '@peacepiece-compatibility/icons/chevrondown';
+import SearchIcon from '@peacepiece-compatibility/icons/search';
+import SpinnerIcon from '@peacepiece-compatibility/icons/spinner';
+import TimesIcon from '@peacepiece-compatibility/icons/times';
 import { cn } from '@primeuix/utils';
 import { absolutePosition, addStyle, findSingle, focus, getFirstFocusableElement, getFocusableElements, getLastFocusableElement, getOuterWidth, isTouchDevice, relativePosition } from '@primeuix/utils/dom';
 import { equals, findLastIndex, isEmpty, isNotEmpty, isPrintableCharacter, resolveFieldData } from '@primeuix/utils/object';
 import { ZIndex } from '@primeuix/utils/zindex';
 import { FilterService } from '@primevue/core/api';
 import { ConnectedOverlayScrollHandler } from '@primevue/core/utils';
-import CheckIcon from '@primevue/icons/check';
-import ChevronDownIcon from '@primevue/icons/chevrondown';
-import SearchIcon from '@primevue/icons/search';
-import SpinnerIcon from '@primevue/icons/spinner';
-import TimesIcon from '@primevue/icons/times';
 import Checkbox from 'primevue/checkbox';
 import Chip from 'primevue/chip';
 import IconField from 'primevue/iconfield';

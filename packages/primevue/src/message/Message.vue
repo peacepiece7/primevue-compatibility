@@ -22,7 +22,7 @@
 
 <script>
 import { cn } from '@primeuix/utils';
-import TimesIcon from '@primevue/icons/times';
+import TimesIcon from '@peacepiece-compatibility/icons/times';
 import Ripple from 'primevue/ripple';
 import BaseMessage from './BaseMessage.vue';
 

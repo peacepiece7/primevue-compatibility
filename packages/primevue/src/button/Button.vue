@@ -18,7 +18,7 @@
 <script>
 import { cn } from '@primeuix/utils';
 import { isEmpty } from '@primeuix/utils/object';
-import SpinnerIcon from '@primevue/icons/spinner';
+import SpinnerIcon from '@peacepiece-compatibility/icons/spinner';
 import Badge from 'primevue/badge';
 import Ripple from 'primevue/ripple';
 import { mergeProps } from 'vue';

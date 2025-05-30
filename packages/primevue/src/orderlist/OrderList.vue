@@ -67,12 +67,12 @@
 </template>
 
 <script>
+import AngleDoubleDownIcon from '@peacepiece-compatibility/icons/angledoubledown';
+import AngleDoubleUpIcon from '@peacepiece-compatibility/icons/angledoubleup';
+import AngleDownIcon from '@peacepiece-compatibility/icons/angledown';
+import AngleUpIcon from '@peacepiece-compatibility/icons/angleup';
 import { find, findSingle, scrollInView, setAttribute } from '@primeuix/utils/dom';
 import { findIndexInList, isNotEmpty } from '@primeuix/utils/object';
-import AngleDoubleDownIcon from '@primevue/icons/angledoubledown';
-import AngleDoubleUpIcon from '@primevue/icons/angledoubleup';
-import AngleDownIcon from '@primevue/icons/angledown';
-import AngleUpIcon from '@primevue/icons/angleup';
 import Button from 'primevue/button';
 import Listbox from 'primevue/listbox';
 import Ripple from 'primevue/ripple';

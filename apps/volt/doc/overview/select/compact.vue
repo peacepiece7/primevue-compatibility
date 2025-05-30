@@ -10,7 +10,7 @@
 </template>
 
 <script setup lang="ts">
-import AngleDown from '@primevue/icons/search';
+import AngleDown from '@peacepiece-compatibility/icons/search';
 import Select from 'primevue/select';
 import { ref } from 'vue';
 

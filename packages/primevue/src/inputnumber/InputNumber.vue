@@ -87,11 +87,11 @@
 </template>
 
 <script>
+import AngleDownIcon from '@peacepiece-compatibility/icons/angledown';
+import AngleUpIcon from '@peacepiece-compatibility/icons/angleup';
 import { cn } from '@primeuix/utils';
 import { clearSelection, getSelection } from '@primeuix/utils/dom';
 import { isNotEmpty } from '@primeuix/utils/object';
-import AngleDownIcon from '@primevue/icons/angledown';
-import AngleUpIcon from '@primevue/icons/angleup';
 import InputText from 'primevue/inputtext';
 import BaseInputNumber from './BaseInputNumber.vue';
 

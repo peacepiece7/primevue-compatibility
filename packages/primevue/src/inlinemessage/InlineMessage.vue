@@ -10,10 +10,10 @@
 </template>
 
 <script>
-import CheckIcon from '@primevue/icons/check';
-import ExclamationTriangleIcon from '@primevue/icons/exclamationtriangle';
-import InfoCircleIcon from '@primevue/icons/infocircle';
-import TimesCircleIcon from '@primevue/icons/timescircle';
+import CheckIcon from '@peacepiece-compatibility/icons/check';
+import ExclamationTriangleIcon from '@peacepiece-compatibility/icons/exclamationtriangle';
+import InfoCircleIcon from '@peacepiece-compatibility/icons/infocircle';
+import TimesCircleIcon from '@peacepiece-compatibility/icons/timescircle';
 import BaseInlineMessage from './BaseInlineMessage.vue';
 
 export default {

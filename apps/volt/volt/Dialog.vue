@@ -28,9 +28,9 @@
 </template>
 
 <script setup lang="ts">
-import TimesIcon from '@primevue/icons/times';
-import WindowMaximizeIcon from '@primevue/icons/windowmaximize';
-import WindowMinimizeIcon from '@primevue/icons/windowminimize';
+import TimesIcon from '@peacepiece-compatibility/icons/times';
+import WindowMaximizeIcon from '@peacepiece-compatibility/icons/windowmaximize';
+import WindowMinimizeIcon from '@peacepiece-compatibility/icons/windowminimize';
 import Dialog, { type DialogPassThroughOptions, type DialogProps } from 'primevue/dialog';
 import { ref } from 'vue';
 import SecondaryButton from './SecondaryButton.vue';

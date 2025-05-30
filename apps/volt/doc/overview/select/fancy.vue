@@ -10,7 +10,7 @@
 </template>
 
 <script setup lang="ts">
-import ChevronDownIcon from '@primevue/icons/chevrondown';
+import ChevronDownIcon from '@peacepiece-compatibility/icons/chevrondown';
 import Select from 'primevue/select';
 import { ref } from 'vue';
 
