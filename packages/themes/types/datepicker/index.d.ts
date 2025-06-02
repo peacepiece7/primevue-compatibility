@@ -1,1 +1,1 @@
-export * from '@primeuix/themes/types/datepicker';
+export * from '@peacepieceuix-compatibility/themes/types/datepicker';

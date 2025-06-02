@@ -1,4 +1,4 @@
-import { isNotEmpty } from '@primeuix/utils/object';
+import { isNotEmpty } from '@peacepieceuix-compatibility/utils/object';
 
 export default class {
     helpers;

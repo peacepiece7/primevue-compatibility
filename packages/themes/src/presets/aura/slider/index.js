@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/aura/slider';
+export { default } from '@peacepieceuix-compatibility/themes/aura/slider';

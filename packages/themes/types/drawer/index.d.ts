@@ -1,1 +1,1 @@
-export * from '@primeuix/themes/types/drawer';
+export * from '@peacepieceuix-compatibility/themes/types/drawer';

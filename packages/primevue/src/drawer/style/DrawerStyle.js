@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/drawer';
+import { style } from '@peacepieceuix-compatibility/styles/drawer';
 import BaseStyle from '@primevue/core/base/style';
 
 const inlineStyles = {

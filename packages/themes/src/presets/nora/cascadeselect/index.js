@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/nora/cascadeselect';
+export { default } from '@peacepieceuix-compatibility/themes/nora/cascadeselect';

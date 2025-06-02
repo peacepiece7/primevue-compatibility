@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/lara/splitbutton';
+export { default } from '@peacepieceuix-compatibility/themes/lara/splitbutton';

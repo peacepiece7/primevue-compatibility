@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/nora/fileupload';
+export { default } from '@peacepieceuix-compatibility/themes/nora/fileupload';

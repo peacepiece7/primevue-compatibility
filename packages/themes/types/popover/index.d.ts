@@ -1,1 +1,1 @@
-export * from '@primeuix/themes/types/popover';
+export * from '@peacepieceuix-compatibility/themes/types/popover';

@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/material/fileupload';
+export { default } from '@peacepieceuix-compatibility/themes/material/fileupload';

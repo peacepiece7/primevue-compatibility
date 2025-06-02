@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/aura/toolbar';
+export { default } from '@peacepieceuix-compatibility/themes/aura/toolbar';

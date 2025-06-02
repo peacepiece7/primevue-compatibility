@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/lara/ripple';
+export { default } from '@peacepieceuix-compatibility/themes/lara/ripple';

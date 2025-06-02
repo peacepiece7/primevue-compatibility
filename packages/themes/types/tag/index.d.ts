@@ -1,1 +1,1 @@
-export * from '@primeuix/themes/types/tag';
+export * from '@peacepieceuix-compatibility/themes/types/tag';

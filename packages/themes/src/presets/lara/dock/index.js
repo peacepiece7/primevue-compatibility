@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/lara/dock';
+export { default } from '@peacepieceuix-compatibility/themes/lara/dock';

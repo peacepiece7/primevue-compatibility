@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/aura/fieldset';
+export { default } from '@peacepieceuix-compatibility/themes/aura/fieldset';

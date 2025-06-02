@@ -2,8 +2,8 @@
 const fs = require('fs');
 const path = require('path');
 
-const OLD_SCOPE = '@primevue/icons';
-const NEW_SCOPE = '@peacepiece-compatibility/icons';
+const OLD_SCOPE = '@primeuix/';
+const NEW_SCOPE = '@peacepieceuix-compatibility/';
 
 const TARGET_DIRS = ['.', './packages', './apps'];
 

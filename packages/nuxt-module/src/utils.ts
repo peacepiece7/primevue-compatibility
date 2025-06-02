@@ -1,5 +1,5 @@
-import { createStyleAsString } from '@primeuix/utils/dom';
-import { isFunction } from '@primeuix/utils/object';
+import { createStyleAsString } from '@peacepieceuix-compatibility/utils/dom';
+import { isFunction } from '@peacepieceuix-compatibility/utils/object';
 import type { MetaType } from '@primevue/metadata';
 import type { ConstructsType, ResolvePathOptions } from './types';
 

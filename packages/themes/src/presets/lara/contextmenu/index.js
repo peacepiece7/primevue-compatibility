@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/lara/contextmenu';
+export { default } from '@peacepieceuix-compatibility/themes/lara/contextmenu';

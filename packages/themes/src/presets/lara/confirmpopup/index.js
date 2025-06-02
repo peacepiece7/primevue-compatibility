@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/lara/confirmpopup';
+export { default } from '@peacepieceuix-compatibility/themes/lara/confirmpopup';

@@ -1,5 +1,5 @@
 <script>
-import { isEmpty } from '@primeuix/utils/object';
+import { isEmpty } from '@peacepieceuix-compatibility/utils/object';
 import BaseComponent from '@primevue/core/basecomponent';
 import BaseIconStyle from '@peacepiece-compatibility/icons/baseicon/style';
 

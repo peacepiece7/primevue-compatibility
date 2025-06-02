@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/tieredmenu';
+import { style } from '@peacepieceuix-compatibility/styles/tieredmenu';
 import BaseStyle from '@primevue/core/base/style';
 
 const inlineStyles = {

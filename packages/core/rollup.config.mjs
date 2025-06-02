@@ -19,7 +19,7 @@ const GLOBALS = {
 
 // externals
 const GLOBAL_EXTERNALS = ['vue'];
-const INLINE_EXTERNALS = ['@primeuix/styled'];
+const INLINE_EXTERNALS = ['@peacepieceuix-compatibility/styled'];
 const EXTERNALS = [...GLOBAL_EXTERNALS, ...INLINE_EXTERNALS];
 
 // alias

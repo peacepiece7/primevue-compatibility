@@ -80,8 +80,8 @@
 </template>
 
 <script>
-import { usePreset } from '@primeuix/themes';
-import Aura from '@primeuix/themes/aura';
+import { usePreset } from '@peacepieceuix-compatibility/themes';
+import Aura from '@peacepieceuix-compatibility/themes/aura';
 
 export default {
     scrollListener: null,

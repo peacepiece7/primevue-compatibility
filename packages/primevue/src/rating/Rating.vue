@@ -32,8 +32,8 @@
 import BanIcon from '@peacepiece-compatibility/icons/ban';
 import StarIcon from '@peacepiece-compatibility/icons/star';
 import StarFillIcon from '@peacepiece-compatibility/icons/starfill';
-import { cn } from '@primeuix/utils';
-import { focus, getFirstFocusableElement } from '@primeuix/utils/dom';
+import { cn } from '@peacepieceuix-compatibility/utils';
+import { focus, getFirstFocusableElement } from '@peacepieceuix-compatibility/utils/dom';
 import BaseRating from './BaseRating.vue';
 
 export default {

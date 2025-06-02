@@ -1,1 +1,1 @@
-export * from '@primeuix/themes/types/avatar';
+export * from '@peacepieceuix-compatibility/themes/types/avatar';

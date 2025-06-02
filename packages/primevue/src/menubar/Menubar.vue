@@ -57,9 +57,9 @@
 </template>
 
 <script>
-import { findSingle, focus, isTouchDevice } from '@primeuix/utils/dom';
-import { findLastIndex, isEmpty, isNotEmpty, isPrintableCharacter, resolve } from '@primeuix/utils/object';
-import { ZIndex } from '@primeuix/utils/zindex';
+import { findSingle, focus, isTouchDevice } from '@peacepieceuix-compatibility/utils/dom';
+import { findLastIndex, isEmpty, isNotEmpty, isPrintableCharacter, resolve } from '@peacepieceuix-compatibility/utils/object';
+import { ZIndex } from '@peacepieceuix-compatibility/utils/zindex';
 import BarsIcon from '@peacepiece-compatibility/icons/bars';
 import BaseMenubar from './BaseMenubar.vue';
 import MenubarSub from './MenubarSub.vue';

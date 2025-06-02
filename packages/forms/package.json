@@ -52,8 +52,8 @@
         "dev:link": "pnpm link --global && npm link"
     },
     "dependencies": {
-        "@primeuix/utils": "catalog:",
-        "@primeuix/forms": "catalog:",
+        "@peacepieceuix-compatibility/utils": "catalog:",
+        "@peacepieceuix-compatibility/forms": "catalog:",
         "@peacepiece-compatibility/core": "workspace:*"
     },
     "engines": {

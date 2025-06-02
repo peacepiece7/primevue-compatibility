@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/multiselect';
+import { style } from '@peacepieceuix-compatibility/styles/multiselect';
 import BaseStyle from '@primevue/core/base/style';
 
 const inlineStyles = {

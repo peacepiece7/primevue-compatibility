@@ -15,15 +15,15 @@ export default {
             code: {
                 basic: `
 # Using npm
-npm install primevue @primeuix/themes
+npm install primevue @peacepieceuix-compatibility/themes
 npm install --save-dev @primevue/nuxt-module
 
 # Using yarn
-yarn add primevue @primeuix/themes
+yarn add primevue @peacepieceuix-compatibility/themes
 yarn add --dev @primevue/nuxt-module
 
 # Using pnpm
-pnpm add primevue @primeuix/themes
+pnpm add primevue @peacepieceuix-compatibility/themes
 pnpm add -D @primevue/nuxt-module
 `
             }

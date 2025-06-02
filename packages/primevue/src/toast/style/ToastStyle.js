@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/toast';
+import { style } from '@peacepieceuix-compatibility/styles/toast';
 import BaseStyle from '@primevue/core/base/style';
 
 // Position

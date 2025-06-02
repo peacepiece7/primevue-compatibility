@@ -1,1 +1,1 @@
-export * from '@primeuix/themes/types/iftalabel';
+export * from '@peacepieceuix-compatibility/themes/types/iftalabel';

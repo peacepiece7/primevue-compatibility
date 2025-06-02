@@ -1,1 +1,1 @@
-export * from '@primeuix/themes/types/imagecompare';
+export * from '@peacepieceuix-compatibility/themes/types/imagecompare';

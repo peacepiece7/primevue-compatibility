@@ -1,1 +1,1 @@
-export * from '@primeuix/themes/types/overlaybadge';
+export * from '@peacepieceuix-compatibility/themes/types/overlaybadge';

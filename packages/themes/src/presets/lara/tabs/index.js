@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/lara/tabs';
+export { default } from '@peacepieceuix-compatibility/themes/lara/tabs';

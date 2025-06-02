@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/material/radiobutton';
+export { default } from '@peacepieceuix-compatibility/themes/material/radiobutton';

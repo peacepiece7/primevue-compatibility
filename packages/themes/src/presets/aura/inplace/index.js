@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/aura/inplace';
+export { default } from '@peacepieceuix-compatibility/themes/aura/inplace';

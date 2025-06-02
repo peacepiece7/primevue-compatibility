@@ -1,1 +1,1 @@
-export * from '@primeuix/themes/types/treetable';
+export * from '@peacepieceuix-compatibility/themes/types/treetable';

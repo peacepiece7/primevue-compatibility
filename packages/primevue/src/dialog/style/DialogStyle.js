@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/dialog';
+import { style } from '@peacepieceuix-compatibility/styles/dialog';
 import BaseStyle from '@primevue/core/base/style';
 
 /* Position */

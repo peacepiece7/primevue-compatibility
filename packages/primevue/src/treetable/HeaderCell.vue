@@ -29,7 +29,7 @@
 import SortAltIcon from '@peacepiece-compatibility/icons/sortalt';
 import SortAmountDownIcon from '@peacepiece-compatibility/icons/sortamountdown';
 import SortAmountUpAltIcon from '@peacepiece-compatibility/icons/sortamountupalt';
-import { getAttribute, getIndex, getNextElementSibling, getOuterWidth, getPreviousElementSibling } from '@primeuix/utils/dom';
+import { getAttribute, getIndex, getNextElementSibling, getOuterWidth, getPreviousElementSibling } from '@peacepieceuix-compatibility/utils/dom';
 import BaseComponent from '@primevue/core/basecomponent';
 import { getVNodeProp } from '@primevue/core/utils';
 import Badge from 'primevue/badge';

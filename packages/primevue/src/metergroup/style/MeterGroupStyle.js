@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/metergroup';
+import { style } from '@peacepieceuix-compatibility/styles/metergroup';
 import BaseStyle from '@primevue/core/base/style';
 
 const classes = {

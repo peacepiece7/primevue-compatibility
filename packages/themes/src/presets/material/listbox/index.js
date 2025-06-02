@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/material/listbox';
+export { default } from '@peacepieceuix-compatibility/themes/material/listbox';

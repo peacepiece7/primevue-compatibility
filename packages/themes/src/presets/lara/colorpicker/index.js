@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/lara/colorpicker';
+export { default } from '@peacepieceuix-compatibility/themes/lara/colorpicker';

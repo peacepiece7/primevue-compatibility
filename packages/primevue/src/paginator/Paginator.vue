@@ -108,7 +108,7 @@
 </template>
 
 <script>
-import { setAttribute } from '@primeuix/utils/dom';
+import { setAttribute } from '@peacepieceuix-compatibility/utils/dom';
 import BasePaginator from './BasePaginator.vue';
 import CurrrentPageReport from './CurrentPageReport.vue';
 import FirstPageLink from './FirstPageLink.vue';

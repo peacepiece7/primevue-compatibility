@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/scrolltop';
+import { style } from '@peacepieceuix-compatibility/styles/scrolltop';
 import BaseStyle from '@primevue/core/base/style';
 
 const classes = {

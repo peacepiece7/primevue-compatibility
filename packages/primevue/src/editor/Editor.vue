@@ -48,7 +48,7 @@
 </template>
 
 <script>
-import { isExist } from '@primeuix/utils/dom';
+import { isExist } from '@peacepieceuix-compatibility/utils/dom';
 import BaseEditor from './BaseEditor.vue';
 
 const QuillJS = (function () {

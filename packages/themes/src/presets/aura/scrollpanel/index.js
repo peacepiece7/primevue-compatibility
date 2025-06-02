@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/aura/scrollpanel';
+export { default } from '@peacepieceuix-compatibility/themes/aura/scrollpanel';

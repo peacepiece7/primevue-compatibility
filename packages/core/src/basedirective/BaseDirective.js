@@ -1,6 +1,6 @@
-import { Theme, ThemeService } from '@primeuix/styled';
-import { getKeyValue, isArray, isEmpty, isFunction, isObject, isString, resolve, toCapitalCase, toFlatCase } from '@primeuix/utils/object';
-import { uuid } from '@primeuix/utils/uuid';
+import { Theme, ThemeService } from '@peacepieceuix-compatibility/styled';
+import { getKeyValue, isArray, isEmpty, isFunction, isObject, isString, resolve, toCapitalCase, toFlatCase } from '@peacepieceuix-compatibility/utils/object';
+import { uuid } from '@peacepieceuix-compatibility/utils/uuid';
 import Base from '@primevue/core/base';
 import BaseStyle from '@primevue/core/base/style';
 import PrimeVueService from '@primevue/core/service';

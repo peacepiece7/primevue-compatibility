@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/radiobuttongroup';
+import { style } from '@peacepieceuix-compatibility/styles/radiobuttongroup';
 import BaseStyle from '@primevue/core/base/style';
 
 const classes = {

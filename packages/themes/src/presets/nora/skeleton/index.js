@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/nora/skeleton';
+export { default } from '@peacepieceuix-compatibility/themes/nora/skeleton';

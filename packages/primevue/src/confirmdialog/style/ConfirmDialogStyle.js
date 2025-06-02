@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/confirmdialog';
+import { style } from '@peacepieceuix-compatibility/styles/confirmdialog';
 import BaseStyle from '@primevue/core/base/style';
 
 const classes = {

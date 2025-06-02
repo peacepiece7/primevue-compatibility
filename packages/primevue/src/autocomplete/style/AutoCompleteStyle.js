@@ -1,5 +1,5 @@
-import { style } from '@primeuix/styles/autocomplete';
-import { isNotEmpty } from '@primeuix/utils/object';
+import { style } from '@peacepieceuix-compatibility/styles/autocomplete';
+import { isNotEmpty } from '@peacepieceuix-compatibility/utils/object';
 import BaseStyle from '@primevue/core/base/style';
 
 const inlineStyles = {

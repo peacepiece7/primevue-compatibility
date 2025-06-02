@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/material/chip';
+export { default } from '@peacepieceuix-compatibility/themes/material/chip';

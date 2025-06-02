@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/inlinemessage';
+import { style } from '@peacepieceuix-compatibility/styles/inlinemessage';
 import BaseStyle from '@primevue/core/base/style';
 
 const classes = {

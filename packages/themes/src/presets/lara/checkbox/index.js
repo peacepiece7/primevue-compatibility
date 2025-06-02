@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/lara/checkbox';
+export { default } from '@peacepieceuix-compatibility/themes/lara/checkbox';

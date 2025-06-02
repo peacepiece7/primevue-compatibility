@@ -25,7 +25,7 @@ export { default as BaseIcon } from '@peacepiece-compatibility/icons/baseicon';
 export { default as BaseIconStyle } from '@peacepiece-compatibility/icons/baseicon/style';
 
 // Themes
-export * from '@primeuix/styled';
+export * from '@peacepieceuix-compatibility/styled';
 
 // Utils
 export * from '../utils/Utils.js';

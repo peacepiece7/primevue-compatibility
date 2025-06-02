@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/material/multiselect';
+export { default } from '@peacepieceuix-compatibility/themes/material/multiselect';

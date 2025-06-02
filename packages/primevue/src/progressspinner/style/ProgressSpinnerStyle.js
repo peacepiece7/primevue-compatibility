@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/progressspinner';
+import { style } from '@peacepieceuix-compatibility/styles/progressspinner';
 import BaseStyle from '@primevue/core/base/style';
 
 const classes = {

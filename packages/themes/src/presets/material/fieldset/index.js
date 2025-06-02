@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/material/fieldset';
+export { default } from '@peacepieceuix-compatibility/themes/material/fieldset';

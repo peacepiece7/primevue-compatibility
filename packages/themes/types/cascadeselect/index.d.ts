@@ -1,1 +1,1 @@
-export * from '@primeuix/themes/types/cascadeselect';
+export * from '@peacepieceuix-compatibility/themes/types/cascadeselect';

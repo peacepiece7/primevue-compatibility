@@ -61,10 +61,10 @@
 </template>
 
 <script>
-import { usePreset } from '@primeuix/themes';
-import Aura from '@primeuix/themes/aura';
-import Lara from '@primeuix/themes/lara';
-import Nora from '@primeuix/themes/nora';
+import { usePreset } from '@peacepieceuix-compatibility/themes';
+import Aura from '@peacepieceuix-compatibility/themes/aura';
+import Lara from '@peacepieceuix-compatibility/themes/lara';
+import Nora from '@peacepieceuix-compatibility/themes/nora';
 
 const presets = {
     Aura,

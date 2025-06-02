@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/paginator';
+import { style } from '@peacepieceuix-compatibility/styles/paginator';
 import BaseStyle from '@primevue/core/base/style';
 
 const classes = {

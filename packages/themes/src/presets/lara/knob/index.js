@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/lara/knob';
+export { default } from '@peacepieceuix-compatibility/themes/lara/knob';

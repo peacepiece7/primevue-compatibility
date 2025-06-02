@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/lara/image';
+export { default } from '@peacepieceuix-compatibility/themes/lara/image';

@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/megamenu';
+import { style } from '@peacepieceuix-compatibility/styles/megamenu';
 import BaseStyle from '@primevue/core/base/style';
 
 const inlineStyles = {

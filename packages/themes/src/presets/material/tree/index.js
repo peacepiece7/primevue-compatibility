@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/material/tree';
+export { default } from '@peacepieceuix-compatibility/themes/material/tree';

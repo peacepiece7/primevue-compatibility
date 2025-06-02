@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/material/avatar';
+export { default } from '@peacepieceuix-compatibility/themes/material/avatar';

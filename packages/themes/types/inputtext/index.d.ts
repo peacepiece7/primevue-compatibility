@@ -1,1 +1,1 @@
-export * from '@primeuix/themes/types/inputtext';
+export * from '@peacepieceuix-compatibility/themes/types/inputtext';

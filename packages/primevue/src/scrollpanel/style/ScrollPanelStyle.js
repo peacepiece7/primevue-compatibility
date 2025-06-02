@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/scrollpanel';
+import { style } from '@peacepieceuix-compatibility/styles/scrollpanel';
 import BaseStyle from '@primevue/core/base/style';
 
 const classes = {

@@ -1,5 +1,5 @@
-import { $dt } from '@primeuix/styled';
-import * as utils from '@primeuix/utils';
+import { $dt } from '@peacepieceuix-compatibility/styled';
+import * as utils from '@peacepieceuix-compatibility/utils';
 
 export function blockBodyScroll() {
     utils.blockBodyScroll({ variableName: $dt('scrollbar.width').name });

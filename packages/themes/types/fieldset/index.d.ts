@@ -1,1 +1,1 @@
-export * from '@primeuix/themes/types/fieldset';
+export * from '@peacepieceuix-compatibility/themes/types/fieldset';

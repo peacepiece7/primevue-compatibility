@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/aura/textarea';
+export { default } from '@peacepieceuix-compatibility/themes/aura/textarea';

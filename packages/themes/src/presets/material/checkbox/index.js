@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/material/checkbox';
+export { default } from '@peacepieceuix-compatibility/themes/material/checkbox';

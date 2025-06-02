@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/aura/avatar';
+export { default } from '@peacepieceuix-compatibility/themes/aura/avatar';

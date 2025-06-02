@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/skeleton';
+import { style } from '@peacepieceuix-compatibility/styles/skeleton';
 import BaseStyle from '@primevue/core/base/style';
 
 const inlineStyles = {

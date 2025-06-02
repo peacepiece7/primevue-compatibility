@@ -1,1 +1,1 @@
-export * from '@primeuix/themes/types/autocomplete';
+export * from '@peacepieceuix-compatibility/themes/types/autocomplete';

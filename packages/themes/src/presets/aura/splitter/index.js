@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/aura/splitter';
+export { default } from '@peacepieceuix-compatibility/themes/aura/splitter';

@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/nora/message';
+export { default } from '@peacepieceuix-compatibility/themes/nora/message';

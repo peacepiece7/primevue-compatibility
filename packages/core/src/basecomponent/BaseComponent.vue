@@ -1,7 +1,7 @@
 <script>
-import { Theme, ThemeService } from '@primeuix/styled';
-import { findSingle, isElement } from '@primeuix/utils/dom';
-import { getKeyValue, isArray, isFunction, isNotEmpty, isString, resolve, toFlatCase } from '@primeuix/utils/object';
+import { Theme, ThemeService } from '@peacepieceuix-compatibility/styled';
+import { findSingle, isElement } from '@peacepieceuix-compatibility/utils/dom';
+import { getKeyValue, isArray, isFunction, isNotEmpty, isString, resolve, toFlatCase } from '@peacepieceuix-compatibility/utils/object';
 import Base from '@primevue/core/base';
 import BaseStyle from '@primevue/core/base/style';
 import { useAttrSelector } from '@primevue/core/useattrselector';

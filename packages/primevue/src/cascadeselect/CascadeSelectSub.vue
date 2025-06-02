@@ -64,7 +64,7 @@
 </template>
 
 <script>
-import { equals, isNotEmpty, resolveFieldData } from '@primeuix/utils/object';
+import { equals, isNotEmpty, resolveFieldData } from '@peacepieceuix-compatibility/utils/object';
 import BaseComponent from '@primevue/core/basecomponent';
 import AngleRightIcon from '@peacepiece-compatibility/icons/angleright';
 import Ripple from 'primevue/ripple';

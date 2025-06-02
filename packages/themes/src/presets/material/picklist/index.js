@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/material/picklist';
+export { default } from '@peacepieceuix-compatibility/themes/material/picklist';

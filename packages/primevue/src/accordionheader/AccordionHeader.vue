@@ -24,8 +24,8 @@
 <script>
 import ChevronDownIcon from '@peacepiece-compatibility/icons/chevrondown';
 import ChevronUpIcon from '@peacepiece-compatibility/icons/chevronup';
-import { cn } from '@primeuix/utils';
-import { findSingle, focus, getAttribute } from '@primeuix/utils/dom';
+import { cn } from '@peacepieceuix-compatibility/utils';
+import { findSingle, focus, getAttribute } from '@peacepieceuix-compatibility/utils/dom';
 import Ripple from 'primevue/ripple';
 import { mergeProps } from 'vue';
 import BaseAccordionHeader from './BaseAccordionHeader.vue';

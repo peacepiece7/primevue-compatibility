@@ -54,7 +54,7 @@
 <script>
 import ChevronDownIcon from '@peacepiece-compatibility/icons/chevrondown';
 import ChevronUpIcon from '@peacepiece-compatibility/icons/chevronup';
-import { isAttributeEquals } from '@primeuix/utils/dom';
+import { isAttributeEquals } from '@peacepieceuix-compatibility/utils/dom';
 import BaseComponent from '@primevue/core/basecomponent';
 
 export default {

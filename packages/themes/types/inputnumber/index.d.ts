@@ -1,1 +1,1 @@
-export * from '@primeuix/themes/types/inputnumber';
+export * from '@peacepieceuix-compatibility/themes/types/inputnumber';

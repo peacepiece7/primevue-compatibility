@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/timeline';
+import { style } from '@peacepieceuix-compatibility/styles/timeline';
 import BaseStyle from '@primevue/core/base/style';
 
 const classes = {

@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/overlaybadge';
+import { style } from '@peacepieceuix-compatibility/styles/overlaybadge';
 import BaseStyle from '@primevue/core/base/style';
 
 const classes = {

@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/material/inputgroup';
+export { default } from '@peacepieceuix-compatibility/themes/material/inputgroup';

@@ -1,7 +1,7 @@
-import { addClass, createElement, fadeIn, findSingle, getAttribute, getOuterHeight, getOuterWidth, getViewport, getWindowScrollLeft, getWindowScrollTop, hasClass, isExist, isTouchDevice, removeClass } from '@primeuix/utils/dom';
-import { isEmpty } from '@primeuix/utils/object';
-import { uuid } from '@primeuix/utils/uuid';
-import { ZIndex } from '@primeuix/utils/zindex';
+import { addClass, createElement, fadeIn, findSingle, getAttribute, getOuterHeight, getOuterWidth, getViewport, getWindowScrollLeft, getWindowScrollTop, hasClass, isExist, isTouchDevice, removeClass } from '@peacepieceuix-compatibility/utils/dom';
+import { isEmpty } from '@peacepieceuix-compatibility/utils/object';
+import { uuid } from '@peacepieceuix-compatibility/utils/uuid';
+import { ZIndex } from '@peacepieceuix-compatibility/utils/zindex';
 import { ConnectedOverlayScrollHandler } from '@primevue/core/utils';
 import BaseTooltip from './BaseTooltip';
 

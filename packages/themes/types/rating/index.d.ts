@@ -1,1 +1,1 @@
-export * from '@primeuix/themes/types/rating';
+export * from '@peacepieceuix-compatibility/themes/types/rating';

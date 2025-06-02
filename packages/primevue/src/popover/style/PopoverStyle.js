@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/popover';
+import { style } from '@peacepieceuix-compatibility/styles/popover';
 import BaseStyle from '@primevue/core/base/style';
 
 const classes = {

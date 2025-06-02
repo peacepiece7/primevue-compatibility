@@ -352,9 +352,9 @@
         "vitest": "^0.29.8"
     },
     "dependencies": {
-        "@primeuix/styled": "catalog:",
-        "@primeuix/utils": "catalog:",
-        "@primeuix/styles": "catalog:",
+        "@peacepieceuix-compatibility/styled": "catalog:",
+        "@peacepieceuix-compatibility/utils": "catalog:",
+        "@peacepieceuix-compatibility/styles": "catalog:",
         "@peacepiece-compatibility/core": "workspace:*",
         "@peacepiece-compatibility/icons": "workspace:*"
     },

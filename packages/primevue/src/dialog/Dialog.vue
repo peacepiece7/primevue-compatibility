@@ -67,9 +67,9 @@
 import TimesIcon from '@peacepiece-compatibility/icons/times';
 import WindowMaximizeIcon from '@peacepiece-compatibility/icons/windowmaximize';
 import WindowMinimizeIcon from '@peacepiece-compatibility/icons/windowminimize';
-import { cn } from '@primeuix/utils';
-import { addClass, addStyle, focus, getOuterHeight, getOuterWidth, getViewport, setAttribute } from '@primeuix/utils/dom';
-import { ZIndex } from '@primeuix/utils/zindex';
+import { cn } from '@peacepieceuix-compatibility/utils';
+import { addClass, addStyle, focus, getOuterHeight, getOuterWidth, getViewport, setAttribute } from '@peacepieceuix-compatibility/utils/dom';
+import { ZIndex } from '@peacepieceuix-compatibility/utils/zindex';
 import Button from 'primevue/button';
 import FocusTrap from 'primevue/focustrap';
 import Portal from 'primevue/portal';

@@ -1,1 +1,1 @@
-export * from '@primeuix/themes/types/picklist';
+export * from '@peacepieceuix-compatibility/themes/types/picklist';

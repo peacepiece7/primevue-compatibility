@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/knob';
+import { style } from '@peacepieceuix-compatibility/styles/knob';
 import BaseStyle from '@primevue/core/base/style';
 
 const classes = {

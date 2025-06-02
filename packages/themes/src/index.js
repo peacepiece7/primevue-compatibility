@@ -1,1 +1,1 @@
-export * from '@primeuix/styled';
+export * from '@peacepieceuix-compatibility/styled';

@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/material/card';
+export { default } from '@peacepieceuix-compatibility/themes/material/card';

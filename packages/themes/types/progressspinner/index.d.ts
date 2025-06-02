@@ -1,1 +1,1 @@
-export * from '@primeuix/themes/types/progressspinner';
+export * from '@peacepieceuix-compatibility/themes/types/progressspinner';

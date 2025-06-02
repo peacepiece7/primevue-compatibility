@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/aura/treetable';
+export { default } from '@peacepieceuix-compatibility/themes/aura/treetable';

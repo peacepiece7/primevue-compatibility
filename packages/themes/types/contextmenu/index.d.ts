@@ -1,1 +1,1 @@
-export * from '@primeuix/themes/types/contextmenu';
+export * from '@peacepieceuix-compatibility/themes/types/contextmenu';

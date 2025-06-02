@@ -1,1 +1,1 @@
-export * from '@primeuix/themes/types/slider';
+export * from '@peacepieceuix-compatibility/themes/types/slider';

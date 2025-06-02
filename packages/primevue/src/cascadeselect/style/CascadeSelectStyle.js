@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/cascadeselect';
+import { style } from '@peacepieceuix-compatibility/styles/cascadeselect';
 import BaseStyle from '@primevue/core/base/style';
 
 const inlineStyles = {

@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/material/rating';
+export { default } from '@peacepieceuix-compatibility/themes/material/rating';

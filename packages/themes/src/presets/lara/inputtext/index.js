@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/lara/inputtext';
+export { default } from '@peacepieceuix-compatibility/themes/lara/inputtext';

@@ -65,9 +65,9 @@
 </template>
 
 <script>
-import { cn } from '@primeuix/utils';
-import { absolutePosition, addStyle, find, findSingle, focus, getOuterWidth, isTouchDevice } from '@primeuix/utils/dom';
-import { ZIndex } from '@primeuix/utils/zindex';
+import { cn } from '@peacepieceuix-compatibility/utils';
+import { absolutePosition, addStyle, find, findSingle, focus, getOuterWidth, isTouchDevice } from '@peacepieceuix-compatibility/utils/dom';
+import { ZIndex } from '@peacepieceuix-compatibility/utils/zindex';
 import { ConnectedOverlayScrollHandler } from '@primevue/core/utils';
 import OverlayEventBus from 'primevue/overlayeventbus';
 import Portal from 'primevue/portal';

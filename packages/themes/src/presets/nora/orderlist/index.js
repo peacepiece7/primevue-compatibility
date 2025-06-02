@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/nora/orderlist';
+export { default } from '@peacepieceuix-compatibility/themes/nora/orderlist';

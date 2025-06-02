@@ -1,1 +1,1 @@
-export * from '@primeuix/themes/types/accordion';
+export * from '@peacepieceuix-compatibility/themes/types/accordion';

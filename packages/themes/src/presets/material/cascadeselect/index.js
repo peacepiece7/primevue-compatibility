@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/material/cascadeselect';
+export { default } from '@peacepieceuix-compatibility/themes/material/cascadeselect';

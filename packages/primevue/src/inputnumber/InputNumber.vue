@@ -89,9 +89,9 @@
 <script>
 import AngleDownIcon from '@peacepiece-compatibility/icons/angledown';
 import AngleUpIcon from '@peacepiece-compatibility/icons/angleup';
-import { cn } from '@primeuix/utils';
-import { clearSelection, getSelection } from '@primeuix/utils/dom';
-import { isNotEmpty } from '@primeuix/utils/object';
+import { cn } from '@peacepieceuix-compatibility/utils';
+import { clearSelection, getSelection } from '@peacepieceuix-compatibility/utils/dom';
+import { isNotEmpty } from '@peacepieceuix-compatibility/utils/object';
 import InputText from 'primevue/inputtext';
 import BaseInputNumber from './BaseInputNumber.vue';
 

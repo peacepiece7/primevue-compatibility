@@ -6,7 +6,7 @@
 
 <script>
 import { useForm } from '@peacepiece-compatibility/forms/useform';
-import { omit } from '@primeuix/utils';
+import { omit } from '@peacepieceuix-compatibility/utils';
 import { ref } from 'vue';
 import BaseForm from './BaseForm.vue';
 

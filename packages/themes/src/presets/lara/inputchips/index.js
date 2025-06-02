@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/lara/inputchips';
+export { default } from '@peacepieceuix-compatibility/themes/lara/inputchips';

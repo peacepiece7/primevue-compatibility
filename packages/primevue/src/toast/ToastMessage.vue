@@ -25,7 +25,7 @@ import ExclamationTriangleIcon from '@peacepiece-compatibility/icons/exclamation
 import InfoCircleIcon from '@peacepiece-compatibility/icons/infocircle';
 import TimesIcon from '@peacepiece-compatibility/icons/times';
 import TimesCircleIcon from '@peacepiece-compatibility/icons/timescircle';
-import { cn } from '@primeuix/utils';
+import { cn } from '@peacepieceuix-compatibility/utils';
 import BaseComponent from '@primevue/core/basecomponent';
 import Ripple from 'primevue/ripple';
 

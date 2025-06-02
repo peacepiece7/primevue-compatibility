@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/contextmenu';
+import { style } from '@peacepieceuix-compatibility/styles/contextmenu';
 import BaseStyle from '@primevue/core/base/style';
 
 const classes = {

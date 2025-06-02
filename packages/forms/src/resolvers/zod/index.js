@@ -1,1 +1,1 @@
-export * from '@primeuix/forms/resolvers/zod';
+export * from '@peacepieceuix-compatibility/forms/resolvers/zod';

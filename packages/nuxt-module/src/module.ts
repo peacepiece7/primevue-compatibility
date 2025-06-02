@@ -1,6 +1,6 @@
 import { addPlugin, addPluginTemplate, addTemplate, createResolver, defineNuxtModule } from '@nuxt/kit';
 import type { MetaType } from '@peacepiece-compatibility/metadata';
-import { isNotEmpty } from '@primeuix/utils';
+import { isNotEmpty } from '@peacepieceuix-compatibility/utils';
 import { PrimeVueResolver } from '@primevue/auto-import-resolver';
 import { normalize } from 'pathe';
 import Components from 'unplugin-vue-components/nuxt';
@@ -60,7 +60,7 @@ export default defineNuxtModule<ModuleOptions>({
         //nuxt.options.build.transpile.push('nuxt');
         nuxt.options.build.transpile.push('primevue');
         hasTheme && nuxt.options.build.transpile.push('@primevue/themes');
-        hasTheme && nuxt.options.build.transpile.push('@primeuix/themes');
+        hasTheme && nuxt.options.build.transpile.push('@peacepieceuix-compatibility/themes');
 
         let registeredStyles: MetaType[] = registered.styles;
 
@@ -91,7 +91,7 @@ import { useRuntimeConfig } from '#imports';
 ${uniqueRegisteredStyles?.map((style: MetaType) => `import ${style.as} from '${style.from}';`).join('\n')}
 ${
     hasTheme
-        ? `import { Theme } from '@primeuix/styled';
+        ? `import { Theme } from '@peacepieceuix-compatibility/styled';
 ${importTheme ? `import ${importTheme.as} from '${normalize(importTheme.from)}';\n` : ''}`
         : ''
 }

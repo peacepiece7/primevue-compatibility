@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/aura/message';
+export { default } from '@peacepieceuix-compatibility/themes/aura/message';

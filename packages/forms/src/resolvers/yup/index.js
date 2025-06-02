@@ -1,1 +1,1 @@
-export * from '@primeuix/forms/resolvers/yup';
+export * from '@peacepieceuix-compatibility/forms/resolvers/yup';

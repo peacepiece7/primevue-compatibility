@@ -1,1 +1,1 @@
-export * from '@primeuix/themes/types/galleria';
+export * from '@peacepieceuix-compatibility/themes/types/galleria';

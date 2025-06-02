@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import { equals } from '@primeuix/utils/object';
+import { equals } from '@peacepieceuix-compatibility/utils/object';
 import { mergeProps } from 'vue';
 import BaseTabPanel from './BaseTabPanel.vue';
 

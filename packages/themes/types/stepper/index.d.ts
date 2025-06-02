@@ -1,1 +1,1 @@
-export * from '@primeuix/themes/types/stepper';
+export * from '@peacepieceuix-compatibility/themes/types/stepper';

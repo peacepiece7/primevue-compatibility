@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/virtualscroller';
+import { style } from '@peacepieceuix-compatibility/styles/virtualscroller';
 import BaseStyle from '@primevue/core/base/style';
 
 const css = `

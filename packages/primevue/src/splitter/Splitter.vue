@@ -23,9 +23,9 @@
 </template>
 
 <script>
-import { cn } from '@primeuix/utils';
-import { getHeight, getOuterHeight, getOuterWidth, getWidth, isRTL } from '@primeuix/utils/dom';
-import { isArray, isNotEmpty } from '@primeuix/utils/object';
+import { cn } from '@peacepieceuix-compatibility/utils';
+import { getHeight, getOuterHeight, getOuterWidth, getWidth, isRTL } from '@peacepieceuix-compatibility/utils/dom';
+import { isArray, isNotEmpty } from '@peacepieceuix-compatibility/utils/object';
 import { getVNodeProp } from '@primevue/core/utils';
 import BaseSplitter from './BaseSplitter.vue';
 

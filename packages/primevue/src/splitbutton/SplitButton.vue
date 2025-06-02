@@ -63,7 +63,7 @@
 </template>
 
 <script>
-import { isEmpty } from '@primeuix/utils/object';
+import { isEmpty } from '@peacepieceuix-compatibility/utils/object';
 import ChevronDownIcon from '@peacepiece-compatibility/icons/chevrondown';
 import Button from 'primevue/button';
 import TieredMenu from 'primevue/tieredmenu';

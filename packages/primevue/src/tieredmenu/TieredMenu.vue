@@ -42,9 +42,9 @@
 </template>
 
 <script>
-import { absolutePosition, addStyle, findSingle, focus, getOuterWidth, isTouchDevice } from '@primeuix/utils/dom';
-import { findLastIndex, isEmpty, isNotEmpty, isPrintableCharacter, resolve } from '@primeuix/utils/object';
-import { ZIndex } from '@primeuix/utils/zindex';
+import { absolutePosition, addStyle, findSingle, focus, getOuterWidth, isTouchDevice } from '@peacepieceuix-compatibility/utils/dom';
+import { findLastIndex, isEmpty, isNotEmpty, isPrintableCharacter, resolve } from '@peacepieceuix-compatibility/utils/object';
+import { ZIndex } from '@peacepieceuix-compatibility/utils/zindex';
 import { ConnectedOverlayScrollHandler } from '@primevue/core/utils';
 import OverlayEventBus from 'primevue/overlayeventbus';
 import Portal from 'primevue/portal';

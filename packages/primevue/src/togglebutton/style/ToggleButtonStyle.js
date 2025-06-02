@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/togglebutton';
+import { style } from '@peacepieceuix-compatibility/styles/togglebutton';
 import BaseStyle from '@primevue/core/base/style';
 
 const classes = {

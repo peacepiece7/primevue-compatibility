@@ -1,1 +1,1 @@
-export * from '@primeuix/themes/types/fileupload';
+export * from '@peacepieceuix-compatibility/themes/types/fileupload';

@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/nora/picklist';
+export { default } from '@peacepieceuix-compatibility/themes/nora/picklist';

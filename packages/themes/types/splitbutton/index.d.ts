@@ -1,1 +1,1 @@
-export * from '@primeuix/themes/types/splitbutton';
+export * from '@peacepieceuix-compatibility/themes/types/splitbutton';

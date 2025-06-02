@@ -1,1 +1,1 @@
-export * from '@primeuix/themes/types/dialog';
+export * from '@peacepieceuix-compatibility/themes/types/dialog';

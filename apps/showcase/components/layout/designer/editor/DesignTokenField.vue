@@ -52,8 +52,8 @@
 </template>
 
 <script>
-import { $dt } from '@primeuix/themes';
-import { uuid } from '@primeuix/utils';
+import { $dt } from '@peacepieceuix-compatibility/themes';
+import { uuid } from '@peacepieceuix-compatibility/utils';
 
 export default {
     emits: ['update:modelValue'],

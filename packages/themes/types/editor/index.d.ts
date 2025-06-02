@@ -1,1 +1,1 @@
-export * from '@primeuix/themes/types/editor';
+export * from '@peacepieceuix-compatibility/themes/types/editor';

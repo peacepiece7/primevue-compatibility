@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/nora/galleria';
+export { default } from '@peacepieceuix-compatibility/themes/nora/galleria';

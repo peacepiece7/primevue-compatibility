@@ -33,8 +33,8 @@
 <script>
 import CheckIcon from '@peacepiece-compatibility/icons/check';
 import MinusIcon from '@peacepiece-compatibility/icons/minus';
-import { cn } from '@primeuix/utils';
-import { contains, equals } from '@primeuix/utils/object';
+import { cn } from '@peacepieceuix-compatibility/utils';
+import { contains, equals } from '@peacepieceuix-compatibility/utils/object';
 import BaseCheckbox from './BaseCheckbox.vue';
 
 export default {

@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/textarea';
+import { style } from '@peacepieceuix-compatibility/styles/textarea';
 import BaseStyle from '@primevue/core/base/style';
 
 const classes = {

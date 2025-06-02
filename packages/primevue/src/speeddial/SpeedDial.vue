@@ -65,8 +65,8 @@
 </template>
 
 <script>
-import { $dt } from '@primeuix/styled';
-import { find, findSingle, focus, hasClass } from '@primeuix/utils/dom';
+import { $dt } from '@peacepieceuix-compatibility/styled';
+import { find, findSingle, focus, hasClass } from '@peacepieceuix-compatibility/utils/dom';
 import PlusIcon from '@peacepiece-compatibility/icons/plus';
 import Button from 'primevue/button';
 import Ripple from 'primevue/ripple';

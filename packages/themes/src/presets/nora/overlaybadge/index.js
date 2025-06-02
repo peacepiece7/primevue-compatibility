@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/nora/overlaybadge';
+export { default } from '@peacepieceuix-compatibility/themes/nora/overlaybadge';

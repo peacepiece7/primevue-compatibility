@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/lara/overlaybadge';
+export { default } from '@peacepieceuix-compatibility/themes/lara/overlaybadge';

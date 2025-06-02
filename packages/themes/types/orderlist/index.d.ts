@@ -1,1 +1,1 @@
-export * from '@primeuix/themes/types/orderlist';
+export * from '@peacepieceuix-compatibility/themes/types/orderlist';

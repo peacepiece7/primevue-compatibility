@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/aura/tieredmenu';
+export { default } from '@peacepieceuix-compatibility/themes/aura/tieredmenu';

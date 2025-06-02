@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/splitter';
+import { style } from '@peacepieceuix-compatibility/styles/splitter';
 import BaseStyle from '@primevue/core/base/style';
 
 const classes = {

@@ -131,9 +131,9 @@
 <script>
 import ChevronDownIcon from '@peacepiece-compatibility/icons/chevrondown';
 import TimesIcon from '@peacepiece-compatibility/icons/times';
-import { absolutePosition, addStyle, find, findSingle, focus, getFirstFocusableElement, getFocusableElements, getLastFocusableElement, getOuterWidth, isTouchDevice, relativePosition } from '@primeuix/utils/dom';
-import { isEmpty, isNotEmpty } from '@primeuix/utils/object';
-import { ZIndex } from '@primeuix/utils/zindex';
+import { absolutePosition, addStyle, find, findSingle, focus, getFirstFocusableElement, getFocusableElements, getLastFocusableElement, getOuterWidth, isTouchDevice, relativePosition } from '@peacepieceuix-compatibility/utils/dom';
+import { isEmpty, isNotEmpty } from '@peacepieceuix-compatibility/utils/object';
+import { ZIndex } from '@peacepieceuix-compatibility/utils/zindex';
 import { ConnectedOverlayScrollHandler } from '@primevue/core/utils';
 import Chip from 'primevue/chip';
 import OverlayEventBus from 'primevue/overlayeventbus';

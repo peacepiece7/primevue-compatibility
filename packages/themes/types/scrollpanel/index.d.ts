@@ -1,1 +1,1 @@
-export * from '@primeuix/themes/types/scrollpanel';
+export * from '@peacepieceuix-compatibility/themes/types/scrollpanel';

@@ -1,1 +1,1 @@
-export * from '@primeuix/themes/types/selectbutton';
+export * from '@peacepieceuix-compatibility/themes/types/selectbutton';

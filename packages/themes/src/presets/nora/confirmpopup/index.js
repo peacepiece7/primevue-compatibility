@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/nora/confirmpopup';
+export { default } from '@peacepieceuix-compatibility/themes/nora/confirmpopup';

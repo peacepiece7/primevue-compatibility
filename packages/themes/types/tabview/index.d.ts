@@ -1,1 +1,1 @@
-export * from '@primeuix/themes/types/tabview';
+export * from '@peacepieceuix-compatibility/themes/types/tabview';

@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/material/paginator';
+export { default } from '@peacepieceuix-compatibility/themes/material/paginator';

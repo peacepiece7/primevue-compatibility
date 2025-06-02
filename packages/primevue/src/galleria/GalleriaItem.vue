@@ -38,7 +38,7 @@
 <script>
 import ChevronLeftIcon from '@peacepiece-compatibility/icons/chevronleft';
 import ChevronRightIcon from '@peacepiece-compatibility/icons/chevronright';
-import { find, findSingle, getAttribute } from '@primeuix/utils/dom';
+import { find, findSingle, getAttribute } from '@peacepieceuix-compatibility/utils/dom';
 import BaseComponent from '@primevue/core/basecomponent';
 import Ripple from 'primevue/ripple';
 

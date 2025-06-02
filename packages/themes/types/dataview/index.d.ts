@@ -1,1 +1,1 @@
-export * from '@primeuix/themes/types/dataview';
+export * from '@peacepieceuix-compatibility/themes/types/dataview';

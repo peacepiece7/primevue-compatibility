@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/aura/timeline';
+export { default } from '@peacepieceuix-compatibility/themes/aura/timeline';

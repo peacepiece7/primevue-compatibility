@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/material/inplace';
+export { default } from '@peacepieceuix-compatibility/themes/material/inplace';

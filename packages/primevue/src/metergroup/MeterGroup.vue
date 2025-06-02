@@ -19,7 +19,7 @@
 </template>
 
 <script>
-import { cn } from '@primeuix/utils';
+import { cn } from '@peacepieceuix-compatibility/utils';
 import BaseMeterGroup from './BaseMeterGroup.vue';
 import MeterGroupLabel from './MeterGroupLabel.vue';
 

@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/aura/accordion';
+export { default } from '@peacepieceuix-compatibility/themes/aura/accordion';

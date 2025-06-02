@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/nora/inputtext';
+export { default } from '@peacepieceuix-compatibility/themes/nora/inputtext';

@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/aura/inputnumber';
+export { default } from '@peacepieceuix-compatibility/themes/aura/inputnumber';

@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/aura/imagecompare';
+export { default } from '@peacepieceuix-compatibility/themes/aura/imagecompare';

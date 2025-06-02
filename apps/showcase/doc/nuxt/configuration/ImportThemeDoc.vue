@@ -20,8 +20,8 @@ primevue: {
             },
             code2: {
                 basic: `
-import { definePreset } from '@primeuix/themes';
-import Aura from '@primeuix/themes/aura';
+import { definePreset } from '@peacepieceuix-compatibility/themes';
+import Aura from '@peacepieceuix-compatibility/themes/aura';
 
 const MyPreset = definePreset(Aura, {
     semantic: {

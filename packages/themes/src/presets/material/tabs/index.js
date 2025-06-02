@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/material/tabs';
+export { default } from '@peacepieceuix-compatibility/themes/material/tabs';

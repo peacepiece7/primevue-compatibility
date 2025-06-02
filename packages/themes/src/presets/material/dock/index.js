@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/material/dock';
+export { default } from '@peacepieceuix-compatibility/themes/material/dock';

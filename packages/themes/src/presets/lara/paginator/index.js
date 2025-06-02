@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/lara/paginator';
+export { default } from '@peacepieceuix-compatibility/themes/lara/paginator';

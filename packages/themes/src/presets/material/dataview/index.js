@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/material/dataview';
+export { default } from '@peacepieceuix-compatibility/themes/material/dataview';

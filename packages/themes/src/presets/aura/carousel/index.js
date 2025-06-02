@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/aura/carousel';
+export { default } from '@peacepieceuix-compatibility/themes/aura/carousel';

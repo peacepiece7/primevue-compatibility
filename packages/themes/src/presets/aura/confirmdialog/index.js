@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/aura/confirmdialog';
+export { default } from '@peacepieceuix-compatibility/themes/aura/confirmdialog';

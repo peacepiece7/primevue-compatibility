@@ -43,9 +43,9 @@
 </template>
 
 <script>
-import { cn } from '@primeuix/utils';
-import { addClass, focus } from '@primeuix/utils/dom';
-import { ZIndex } from '@primeuix/utils/zindex';
+import { cn } from '@peacepieceuix-compatibility/utils';
+import { addClass, focus } from '@peacepieceuix-compatibility/utils/dom';
+import { ZIndex } from '@peacepieceuix-compatibility/utils/zindex';
 import TimesIcon from '@peacepiece-compatibility/icons/times';
 import Button from 'primevue/button';
 import FocusTrap from 'primevue/focustrap';

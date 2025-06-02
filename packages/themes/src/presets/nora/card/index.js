@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/nora/card';
+export { default } from '@peacepieceuix-compatibility/themes/nora/card';

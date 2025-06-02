@@ -1,1 +1,1 @@
-export * from '@primeuix/themes/types/inplace';
+export * from '@peacepieceuix-compatibility/themes/types/inplace';

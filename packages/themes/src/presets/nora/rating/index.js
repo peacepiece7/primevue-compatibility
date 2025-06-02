@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/nora/rating';
+export { default } from '@peacepieceuix-compatibility/themes/nora/rating';

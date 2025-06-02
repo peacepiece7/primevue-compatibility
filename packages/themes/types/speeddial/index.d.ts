@@ -1,1 +1,1 @@
-export * from '@primeuix/themes/types/speeddial';
+export * from '@peacepieceuix-compatibility/themes/types/speeddial';

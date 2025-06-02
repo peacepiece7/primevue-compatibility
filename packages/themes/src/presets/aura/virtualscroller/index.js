@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/aura/virtualscroller';
+export { default } from '@peacepieceuix-compatibility/themes/aura/virtualscroller';

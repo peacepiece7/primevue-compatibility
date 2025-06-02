@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/aura/multiselect';
+export { default } from '@peacepieceuix-compatibility/themes/aura/multiselect';

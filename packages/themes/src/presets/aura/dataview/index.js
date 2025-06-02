@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/aura/dataview';
+export { default } from '@peacepieceuix-compatibility/themes/aura/dataview';

@@ -77,7 +77,7 @@ import ChevronDownIcon from '@peacepiece-compatibility/icons/chevrondown';
 import ChevronRightIcon from '@peacepiece-compatibility/icons/chevronright';
 import MinusIcon from '@peacepiece-compatibility/icons/minus';
 import SpinnerIcon from '@peacepiece-compatibility/icons/spinner';
-import { find, findSingle, getAttribute } from '@primeuix/utils/dom';
+import { find, findSingle, getAttribute } from '@peacepieceuix-compatibility/utils/dom';
 import BaseComponent from '@primevue/core/basecomponent';
 import Checkbox from 'primevue/checkbox';
 import Ripple from 'primevue/ripple';

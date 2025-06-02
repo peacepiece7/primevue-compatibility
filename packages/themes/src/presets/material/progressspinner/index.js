@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/material/progressspinner';
+export { default } from '@peacepieceuix-compatibility/themes/material/progressspinner';

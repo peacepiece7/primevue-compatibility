@@ -1,3 +1,3 @@
-import { EventBus } from '@primeuix/utils/eventbus';
+import { EventBus } from '@peacepieceuix-compatibility/utils/eventbus';
 
 export default EventBus();

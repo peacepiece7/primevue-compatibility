@@ -23,8 +23,8 @@
 
 <script>
 import BaseComponent from '@primevue/core/basecomponent';
-import { findSingle, focus } from '@primeuix/utils/dom';
-import { resolve, isNotEmpty, isPrintableCharacter, findLast, isEmpty } from '@primeuix/utils/object';
+import { findSingle, focus } from '@peacepieceuix-compatibility/utils/dom';
+import { resolve, isNotEmpty, isPrintableCharacter, findLast, isEmpty } from '@peacepieceuix-compatibility/utils/object';
 import PanelMenuSub from './PanelMenuSub.vue';
 
 export default {

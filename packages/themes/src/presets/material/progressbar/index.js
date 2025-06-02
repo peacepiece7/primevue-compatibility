@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/material/progressbar';
+export { default } from '@peacepieceuix-compatibility/themes/material/progressbar';

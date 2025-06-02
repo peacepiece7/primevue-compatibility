@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/material/menu';
+export { default } from '@peacepieceuix-compatibility/themes/material/menu';

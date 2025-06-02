@@ -1,1 +1,1 @@
-export * from '@primeuix/themes/types/checkbox';
+export * from '@peacepieceuix-compatibility/themes/types/checkbox';

@@ -12,13 +12,13 @@ export default {
             code: {
                 basic: `
 # Using npm
-npm install primevue @primeuix/themes
+npm install primevue @peacepieceuix-compatibility/themes
 
 # Using yarn
-yarn add primevue @primeuix/themes
+yarn add primevue @peacepieceuix-compatibility/themes
 
 # Using pnpm
-pnpm add primevue @primeuix/themes
+pnpm add primevue @peacepieceuix-compatibility/themes
 `
             }
         };

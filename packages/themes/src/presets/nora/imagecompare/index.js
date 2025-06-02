@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/nora/imagecompare';
+export { default } from '@peacepieceuix-compatibility/themes/nora/imagecompare';

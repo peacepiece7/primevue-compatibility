@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import { cn } from '@primeuix/utils';
+import { cn } from '@peacepieceuix-compatibility/utils';
 import BaseComponent from '@primevue/core/basecomponent';
 
 export default {

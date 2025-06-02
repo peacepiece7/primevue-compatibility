@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/nora/slider';
+export { default } from '@peacepieceuix-compatibility/themes/nora/slider';

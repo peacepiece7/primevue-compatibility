@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/material/tabview';
+export { default } from '@peacepieceuix-compatibility/themes/material/tabview';

@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/nora/inlinemessage';
+export { default } from '@peacepieceuix-compatibility/themes/nora/inlinemessage';

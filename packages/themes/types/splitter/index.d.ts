@@ -1,1 +1,1 @@
-export * from '@primeuix/themes/types/splitter';
+export * from '@peacepieceuix-compatibility/themes/types/splitter';

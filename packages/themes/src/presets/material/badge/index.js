@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/material/badge';
+export { default } from '@peacepieceuix-compatibility/themes/material/badge';

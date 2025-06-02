@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/nora/splitter';
+export { default } from '@peacepieceuix-compatibility/themes/nora/splitter';

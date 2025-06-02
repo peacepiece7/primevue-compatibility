@@ -26,8 +26,8 @@
 </template>
 
 <script>
-import { cn } from '@primeuix/utils';
-import { resolve } from '@primeuix/utils/object';
+import { cn } from '@peacepieceuix-compatibility/utils';
+import { resolve } from '@peacepieceuix-compatibility/utils/object';
 import BaseComponent from '@primevue/core/basecomponent';
 import Ripple from 'primevue/ripple';
 import { mergeProps } from 'vue';

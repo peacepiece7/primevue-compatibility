@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/nora/stepper';
+export { default } from '@peacepieceuix-compatibility/themes/nora/stepper';

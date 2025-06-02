@@ -40,7 +40,7 @@
     },
     "dependencies": {
         "@docsearch/js": "catalog:app",
-        "@primeuix/themes": "catalog:",
+        "@peacepieceuix-compatibility/themes": "catalog:",
         "@peacepiece-compatibility/core": "workspace:*",
         "@peacepiece-compatibility/forms": "workspace:*",
         "@peacepiece-compatibility/nuxt-module": "workspace:*",

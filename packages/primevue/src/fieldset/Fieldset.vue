@@ -37,7 +37,7 @@
 <script>
 import MinusIcon from '@peacepiece-compatibility/icons/minus';
 import PlusIcon from '@peacepiece-compatibility/icons/plus';
-import { cn } from '@primeuix/utils';
+import { cn } from '@peacepieceuix-compatibility/utils';
 import Ripple from 'primevue/ripple';
 import BaseFieldset from './BaseFieldset.vue';
 

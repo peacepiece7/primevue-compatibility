@@ -15,7 +15,7 @@
 
 <script setup>
 import { zodResolver } from '@peacepiece-compatibility/forms/resolvers/zod';
-import { isNotEmpty } from '@primeuix/utils';
+import { isNotEmpty } from '@peacepieceuix-compatibility/utils';
 import { z } from 'zod';
 import DynamicFormControl from './DynamicFormControl.vue';
 import DynamicFormField from './DynamicFormField.vue';

@@ -5,8 +5,8 @@
 </template>
 
 <script>
-import { addClass, createElement, hasCSSAnimation } from '@primeuix/utils/dom';
-import { ZIndex } from '@primeuix/utils/zindex';
+import { addClass, createElement, hasCSSAnimation } from '@peacepieceuix-compatibility/utils/dom';
+import { ZIndex } from '@peacepieceuix-compatibility/utils/zindex';
 import { blockBodyScroll, unblockBodyScroll } from 'primevue/utils';
 import BaseBlockUI from './BaseBlockUI.vue';
 

@@ -21,8 +21,8 @@
 </template>
 
 <script>
-import { findSingle, getHeight, getOffset, getWindowScrollTop, isVisible } from '@primeuix/utils/dom';
-import { isNotEmpty } from '@primeuix/utils/object';
+import { findSingle, getHeight, getOffset, getWindowScrollTop, isVisible } from '@peacepieceuix-compatibility/utils/dom';
+import { isNotEmpty } from '@peacepieceuix-compatibility/utils/object';
 
 export default {
     props: ['docs'],

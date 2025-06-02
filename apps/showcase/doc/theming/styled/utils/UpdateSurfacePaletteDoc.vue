@@ -11,7 +11,7 @@ export default {
         return {
             code: {
                 basic: `
-import { updateSurfacePalette } from '@primeuix/themes';
+import { updateSurfacePalette } from '@peacepieceuix-compatibility/themes';
 
 const changeSurfaces() {
     //changes surfaces both in light and dark mode

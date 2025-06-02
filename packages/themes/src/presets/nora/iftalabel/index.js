@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/nora/iftalabel';
+export { default } from '@peacepieceuix-compatibility/themes/nora/iftalabel';

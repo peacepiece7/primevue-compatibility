@@ -1,1 +1,1 @@
-export * from '@primeuix/themes/types/toggleswitch';
+export * from '@peacepieceuix-compatibility/themes/types/toggleswitch';

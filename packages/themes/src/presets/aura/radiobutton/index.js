@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/aura/radiobutton';
+export { default } from '@peacepieceuix-compatibility/themes/aura/radiobutton';

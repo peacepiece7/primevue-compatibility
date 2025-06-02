@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/checkbox';
+import { style } from '@peacepieceuix-compatibility/styles/checkbox';
 import BaseStyle from '@primevue/core/base/style';
 
 const classes = {

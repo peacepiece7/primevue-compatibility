@@ -25,7 +25,7 @@
 </template>
 
 <script>
-import { addClass, find, removeClass } from '@primeuix/utils/dom';
+import { addClass, find, removeClass } from '@peacepieceuix-compatibility/utils/dom';
 import { defaultOptions } from '@primevue/core/config';
 
 export default {

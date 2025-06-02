@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/nora/iconfield';
+export { default } from '@peacepieceuix-compatibility/themes/nora/iconfield';

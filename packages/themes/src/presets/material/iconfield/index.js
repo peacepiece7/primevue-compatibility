@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/material/iconfield';
+export { default } from '@peacepieceuix-compatibility/themes/material/iconfield';

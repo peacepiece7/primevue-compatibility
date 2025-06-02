@@ -93,7 +93,7 @@
 <script>
 import ChevronLeftIcon from '@peacepiece-compatibility/icons/chevronleft';
 import ChevronRightIcon from '@peacepiece-compatibility/icons/chevronright';
-import { findSingle, focus, getAttribute, getOffset, getWidth } from '@primeuix/utils/dom';
+import { findSingle, focus, getAttribute, getOffset, getWidth } from '@peacepieceuix-compatibility/utils/dom';
 import Ripple from 'primevue/ripple';
 import { mergeProps } from 'vue';
 import BaseTabView from './BaseTabView.vue';

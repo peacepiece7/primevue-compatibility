@@ -23,9 +23,9 @@
 </template>
 
 <script>
-import { cn } from '@primeuix/utils';
-import { find, findSingle } from '@primeuix/utils/dom';
-import { findIndexInList } from '@primeuix/utils/object';
+import { cn } from '@peacepieceuix-compatibility/utils';
+import { find, findSingle } from '@peacepieceuix-compatibility/utils/dom';
+import { findIndexInList } from '@peacepieceuix-compatibility/utils/object';
 import StepperSeparator from '../stepper/StepperSeparator.vue';
 import BaseStepPanel from './BaseStepPanel.vue';
 

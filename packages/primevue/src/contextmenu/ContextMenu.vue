@@ -35,9 +35,9 @@
 </template>
 
 <script>
-import { addStyle, findSingle, focus, getHiddenElementOuterHeight, getHiddenElementOuterWidth, getViewport, isTouchDevice } from '@primeuix/utils/dom';
-import { findLastIndex, isEmpty, isNotEmpty, isPrintableCharacter, resolve } from '@primeuix/utils/object';
-import { ZIndex } from '@primeuix/utils/zindex';
+import { addStyle, findSingle, focus, getHiddenElementOuterHeight, getHiddenElementOuterWidth, getViewport, isTouchDevice } from '@peacepieceuix-compatibility/utils/dom';
+import { findLastIndex, isEmpty, isNotEmpty, isPrintableCharacter, resolve } from '@peacepieceuix-compatibility/utils/object';
+import { ZIndex } from '@peacepieceuix-compatibility/utils/zindex';
 import Portal from 'primevue/portal';
 import BaseContextMenu from './BaseContextMenu.vue';
 import ContextMenuSub from './ContextMenuSub.vue';

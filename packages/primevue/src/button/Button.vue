@@ -16,8 +16,8 @@
 </template>
 
 <script>
-import { cn } from '@primeuix/utils';
-import { isEmpty } from '@primeuix/utils/object';
+import { cn } from '@peacepieceuix-compatibility/utils';
+import { isEmpty } from '@peacepieceuix-compatibility/utils/object';
 import SpinnerIcon from '@peacepiece-compatibility/icons/spinner';
 import Badge from 'primevue/badge';
 import Ripple from 'primevue/ripple';

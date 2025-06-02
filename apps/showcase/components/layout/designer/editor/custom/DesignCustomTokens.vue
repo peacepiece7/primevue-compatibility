@@ -30,7 +30,7 @@
 </template>
 
 <script>
-import { usePreset } from '@primeuix/themes';
+import { usePreset } from '@peacepieceuix-compatibility/themes';
 
 export default {
     inject: ['designerService'],

@@ -1,1 +1,1 @@
-export * from '@primeuix/themes/types/colorpicker';
+export * from '@peacepieceuix-compatibility/themes/types/colorpicker';

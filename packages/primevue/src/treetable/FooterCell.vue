@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import { getNextElementSibling, getOuterWidth, getPreviousElementSibling } from '@primeuix/utils/dom';
+import { getNextElementSibling, getOuterWidth, getPreviousElementSibling } from '@peacepieceuix-compatibility/utils/dom';
 import BaseComponent from '@primevue/core/basecomponent';
 import { getVNodeProp } from '@primevue/core/utils';
 import { mergeProps } from 'vue';

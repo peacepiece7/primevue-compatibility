@@ -1,5 +1,5 @@
-import { addClass, createElement, hasClass, removeClass } from '@primeuix/utils/dom';
-import { uuid } from '@primeuix/utils/uuid';
+import { addClass, createElement, hasClass, removeClass } from '@peacepieceuix-compatibility/utils/dom';
+import { uuid } from '@peacepieceuix-compatibility/utils/uuid';
 import BaseBadgeDirective from './BaseBadgeDirective';
 
 const BadgeDirective = BaseBadgeDirective.extend('badge', {

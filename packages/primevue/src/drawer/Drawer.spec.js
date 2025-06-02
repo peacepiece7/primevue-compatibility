@@ -1,9 +1,9 @@
-import { addClass } from '@primeuix/utils/dom';
+import { addClass } from '@peacepieceuix-compatibility/utils/dom';
 import { mount } from '@vue/test-utils';
 import PrimeVue from 'primevue/config';
 import { describe, expect, it, vi } from 'vitest';
 import Drawer from './Drawer.vue';
-vi.mock('@primeuix/utils/dom', async (getModule) => {
+vi.mock('@peacepieceuix-compatibility/utils/dom', async (getModule) => {
     const original = await getModule();
 
     return {

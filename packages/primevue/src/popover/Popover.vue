@@ -14,9 +14,9 @@
 </template>
 
 <script>
-import { $dt } from '@primeuix/styled';
-import { absolutePosition, addClass, addStyle, focus, getOffset, isClient, isTouchDevice, setAttribute } from '@primeuix/utils/dom';
-import { ZIndex } from '@primeuix/utils/zindex';
+import { $dt } from '@peacepieceuix-compatibility/styled';
+import { absolutePosition, addClass, addStyle, focus, getOffset, isClient, isTouchDevice, setAttribute } from '@peacepieceuix-compatibility/utils/dom';
+import { ZIndex } from '@peacepieceuix-compatibility/utils/zindex';
 import { ConnectedOverlayScrollHandler } from '@primevue/core/utils';
 import FocusTrap from 'primevue/focustrap';
 import OverlayEventBus from 'primevue/overlayeventbus';

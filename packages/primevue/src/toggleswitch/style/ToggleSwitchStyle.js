@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/toggleswitch';
+import { style } from '@peacepieceuix-compatibility/styles/toggleswitch';
 import BaseStyle from '@primevue/core/base/style';
 
 const inlineStyles = {

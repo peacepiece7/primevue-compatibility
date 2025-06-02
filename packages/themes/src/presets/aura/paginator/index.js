@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/aura/paginator';
+export { default } from '@peacepieceuix-compatibility/themes/aura/paginator';

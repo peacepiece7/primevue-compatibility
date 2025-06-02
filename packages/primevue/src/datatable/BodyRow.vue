@@ -95,7 +95,7 @@
 <script>
 import ChevronDownIcon from '@peacepiece-compatibility/icons/chevrondown';
 import ChevronRightIcon from '@peacepiece-compatibility/icons/chevronright';
-import { equals, isNotEmpty, resolveFieldData } from '@primeuix/utils/object';
+import { equals, isNotEmpty, resolveFieldData } from '@peacepieceuix-compatibility/utils/object';
 import BaseComponent from '@primevue/core/basecomponent';
 import { getVNodeProp } from '@primevue/core/utils';
 import { mergeProps } from 'vue';

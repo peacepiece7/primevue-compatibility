@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/stepper';
+import { style } from '@peacepieceuix-compatibility/styles/stepper';
 import BaseStyle from '@primevue/core/base/style';
 
 const classes = {

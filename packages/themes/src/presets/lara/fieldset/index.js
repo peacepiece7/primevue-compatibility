@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/lara/fieldset';
+export { default } from '@peacepieceuix-compatibility/themes/lara/fieldset';

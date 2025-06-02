@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/nora/dataview';
+export { default } from '@peacepieceuix-compatibility/themes/nora/dataview';

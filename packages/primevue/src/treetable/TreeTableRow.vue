@@ -70,8 +70,8 @@
 </template>
 
 <script>
-import { find, findSingle, focus, getAttribute, isClickable } from '@primeuix/utils/dom';
-import { equals, resolveFieldData } from '@primeuix/utils/object';
+import { find, findSingle, focus, getAttribute, isClickable } from '@peacepieceuix-compatibility/utils/dom';
+import { equals, resolveFieldData } from '@peacepieceuix-compatibility/utils/object';
 import BaseComponent from '@primevue/core/basecomponent';
 import { getVNodeProp } from '@primevue/core/utils';
 import BodyCell from './BodyCell.vue';

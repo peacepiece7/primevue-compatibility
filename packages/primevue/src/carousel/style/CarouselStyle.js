@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/carousel';
+import { style } from '@peacepieceuix-compatibility/styles/carousel';
 import BaseStyle from '@primevue/core/base/style';
 
 const classes = {

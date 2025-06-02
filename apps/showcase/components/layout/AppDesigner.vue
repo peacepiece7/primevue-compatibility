@@ -34,7 +34,7 @@
 
 <script>
 import EventBus from '@/app/AppEventBus';
-import { $dt, usePreset } from '@primeuix/themes';
+import { $dt, usePreset } from '@peacepieceuix-compatibility/themes';
 
 export default {
     setup() {

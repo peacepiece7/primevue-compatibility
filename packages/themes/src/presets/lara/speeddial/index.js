@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/lara/speeddial';
+export { default } from '@peacepieceuix-compatibility/themes/lara/speeddial';

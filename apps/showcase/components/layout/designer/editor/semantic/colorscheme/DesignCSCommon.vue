@@ -80,7 +80,7 @@
 
 <script>
 import EventBus from '@/app/AppEventBus';
-import { palette } from '@primeuix/themes';
+import { palette } from '@peacepieceuix-compatibility/themes';
 
 export default {
     inject: ['$colorScheme', 'designerService'],

@@ -74,9 +74,9 @@
 <script>
 import EyeIcon from '@peacepiece-compatibility/icons/eye';
 import EyeSlashIcon from '@peacepiece-compatibility/icons/eyeslash';
-import { cn } from '@primeuix/utils';
-import { absolutePosition, addStyle, getOuterWidth, isTouchDevice, relativePosition } from '@primeuix/utils/dom';
-import { ZIndex } from '@primeuix/utils/zindex';
+import { cn } from '@peacepieceuix-compatibility/utils';
+import { absolutePosition, addStyle, getOuterWidth, isTouchDevice, relativePosition } from '@peacepieceuix-compatibility/utils/dom';
+import { ZIndex } from '@peacepieceuix-compatibility/utils/zindex';
 import { ConnectedOverlayScrollHandler } from '@primevue/core/utils';
 import InputText from 'primevue/inputtext';
 import OverlayEventBus from 'primevue/overlayeventbus';

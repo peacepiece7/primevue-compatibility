@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/datepicker';
+import { style } from '@peacepieceuix-compatibility/styles/datepicker';
 import BaseStyle from '@primevue/core/base/style';
 
 const inlineStyles = {

@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/material/slider';
+export { default } from '@peacepieceuix-compatibility/themes/material/slider';

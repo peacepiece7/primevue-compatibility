@@ -11,8 +11,8 @@
 </template>
 
 <script>
-import { getWindowScrollTop } from '@primeuix/utils/dom';
-import { ZIndex } from '@primeuix/utils/zindex';
+import { getWindowScrollTop } from '@peacepieceuix-compatibility/utils/dom';
+import { ZIndex } from '@peacepieceuix-compatibility/utils/zindex';
 import ChevronUpIcon from '@peacepiece-compatibility/icons/chevronup';
 import Button from 'primevue/button';
 import BaseScrollTop from './BaseScrollTop.vue';

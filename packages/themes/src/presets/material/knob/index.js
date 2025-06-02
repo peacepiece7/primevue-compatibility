@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/material/knob';
+export { default } from '@peacepieceuix-compatibility/themes/material/knob';

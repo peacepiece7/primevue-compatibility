@@ -1,1 +1,1 @@
-export * from '@primeuix/themes/types/skeleton';
+export * from '@peacepieceuix-compatibility/themes/types/skeleton';

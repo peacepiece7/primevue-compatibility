@@ -13,9 +13,9 @@
     "bugs": {
         "url": "https://github.com/primefaces/primevue/issues"
     },
-    "main": "./src/index.js",
-    "module": "./src/index.js",
-    "types": "./src/index.d.ts",
+    "main": "./dist/index.mjs",
+    "module": "./dist/index.mjs",
+    "types": "./dist/index.d.mts",
     "exports": {
         ".": "./src/index.js",
         "./aura": "./src/presets/aura/index.js",
@@ -82,8 +82,8 @@
         "dev:link": "pnpm link --global && npm link"
     },
     "dependencies": {
-        "@primeuix/styled": "catalog:",
-        "@primeuix/themes": "catalog:"
+        "@peacepieceuix-compatibility/styled": "catalog:",
+        "@peacepieceuix-compatibility/themes": "catalog:"
     },
     "engines": {
         "node": ">=12.11.0"

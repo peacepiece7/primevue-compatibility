@@ -1,1 +1,1 @@
-export * from '@primeuix/themes/types/toast';
+export * from '@peacepieceuix-compatibility/themes/types/toast';

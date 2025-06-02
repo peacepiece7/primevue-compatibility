@@ -1,1 +1,1 @@
-export * from '@primeuix/themes/types/divider';
+export * from '@peacepieceuix-compatibility/themes/types/divider';

@@ -1,1 +1,1 @@
-export * from '@primeuix/themes/types/multiselect';
+export * from '@peacepieceuix-compatibility/themes/types/multiselect';

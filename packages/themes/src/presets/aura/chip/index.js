@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/aura/chip';
+export { default } from '@peacepieceuix-compatibility/themes/aura/chip';

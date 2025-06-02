@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import { cn } from '@primeuix/utils';
+import { cn } from '@peacepieceuix-compatibility/utils';
 import BaseSkeleton from './BaseSkeleton.vue';
 
 export default {

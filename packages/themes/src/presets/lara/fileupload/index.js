@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/lara/fileupload';
+export { default } from '@peacepieceuix-compatibility/themes/lara/fileupload';

@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/blockui';
+import { style } from '@peacepieceuix-compatibility/styles/blockui';
 import BaseStyle from '@primevue/core/base/style';
 
 const classes = {

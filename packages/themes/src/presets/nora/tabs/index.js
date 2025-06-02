@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/nora/tabs';
+export { default } from '@peacepieceuix-compatibility/themes/nora/tabs';

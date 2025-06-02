@@ -22,7 +22,7 @@ export default {
             code1: {
                 basic: `
 import PrimeVue from 'primevue/config';
-import Aura from '@primeuix/themes/aura';
+import Aura from '@peacepieceuix-compatibility/themes/aura';
 
 const app = createApp(App);
 

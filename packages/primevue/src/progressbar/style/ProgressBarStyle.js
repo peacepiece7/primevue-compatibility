@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/progressbar';
+import { style } from '@peacepieceuix-compatibility/styles/progressbar';
 import BaseStyle from '@primevue/core/base/style';
 
 const classes = {

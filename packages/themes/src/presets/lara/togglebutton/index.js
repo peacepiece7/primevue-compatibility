@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/lara/togglebutton';
+export { default } from '@peacepieceuix-compatibility/themes/lara/togglebutton';

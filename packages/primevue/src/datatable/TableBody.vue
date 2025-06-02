@@ -70,9 +70,9 @@
 </template>
 
 <script>
-import { cn } from '@primeuix/utils';
-import { getOuterHeight } from '@primeuix/utils/dom';
-import { resolveFieldData } from '@primeuix/utils/object';
+import { cn } from '@peacepieceuix-compatibility/utils';
+import { getOuterHeight } from '@peacepieceuix-compatibility/utils/dom';
+import { resolveFieldData } from '@peacepieceuix-compatibility/utils/object';
 import BaseComponent from '@primevue/core/basecomponent';
 import BodyRow from './BodyRow.vue';
 

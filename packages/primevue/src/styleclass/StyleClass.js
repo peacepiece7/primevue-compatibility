@@ -1,4 +1,4 @@
-import { addClass, hasClass, removeClass } from '@primeuix/utils/dom';
+import { addClass, hasClass, removeClass } from '@peacepieceuix-compatibility/utils/dom';
 import BaseStyleClass from './BaseStyleClass';
 
 const StyleClass = BaseStyleClass.extend('styleclass', {

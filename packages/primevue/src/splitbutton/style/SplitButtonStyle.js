@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/splitbutton';
+import { style } from '@peacepieceuix-compatibility/styles/splitbutton';
 import BaseStyle from '@primevue/core/base/style';
 
 const classes = {

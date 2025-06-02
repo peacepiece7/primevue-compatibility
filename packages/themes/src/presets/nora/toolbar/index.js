@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/nora/toolbar';
+export { default } from '@peacepieceuix-compatibility/themes/nora/toolbar';

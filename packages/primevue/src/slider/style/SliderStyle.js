@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/slider';
+import { style } from '@peacepieceuix-compatibility/styles/slider';
 import BaseStyle from '@primevue/core/base/style';
 
 const inlineStyles = {

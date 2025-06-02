@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/nora/treeselect';
+export { default } from '@peacepieceuix-compatibility/themes/nora/treeselect';

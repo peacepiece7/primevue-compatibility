@@ -1,6 +1,6 @@
-import { css as Css, Theme, dt } from '@primeuix/styled';
-import { style } from '@primeuix/styles/base';
-import { isNotEmpty, minifyCSS, resolve } from '@primeuix/utils/object';
+import { css as Css, Theme, dt } from '@peacepieceuix-compatibility/styled';
+import { style } from '@peacepieceuix-compatibility/styles/base';
+import { isNotEmpty, minifyCSS, resolve } from '@peacepieceuix-compatibility/utils/object';
 import { useStyle } from '@primevue/core/usestyle';
 
 const css = ({ dt }) => `

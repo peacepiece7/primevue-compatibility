@@ -1,5 +1,5 @@
 <script>
-import { $dt } from '@primeuix/styled';
+import { $dt } from '@peacepieceuix-compatibility/styled';
 import BaseEditableHolder from '@primevue/core/baseeditableholder';
 import KnobStyle from 'primevue/knob/style';
 

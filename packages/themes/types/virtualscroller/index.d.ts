@@ -1,1 +1,1 @@
-export * from '@primeuix/themes/types/virtualscroller';
+export * from '@peacepieceuix-compatibility/themes/types/virtualscroller';

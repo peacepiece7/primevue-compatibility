@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/nora/speeddial';
+export { default } from '@peacepieceuix-compatibility/themes/nora/speeddial';

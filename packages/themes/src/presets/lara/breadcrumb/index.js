@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/lara/breadcrumb';
+export { default } from '@peacepieceuix-compatibility/themes/lara/breadcrumb';

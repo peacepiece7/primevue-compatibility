@@ -1,5 +1,5 @@
-import { Theme, ThemeService } from '@primeuix/styled';
-import { mergeKeys } from '@primeuix/utils';
+import { Theme, ThemeService } from '@peacepieceuix-compatibility/styled';
+import { mergeKeys } from '@peacepieceuix-compatibility/utils';
 import { FilterMatchMode } from '@primevue/core/api';
 import BaseStyle from '@primevue/core/base/style';
 import PrimeVueService from '@primevue/core/service';

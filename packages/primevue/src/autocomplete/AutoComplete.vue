@@ -207,10 +207,10 @@
 <script>
 import ChevronDownIcon from '@peacepiece-compatibility/icons/chevrondown';
 import SpinnerIcon from '@peacepiece-compatibility/icons/spinner';
-import { cn } from '@primeuix/utils';
-import { absolutePosition, addStyle, findSingle, focus, getOuterWidth, isTouchDevice, relativePosition } from '@primeuix/utils/dom';
-import { equals, findLastIndex, isEmpty, isNotEmpty, resolveFieldData } from '@primeuix/utils/object';
-import { ZIndex } from '@primeuix/utils/zindex';
+import { cn } from '@peacepieceuix-compatibility/utils';
+import { absolutePosition, addStyle, findSingle, focus, getOuterWidth, isTouchDevice, relativePosition } from '@peacepieceuix-compatibility/utils/dom';
+import { equals, findLastIndex, isEmpty, isNotEmpty, resolveFieldData } from '@peacepieceuix-compatibility/utils/object';
+import { ZIndex } from '@peacepieceuix-compatibility/utils/zindex';
 import { ConnectedOverlayScrollHandler } from '@primevue/core/utils';
 import Chip from 'primevue/chip';
 import InputText from 'primevue/inputtext';

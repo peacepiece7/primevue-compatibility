@@ -1,1 +1,1 @@
-export * from '@primeuix/themes/types/knob';
+export * from '@peacepieceuix-compatibility/themes/types/knob';

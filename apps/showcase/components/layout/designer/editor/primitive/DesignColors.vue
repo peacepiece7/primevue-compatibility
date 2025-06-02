@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import { palette } from '@primeuix/themes';
+import { palette } from '@peacepieceuix-compatibility/themes';
 
 export default {
     inject: ['designerService'],

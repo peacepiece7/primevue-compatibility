@@ -1,5 +1,5 @@
 <script>
-import { isNotEmpty } from '@primeuix/utils';
+import { isNotEmpty } from '@peacepieceuix-compatibility/utils';
 import BaseComponent from '@primevue/core/basecomponent';
 
 export default {
@@ -94,7 +94,7 @@ export default {
 
             this.formField.onChange?.({ originalEvent: event, value });
         },
-        // @todo move to @primeuix/utils
+        // @todo move to @peacepieceuix-compatibility/utils
         findNonEmpty(...values) {
             return values.find(isNotEmpty);
         }

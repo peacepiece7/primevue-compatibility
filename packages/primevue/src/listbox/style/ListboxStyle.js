@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/listbox';
+import { style } from '@peacepieceuix-compatibility/styles/listbox';
 import BaseStyle from '@primevue/core/base/style';
 
 const classes = {

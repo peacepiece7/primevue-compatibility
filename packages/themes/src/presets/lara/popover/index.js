@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/lara/popover';
+export { default } from '@peacepieceuix-compatibility/themes/lara/popover';

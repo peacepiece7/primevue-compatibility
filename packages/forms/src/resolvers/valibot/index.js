@@ -1,1 +1,1 @@
-export * from '@primeuix/forms/resolvers/valibot';
+export * from '@peacepieceuix-compatibility/forms/resolvers/valibot';

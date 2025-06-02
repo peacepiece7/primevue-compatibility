@@ -1,1 +1,1 @@
-export * from '@primeuix/themes/types/tabmenu';
+export * from '@peacepieceuix-compatibility/themes/types/tabmenu';

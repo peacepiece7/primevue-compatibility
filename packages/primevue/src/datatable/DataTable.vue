@@ -324,7 +324,7 @@
 import ArrowDownIcon from '@peacepiece-compatibility/icons/arrowdown';
 import ArrowUpIcon from '@peacepiece-compatibility/icons/arrowup';
 import SpinnerIcon from '@peacepiece-compatibility/icons/spinner';
-import { cn } from '@primeuix/utils';
+import { cn } from '@peacepieceuix-compatibility/utils';
 import {
 addClass,
 addStyle,
@@ -344,8 +344,8 @@ isClickable,
 isRTL,
 removeClass,
 setAttribute
-} from '@primeuix/utils/dom';
-import { equals, findIndexInList, isEmpty, isNotEmpty, localeComparator, reorderArray, resolveFieldData, sort } from '@primeuix/utils/object';
+} from '@peacepieceuix-compatibility/utils/dom';
+import { equals, findIndexInList, isEmpty, isNotEmpty, localeComparator, reorderArray, resolveFieldData, sort } from '@peacepieceuix-compatibility/utils/object';
 import { FilterMatchMode, FilterOperator, FilterService } from '@primevue/core/api';
 import { HelperSet, getVNodeProp } from '@primevue/core/utils';
 import Paginator from 'primevue/paginator';

@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/floatlabel';
+import { style } from '@peacepieceuix-compatibility/styles/floatlabel';
 import BaseStyle from '@primevue/core/base/style';
 
 const classes = {

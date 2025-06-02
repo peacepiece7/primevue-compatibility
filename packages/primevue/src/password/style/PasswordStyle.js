@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/password';
+import { style } from '@peacepieceuix-compatibility/styles/password';
 import BaseStyle from '@primevue/core/base/style';
 
 const inlineStyles = {

@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/image';
+import { style } from '@peacepieceuix-compatibility/styles/image';
 import BaseStyle from '@primevue/core/base/style';
 
 const classes = {

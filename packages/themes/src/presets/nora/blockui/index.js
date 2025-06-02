@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/nora/blockui';
+export { default } from '@peacepieceuix-compatibility/themes/nora/blockui';

@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/lara/picklist';
+export { default } from '@peacepieceuix-compatibility/themes/lara/picklist';

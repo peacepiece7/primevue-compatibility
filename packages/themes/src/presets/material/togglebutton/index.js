@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/material/togglebutton';
+export { default } from '@peacepieceuix-compatibility/themes/material/togglebutton';

@@ -1,1 +1,1 @@
-export * from '@primeuix/themes/types/radiobutton';
+export * from '@peacepieceuix-compatibility/themes/types/radiobutton';

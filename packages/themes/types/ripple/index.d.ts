@@ -1,1 +1,1 @@
-export * from '@primeuix/themes/types/ripple';
+export * from '@peacepieceuix-compatibility/themes/types/ripple';

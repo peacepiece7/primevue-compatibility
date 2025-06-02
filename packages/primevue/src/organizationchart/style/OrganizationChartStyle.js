@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/organizationchart';
+import { style } from '@peacepieceuix-compatibility/styles/organizationchart';
 import BaseStyle from '@primevue/core/base/style';
 
 const classes = {

@@ -45,7 +45,7 @@
 <script>
 import MinusIcon from '@peacepiece-compatibility/icons/minus';
 import PlusIcon from '@peacepiece-compatibility/icons/plus';
-import { cn } from '@primeuix/utils';
+import { cn } from '@peacepieceuix-compatibility/utils';
 import Button from 'primevue/button';
 import Ripple from 'primevue/ripple';
 import BasePanel from './BasePanel.vue';

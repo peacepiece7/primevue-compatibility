@@ -99,7 +99,7 @@
         "dev:link": "pnpm link --global && npm link"
     },
     "dependencies": {
-        "@primeuix/utils": "catalog:",
+        "@peacepieceuix-compatibility/utils": "catalog:",
         "@peacepiece-compatibility/core": "workspace:*"
     },
     "engines": {

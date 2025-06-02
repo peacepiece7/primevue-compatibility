@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/material/autocomplete';
+export { default } from '@peacepieceuix-compatibility/themes/material/autocomplete';

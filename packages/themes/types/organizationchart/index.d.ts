@@ -1,1 +1,1 @@
-export * from '@primeuix/themes/types/organizationchart';
+export * from '@peacepieceuix-compatibility/themes/types/organizationchart';

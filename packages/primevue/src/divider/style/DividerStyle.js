@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/divider';
+import { style } from '@peacepieceuix-compatibility/styles/divider';
 import BaseStyle from '@primevue/core/base/style';
 
 /* Position */

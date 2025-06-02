@@ -1,4 +1,4 @@
-import { isClient } from '@primeuix/utils/dom';
+import { isClient } from '@peacepieceuix-compatibility/utils/dom';
 
 const highlightElement = (codeElement: HTMLElement) => {
     if (isClient()) {

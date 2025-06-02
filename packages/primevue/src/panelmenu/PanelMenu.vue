@@ -55,8 +55,8 @@
 <script>
 import ChevronDownIcon from '@peacepiece-compatibility/icons/chevrondown';
 import ChevronRightIcon from '@peacepiece-compatibility/icons/chevronright';
-import { findSingle, focus, getAttribute } from '@primeuix/utils/dom';
-import { equals, isNotEmpty, resolve } from '@primeuix/utils/object';
+import { findSingle, focus, getAttribute } from '@peacepieceuix-compatibility/utils/dom';
+import { equals, isNotEmpty, resolve } from '@peacepieceuix-compatibility/utils/object';
 import { mergeProps } from 'vue';
 import BasePanelMenu from './BasePanelMenu.vue';
 import PanelMenuList from './PanelMenuList.vue';

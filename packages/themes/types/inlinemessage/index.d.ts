@@ -1,1 +1,1 @@
-export * from '@primeuix/themes/types/inlinemessage';
+export * from '@peacepieceuix-compatibility/themes/types/inlinemessage';

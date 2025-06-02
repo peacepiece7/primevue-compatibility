@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/aura/contextmenu';
+export { default } from '@peacepieceuix-compatibility/themes/aura/contextmenu';

@@ -21,7 +21,7 @@
 </template>
 
 <script>
-import { cn } from '@primeuix/utils';
+import { cn } from '@peacepieceuix-compatibility/utils';
 import TimesIcon from '@peacepiece-compatibility/icons/times';
 import Ripple from 'primevue/ripple';
 import BaseMessage from './BaseMessage.vue';

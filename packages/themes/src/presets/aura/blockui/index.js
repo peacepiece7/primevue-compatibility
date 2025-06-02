@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/aura/blockui';
+export { default } from '@peacepieceuix-compatibility/themes/aura/blockui';

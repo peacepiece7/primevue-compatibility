@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/lara/splitter';
+export { default } from '@peacepieceuix-compatibility/themes/lara/splitter';

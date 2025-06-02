@@ -11,7 +11,7 @@ export default {
         return {
             code: {
                 basic: `
-import { updatePreset } from '@primeuix/themes';
+import { updatePreset } from '@peacepieceuix-compatibility/themes';
 
 const changePrimaryColor() {
     updatePreset({

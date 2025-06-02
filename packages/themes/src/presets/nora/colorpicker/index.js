@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/nora/colorpicker';
+export { default } from '@peacepieceuix-compatibility/themes/nora/colorpicker';

@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/aura/tabmenu';
+export { default } from '@peacepieceuix-compatibility/themes/aura/tabmenu';

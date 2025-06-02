@@ -1,5 +1,5 @@
-import { style } from '@primeuix/styles/badge';
-import { isEmpty, isNotEmpty } from '@primeuix/utils/object';
+import { style } from '@peacepieceuix-compatibility/styles/badge';
+import { isEmpty, isNotEmpty } from '@peacepieceuix-compatibility/utils/object';
 import BaseStyle from '@primevue/core/base/style';
 
 const classes = {

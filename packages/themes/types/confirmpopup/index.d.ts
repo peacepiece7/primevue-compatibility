@@ -1,1 +1,1 @@
-export * from '@primeuix/themes/types/confirmpopup';
+export * from '@peacepieceuix-compatibility/themes/types/confirmpopup';

@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/material/steps';
+export { default } from '@peacepieceuix-compatibility/themes/material/steps';

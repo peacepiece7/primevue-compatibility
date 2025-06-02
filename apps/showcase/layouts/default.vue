@@ -21,7 +21,7 @@
 </template>
 
 <script>
-import { blockBodyScroll, unblockBodyScroll } from '@primeuix/utils/dom';
+import { blockBodyScroll, unblockBodyScroll } from '@peacepieceuix-compatibility/utils/dom';
 
 export default {
     data() {

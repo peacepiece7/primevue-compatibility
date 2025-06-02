@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import { uuid } from '@primeuix/utils';
+import { uuid } from '@peacepieceuix-compatibility/utils';
 import Dialog from 'primevue/dialog';
 import DynamicDialogEventBus from 'primevue/dynamicdialogeventbus';
 import BaseDynamicDialog from './BaseDynamicDialog.vue';

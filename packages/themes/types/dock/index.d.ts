@@ -1,1 +1,1 @@
-export * from '@primeuix/themes/types/dock';
+export * from '@peacepieceuix-compatibility/themes/types/dock';

@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/material/splitter';
+export { default } from '@peacepieceuix-compatibility/themes/material/splitter';

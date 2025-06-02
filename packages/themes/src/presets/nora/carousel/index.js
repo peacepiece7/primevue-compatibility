@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/nora/carousel';
+export { default } from '@peacepieceuix-compatibility/themes/nora/carousel';

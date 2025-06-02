@@ -163,8 +163,8 @@
 **Implemented New Features and Enhancements:**
 
 - Eslint 9 version update changes [\#7173](https://github.com/primefaces/primevue/issues/7173)
-- Port all styles to `@primeuix/styles` [\#7153](https://github.com/primefaces/primevue/issues/7153)
-- Port all themes to `@primeuix/themes` [\#7152](https://github.com/primefaces/primevue/issues/7152)
+- Port all styles to `@peacepieceuix-compatibility/styles` [\#7153](https://github.com/primefaces/primevue/issues/7153)
+- Port all themes to `@peacepieceuix-compatibility/themes` [\#7152](https://github.com/primefaces/primevue/issues/7152)
 - TreeTable: node added to column context options [\#7150](https://github.com/primefaces/primevue/issues/7150)
 - Select and DatePicker is missing resize event [\#7104](https://github.com/primefaces/primevue/issues/7104)
 - Improve BaseDirective structure [\#7096](https://github.com/primefaces/primevue/issues/7096)

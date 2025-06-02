@@ -1,1 +1,1 @@
-export * from '@primeuix/themes/types/treeselect';
+export * from '@peacepieceuix-compatibility/themes/types/treeselect';

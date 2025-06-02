@@ -203,8 +203,8 @@
 </template>
 
 <script>
-import { addStyle, clearSelection, find, getAttribute, getIndex, getOffset, getOuterWidth, isRTL, setAttribute } from '@primeuix/utils/dom';
-import { localeComparator, resolveFieldData, sort } from '@primeuix/utils/object';
+import { addStyle, clearSelection, find, getAttribute, getIndex, getOffset, getOuterWidth, isRTL, setAttribute } from '@peacepieceuix-compatibility/utils/dom';
+import { localeComparator, resolveFieldData, sort } from '@peacepieceuix-compatibility/utils/object';
 import { FilterService } from '@primevue/core/api';
 import { getVNodeProp, HelperSet } from '@primevue/core/utils';
 import SpinnerIcon from '@peacepiece-compatibility/icons/spinner';
