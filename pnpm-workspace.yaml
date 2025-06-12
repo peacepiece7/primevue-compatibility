@@ -3,11 +3,11 @@ packages:
     - 'apps/*'
 
 catalog:
-    '@peacepieceuix-compatibility/styled': ^0.6.4
-    '@peacepieceuix-compatibility/utils': ^0.5.4
-    '@peacepieceuix-compatibility/forms': ^0.0.5
-    '@peacepieceuix-compatibility/styles': ^1.1.2
-    '@peacepieceuix-compatibility/themes': ^1.1.2
+    '@peacepieceuix-compatibility/styled': ^0.6.5
+    '@peacepieceuix-compatibility/utils': ^0.5.5
+    '@peacepieceuix-compatibility/forms': ^0.0.6
+    '@peacepieceuix-compatibility/styles': ^1.1.3
+    '@peacepieceuix-compatibility/themes': ^1.1.3
     'tailwindcss-primeui': ^0.6.1
     'primeicons': ^7.0.0
 
