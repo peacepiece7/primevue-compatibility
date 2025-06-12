@@ -203,11 +203,11 @@
 </template>
 
 <script>
+import SpinnerIcon from '@peacepiece-compatibility/icons/spinner';
 import { addStyle, clearSelection, find, getAttribute, getIndex, getOffset, getOuterWidth, isRTL, setAttribute } from '@peacepieceuix-compatibility/utils/dom';
 import { localeComparator, resolveFieldData, sort } from '@peacepieceuix-compatibility/utils/object';
 import { FilterService } from '@primevue/core/api';
 import { getVNodeProp, HelperSet } from '@primevue/core/utils';
-import SpinnerIcon from '@peacepiece-compatibility/icons/spinner';
 import Paginator from 'primevue/paginator';
 import BaseTreeTable from './BaseTreeTable.vue';
 import FooterCell from './FooterCell.vue';
@@ -800,7 +800,6 @@ export default {
         },
         createStyleElement() {
             this.styleElement = document.createElement('style');
-            this.styleElement.type = 'text/css';
             setAttribute(this.styleElement, 'nonce', this.$primevue?.config?.csp?.nonce);
             document.head.appendChild(this.styleElement);
         },

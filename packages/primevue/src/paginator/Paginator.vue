@@ -199,7 +199,6 @@ export default {
         createStyle() {
             if (this.hasBreakpoints() && !this.isUnstyled) {
                 this.styleElement = document.createElement('style');
-                this.styleElement.type = 'text/css';
                 setAttribute(this.styleElement, 'nonce', this.$primevue?.config?.csp?.nonce);
                 document.body.appendChild(this.styleElement);
 

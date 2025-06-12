@@ -326,24 +326,24 @@ import ArrowUpIcon from '@peacepiece-compatibility/icons/arrowup';
 import SpinnerIcon from '@peacepiece-compatibility/icons/spinner';
 import { cn } from '@peacepieceuix-compatibility/utils';
 import {
-addClass,
-addStyle,
-clearSelection,
-exportCSV,
-find,
-findSingle,
-focus,
-getAttribute,
-getHiddenElementOuterHeight,
-getHiddenElementOuterWidth,
-getIndex,
-getOffset,
-getOuterHeight,
-getOuterWidth,
-isClickable,
-isRTL,
-removeClass,
-setAttribute
+    addClass,
+    addStyle,
+    clearSelection,
+    exportCSV,
+    find,
+    findSingle,
+    focus,
+    getAttribute,
+    getHiddenElementOuterHeight,
+    getHiddenElementOuterWidth,
+    getIndex,
+    getOffset,
+    getOuterHeight,
+    getOuterWidth,
+    isClickable,
+    isRTL,
+    removeClass,
+    setAttribute
 } from '@peacepieceuix-compatibility/utils/dom';
 import { equals, findIndexInList, isEmpty, isNotEmpty, localeComparator, reorderArray, resolveFieldData, sort } from '@peacepieceuix-compatibility/utils/object';
 import { FilterMatchMode, FilterOperator, FilterService } from '@primevue/core/api';
@@ -2009,7 +2009,6 @@ export default {
         },
         createStyleElement() {
             this.styleElement = document.createElement('style');
-            this.styleElement.type = 'text/css';
             setAttribute(this.styleElement, 'nonce', this.$primevue?.config?.csp?.nonce);
             document.head.appendChild(this.styleElement);
         },

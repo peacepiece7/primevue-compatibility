@@ -2786,7 +2786,6 @@ export default {
             if (this.numberOfMonths > 1 && this.responsiveOptions && !this.isUnstyled) {
                 if (!this.responsiveStyleElement) {
                     this.responsiveStyleElement = document.createElement('style');
-                    this.responsiveStyleElement.type = 'text/css';
                     setAttribute(this.responsiveStyleElement, 'nonce', this.$primevue?.config?.csp?.nonce);
                     document.body.appendChild(this.responsiveStyleElement);
                 }

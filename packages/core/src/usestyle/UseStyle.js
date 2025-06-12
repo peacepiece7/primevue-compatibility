@@ -49,7 +49,6 @@ export function useStyle(css, options = {}) {
             cssRef.value = _css || css;
 
             setAttributes(styleRef.value, {
-                type: 'text/css',
                 id: _id,
                 media,
                 nonce: _nonce

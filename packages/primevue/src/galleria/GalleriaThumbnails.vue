@@ -421,9 +421,9 @@ export default {
             }
         },
         changePageOnTouch(e, diff) {
-            const touchThreshold = 10
+            const touchThreshold = 10;
 
-            if(Math.abs(diff) < touchThreshold) {
+            if (Math.abs(diff) < touchThreshold) {
                 // only a click/tap
                 return;
             }
@@ -441,7 +441,6 @@ export default {
         createStyle() {
             if (!this.thumbnailsStyle) {
                 this.thumbnailsStyle = document.createElement('style');
-                this.thumbnailsStyle.type = 'text/css';
                 setAttribute(this.thumbnailsStyle, 'nonce', this.$primevue?.config?.csp?.nonce);
                 document.body.appendChild(this.thumbnailsStyle);
             }
