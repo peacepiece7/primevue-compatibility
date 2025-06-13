@@ -10,7 +10,7 @@
 
 <script setup lang="ts">
 import Menu from '@/volt/Menu.vue';
-import { useToast } from 'primevue/usetoast';
+import { useToast } from '@peacepiece-compatibility/primevue/usetoast';
 import { ref } from 'vue';
 
 const toast = useToast();

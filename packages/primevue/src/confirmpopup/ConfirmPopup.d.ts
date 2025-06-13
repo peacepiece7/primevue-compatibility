@@ -9,9 +9,9 @@
  */
 import type { DefineComponent, DesignToken, EmitFn, PassThrough } from '@primevue/core';
 import type { ComponentHooks } from '@primevue/core/basecomponent';
-import { ButtonPassThroughOptions } from 'primevue/button';
-import { ConfirmationOptions } from 'primevue/confirmationoptions';
-import type { PassThroughOptions } from 'primevue/passthrough';
+import { ButtonPassThroughOptions } from '@peacepiece-compatibility/primevue/button';
+import { ConfirmationOptions } from '@peacepiece-compatibility/primevue/confirmationoptions';
+import type { PassThroughOptions } from '@peacepiece-compatibility/primevue/passthrough';
 import { TransitionProps, VNode } from 'vue';
 
 export declare type ConfirmPopupPassThroughOptionType = ConfirmPopupPassThroughAttributes | ((options: ConfirmPopupPassThroughMethodOptions) => ConfirmPopupPassThroughAttributes | string) | string | null | undefined;

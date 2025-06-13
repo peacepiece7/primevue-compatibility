@@ -76,7 +76,7 @@ import ChevronDownIcon from '@peacepiece-compatibility/icons/chevrondown';
 import ChevronRightIcon from '@peacepiece-compatibility/icons/chevronright';
 import { isNotEmpty, resolve } from '@peacepieceuix-compatibility/utils/object';
 import BaseComponent from '@primevue/core/basecomponent';
-import Ripple from 'primevue/ripple';
+import Ripple from '@peacepiece-compatibility/primevue/ripple';
 import { mergeProps } from 'vue';
 
 export default {

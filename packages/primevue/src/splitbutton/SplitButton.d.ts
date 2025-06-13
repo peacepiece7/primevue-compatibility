@@ -9,10 +9,10 @@
  */
 import type { DefineComponent, DesignToken, EmitFn, HintedString, PassThrough } from '@primevue/core';
 import type { ComponentHooks } from '@primevue/core/basecomponent';
-import type { ButtonPassThroughOptions } from 'primevue/button';
-import type { MenuItem } from 'primevue/menuitem';
-import type { PassThroughOptions } from 'primevue/passthrough';
-import type { TieredMenuPassThroughOptions, TieredMenuRouterBindProps } from 'primevue/tieredmenu';
+import type { ButtonPassThroughOptions } from '@peacepiece-compatibility/primevue/button';
+import type { MenuItem } from '@peacepiece-compatibility/primevue/menuitem';
+import type { PassThroughOptions } from '@peacepiece-compatibility/primevue/passthrough';
+import type { TieredMenuPassThroughOptions, TieredMenuRouterBindProps } from '@peacepiece-compatibility/primevue/tieredmenu';
 import { ButtonHTMLAttributes, VNode } from 'vue';
 
 export declare type SplitButtonPassThroughOptionType = SplitButtonPassThroughAttributes | ((options: SplitButtonPassThroughMethodOptions) => SplitButtonPassThroughAttributes | string) | string | null | undefined;

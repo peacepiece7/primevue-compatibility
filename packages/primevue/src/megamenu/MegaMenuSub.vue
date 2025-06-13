@@ -78,7 +78,7 @@ import AngleDownIcon from '@peacepiece-compatibility/icons/angledown';
 import AngleRightIcon from '@peacepiece-compatibility/icons/angleright';
 import { isNotEmpty, resolve } from '@peacepieceuix-compatibility/utils/object';
 import BaseComponent from '@primevue/core/basecomponent';
-import Ripple from 'primevue/ripple';
+import Ripple from '@peacepiece-compatibility/primevue/ripple';
 import { mergeProps } from 'vue';
 
 export default {

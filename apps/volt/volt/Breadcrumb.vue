@@ -13,7 +13,7 @@
 </template>
 
 <script setup lang="ts">
-import Breadcrumb, { type BreadcrumbPassThroughOptions, type BreadcrumbProps } from 'primevue/breadcrumb';
+import Breadcrumb, { type BreadcrumbPassThroughOptions, type BreadcrumbProps } from '@peacepiece-compatibility/primevue/breadcrumb';
 import { ref } from 'vue';
 import { ptViewMerge } from './utils';
 

@@ -102,7 +102,7 @@
 
 <script>
 import { localeComparator, resolveFieldData, sort } from '@peacepieceuix-compatibility/utils/object';
-import Paginator from 'primevue/paginator';
+import Paginator from '@peacepiece-compatibility/primevue/paginator';
 import BaseDataView from './BaseDataView.vue';
 
 export default {

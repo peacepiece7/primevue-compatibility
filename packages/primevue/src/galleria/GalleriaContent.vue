@@ -62,7 +62,7 @@
 <script>
 import BaseComponent from '@primevue/core/basecomponent';
 import TimesIcon from '@peacepiece-compatibility/icons/times';
-import Ripple from 'primevue/ripple';
+import Ripple from '@peacepiece-compatibility/primevue/ripple';
 import GalleriaItem from './GalleriaItem.vue';
 import GalleriaThumbnails from './GalleriaThumbnails.vue';
 

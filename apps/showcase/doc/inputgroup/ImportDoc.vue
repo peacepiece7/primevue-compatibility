@@ -9,8 +9,8 @@ export default {
         return {
             code: {
                 basic: `
-import InputGroup from 'primevue/inputgroup';
-import InputGroupAddon from 'primevue/inputgroupaddon';
+import InputGroup from '@peacepiece-compatibility/primevue/inputgroup';
+import InputGroupAddon from '@peacepiece-compatibility/primevue/inputgroupaddon';
 `
             }
         };

@@ -1,5 +1,5 @@
 <script>
-import DatePicker from 'primevue/datepicker';
+import DatePicker from '@peacepiece-compatibility/primevue/datepicker';
 
 export default {
     name: 'Calendar',

@@ -9,11 +9,11 @@
  */
 import type { DefineComponent, DesignToken, EmitFn, HintedString, PassThrough } from '@primevue/core';
 import type { ComponentHooks } from '@primevue/core/basecomponent';
-import type { BadgePassThroughOptions } from 'primevue/badge';
-import type { ButtonPassThroughOptions } from 'primevue/button';
-import type { MessagePassThroughOptions } from 'primevue/message';
-import type { PassThroughOptions } from 'primevue/passthrough';
-import type { ProgressBarPassThroughOptions } from 'primevue/progressbar';
+import type { BadgePassThroughOptions } from '@peacepiece-compatibility/primevue/badge';
+import type { ButtonPassThroughOptions } from '@peacepiece-compatibility/primevue/button';
+import type { MessagePassThroughOptions } from '@peacepiece-compatibility/primevue/message';
+import type { PassThroughOptions } from '@peacepiece-compatibility/primevue/passthrough';
+import type { ProgressBarPassThroughOptions } from '@peacepiece-compatibility/primevue/progressbar';
 import { VNode } from 'vue';
 
 export declare type FileUploadPassThroughOptionType = FileUploadPassThroughAttributes | ((options: FileUploadPassThroughMethodOptions) => FileUploadPassThroughAttributes | string) | string | null | undefined;

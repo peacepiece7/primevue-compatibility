@@ -1,4 +1,4 @@
-import type { PrimeVueConfiguration } from 'primevue/config';
+import type { PrimeVueConfiguration } from '@peacepiece-compatibility/primevue/config';
 
 export interface ConstructsType {
     prefix?: string | undefined;

@@ -18,10 +18,10 @@ import { $dt } from '@peacepieceuix-compatibility/styled';
 import { absolutePosition, addClass, addStyle, focus, getOffset, isClient, isTouchDevice, setAttribute } from '@peacepieceuix-compatibility/utils/dom';
 import { ZIndex } from '@peacepieceuix-compatibility/utils/zindex';
 import { ConnectedOverlayScrollHandler } from '@primevue/core/utils';
-import FocusTrap from 'primevue/focustrap';
-import OverlayEventBus from 'primevue/overlayeventbus';
-import Portal from 'primevue/portal';
-import Ripple from 'primevue/ripple';
+import FocusTrap from '@peacepiece-compatibility/primevue/focustrap';
+import OverlayEventBus from '@peacepiece-compatibility/primevue/overlayeventbus';
+import Portal from '@peacepiece-compatibility/primevue/portal';
+import Ripple from '@peacepiece-compatibility/primevue/ripple';
 import BasePopover from './BasePopover.vue';
 
 export default {

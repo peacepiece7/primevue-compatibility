@@ -10,7 +10,7 @@
 <script>
 import BaseComponent from '@primevue/core/basecomponent';
 import CheckIcon from '@peacepiece-compatibility/icons/check';
-import Checkbox from 'primevue/checkbox';
+import Checkbox from '@peacepiece-compatibility/primevue/checkbox';
 import { mergeProps } from 'vue';
 
 export default {

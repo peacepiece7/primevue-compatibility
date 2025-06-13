@@ -9,11 +9,11 @@
  */
 import type { DefineComponent, DesignToken, EmitFn, HintedString, PassThrough } from '@primevue/core';
 import type { ComponentHooks } from '@primevue/core/basecomponent';
-import type { IconFieldPassThroughOptions } from 'primevue/iconfield';
-import type { InputIconPassThroughOptions } from 'primevue/inputicon';
-import type { InputTextPassThroughOptions } from 'primevue/inputtext';
-import type { PassThroughOptions } from 'primevue/passthrough';
-import type { TreeNode } from 'primevue/treenode';
+import type { IconFieldPassThroughOptions } from '@peacepiece-compatibility/primevue/iconfield';
+import type { InputIconPassThroughOptions } from '@peacepiece-compatibility/primevue/inputicon';
+import type { InputTextPassThroughOptions } from '@peacepiece-compatibility/primevue/inputtext';
+import type { PassThroughOptions } from '@peacepiece-compatibility/primevue/passthrough';
+import type { TreeNode } from '@peacepiece-compatibility/primevue/treenode';
 import { VNode } from 'vue';
 
 export declare type TreePassThroughOptionType<T = any> = TreePassThroughAttributes | ((options: TreePassThroughMethodOptions<T>) => TreePassThroughAttributes | string) | string | null | undefined;

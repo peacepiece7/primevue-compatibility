@@ -571,11 +571,11 @@ import { absolutePosition, addStyle, find, findSingle, getAttribute, getFocusabl
 import { localeComparator } from '@peacepieceuix-compatibility/utils/object';
 import { ZIndex } from '@peacepieceuix-compatibility/utils/zindex';
 import { ConnectedOverlayScrollHandler } from '@primevue/core/utils';
-import Button from 'primevue/button';
-import InputText from 'primevue/inputtext';
-import OverlayEventBus from 'primevue/overlayeventbus';
-import Portal from 'primevue/portal';
-import Ripple from 'primevue/ripple';
+import Button from '@peacepiece-compatibility/primevue/button';
+import InputText from '@peacepiece-compatibility/primevue/inputtext';
+import OverlayEventBus from '@peacepiece-compatibility/primevue/overlayeventbus';
+import Portal from '@peacepiece-compatibility/primevue/portal';
+import Ripple from '@peacepiece-compatibility/primevue/ripple';
 import BaseDatePicker from './BaseDatePicker.vue';
 
 export default {

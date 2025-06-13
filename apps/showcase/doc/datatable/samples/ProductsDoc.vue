@@ -701,7 +701,7 @@ export default {
 <script setup>
 import { ref, onMounted } from 'vue';
 import { FilterMatchMode } from '@primevue/core/api';
-import { useToast } from 'primevue/usetoast';
+import { useToast } from '@peacepiece-compatibility/primevue/usetoast';
 import { ProductService } from '@/service/ProductService';
 
 onMounted(() => {

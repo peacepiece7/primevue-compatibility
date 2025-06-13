@@ -143,9 +143,9 @@ import { getAttribute, getFirstFocusableElement, getNextElementSibling, getOuter
 import { resolveFieldData } from '@peacepieceuix-compatibility/utils/object';
 import BaseComponent from '@primevue/core/basecomponent';
 import { getVNodeProp } from '@primevue/core/utils';
-import Button from 'primevue/button';
-import OverlayEventBus from 'primevue/overlayeventbus';
-import Ripple from 'primevue/ripple';
+import Button from '@peacepiece-compatibility/primevue/button';
+import OverlayEventBus from '@peacepiece-compatibility/primevue/overlayeventbus';
+import Ripple from '@peacepiece-compatibility/primevue/ripple';
 import { mergeProps } from 'vue';
 import RowCheckbox from './RowCheckbox.vue';
 import RowRadioButton from './RowRadioButton.vue';

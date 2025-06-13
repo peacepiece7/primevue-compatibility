@@ -234,15 +234,15 @@ import { equals, findLastIndex, isEmpty, isNotEmpty, isPrintableCharacter, resol
 import { ZIndex } from '@peacepieceuix-compatibility/utils/zindex';
 import { FilterService } from '@primevue/core/api';
 import { ConnectedOverlayScrollHandler } from '@primevue/core/utils';
-import Checkbox from 'primevue/checkbox';
-import Chip from 'primevue/chip';
-import IconField from 'primevue/iconfield';
-import InputIcon from 'primevue/inputicon';
-import InputText from 'primevue/inputtext';
-import OverlayEventBus from 'primevue/overlayeventbus';
-import Portal from 'primevue/portal';
-import Ripple from 'primevue/ripple';
-import VirtualScroller from 'primevue/virtualscroller';
+import Checkbox from '@peacepiece-compatibility/primevue/checkbox';
+import Chip from '@peacepiece-compatibility/primevue/chip';
+import IconField from '@peacepiece-compatibility/primevue/iconfield';
+import InputIcon from '@peacepiece-compatibility/primevue/inputicon';
+import InputText from '@peacepiece-compatibility/primevue/inputtext';
+import OverlayEventBus from '@peacepiece-compatibility/primevue/overlayeventbus';
+import Portal from '@peacepiece-compatibility/primevue/portal';
+import Ripple from '@peacepiece-compatibility/primevue/ripple';
+import VirtualScroller from '@peacepiece-compatibility/primevue/virtualscroller';
 import BaseMultiSelect from './BaseMultiSelect.vue';
 
 export default {

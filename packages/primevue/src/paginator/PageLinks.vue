@@ -19,7 +19,7 @@
 
 <script>
 import BaseComponent from '@primevue/core/basecomponent';
-import Ripple from 'primevue/ripple';
+import Ripple from '@peacepiece-compatibility/primevue/ripple';
 
 export default {
     name: 'PageLinks',

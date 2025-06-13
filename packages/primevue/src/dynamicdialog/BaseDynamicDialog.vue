@@ -1,6 +1,6 @@
 <script>
 import BaseComponent from '@primevue/core/basecomponent';
-import DynamicDialogStyle from 'primevue/dynamicdialog/style';
+import DynamicDialogStyle from '@peacepiece-compatibility/primevue/dynamicdialog/style';
 
 export default {
     name: 'BaseDynamicDialog',

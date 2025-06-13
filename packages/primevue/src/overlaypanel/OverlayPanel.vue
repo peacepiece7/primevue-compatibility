@@ -1,5 +1,5 @@
 <script>
-import Popover from 'primevue/popover';
+import Popover from '@peacepiece-compatibility/primevue/popover';
 
 export default {
     name: 'OverlayPanel',

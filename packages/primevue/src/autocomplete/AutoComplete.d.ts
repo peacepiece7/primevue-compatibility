@@ -9,10 +9,10 @@
  */
 import type { DefineComponent, DesignToken, EmitFn, HintedString, Nullable, PassThrough } from '@primevue/core';
 import type { ComponentHooks } from '@primevue/core/basecomponent';
-import type { ChipPassThroughOptions } from 'primevue/chip';
-import type { InputTextPassThroughOptions } from 'primevue/inputtext';
-import type { PassThroughOptions } from 'primevue/passthrough';
-import type { VirtualScrollerItemOptions, VirtualScrollerPassThroughOptionType, VirtualScrollerProps } from 'primevue/virtualscroller';
+import type { ChipPassThroughOptions } from '@peacepiece-compatibility/primevue/chip';
+import type { InputTextPassThroughOptions } from '@peacepiece-compatibility/primevue/inputtext';
+import type { PassThroughOptions } from '@peacepiece-compatibility/primevue/passthrough';
+import type { VirtualScrollerItemOptions, VirtualScrollerPassThroughOptionType, VirtualScrollerProps } from '@peacepiece-compatibility/primevue/virtualscroller';
 import { TransitionProps, VNode } from 'vue';
 
 export declare type AutoCompletePassThroughOptionType = AutoCompletePassThroughAttributes | ((options: AutoCompletePassThroughMethodOptions) => AutoCompletePassThroughAttributes | string) | string | null | undefined;

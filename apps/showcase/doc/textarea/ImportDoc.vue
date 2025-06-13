@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import Textarea from 'primevue/textarea';
+import Textarea from '@peacepiece-compatibility/primevue/textarea';
 `
             }
         };

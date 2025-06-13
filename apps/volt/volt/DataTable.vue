@@ -51,7 +51,7 @@ import AngleDoubleRightIcon from '@peacepiece-compatibility/icons/angledoublerig
 import AngleLeftIcon from '@peacepiece-compatibility/icons/angleleft';
 import AngleRightIcon from '@peacepiece-compatibility/icons/angleright';
 import SpinnerIcon from '@peacepiece-compatibility/icons/spinner';
-import DataTable, { type DataTablePassThroughOptions, type DataTableProps } from 'primevue/datatable';
+import DataTable, { type DataTablePassThroughOptions, type DataTableProps } from '@peacepiece-compatibility/primevue/datatable';
 import { ref } from 'vue';
 import SecondaryButton from './SecondaryButton.vue';
 import { ptViewMerge } from './utils';

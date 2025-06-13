@@ -9,8 +9,8 @@
  */
 import type { DefineComponent, DesignToken, EmitFn, HintedString, PassThrough } from '@primevue/core';
 import type { ComponentHooks } from '@primevue/core/basecomponent';
-import type { ButtonPassThroughOptions } from 'primevue/button';
-import type { PassThroughOptions } from 'primevue/passthrough';
+import type { ButtonPassThroughOptions } from '@peacepiece-compatibility/primevue/button';
+import type { PassThroughOptions } from '@peacepiece-compatibility/primevue/passthrough';
 import { TransitionProps, VNode } from 'vue';
 
 export declare type DrawerPassThroughOptionType = DrawerPassThroughAttributes | ((options: DrawerPassThroughMethodOptions) => DrawerPassThroughAttributes | string) | string | null | undefined;

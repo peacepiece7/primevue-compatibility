@@ -7,7 +7,7 @@
 <script>
 import BaseComponent from '@primevue/core/basecomponent';
 import AngleDoubleRightIcon from '@peacepiece-compatibility/icons/angledoubleright';
-import Ripple from 'primevue/ripple';
+import Ripple from '@peacepiece-compatibility/primevue/ripple';
 
 export default {
     name: 'LastPageLink',

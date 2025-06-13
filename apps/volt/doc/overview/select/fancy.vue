@@ -11,7 +11,7 @@
 
 <script setup lang="ts">
 import ChevronDownIcon from '@peacepiece-compatibility/icons/chevrondown';
-import Select from 'primevue/select';
+import Select from '@peacepiece-compatibility/primevue/select';
 import { ref } from 'vue';
 
 const theme = ref({

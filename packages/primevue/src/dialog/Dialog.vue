@@ -70,11 +70,11 @@ import WindowMinimizeIcon from '@peacepiece-compatibility/icons/windowminimize';
 import { cn } from '@peacepieceuix-compatibility/utils';
 import { addClass, addStyle, focus, getOuterHeight, getOuterWidth, getViewport, setAttribute } from '@peacepieceuix-compatibility/utils/dom';
 import { ZIndex } from '@peacepieceuix-compatibility/utils/zindex';
-import Button from 'primevue/button';
-import FocusTrap from 'primevue/focustrap';
-import Portal from 'primevue/portal';
-import Ripple from 'primevue/ripple';
-import { blockBodyScroll, unblockBodyScroll } from 'primevue/utils';
+import Button from '@peacepiece-compatibility/primevue/button';
+import FocusTrap from '@peacepiece-compatibility/primevue/focustrap';
+import Portal from '@peacepiece-compatibility/primevue/portal';
+import Ripple from '@peacepiece-compatibility/primevue/ripple';
+import { blockBodyScroll, unblockBodyScroll } from '@peacepiece-compatibility/primevue/utils';
 import { computed } from 'vue';
 import BaseDialog from './BaseDialog.vue';
 

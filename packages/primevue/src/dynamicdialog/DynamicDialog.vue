@@ -14,8 +14,8 @@
 
 <script>
 import { uuid } from '@peacepieceuix-compatibility/utils';
-import Dialog from 'primevue/dialog';
-import DynamicDialogEventBus from 'primevue/dynamicdialogeventbus';
+import Dialog from '@peacepiece-compatibility/primevue/dialog';
+import DynamicDialogEventBus from '@peacepiece-compatibility/primevue/dynamicdialogeventbus';
 import BaseDynamicDialog from './BaseDynamicDialog.vue';
 
 export default {

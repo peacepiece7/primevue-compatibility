@@ -50,8 +50,8 @@ import { getNextElementSibling, getOuterWidth, getPreviousElementSibling } from 
 import { resolveFieldData } from '@peacepieceuix-compatibility/utils/object';
 import BaseComponent from '@primevue/core/basecomponent';
 import { getVNodeProp } from '@primevue/core/utils';
-import Checkbox from 'primevue/checkbox';
-import Ripple from 'primevue/ripple';
+import Checkbox from '@peacepiece-compatibility/primevue/checkbox';
+import Ripple from '@peacepiece-compatibility/primevue/ripple';
 import { mergeProps } from 'vue';
 
 export default {

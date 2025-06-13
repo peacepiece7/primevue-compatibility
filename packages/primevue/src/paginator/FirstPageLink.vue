@@ -7,7 +7,7 @@
 <script>
 import BaseComponent from '@primevue/core/basecomponent';
 import AngleDoubleLeftIcon from '@peacepiece-compatibility/icons/angledoubleleft';
-import Ripple from 'primevue/ripple';
+import Ripple from '@peacepiece-compatibility/primevue/ripple';
 
 export default {
     name: 'FirstPageLink',

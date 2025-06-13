@@ -4,7 +4,7 @@
 
 <script>
 import BaseComponent from '@primevue/core/basecomponent';
-import InputNumber from 'primevue/inputnumber';
+import InputNumber from '@peacepiece-compatibility/primevue/inputnumber';
 
 export default {
     name: 'JumpToPageInput',

@@ -1,6 +1,6 @@
 <script>
 import BaseComponent from '@primevue/core/basecomponent';
-import TabViewStyle from 'primevue/tabview/style';
+import TabViewStyle from '@peacepiece-compatibility/primevue/tabview/style';
 
 export default {
     name: 'BaseTabView',

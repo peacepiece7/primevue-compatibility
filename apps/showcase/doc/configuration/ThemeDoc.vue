@@ -12,7 +12,7 @@ export default {
         return {
             code: {
                 basic: `
-import PrimeVue from 'primevue/config';
+import PrimeVue from '@peacepiece-compatibility/primevue/config';
 import Aura from '@peacepieceuix-compatibility/themes/aura';
 
 const app = createApp(App);

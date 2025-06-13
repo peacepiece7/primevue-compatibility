@@ -12,9 +12,9 @@
 <script>
 import { addClass, focus } from '@peacepieceuix-compatibility/utils/dom';
 import { ZIndex } from '@peacepieceuix-compatibility/utils/zindex';
-import FocusTrap from 'primevue/focustrap';
-import Portal from 'primevue/portal';
-import { blockBodyScroll, unblockBodyScroll } from 'primevue/utils';
+import FocusTrap from '@peacepiece-compatibility/primevue/focustrap';
+import Portal from '@peacepiece-compatibility/primevue/portal';
+import { blockBodyScroll, unblockBodyScroll } from '@peacepiece-compatibility/primevue/utils';
 import BaseGalleria from './BaseGalleria.vue';
 import GalleriaContent from './GalleriaContent.vue';
 

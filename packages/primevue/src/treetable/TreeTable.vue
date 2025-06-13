@@ -208,7 +208,7 @@ import { addStyle, clearSelection, find, getAttribute, getIndex, getOffset, getO
 import { localeComparator, resolveFieldData, sort } from '@peacepieceuix-compatibility/utils/object';
 import { FilterService } from '@primevue/core/api';
 import { getVNodeProp, HelperSet } from '@primevue/core/utils';
-import Paginator from 'primevue/paginator';
+import Paginator from '@peacepiece-compatibility/primevue/paginator';
 import BaseTreeTable from './BaseTreeTable.vue';
 import FooterCell from './FooterCell.vue';
 import HeaderCell from './HeaderCell.vue';

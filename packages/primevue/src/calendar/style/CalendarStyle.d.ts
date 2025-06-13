@@ -7,7 +7,7 @@
  * @module calendarstyle
  *
  */
-import type { DatePickerStyle } from 'primevue/datepicker/style';
+import type { DatePickerStyle } from '@peacepiece-compatibility/primevue/datepicker/style';
 
 export enum CalendarClasses {}
 

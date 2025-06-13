@@ -1,5 +1,5 @@
 <script>
-import ToggleSwitch from 'primevue/toggleswitch';
+import ToggleSwitch from '@peacepiece-compatibility/primevue/toggleswitch';
 
 export default {
     name: 'InputSwitch',

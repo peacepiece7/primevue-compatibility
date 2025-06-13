@@ -17,7 +17,7 @@
 
 <script setup lang="ts">
 import TimesIcon from '@peacepiece-compatibility/icons/times';
-import Toast, { type ToastPassThroughOptions, type ToastProps } from 'primevue/toast';
+import Toast, { type ToastPassThroughOptions, type ToastProps } from '@peacepiece-compatibility/primevue/toast';
 import { ref } from 'vue';
 import { ptViewMerge } from './utils';
 

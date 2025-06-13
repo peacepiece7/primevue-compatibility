@@ -348,8 +348,8 @@ import {
 import { equals, findIndexInList, isEmpty, isNotEmpty, localeComparator, reorderArray, resolveFieldData, sort } from '@peacepieceuix-compatibility/utils/object';
 import { FilterMatchMode, FilterOperator, FilterService } from '@primevue/core/api';
 import { HelperSet, getVNodeProp } from '@primevue/core/utils';
-import Paginator from 'primevue/paginator';
-import VirtualScroller from 'primevue/virtualscroller';
+import Paginator from '@peacepiece-compatibility/primevue/paginator';
+import VirtualScroller from '@peacepiece-compatibility/primevue/virtualscroller';
 import BaseDataTable from './BaseDataTable.vue';
 import TableBody from './TableBody.vue';
 import TableFooter from './TableFooter.vue';

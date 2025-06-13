@@ -7,7 +7,7 @@
  * @module chipsstyle
  *
  */
-import type { InputChipsStyle } from 'primevue/inputchips/style';
+import type { InputChipsStyle } from '@peacepiece-compatibility/primevue/inputchips/style';
 
 export enum ChipsClasses {}
 

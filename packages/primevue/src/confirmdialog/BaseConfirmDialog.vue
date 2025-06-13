@@ -1,6 +1,6 @@
 <script>
 import BaseComponent from '@primevue/core/basecomponent';
-import ConfirmDialogStyle from 'primevue/confirmdialog/style';
+import ConfirmDialogStyle from '@peacepiece-compatibility/primevue/confirmdialog/style';
 
 export default {
     name: 'BaseConfirmDialog',

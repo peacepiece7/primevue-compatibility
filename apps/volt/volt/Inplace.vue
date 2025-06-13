@@ -13,7 +13,7 @@
 </template>
 
 <script setup lang="ts">
-import Inplace, { type InplacePassThroughOptions, type InplaceProps } from 'primevue/inplace';
+import Inplace, { type InplacePassThroughOptions, type InplaceProps } from '@peacepiece-compatibility/primevue/inplace';
 import { ref } from 'vue';
 import { ptViewMerge } from './utils';
 

@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import TerminalService from 'primevue/terminalservice';
+import TerminalService from '@peacepiece-compatibility/primevue/terminalservice';
 
 export default {
     data() {

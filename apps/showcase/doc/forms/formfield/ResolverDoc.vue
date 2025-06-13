@@ -191,7 +191,7 @@ import { zodResolver } from '@peacepiece-compatibility/forms/resolvers/zod';
 import * as v from 'valibot';
 import * as yup from 'yup';
 import { z } from 'zod';
-import { useToast } from 'primevue/usetoast';
+import { useToast } from '@peacepiece-compatibility/primevue/usetoast';
 
 const toast = useToast();
 

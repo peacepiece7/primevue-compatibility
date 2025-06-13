@@ -1,6 +1,6 @@
 <script>
 import BaseComponent from '@primevue/core/basecomponent';
-import ColumnGroupStyle from 'primevue/columngroup/style';
+import ColumnGroupStyle from '@peacepiece-compatibility/primevue/columngroup/style';
 
 export default {
     name: 'BaseColumnGroup',

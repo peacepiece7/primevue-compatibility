@@ -1,6 +1,6 @@
 <script>
-import Badge from 'primevue/badge';
-import OverlayBadgeStyle from 'primevue/overlaybadge/style';
+import Badge from '@peacepiece-compatibility/primevue/badge';
+import OverlayBadgeStyle from '@peacepiece-compatibility/primevue/overlaybadge/style';
 
 export default {
     name: 'OverlayBadge',

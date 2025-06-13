@@ -64,9 +64,9 @@ import TimesIcon from '@peacepiece-compatibility/icons/times';
 import UndoIcon from '@peacepiece-compatibility/icons/undo';
 import { addClass, focus, isAttributeEquals } from '@peacepieceuix-compatibility/utils/dom';
 import { ZIndex } from '@peacepieceuix-compatibility/utils/zindex';
-import FocusTrap from 'primevue/focustrap';
-import Portal from 'primevue/portal';
-import { blockBodyScroll, unblockBodyScroll } from 'primevue/utils';
+import FocusTrap from '@peacepiece-compatibility/primevue/focustrap';
+import Portal from '@peacepiece-compatibility/primevue/portal';
+import { blockBodyScroll, unblockBodyScroll } from '@peacepiece-compatibility/primevue/utils';
 import BaseImage from './BaseImage.vue';
 
 export default {

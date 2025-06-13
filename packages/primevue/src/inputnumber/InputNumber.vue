@@ -92,7 +92,7 @@ import AngleUpIcon from '@peacepiece-compatibility/icons/angleup';
 import { cn } from '@peacepieceuix-compatibility/utils';
 import { clearSelection, getSelection } from '@peacepieceuix-compatibility/utils/dom';
 import { isNotEmpty } from '@peacepieceuix-compatibility/utils/object';
-import InputText from 'primevue/inputtext';
+import InputText from '@peacepiece-compatibility/primevue/inputtext';
 import BaseInputNumber from './BaseInputNumber.vue';
 
 export default {

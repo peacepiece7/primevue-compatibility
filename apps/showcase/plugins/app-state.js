@@ -1,5 +1,5 @@
 import AppTheme from '@/themes/app-theme';
-import PrimeVue from 'primevue/config';
+import PrimeVue from '@peacepiece-compatibility/primevue/config';
 import { reactive } from 'vue';
 
 const $appState = {

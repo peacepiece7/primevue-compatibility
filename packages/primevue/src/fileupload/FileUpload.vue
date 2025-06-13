@@ -89,10 +89,10 @@ import PlusIcon from '@peacepiece-compatibility/icons/plus';
 import TimesIcon from '@peacepiece-compatibility/icons/times';
 import UploadIcon from '@peacepiece-compatibility/icons/upload';
 import { addClass, removeClass } from '@peacepieceuix-compatibility/utils/dom';
-import Button from 'primevue/button';
-import Message from 'primevue/message';
-import ProgressBar from 'primevue/progressbar';
-import Ripple from 'primevue/ripple';
+import Button from '@peacepiece-compatibility/primevue/button';
+import Message from '@peacepiece-compatibility/primevue/message';
+import ProgressBar from '@peacepiece-compatibility/primevue/progressbar';
+import Ripple from '@peacepiece-compatibility/primevue/ripple';
 import BaseFileUpload from './BaseFileUpload.vue';
 import FileContent from './FileContent.vue';
 

@@ -38,7 +38,7 @@
 import { addStyle, findSingle, focus, getHiddenElementOuterHeight, getHiddenElementOuterWidth, getViewport, isTouchDevice } from '@peacepieceuix-compatibility/utils/dom';
 import { findLastIndex, isEmpty, isNotEmpty, isPrintableCharacter, resolve } from '@peacepieceuix-compatibility/utils/object';
 import { ZIndex } from '@peacepieceuix-compatibility/utils/zindex';
-import Portal from 'primevue/portal';
+import Portal from '@peacepiece-compatibility/primevue/portal';
 import BaseContextMenu from './BaseContextMenu.vue';
 import ContextMenuSub from './ContextMenuSub.vue';
 

@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import OrderList from 'primevue/orderlist';
+import OrderList from '@peacepiece-compatibility/primevue/orderlist';
 `
             }
         };

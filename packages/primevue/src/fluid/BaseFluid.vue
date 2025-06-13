@@ -1,6 +1,6 @@
 <script>
 import BaseComponent from '@primevue/core/basecomponent';
-import FluidStyle from 'primevue/fluid/style';
+import FluidStyle from '@peacepiece-compatibility/primevue/fluid/style';
 
 export default {
     name: 'BaseFluid',

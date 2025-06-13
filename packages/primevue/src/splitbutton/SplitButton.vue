@@ -65,8 +65,8 @@
 <script>
 import { isEmpty } from '@peacepieceuix-compatibility/utils/object';
 import ChevronDownIcon from '@peacepiece-compatibility/icons/chevrondown';
-import Button from 'primevue/button';
-import TieredMenu from 'primevue/tieredmenu';
+import Button from '@peacepiece-compatibility/primevue/button';
+import TieredMenu from '@peacepiece-compatibility/primevue/tieredmenu';
 import BaseSplitButton from './BaseSplitButton.vue';
 
 export default {

@@ -9,10 +9,10 @@ export default {
         return {
             code: {
                 basic: `
-import DataTable from 'primevue/datatable';
-import Column from 'primevue/column';
-import ColumnGroup from 'primevue/columngroup';   // optional
-import Row from 'primevue/row';                   // optional
+import DataTable from '@peacepiece-compatibility/primevue/datatable';
+import Column from '@peacepiece-compatibility/primevue/column';
+import ColumnGroup from '@peacepiece-compatibility/primevue/columngroup';   // optional
+import Row from '@peacepiece-compatibility/primevue/row';                   // optional
 `
             }
         };

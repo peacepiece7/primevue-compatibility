@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import Message from 'primevue/message';
+import Message from '@peacepiece-compatibility/primevue/message';
 `
             }
         };

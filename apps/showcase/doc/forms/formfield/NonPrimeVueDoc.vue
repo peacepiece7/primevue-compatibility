@@ -122,7 +122,7 @@ input.error {
 import { reactive } from 'vue';
 import { zodResolver } from '@peacepiece-compatibility/forms/resolvers/zod';
 import { z } from 'zod';
-import { useToast } from 'primevue/usetoast';
+import { useToast } from '@peacepiece-compatibility/primevue/usetoast';
 
 const toast = useToast();
 

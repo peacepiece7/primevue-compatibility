@@ -1,6 +1,6 @@
 <script>
 import BaseComponent from '@primevue/core/basecomponent';
-import SkeletonStyle from 'primevue/skeleton/style';
+import SkeletonStyle from '@peacepiece-compatibility/primevue/skeleton/style';
 
 export default {
     name: 'BaseSkeleton',

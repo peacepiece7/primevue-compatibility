@@ -4,7 +4,7 @@
  *
  * @module dialogservice-usedialog
  */
-import type { DynamicDialogInstance, DynamicDialogOptions } from 'primevue/dynamicdialogoptions';
+import type { DynamicDialogInstance, DynamicDialogOptions } from '@peacepiece-compatibility/primevue/dynamicdialogoptions';
 import { Plugin } from 'vue';
 
 declare const plugin: Plugin;

@@ -1,5 +1,5 @@
 import { mount } from '@vue/test-utils';
-import PrimeVue from 'primevue/config';
+import PrimeVue from '@peacepiece-compatibility/primevue/config';
 import DatePicker from './DatePicker.vue';
 
 describe('DatePicker.vue', () => {

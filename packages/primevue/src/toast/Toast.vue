@@ -27,8 +27,8 @@ import { cn } from '@peacepieceuix-compatibility/utils';
 import { setAttribute } from '@peacepieceuix-compatibility/utils/dom';
 import { isEmpty } from '@peacepieceuix-compatibility/utils/object';
 import { ZIndex } from '@peacepieceuix-compatibility/utils/zindex';
-import Portal from 'primevue/portal';
-import ToastEventBus from 'primevue/toasteventbus';
+import Portal from '@peacepiece-compatibility/primevue/portal';
+import ToastEventBus from '@peacepiece-compatibility/primevue/toasteventbus';
 import BaseToast from './BaseToast.vue';
 import ToastMessage from './ToastMessage.vue';
 

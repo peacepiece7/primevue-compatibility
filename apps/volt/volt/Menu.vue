@@ -14,7 +14,7 @@
 </template>
 
 <script setup lang="ts">
-import Menu, { type MenuPassThroughOptions, type MenuProps } from 'primevue/menu';
+import Menu, { type MenuPassThroughOptions, type MenuProps } from '@peacepiece-compatibility/primevue/menu';
 import { ref } from 'vue';
 import { ptViewMerge } from './utils';
 

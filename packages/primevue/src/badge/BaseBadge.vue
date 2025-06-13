@@ -1,6 +1,6 @@
 <script>
 import BaseComponent from '@primevue/core/basecomponent';
-import BadgeStyle from 'primevue/badge/style';
+import BadgeStyle from '@peacepiece-compatibility/primevue/badge/style';
 
 export default {
     name: 'BaseBadge',

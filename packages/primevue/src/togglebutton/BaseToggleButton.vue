@@ -1,6 +1,6 @@
 <script>
 import BaseEditableHolder from '@primevue/core/baseeditableholder';
-import ToggleButtonStyle from 'primevue/togglebutton/style';
+import ToggleButtonStyle from '@peacepiece-compatibility/primevue/togglebutton/style';
 
 export default {
     name: 'BaseToggleButton',
