@@ -1,5 +1,5 @@
 import { style } from '@peacepieceuix-compatibility/styles/tabmenu';
-import BaseStyle from '@primevue/core/base/style';
+import BaseStyle from '@peacepiece-compatibility/core/base/style';
 
 const classes = {
     root: 'p-tabmenu p-component',

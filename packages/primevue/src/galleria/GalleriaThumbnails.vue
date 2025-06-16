@@ -77,7 +77,7 @@ import ChevronRightIcon from '@peacepiece-compatibility/icons/chevronright';
 import ChevronUpIcon from '@peacepiece-compatibility/icons/chevronup';
 import { addClass, find, findSingle, getAttribute, removeClass, setAttribute } from '@peacepieceuix-compatibility/utils/dom';
 import { localeComparator, sort } from '@peacepieceuix-compatibility/utils/object';
-import BaseComponent from '@primevue/core/basecomponent';
+import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
 import Ripple from '@peacepiece-compatibility/primevue/ripple';
 
 export default {

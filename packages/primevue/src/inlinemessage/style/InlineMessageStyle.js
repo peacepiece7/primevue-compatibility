@@ -1,5 +1,5 @@
 import { style } from '@peacepieceuix-compatibility/styles/inlinemessage';
-import BaseStyle from '@primevue/core/base/style';
+import BaseStyle from '@peacepiece-compatibility/core/base/style';
 
 const classes = {
     root: ({ props, instance }) => ['p-inlinemessage p-component p-inlinemessage-' + props.severity, { 'p-inlinemessage-icon-only': !instance.$slots.default }],

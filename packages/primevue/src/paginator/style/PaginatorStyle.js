@@ -1,5 +1,5 @@
 import { style } from '@peacepieceuix-compatibility/styles/paginator';
-import BaseStyle from '@primevue/core/base/style';
+import BaseStyle from '@peacepiece-compatibility/core/base/style';
 
 const classes = {
     paginator: ({ instance, key }) => [

@@ -1,5 +1,5 @@
 import { style } from '@peacepieceuix-compatibility/styles/fileupload';
-import BaseStyle from '@primevue/core/base/style';
+import BaseStyle from '@peacepiece-compatibility/core/base/style';
 
 const classes = {
     root: ({ props }) => [`p-fileupload p-fileupload-${props.mode} p-component`],

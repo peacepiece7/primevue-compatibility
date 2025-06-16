@@ -1,5 +1,5 @@
 <script>
-import BaseEditableHolder from '@primevue/core/baseeditableholder';
+import BaseEditableHolder from '@peacepiece-compatibility/core/baseeditableholder';
 import RadioButtonGroupStyle from '@peacepiece-compatibility/primevue/radiobuttongroup/style';
 
 export default {

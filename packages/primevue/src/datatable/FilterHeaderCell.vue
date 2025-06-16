@@ -51,8 +51,8 @@
 
 <script>
 import { getNextElementSibling, getOuterWidth, getPreviousElementSibling } from '@peacepieceuix-compatibility/utils/dom';
-import BaseComponent from '@primevue/core/basecomponent';
-import { getVNodeProp } from '@primevue/core/utils';
+import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
+import { getVNodeProp } from '@peacepiece-compatibility/core/utils';
 import { mergeProps } from 'vue';
 import ColumnFilter from './ColumnFilter.vue';
 import HeaderCheckbox from './HeaderCheckbox.vue';

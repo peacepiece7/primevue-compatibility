@@ -1,5 +1,5 @@
 <script>
-import BaseComponent from '@primevue/core/basecomponent';
+import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
 import TabMenuStyle from '@peacepiece-compatibility/primevue/tabmenu/style';
 
 export default {

@@ -45,17 +45,17 @@ export declare type NoInfer<T> = [T][T extends any ? 0 : never];
 /**
  * Modules
  */
-export * from '@primevue/core/api';
-export * from '@primevue/core/base/style';
-export * from '@primevue/core/basecomponent';
-export * from '@primevue/core/basecomponent/style';
-export * from '@primevue/core/basedirective';
-export * from '@primevue/core/baseeditableholder';
-export * from '@primevue/core/baseinput';
-export * from '@primevue/core/config';
-export { default as PrimeVue } from '@primevue/core/config';
-export * from '@primevue/core/service';
-export * from '@primevue/core/useattrselector';
-export * from '@primevue/core/useid';
-export * from '@primevue/core/usestyle';
-export * from '@primevue/core/utils';
+export * from '@peacepiece-compatibility/core/api';
+export * from '@peacepiece-compatibility/core/base/style';
+export * from '@peacepiece-compatibility/core/basecomponent';
+export * from '@peacepiece-compatibility/core/basecomponent/style';
+export * from '@peacepiece-compatibility/core/basedirective';
+export * from '@peacepiece-compatibility/core/baseeditableholder';
+export * from '@peacepiece-compatibility/core/baseinput';
+export * from '@peacepiece-compatibility/core/config';
+export { default as PrimeVue } from '@peacepiece-compatibility/core/config';
+export * from '@peacepiece-compatibility/core/service';
+export * from '@peacepiece-compatibility/core/useattrselector';
+export * from '@peacepiece-compatibility/core/useid';
+export * from '@peacepiece-compatibility/core/usestyle';
+export * from '@peacepiece-compatibility/core/utils';

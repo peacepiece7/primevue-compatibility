@@ -1,5 +1,5 @@
 import { style } from '@peacepieceuix-compatibility/styles/tieredmenu';
-import BaseStyle from '@primevue/core/base/style';
+import BaseStyle from '@peacepiece-compatibility/core/base/style';
 
 const inlineStyles = {
     submenu: ({ instance, processedItem }) => ({ display: instance.isItemActive(processedItem) ? 'flex' : 'none' })

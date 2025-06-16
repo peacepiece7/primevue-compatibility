@@ -1,5 +1,5 @@
 import { style } from '@peacepieceuix-compatibility/styles/timeline';
-import BaseStyle from '@primevue/core/base/style';
+import BaseStyle from '@peacepiece-compatibility/core/base/style';
 
 const classes = {
     root: ({ props }) => ['p-timeline p-component', 'p-timeline-' + props.align, 'p-timeline-' + props.layout],

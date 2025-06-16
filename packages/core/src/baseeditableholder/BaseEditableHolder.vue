@@ -1,6 +1,6 @@
 <script>
 import { isNotEmpty } from '@peacepieceuix-compatibility/utils';
-import BaseComponent from '@primevue/core/basecomponent';
+import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
 
 export default {
     name: 'BaseEditableHolder',

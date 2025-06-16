@@ -8,7 +8,7 @@
  *
  */
 import type { DefineComponent, DesignToken, EmitFn, HintedString, Nullable, PassThrough } from '@primevue/core';
-import type { ComponentHooks } from '@primevue/core/basecomponent';
+import type { ComponentHooks } from '@peacepiece-compatibility/core/basecomponent';
 import type { ChipPassThroughOptions } from '@peacepiece-compatibility/primevue/chip';
 import type { InputTextPassThroughOptions } from '@peacepiece-compatibility/primevue/inputtext';
 import type { PassThroughOptions } from '@peacepiece-compatibility/primevue/passthrough';

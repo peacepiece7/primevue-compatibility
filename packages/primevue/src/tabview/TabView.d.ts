@@ -9,7 +9,7 @@
  *
  */
 import type { DefineComponent, DesignToken, EmitFn, PassThrough } from '@primevue/core';
-import type { ComponentHooks } from '@primevue/core/basecomponent';
+import type { ComponentHooks } from '@peacepiece-compatibility/core/basecomponent';
 import type { PassThroughOptions } from '@peacepiece-compatibility/primevue/passthrough';
 import type { TabPanelPassThroughOptionType } from '@peacepiece-compatibility/primevue/tabpanel';
 import { ButtonHTMLAttributes, VNode } from 'vue';

@@ -1,5 +1,5 @@
 import { style } from '@peacepieceuix-compatibility/styles/colorpicker';
-import BaseStyle from '@primevue/core/base/style';
+import BaseStyle from '@peacepiece-compatibility/core/base/style';
 
 const classes = {
     root: 'p-colorpicker p-component',

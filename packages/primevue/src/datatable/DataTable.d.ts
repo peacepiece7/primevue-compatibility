@@ -8,7 +8,7 @@
  *
  */
 import type { DefineComponent, DesignToken, EmitFn, HintedString, NoInfer, Nullable, PassThrough } from '@primevue/core';
-import type { ComponentHooks } from '@primevue/core/basecomponent';
+import type { ComponentHooks } from '@peacepiece-compatibility/core/basecomponent';
 import type { ButtonProps } from '@peacepiece-compatibility/primevue/button';
 import type { ColumnPassThroughOptionType } from '@peacepiece-compatibility/primevue/column';
 import type { ColumnGroupPassThroughOptionType } from '@peacepiece-compatibility/primevue/columngroup';

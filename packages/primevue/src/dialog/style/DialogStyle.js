@@ -1,5 +1,5 @@
 import { style } from '@peacepieceuix-compatibility/styles/dialog';
-import BaseStyle from '@primevue/core/base/style';
+import BaseStyle from '@peacepiece-compatibility/core/base/style';
 
 /* Position */
 const inlineStyles = {

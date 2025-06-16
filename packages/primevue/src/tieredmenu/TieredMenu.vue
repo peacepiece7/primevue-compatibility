@@ -45,7 +45,7 @@
 import { absolutePosition, addStyle, findSingle, focus, getOuterWidth, isTouchDevice } from '@peacepieceuix-compatibility/utils/dom';
 import { findLastIndex, isEmpty, isNotEmpty, isPrintableCharacter, resolve } from '@peacepieceuix-compatibility/utils/object';
 import { ZIndex } from '@peacepieceuix-compatibility/utils/zindex';
-import { ConnectedOverlayScrollHandler } from '@primevue/core/utils';
+import { ConnectedOverlayScrollHandler } from '@peacepiece-compatibility/core/utils';
 import OverlayEventBus from '@peacepiece-compatibility/primevue/overlayeventbus';
 import Portal from '@peacepiece-compatibility/primevue/portal';
 import BaseTieredMenu from './BaseTieredMenu.vue';

@@ -1,5 +1,5 @@
 <script>
-import BaseComponent from '@primevue/core/basecomponent';
+import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
 import ToastStyle from '@peacepiece-compatibility/primevue/toast/style';
 
 export default {

@@ -96,8 +96,8 @@
 import ChevronDownIcon from '@peacepiece-compatibility/icons/chevrondown';
 import ChevronRightIcon from '@peacepiece-compatibility/icons/chevronright';
 import { equals, isNotEmpty, resolveFieldData } from '@peacepieceuix-compatibility/utils/object';
-import BaseComponent from '@primevue/core/basecomponent';
-import { getVNodeProp } from '@primevue/core/utils';
+import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
+import { getVNodeProp } from '@peacepiece-compatibility/core/utils';
 import { mergeProps } from 'vue';
 import BodyCell from './BodyCell.vue';
 

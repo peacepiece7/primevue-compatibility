@@ -1,6 +1,6 @@
 <script>
 import { $dt } from '@peacepieceuix-compatibility/styled';
-import BaseEditableHolder from '@primevue/core/baseeditableholder';
+import BaseEditableHolder from '@peacepiece-compatibility/core/baseeditableholder';
 import KnobStyle from '@peacepiece-compatibility/primevue/knob/style';
 
 export default {

@@ -1,5 +1,5 @@
 <script>
-import BaseComponent from '@primevue/core/basecomponent';
+import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
 import AccordionHeaderStyle from '@peacepiece-compatibility/primevue/accordionheader/style';
 
 export default {

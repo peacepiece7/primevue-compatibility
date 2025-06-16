@@ -39,7 +39,7 @@
 import ChevronLeftIcon from '@peacepiece-compatibility/icons/chevronleft';
 import ChevronRightIcon from '@peacepiece-compatibility/icons/chevronright';
 import { find, findSingle, getAttribute } from '@peacepieceuix-compatibility/utils/dom';
-import BaseComponent from '@primevue/core/basecomponent';
+import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
 import Ripple from '@peacepiece-compatibility/primevue/ripple';
 
 export default {

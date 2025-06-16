@@ -77,7 +77,7 @@ import EyeSlashIcon from '@peacepiece-compatibility/icons/eyeslash';
 import { cn } from '@peacepieceuix-compatibility/utils';
 import { absolutePosition, addStyle, getOuterWidth, isTouchDevice, relativePosition } from '@peacepieceuix-compatibility/utils/dom';
 import { ZIndex } from '@peacepieceuix-compatibility/utils/zindex';
-import { ConnectedOverlayScrollHandler } from '@primevue/core/utils';
+import { ConnectedOverlayScrollHandler } from '@peacepiece-compatibility/core/utils';
 import InputText from '@peacepiece-compatibility/primevue/inputtext';
 import OverlayEventBus from '@peacepiece-compatibility/primevue/overlayeventbus';
 import Portal from '@peacepiece-compatibility/primevue/portal';

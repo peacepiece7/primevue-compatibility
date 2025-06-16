@@ -1,5 +1,5 @@
 <script>
-import BaseComponent from '@primevue/core/basecomponent';
+import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
 import OrderListStyle from '@peacepiece-compatibility/primevue/orderlist/style';
 
 export default {

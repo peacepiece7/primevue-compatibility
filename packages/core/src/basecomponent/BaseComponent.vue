@@ -2,9 +2,9 @@
 import { Theme, ThemeService } from '@peacepieceuix-compatibility/styled';
 import { findSingle, isElement } from '@peacepieceuix-compatibility/utils/dom';
 import { getKeyValue, isArray, isFunction, isNotEmpty, isString, resolve, toFlatCase } from '@peacepieceuix-compatibility/utils/object';
-import Base from '@primevue/core/base';
-import BaseStyle from '@primevue/core/base/style';
-import { useAttrSelector } from '@primevue/core/useattrselector';
+import Base from '@peacepiece-compatibility/core/base';
+import BaseStyle from '@peacepiece-compatibility/core/base/style';
+import { useAttrSelector } from '@peacepiece-compatibility/core/useattrselector';
 import { mergeProps } from 'vue';
 import BaseComponentStyle from './style/BaseComponentStyle';
 

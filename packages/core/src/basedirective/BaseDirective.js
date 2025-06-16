@@ -1,9 +1,9 @@
 import { Theme, ThemeService } from '@peacepieceuix-compatibility/styled';
 import { getKeyValue, isArray, isEmpty, isFunction, isObject, isString, resolve, toCapitalCase, toFlatCase } from '@peacepieceuix-compatibility/utils/object';
 import { uuid } from '@peacepieceuix-compatibility/utils/uuid';
-import Base from '@primevue/core/base';
-import BaseStyle from '@primevue/core/base/style';
-import PrimeVueService from '@primevue/core/service';
+import Base from '@peacepiece-compatibility/core/base';
+import BaseStyle from '@peacepiece-compatibility/core/base/style';
+import PrimeVueService from '@peacepiece-compatibility/core/service';
 import { mergeProps } from 'vue';
 
 const BaseDirective = {

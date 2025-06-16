@@ -8,7 +8,7 @@
  *
  */
 import type { DesignToken, PassThrough } from '@primevue/core';
-import type { DirectiveHooks } from '@primevue/core/basedirective';
+import type { DirectiveHooks } from '@peacepiece-compatibility/core/basedirective';
 import type { PassThroughOptions } from '@peacepiece-compatibility/primevue/passthrough';
 import { DirectiveBinding, ObjectDirective } from 'vue';
 

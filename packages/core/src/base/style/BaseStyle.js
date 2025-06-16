@@ -1,7 +1,7 @@
 import { css as Css, Theme, dt } from '@peacepieceuix-compatibility/styled';
 import { style } from '@peacepieceuix-compatibility/styles/base';
 import { isNotEmpty, minifyCSS, resolve } from '@peacepieceuix-compatibility/utils/object';
-import { useStyle } from '@primevue/core/usestyle';
+import { useStyle } from '@peacepiece-compatibility/core/usestyle';
 
 const css = ({ dt }) => `
 .p-hidden-accessible {

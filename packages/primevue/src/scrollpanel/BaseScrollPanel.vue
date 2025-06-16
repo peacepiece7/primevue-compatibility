@@ -1,5 +1,5 @@
 <script>
-import BaseComponent from '@primevue/core/basecomponent';
+import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
 import ScrollPanelStyle from '@peacepiece-compatibility/primevue/scrollpanel/style';
 
 export default {

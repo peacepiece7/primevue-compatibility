@@ -73,7 +73,7 @@
 import { cn } from '@peacepieceuix-compatibility/utils';
 import { getOuterHeight } from '@peacepieceuix-compatibility/utils/dom';
 import { resolveFieldData } from '@peacepieceuix-compatibility/utils/object';
-import BaseComponent from '@primevue/core/basecomponent';
+import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
 import BodyRow from './BodyRow.vue';
 
 export default {

@@ -1,5 +1,5 @@
 <script>
-import BaseEditableHolder from '@primevue/core/baseeditableholder';
+import BaseEditableHolder from '@peacepiece-compatibility/core/baseeditableholder';
 import ColorPickerStyle from '@peacepiece-compatibility/primevue/colorpicker/style';
 
 export default {

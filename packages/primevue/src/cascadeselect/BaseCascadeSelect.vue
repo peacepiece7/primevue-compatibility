@@ -1,5 +1,5 @@
 <script>
-import BaseInput from '@primevue/core/baseinput';
+import BaseInput from '@peacepiece-compatibility/core/baseinput';
 import CascadeSelectStyle from '@peacepiece-compatibility/primevue/cascadeselect/style';
 
 export default {

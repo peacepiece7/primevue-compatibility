@@ -1,4 +1,4 @@
-import BaseDirective from '@primevue/core/basedirective';
+import BaseDirective from '@peacepiece-compatibility/core/basedirective';
 import StyleClassStyle from '@peacepiece-compatibility/primevue/styleclass/style';
 
 const BaseStyleClass = BaseDirective.extend({

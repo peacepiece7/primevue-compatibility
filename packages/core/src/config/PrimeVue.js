@@ -1,8 +1,8 @@
 import { Theme, ThemeService } from '@peacepieceuix-compatibility/styled';
 import { mergeKeys } from '@peacepieceuix-compatibility/utils';
-import { FilterMatchMode } from '@primevue/core/api';
-import BaseStyle from '@primevue/core/base/style';
-import PrimeVueService from '@primevue/core/service';
+import { FilterMatchMode } from '@peacepiece-compatibility/core/api';
+import BaseStyle from '@peacepiece-compatibility/core/base/style';
+import PrimeVueService from '@peacepiece-compatibility/core/service';
 import { inject, reactive, ref, watch } from 'vue';
 
 export const defaultOptions = {

@@ -57,7 +57,7 @@
 <script>
 import { find, findSingle } from '@peacepieceuix-compatibility/utils/dom';
 import { resolve } from '@peacepieceuix-compatibility/utils/object';
-import BaseComponent from '@primevue/core/basecomponent';
+import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
 import Ripple from '@peacepiece-compatibility/primevue/ripple';
 import Tooltip from '@peacepiece-compatibility/primevue/tooltip';
 import { mergeProps } from 'vue';

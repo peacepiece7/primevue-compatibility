@@ -1,5 +1,5 @@
 <script>
-import BaseComponent from '@primevue/core/basecomponent';
+import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
 import PaginatorStyle from '@peacepiece-compatibility/primevue/paginator/style';
 
 export default {

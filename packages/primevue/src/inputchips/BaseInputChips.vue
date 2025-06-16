@@ -1,5 +1,5 @@
 <script>
-import BaseComponent from '@primevue/core/basecomponent';
+import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
 import InputChipsStyle from '@peacepiece-compatibility/primevue/inputchips/style';
 
 export default {

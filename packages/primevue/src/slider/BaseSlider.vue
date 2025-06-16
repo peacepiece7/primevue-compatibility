@@ -1,5 +1,5 @@
 <script>
-import BaseEditableHolder from '@primevue/core/baseeditableholder';
+import BaseEditableHolder from '@peacepiece-compatibility/core/baseeditableholder';
 import SliderStyle from '@peacepiece-compatibility/primevue/slider/style';
 
 export default {

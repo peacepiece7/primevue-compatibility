@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import BaseComponent from '@primevue/core/basecomponent';
+import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
 import AngleDoubleRightIcon from '@peacepiece-compatibility/icons/angledoubleright';
 import Ripple from '@peacepiece-compatibility/primevue/ripple';
 

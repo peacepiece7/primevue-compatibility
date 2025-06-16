@@ -1,5 +1,5 @@
 <script>
-import BaseEditableHolder from '@primevue/core/baseeditableholder';
+import BaseEditableHolder from '@peacepiece-compatibility/core/baseeditableholder';
 import ListboxStyle from '@peacepiece-compatibility/primevue/listbox/style';
 
 export default {

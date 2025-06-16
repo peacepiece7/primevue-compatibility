@@ -7,7 +7,7 @@
  * @module formfield
  */
 import type { DefineComponent, DesignToken, EmitFn, PassThrough } from '@primevue/core';
-import type { ComponentHooks } from '@primevue/core/basecomponent';
+import type { ComponentHooks } from '@peacepiece-compatibility/core/basecomponent';
 import { Component, VNode } from 'vue';
 import type { PassThroughOptions } from '../types';
 

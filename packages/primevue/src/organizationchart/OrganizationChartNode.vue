@@ -55,7 +55,7 @@
 import ChevronDownIcon from '@peacepiece-compatibility/icons/chevrondown';
 import ChevronUpIcon from '@peacepiece-compatibility/icons/chevronup';
 import { isAttributeEquals } from '@peacepieceuix-compatibility/utils/dom';
-import BaseComponent from '@primevue/core/basecomponent';
+import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
 
 export default {
     name: 'OrganizationChartNode',

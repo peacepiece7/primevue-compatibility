@@ -7,7 +7,7 @@
  * @module avatar
  */
 import type { DefineComponent, DesignToken, EmitFn, HintedString, PassThrough } from '@primevue/core';
-import type { ComponentHooks } from '@primevue/core/basecomponent';
+import type { ComponentHooks } from '@peacepiece-compatibility/core/basecomponent';
 import type { PassThroughOptions } from '@peacepiece-compatibility/primevue/passthrough';
 import { VNode } from 'vue';
 

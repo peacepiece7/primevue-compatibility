@@ -1,5 +1,5 @@
 <script>
-import BaseComponent from '@primevue/core/basecomponent';
+import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
 import StepPanelStyle from '@peacepiece-compatibility/primevue/steppanel/style';
 
 export default {

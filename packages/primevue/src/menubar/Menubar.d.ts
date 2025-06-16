@@ -8,7 +8,7 @@
  *
  */
 import type { DefineComponent, DesignToken, EmitFn, PassThrough } from '@primevue/core';
-import type { ComponentHooks } from '@primevue/core/basecomponent';
+import type { ComponentHooks } from '@peacepiece-compatibility/core/basecomponent';
 import type { MenuItem } from '@peacepiece-compatibility/primevue/menuitem';
 import type { PassThroughOptions } from '@peacepiece-compatibility/primevue/passthrough';
 import { ButtonHTMLAttributes, VNode } from 'vue';

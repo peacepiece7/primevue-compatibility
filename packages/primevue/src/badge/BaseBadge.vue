@@ -1,5 +1,5 @@
 <script>
-import BaseComponent from '@primevue/core/basecomponent';
+import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
 import BadgeStyle from '@peacepiece-compatibility/primevue/badge/style';
 
 export default {

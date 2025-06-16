@@ -7,7 +7,7 @@
  * @module selectbutton
  *
  */
-import type { ComponentHooks } from '@primevue/core/basecomponent';
+import type { ComponentHooks } from '@peacepiece-compatibility/core/basecomponent';
 import type { PassThroughOptions } from '@peacepiece-compatibility/primevue/passthrough';
 import { VNode } from 'vue';
 // import { ToggleButtonPassThroughOptions } from '@peacepiece-compatibility/primevue/togglebutton';

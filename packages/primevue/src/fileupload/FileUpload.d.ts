@@ -8,7 +8,7 @@
  *
  */
 import type { DefineComponent, DesignToken, EmitFn, HintedString, PassThrough } from '@primevue/core';
-import type { ComponentHooks } from '@primevue/core/basecomponent';
+import type { ComponentHooks } from '@peacepiece-compatibility/core/basecomponent';
 import type { BadgePassThroughOptions } from '@peacepiece-compatibility/primevue/badge';
 import type { ButtonPassThroughOptions } from '@peacepiece-compatibility/primevue/button';
 import type { MessagePassThroughOptions } from '@peacepiece-compatibility/primevue/message';

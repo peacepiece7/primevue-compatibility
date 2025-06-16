@@ -1,5 +1,5 @@
 <script>
-import BaseComponent from '@primevue/core/basecomponent';
+import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
 import InputIconStyle from '@peacepiece-compatibility/primevue/inputicon/style';
 
 export default {

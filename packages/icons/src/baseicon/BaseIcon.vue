@@ -1,6 +1,6 @@
 <script>
 import { isEmpty } from '@peacepieceuix-compatibility/utils/object';
-import BaseComponent from '@primevue/core/basecomponent';
+import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
 import BaseIconStyle from '@peacepiece-compatibility/icons/baseicon/style';
 
 export default {

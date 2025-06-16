@@ -100,7 +100,7 @@ import TimesIcon from '@peacepiece-compatibility/icons/times';
 import { absolutePosition, addStyle, findSingle, focus, getOuterWidth, isTouchDevice, relativePosition } from '@peacepieceuix-compatibility/utils/dom';
 import { equals, findLastIndex, isEmpty, isNotEmpty, isPrintableCharacter, isString, resolveFieldData } from '@peacepieceuix-compatibility/utils/object';
 import { ZIndex } from '@peacepieceuix-compatibility/utils/zindex';
-import { ConnectedOverlayScrollHandler } from '@primevue/core/utils';
+import { ConnectedOverlayScrollHandler } from '@peacepiece-compatibility/core/utils';
 import OverlayEventBus from '@peacepiece-compatibility/primevue/overlayeventbus';
 import Portal from '@peacepiece-compatibility/primevue/portal';
 import BaseCascadeSelect from './BaseCascadeSelect.vue';

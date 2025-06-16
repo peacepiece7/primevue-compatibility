@@ -1,4 +1,4 @@
-import { FilterMatchMode } from '@primevue/core/api';
+import { FilterMatchMode } from '@peacepiece-compatibility/core/api';
 import { mount } from '@vue/test-utils';
 import Button from '@peacepiece-compatibility/primevue/button';
 import PrimeVue from '@peacepiece-compatibility/primevue/config';

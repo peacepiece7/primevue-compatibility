@@ -138,7 +138,7 @@ import SearchIcon from '@peacepiece-compatibility/icons/search';
 import { cn } from '@peacepieceuix-compatibility/utils';
 import { findSingle, focus, getFirstFocusableElement, isElement } from '@peacepieceuix-compatibility/utils/dom';
 import { equals, findLastIndex, isNotEmpty, isPrintableCharacter, resolveFieldData } from '@peacepieceuix-compatibility/utils/object';
-import { FilterService } from '@primevue/core/api';
+import { FilterService } from '@peacepiece-compatibility/core/api';
 import IconField from '@peacepiece-compatibility/primevue/iconfield';
 import InputIcon from '@peacepiece-compatibility/primevue/inputicon';
 import InputText from '@peacepiece-compatibility/primevue/inputtext';

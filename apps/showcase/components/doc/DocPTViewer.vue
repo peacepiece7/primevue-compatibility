@@ -26,7 +26,7 @@
 
 <script>
 import { addClass, find, removeClass } from '@peacepieceuix-compatibility/utils/dom';
-import { defaultOptions } from '@primevue/core/config';
+import { defaultOptions } from '@peacepiece-compatibility/core/config';
 
 export default {
     props: ['docs'],

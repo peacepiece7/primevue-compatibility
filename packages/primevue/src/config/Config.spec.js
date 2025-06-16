@@ -1,4 +1,4 @@
-import { defaultOptions } from '@primevue/core/config';
+import { defaultOptions } from '@peacepiece-compatibility/core/config';
 import { config } from '@vue/test-utils';
 
 config.global.mocks['$primevue'] = {

@@ -1,5 +1,5 @@
 import type { DefaultPassThrough, PassThrough } from '@primevue/core';
-import type { PrimeVueCSPOptions, PrimeVueLocaleOptions, PrimeVueZIndexOptions } from '@primevue/core/config';
+import type { PrimeVueCSPOptions, PrimeVueLocaleOptions, PrimeVueZIndexOptions } from '@peacepiece-compatibility/core/config';
 import type { AccordionPassThroughOptions } from '@peacepiece-compatibility/primevue/accordion';
 import type { AccordionContentPassThroughOptions } from '@peacepiece-compatibility/primevue/accordioncontent';
 import type { AccordionHeaderPassThroughOptions } from '@peacepiece-compatibility/primevue/accordionheader';
@@ -129,8 +129,8 @@ import type { TreeSelectPassThroughOptions } from '@peacepiece-compatibility/pri
 import type { TreeTablePassThroughOptions } from '@peacepiece-compatibility/primevue/treetable';
 import type { VirtualScrollerPassThroughOptions } from '@peacepiece-compatibility/primevue/virtualscroller';
 
-export * from '@primevue/core/config';
-export { default } from '@primevue/core/config';
+export * from '@peacepiece-compatibility/core/config';
+export { default } from '@peacepiece-compatibility/core/config';
 
 export interface PrimeVueConfiguration {
     ripple?: boolean;

@@ -1,5 +1,5 @@
 <script>
-import BaseInput from '@primevue/core/baseinput';
+import BaseInput from '@peacepiece-compatibility/core/baseinput';
 import AutoCompleteStyle from '@peacepiece-compatibility/primevue/autocomplete/style';
 
 export default {

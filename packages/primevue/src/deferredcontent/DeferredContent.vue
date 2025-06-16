@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import BaseComponent from '@primevue/core/basecomponent';
+import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
 import DeferredContentStyle from '@peacepiece-compatibility/primevue/deferredcontent/style';
 
 export default {

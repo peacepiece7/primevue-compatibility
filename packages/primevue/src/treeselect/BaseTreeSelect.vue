@@ -1,5 +1,5 @@
 <script>
-import BaseInput from '@primevue/core/baseinput';
+import BaseInput from '@peacepiece-compatibility/core/baseinput';
 import TreeSelectStyle from '@peacepiece-compatibility/primevue/treeselect/style';
 
 export default {

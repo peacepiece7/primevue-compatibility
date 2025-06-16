@@ -57,7 +57,7 @@
 import DataTable from '@/volt/DataTable.vue';
 import InputText from '@/volt/InputText.vue';
 import Tag from '@/volt/Tag.vue';
-import { FilterMatchMode } from '@primevue/core/api';
+import { FilterMatchMode } from '@peacepiece-compatibility/core/api';
 import Column from '@peacepiece-compatibility/primevue/column';
 import { ref } from 'vue';
 import { CustomerService } from '~/service/CustomerService';
@@ -145,7 +145,7 @@ import { CustomerService } from '@/service/CustomerService';
 import DataTable from '@/volt/DataTable.vue';
 import InputText from '@/volt/InputText.vue';
 import Tag from '@/volt/Tag.vue';
-import { FilterMatchMode } from '@primevue/core/api';
+import { FilterMatchMode } from '@peacepiece-compatibility/core/api';
 import Column from '@peacepiece-compatibility/primevue/column';
 import { ref, onMounted } from 'vue';
 

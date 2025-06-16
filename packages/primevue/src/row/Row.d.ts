@@ -8,7 +8,7 @@
  *
  */
 import type { DefineComponent, EmitFn, PassThrough } from '@primevue/core';
-import type { ComponentHooks } from '@primevue/core/basecomponent';
+import type { ComponentHooks } from '@peacepiece-compatibility/core/basecomponent';
 
 export declare type RowPassThroughOptionType<T = any> = RowPassThroughAttributes | ((options: RowPassThroughMethodOptions<T>) => RowPassThroughAttributes | string) | string | null | undefined;
 

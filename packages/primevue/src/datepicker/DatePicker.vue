@@ -570,7 +570,7 @@ import { cn } from '@peacepieceuix-compatibility/utils';
 import { absolutePosition, addStyle, find, findSingle, getAttribute, getFocusableElements, getIndex, getOuterWidth, isTouchDevice, relativePosition, setAttribute } from '@peacepieceuix-compatibility/utils/dom';
 import { localeComparator } from '@peacepieceuix-compatibility/utils/object';
 import { ZIndex } from '@peacepieceuix-compatibility/utils/zindex';
-import { ConnectedOverlayScrollHandler } from '@primevue/core/utils';
+import { ConnectedOverlayScrollHandler } from '@peacepiece-compatibility/core/utils';
 import Button from '@peacepiece-compatibility/primevue/button';
 import InputText from '@peacepiece-compatibility/primevue/inputtext';
 import OverlayEventBus from '@peacepiece-compatibility/primevue/overlayeventbus';

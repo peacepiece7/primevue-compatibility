@@ -1,5 +1,5 @@
 import { style } from '@peacepieceuix-compatibility/styles/skeleton';
-import BaseStyle from '@primevue/core/base/style';
+import BaseStyle from '@peacepiece-compatibility/core/base/style';
 
 const inlineStyles = {
     root: { position: 'relative' }

@@ -1,5 +1,5 @@
 <script>
-import BaseComponent from '@primevue/core/basecomponent';
+import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
 import FieldsetStyle from '@peacepiece-compatibility/primevue/fieldset/style';
 
 export default {

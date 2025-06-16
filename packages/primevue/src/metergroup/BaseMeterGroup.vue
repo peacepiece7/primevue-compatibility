@@ -1,5 +1,5 @@
 <script>
-import BaseComponent from '@primevue/core/basecomponent';
+import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
 import MeterGroupStyle from '@peacepiece-compatibility/primevue/metergroup/style';
 
 export default {

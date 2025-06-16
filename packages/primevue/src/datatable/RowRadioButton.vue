@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import BaseComponent from '@primevue/core/basecomponent';
+import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
 import RadioButton from '@peacepiece-compatibility/primevue/radiobutton';
 import { mergeProps } from 'vue';
 

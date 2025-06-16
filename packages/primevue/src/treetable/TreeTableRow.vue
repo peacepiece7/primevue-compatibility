@@ -72,8 +72,8 @@
 <script>
 import { find, findSingle, focus, getAttribute, isClickable } from '@peacepieceuix-compatibility/utils/dom';
 import { equals, resolveFieldData } from '@peacepieceuix-compatibility/utils/object';
-import BaseComponent from '@primevue/core/basecomponent';
-import { getVNodeProp } from '@primevue/core/utils';
+import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
+import { getVNodeProp } from '@peacepiece-compatibility/core/utils';
 import BodyCell from './BodyCell.vue';
 
 export default {

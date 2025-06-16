@@ -8,7 +8,7 @@
  *
  */
 import type { DefineComponent, DesignToken, EmitFn, HintedString, PassThrough } from '@primevue/core';
-import type { ComponentHooks } from '@primevue/core/basecomponent';
+import type { ComponentHooks } from '@peacepiece-compatibility/core/basecomponent';
 import type { ColumnPassThroughOptionType } from '@peacepiece-compatibility/primevue/column';
 import type { PaginatorPassThroughOptionType } from '@peacepiece-compatibility/primevue/paginator';
 import type { PassThroughOptions } from '@peacepiece-compatibility/primevue/passthrough';

@@ -211,7 +211,7 @@ import { cn } from '@peacepieceuix-compatibility/utils';
 import { absolutePosition, addStyle, findSingle, focus, getOuterWidth, isTouchDevice, relativePosition } from '@peacepieceuix-compatibility/utils/dom';
 import { equals, findLastIndex, isEmpty, isNotEmpty, resolveFieldData } from '@peacepieceuix-compatibility/utils/object';
 import { ZIndex } from '@peacepieceuix-compatibility/utils/zindex';
-import { ConnectedOverlayScrollHandler } from '@primevue/core/utils';
+import { ConnectedOverlayScrollHandler } from '@peacepiece-compatibility/core/utils';
 import Chip from '@peacepiece-compatibility/primevue/chip';
 import InputText from '@peacepiece-compatibility/primevue/inputtext';
 import OverlayEventBus from '@peacepiece-compatibility/primevue/overlayeventbus';

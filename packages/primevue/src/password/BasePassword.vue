@@ -1,5 +1,5 @@
 <script>
-import BaseInput from '@primevue/core/baseinput';
+import BaseInput from '@peacepiece-compatibility/core/baseinput';
 import PasswordStyle from '@peacepiece-compatibility/primevue/password/style';
 
 export default {

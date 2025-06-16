@@ -1,5 +1,5 @@
 <script>
-import BaseComponent from '@primevue/core/basecomponent';
+import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
 import DataViewStyle from '@peacepiece-compatibility/primevue/dataview/style';
 
 export default {

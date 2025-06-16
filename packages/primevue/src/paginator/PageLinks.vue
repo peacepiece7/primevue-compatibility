@@ -18,7 +18,7 @@
 </template>
 
 <script>
-import BaseComponent from '@primevue/core/basecomponent';
+import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
 import Ripple from '@peacepiece-compatibility/primevue/ripple';
 
 export default {

@@ -18,7 +18,7 @@
 </template>
 
 <script>
-import BaseComponent from '@primevue/core/basecomponent';
+import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
 import TimesIcon from '@peacepiece-compatibility/icons/times';
 import Badge from '@peacepiece-compatibility/primevue/badge';
 import Button from '@peacepiece-compatibility/primevue/button';

@@ -1,5 +1,5 @@
 import { style } from '@peacepieceuix-compatibility/styles/galleria';
-import BaseStyle from '@primevue/core/base/style';
+import BaseStyle from '@peacepiece-compatibility/core/base/style';
 
 const classes = {
     mask: 'p-galleria-mask p-overlay-mask p-overlay-mask-enter',

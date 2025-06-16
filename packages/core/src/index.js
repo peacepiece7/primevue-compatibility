@@ -1,38 +1,38 @@
 // Api
-export * from '@primevue/core/api';
+export * from '@peacepiece-compatibility/core/api';
 
 // Base
-export { default as Base } from '@primevue/core/base';
-export { default as BaseStyle } from '@primevue/core/base/style';
+export { default as Base } from '@peacepiece-compatibility/core/base';
+export { default as BaseStyle } from '@peacepiece-compatibility/core/base/style';
 
 // BaseComponent
-export { default as BaseComponent } from '@primevue/core/basecomponent';
-export { default as BaseComponentStyle } from '@primevue/core/basecomponent/style';
+export { default as BaseComponent } from '@peacepiece-compatibility/core/basecomponent';
+export { default as BaseComponentStyle } from '@peacepiece-compatibility/core/basecomponent/style';
 
 // BaseDirective
-export { default as BaseDirective } from '@primevue/core/basedirective';
+export { default as BaseDirective } from '@peacepiece-compatibility/core/basedirective';
 
 // BaseEditableHolder
-export { default as BaseEditableHolder } from '@primevue/core/baseeditableholder';
+export { default as BaseEditableHolder } from '@peacepiece-compatibility/core/baseeditableholder';
 
 // BaseInput
-export { default as BaseInput } from '@primevue/core/baseinput';
+export { default as BaseInput } from '@peacepiece-compatibility/core/baseinput';
 
 // PrimeVue
-export * from '@primevue/core/config';
-export { default as PrimeVue } from '@primevue/core/config';
+export * from '@peacepiece-compatibility/core/config';
+export { default as PrimeVue } from '@peacepiece-compatibility/core/config';
 
 // PrimeVueService
-export { default as PrimeVueService } from '@primevue/core/service';
+export { default as PrimeVueService } from '@peacepiece-compatibility/core/service';
 
 // UseAttrSelector
-export * from '@primevue/core/useattrselector';
+export * from '@peacepiece-compatibility/core/useattrselector';
 
 // UseId
-export * from '@primevue/core/useid';
+export * from '@peacepiece-compatibility/core/useid';
 
 // UseStyle
-export * from '@primevue/core/usestyle';
+export * from '@peacepiece-compatibility/core/usestyle';
 
 // Utils
-export * from '@primevue/core/utils';
+export * from '@peacepiece-compatibility/core/utils';

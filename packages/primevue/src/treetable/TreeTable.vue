@@ -206,8 +206,8 @@
 import SpinnerIcon from '@peacepiece-compatibility/icons/spinner';
 import { addStyle, clearSelection, find, getAttribute, getIndex, getOffset, getOuterWidth, isRTL, setAttribute } from '@peacepieceuix-compatibility/utils/dom';
 import { localeComparator, resolveFieldData, sort } from '@peacepieceuix-compatibility/utils/object';
-import { FilterService } from '@primevue/core/api';
-import { getVNodeProp, HelperSet } from '@primevue/core/utils';
+import { FilterService } from '@peacepiece-compatibility/core/api';
+import { getVNodeProp, HelperSet } from '@peacepiece-compatibility/core/utils';
 import Paginator from '@peacepiece-compatibility/primevue/paginator';
 import BaseTreeTable from './BaseTreeTable.vue';
 import FooterCell from './FooterCell.vue';

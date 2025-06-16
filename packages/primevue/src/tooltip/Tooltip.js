@@ -2,7 +2,7 @@ import { addClass, createElement, fadeIn, findSingle, getAttribute, getOuterHeig
 import { isEmpty } from '@peacepieceuix-compatibility/utils/object';
 import { uuid } from '@peacepieceuix-compatibility/utils/uuid';
 import { ZIndex } from '@peacepieceuix-compatibility/utils/zindex';
-import { ConnectedOverlayScrollHandler } from '@primevue/core/utils';
+import { ConnectedOverlayScrollHandler } from '@peacepiece-compatibility/core/utils';
 import BaseTooltip from './BaseTooltip';
 
 const Tooltip = BaseTooltip.extend('tooltip', {

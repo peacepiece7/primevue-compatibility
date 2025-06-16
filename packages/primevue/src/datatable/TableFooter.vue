@@ -24,8 +24,8 @@
 </template>
 
 <script>
-import BaseComponent from '@primevue/core/basecomponent';
-import { HelperSet, getVNodeProp } from '@primevue/core/utils';
+import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
+import { HelperSet, getVNodeProp } from '@peacepiece-compatibility/core/utils';
 import { mergeProps } from 'vue';
 import FooterCell from './FooterCell.vue';
 

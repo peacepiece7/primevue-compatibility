@@ -1,5 +1,5 @@
 <script>
-import BaseComponent from '@primevue/core/basecomponent';
+import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
 import AvatarStyle from '@peacepiece-compatibility/primevue/avatar/style';
 
 export default {

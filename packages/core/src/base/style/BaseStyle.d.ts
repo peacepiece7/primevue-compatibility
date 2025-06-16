@@ -5,7 +5,7 @@
  * @module basestyle
  *
  */
-import type { Style, StyleOptions } from '@primevue/core/usestyle';
+import type { Style, StyleOptions } from '@peacepiece-compatibility/core/usestyle';
 
 export enum BaseClasses {}
 

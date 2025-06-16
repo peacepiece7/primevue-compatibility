@@ -61,7 +61,7 @@
 import { $dt } from '@peacepieceuix-compatibility/styled';
 import { absolutePosition, addClass, focus, getOffset, isTouchDevice } from '@peacepieceuix-compatibility/utils/dom';
 import { ZIndex } from '@peacepieceuix-compatibility/utils/zindex';
-import { ConnectedOverlayScrollHandler } from '@primevue/core/utils';
+import { ConnectedOverlayScrollHandler } from '@peacepiece-compatibility/core/utils';
 import Button from '@peacepiece-compatibility/primevue/button';
 import ConfirmationEventBus from '@peacepiece-compatibility/primevue/confirmationeventbus';
 import FocusTrap from '@peacepiece-compatibility/primevue/focustrap';

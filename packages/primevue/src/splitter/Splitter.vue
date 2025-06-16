@@ -26,7 +26,7 @@
 import { cn } from '@peacepieceuix-compatibility/utils';
 import { getHeight, getOuterHeight, getOuterWidth, getWidth, isRTL } from '@peacepieceuix-compatibility/utils/dom';
 import { isArray, isNotEmpty } from '@peacepieceuix-compatibility/utils/object';
-import { getVNodeProp } from '@primevue/core/utils';
+import { getVNodeProp } from '@peacepiece-compatibility/core/utils';
 import BaseSplitter from './BaseSplitter.vue';
 
 export default {

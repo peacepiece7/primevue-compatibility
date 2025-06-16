@@ -6,7 +6,7 @@
  *
  * @module animateonscroll
  */
-import type { DirectiveHooks } from '@primevue/core/basedirective';
+import type { DirectiveHooks } from '@peacepiece-compatibility/core/basedirective';
 import { DirectiveBinding, ObjectDirective } from 'vue';
 
 /**
