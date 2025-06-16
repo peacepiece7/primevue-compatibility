@@ -27,7 +27,7 @@
             <component v-if="column.children && column.children.header" :is="column.children.header" :column="column" />
             <span v-if="columnProp('header')" :class="cx('columnTitle')" v-bind="getColumnPT('columnTitle')">{{ columnProp('header') }}</span>
             <span v-if="columnProp('sortable')" v-bind="getColumnPT('sort')">
-                <component :is="(column.children && column.children.sorticon) || sortableColumnIcon" :sorted="sortState.sorted" :sortOrder="sortState.sortOrder" :class="cx('sortIcon')" v-bind="getColumnPT('sorticon')" />
+                <component :is="(column.children && column.children.sorticon) || sortableColumnIcon" :sorted="sortState.sorted" :dataSortOrder="sortState.sortOrder" :class="cx('sortIcon')" v-bind="getColumnPT('sorticon')" />
             </span>
             <Badge v-if="isMultiSorted()" :class="cx('pcSortBadge')" :pt="getColumnPT('pcSortBadge')" :value="getBadgeValue()" size="small" />
             <DTHeaderCheckbox
@@ -84,13 +84,13 @@
 </template>
 
 <script>
+import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
+import { getVNodeProp } from '@peacepiece-compatibility/core/utils';
 import SortAltIcon from '@peacepiece-compatibility/icons/sortalt';
 import SortAmountDownIcon from '@peacepiece-compatibility/icons/sortamountdown';
 import SortAmountUpAltIcon from '@peacepiece-compatibility/icons/sortamountupalt';
-import { getAttribute, getIndex, getNextElementSibling, getOuterWidth, getPreviousElementSibling } from '@peacepieceuix-compatibility/utils/dom';
-import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
-import { getVNodeProp } from '@peacepiece-compatibility/core/utils';
 import Badge from '@peacepiece-compatibility/primevue/badge';
+import { getAttribute, getIndex, getNextElementSibling, getOuterWidth, getPreviousElementSibling } from '@peacepieceuix-compatibility/utils/dom';
 import { mergeProps } from 'vue';
 import ColumnFilter from './ColumnFilter.vue';
 import HeaderCheckbox from './HeaderCheckbox.vue';
@@ -330,7 +330,7 @@ export default {
 
             if (this.sortMode === 'single') {
                 sorted = this.sortField && (this.sortField === this.columnProp('field') || this.sortField === this.columnProp('sortField'));
-                sortOrder = sorted ? this.sortOrder : 0;
+                sortOrder = sorted ? this.dataSortOrder : 0;
             } else if (this.sortMode === 'multiple') {
                 let metaIndex = this.getMultiSortMetaIndex();
 

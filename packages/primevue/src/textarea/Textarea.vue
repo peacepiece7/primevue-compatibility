@@ -1,5 +1,6 @@
 <template>
-    <textarea :class="cx('root')" :value="d_value" :name="name" :disabled="disabled" :aria-invalid="invalid || undefined" :data-p="dataP" @input="onInput" v-bind="attrs"></textarea>
+    <!-- @TODO: :value="d_value" 제거 확인 필요! -->
+    <textarea :class="cx('root')" :name="name" :disabled="disabled" :aria-invalid="invalid || undefined" :data-p="dataP" @input="onInput" v-bind="attrs">{{ d_value }}</textarea>
 </template>
 
 <script>

@@ -1,6 +1,6 @@
 <template>
     <template v-if="!empty">
-        <tr v-if="templates['groupheader'] && rowGroupMode === 'subheader' && shouldRenderRowGroupHeader" :class="cx('rowGroupHeader')" :style="rowGroupHeaderStyle" role="row" v-bind="ptm('rowGroupHeader')">
+        <tr v-if="templates['groupheader'] && rowGroupMode === 'subheader' && shouldRenderRowGroupHeader" :class="cx('rowGroupHeader')" :style="rowGroupHeaderStyle"  v-bind="ptm('rowGroupHeader')">
             <td :colspan="columnsLength - 1" v-bind="{ ...getColumnPT('bodycell'), ...ptm('rowGroupHeaderCell') }">
                 <button v-if="expandableRowGroups" :class="cx('rowToggleButton')" @click="onRowGroupToggle" type="button" v-bind="ptm('rowToggleButton')">
                     <component v-if="templates['rowtoggleicon'] || templates['rowgrouptogglericon']" :is="templates['rowtoggleicon'] || templates['rowgrouptogglericon']" :expanded="isRowGroupExpanded" />
@@ -19,7 +19,7 @@
             :class="rowClasses"
             :style="rowStyles"
             :tabindex="rowTabindex"
-            role="row"
+
             :aria-selected="selectionMode ? isSelected : null"
             @click="onRowClick"
             @dblclick="onRowDblClick"
@@ -74,18 +74,18 @@
                 />
             </template>
         </tr>
-        <tr v-if="templates['expansion'] && expandedRows && d_rowExpanded" :id="expandedRowId + '_' + rowIndex + '_expansion'" :class="cx('rowExpansion')" role="row" v-bind="ptm('rowExpansion')">
+        <tr v-if="templates['expansion'] && expandedRows && d_rowExpanded" :id="expandedRowId + '_' + rowIndex + '_expansion'" :class="cx('rowExpansion')"  v-bind="ptm('rowExpansion')">
             <td :colspan="columnsLength" v-bind="{ ...getColumnPT('bodycell'), ...ptm('rowExpansionCell') }">
                 <component :is="templates['expansion']" :data="rowData" :index="rowIndex" />
             </td>
         </tr>
-        <tr v-if="templates['groupfooter'] && rowGroupMode === 'subheader' && shouldRenderRowGroupFooter" :class="cx('rowGroupFooter')" role="row" v-bind="ptm('rowGroupFooter')">
+        <tr v-if="templates['groupfooter'] && rowGroupMode === 'subheader' && shouldRenderRowGroupFooter" :class="cx('rowGroupFooter')"  v-bind="ptm('rowGroupFooter')">
             <td :colspan="columnsLength - 1" v-bind="{ ...getColumnPT('bodycell'), ...ptm('rowGroupFooterCell') }">
                 <component :is="templates['groupfooter']" :data="rowData" :index="rowIndex" />
             </td>
         </tr>
     </template>
-    <tr v-else :class="cx('emptyMessage')" role="row" v-bind="ptm('emptyMessage')">
+    <tr v-else :class="cx('emptyMessage')"  v-bind="ptm('emptyMessage')">
         <td :colspan="columnsLength" v-bind="{ ...getColumnPT('bodycell'), ...ptm('emptyMessageCell') }">
             <component v-if="templates.empty" :is="templates.empty" />
         </td>
@@ -93,11 +93,11 @@
 </template>
 
 <script>
+import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
+import { getVNodeProp } from '@peacepiece-compatibility/core/utils';
 import ChevronDownIcon from '@peacepiece-compatibility/icons/chevrondown';
 import ChevronRightIcon from '@peacepiece-compatibility/icons/chevronright';
 import { equals, isNotEmpty, resolveFieldData } from '@peacepieceuix-compatibility/utils/object';
-import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
-import { getVNodeProp } from '@peacepiece-compatibility/core/utils';
 import { mergeProps } from 'vue';
 import BodyCell from './BodyCell.vue';
 
@@ -170,10 +170,10 @@ export default {
             type: Array,
             default: null
         },
-        first: {
-            type: Number,
-            default: 0
-        },
+        // first: {
+        //     type: Number,
+        //     default: 0
+        // },
         dataKey: {
             type: [String, Function],
             default: null
