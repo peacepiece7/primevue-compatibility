@@ -14,7 +14,6 @@
                 :aria-labelledby="ariaLabelledby"
                 aria-haspopup="listbox"
                 :aria-expanded="overlayVisible"
-                :aria-controls="$id + '_list'"
                 :aria-activedescendant="focused ? focusedOptionId : undefined"
                 :aria-invalid="invalid || undefined"
                 @focus="onFocus"
@@ -223,17 +222,13 @@
 </template>
 
 <script>
+import { FilterService } from '@peacepiece-compatibility/core/api';
+import { ConnectedOverlayScrollHandler } from '@peacepiece-compatibility/core/utils';
 import CheckIcon from '@peacepiece-compatibility/icons/check';
 import ChevronDownIcon from '@peacepiece-compatibility/icons/chevrondown';
 import SearchIcon from '@peacepiece-compatibility/icons/search';
 import SpinnerIcon from '@peacepiece-compatibility/icons/spinner';
 import TimesIcon from '@peacepiece-compatibility/icons/times';
-import { cn } from '@peacepieceuix-compatibility/utils';
-import { absolutePosition, addStyle, findSingle, focus, getFirstFocusableElement, getFocusableElements, getLastFocusableElement, getOuterWidth, isTouchDevice, relativePosition } from '@peacepieceuix-compatibility/utils/dom';
-import { equals, findLastIndex, isEmpty, isNotEmpty, isPrintableCharacter, resolveFieldData } from '@peacepieceuix-compatibility/utils/object';
-import { ZIndex } from '@peacepieceuix-compatibility/utils/zindex';
-import { FilterService } from '@peacepiece-compatibility/core/api';
-import { ConnectedOverlayScrollHandler } from '@peacepiece-compatibility/core/utils';
 import Checkbox from '@peacepiece-compatibility/primevue/checkbox';
 import Chip from '@peacepiece-compatibility/primevue/chip';
 import IconField from '@peacepiece-compatibility/primevue/iconfield';
@@ -243,6 +238,10 @@ import OverlayEventBus from '@peacepiece-compatibility/primevue/overlayeventbus'
 import Portal from '@peacepiece-compatibility/primevue/portal';
 import Ripple from '@peacepiece-compatibility/primevue/ripple';
 import VirtualScroller from '@peacepiece-compatibility/primevue/virtualscroller';
+import { cn } from '@peacepieceuix-compatibility/utils';
+import { absolutePosition, addStyle, findSingle, focus, getFirstFocusableElement, getFocusableElements, getLastFocusableElement, getOuterWidth, isTouchDevice, relativePosition } from '@peacepieceuix-compatibility/utils/dom';
+import { equals, findLastIndex, isEmpty, isNotEmpty, isPrintableCharacter, resolveFieldData } from '@peacepieceuix-compatibility/utils/object';
+import { ZIndex } from '@peacepieceuix-compatibility/utils/zindex';
 import BaseMultiSelect from './BaseMultiSelect.vue';
 
 export default {

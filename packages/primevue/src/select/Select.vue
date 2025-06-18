@@ -18,7 +18,6 @@
             :aria-labelledby="ariaLabelledby"
             aria-haspopup="listbox"
             :aria-expanded="overlayVisible"
-            :aria-controls="$id + '_list'"
             :aria-activedescendant="focused ? focusedOptionId : undefined"
             :aria-invalid="invalid || undefined"
             @focus="onFocus"
@@ -41,7 +40,6 @@
             :aria-labelledby="ariaLabelledby"
             aria-haspopup="listbox"
             :aria-expanded="overlayVisible"
-            :aria-controls="$id + '_list'"
             :aria-activedescendant="focused ? focusedOptionId : undefined"
             :aria-invalid="invalid || undefined"
             :aria-disabled="disabled"
@@ -197,18 +195,14 @@
 </template>
 
 <script>
+import { FilterService } from '@peacepiece-compatibility/core/api';
+import { ConnectedOverlayScrollHandler } from '@peacepiece-compatibility/core/utils';
 import BlankIcon from '@peacepiece-compatibility/icons/blank';
 import CheckIcon from '@peacepiece-compatibility/icons/check';
 import ChevronDownIcon from '@peacepiece-compatibility/icons/chevrondown';
 import SearchIcon from '@peacepiece-compatibility/icons/search';
 import SpinnerIcon from '@peacepiece-compatibility/icons/spinner';
 import TimesIcon from '@peacepiece-compatibility/icons/times';
-import { cn } from '@peacepieceuix-compatibility/utils';
-import { absolutePosition, addStyle, findSingle, focus, getFirstFocusableElement, getFocusableElements, getLastFocusableElement, getOuterWidth, isAndroid, isTouchDevice, isVisible, relativePosition } from '@peacepieceuix-compatibility/utils/dom';
-import { equals, findLastIndex, isNotEmpty, isPrintableCharacter, resolveFieldData } from '@peacepieceuix-compatibility/utils/object';
-import { ZIndex } from '@peacepieceuix-compatibility/utils/zindex';
-import { FilterService } from '@peacepiece-compatibility/core/api';
-import { ConnectedOverlayScrollHandler } from '@peacepiece-compatibility/core/utils';
 import IconField from '@peacepiece-compatibility/primevue/iconfield';
 import InputIcon from '@peacepiece-compatibility/primevue/inputicon';
 import InputText from '@peacepiece-compatibility/primevue/inputtext';
@@ -216,6 +210,10 @@ import OverlayEventBus from '@peacepiece-compatibility/primevue/overlayeventbus'
 import Portal from '@peacepiece-compatibility/primevue/portal';
 import Ripple from '@peacepiece-compatibility/primevue/ripple';
 import VirtualScroller from '@peacepiece-compatibility/primevue/virtualscroller';
+import { cn } from '@peacepieceuix-compatibility/utils';
+import { absolutePosition, addStyle, findSingle, focus, getFirstFocusableElement, getFocusableElements, getLastFocusableElement, getOuterWidth, isAndroid, isTouchDevice, isVisible, relativePosition } from '@peacepieceuix-compatibility/utils/dom';
+import { equals, findLastIndex, isNotEmpty, isPrintableCharacter, resolveFieldData } from '@peacepieceuix-compatibility/utils/object';
+import { ZIndex } from '@peacepieceuix-compatibility/utils/zindex';
 import BaseSelect from './BaseSelect.vue';
 
 export default {
