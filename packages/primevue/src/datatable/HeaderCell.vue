@@ -26,7 +26,13 @@
             <component v-if="column.children && column.children.header" :is="column.children.header" :column="column" />
             <span v-if="columnProp('header')" :class="cx('columnTitle')" v-bind="getColumnPT('columnTitle')">{{ columnProp('header') }}</span>
             <span v-if="columnProp('sortable')" v-bind="getColumnPT('sort')">
-                <component :is="(column.children && column.children.sorticon) || sortableColumnIcon" :sorted="sortState.sorted" :data-sort-order="sortState.sortOrder" :class="cx('sortIcon')" v-bind="getColumnPT('sorticon')" />
+                <component
+                    :is="(column.children && column.children.sorticon) || sortableColumnIcon"
+                    :sorted="sortState.sorted"
+                    :sort-order="sortState.sortOrder == '0' ? undefined : sortState.sortOrder"
+                    :class="cx('sortIcon')"
+                    v-bind="getColumnPT('sorticon')"
+                />
             </span>
             <Badge v-if="isMultiSorted()" :class="cx('pcSortBadge')" :pt="getColumnPT('pcSortBadge')" :value="getBadgeValue()" size="small" />
             <DTHeaderCheckbox
@@ -329,7 +335,7 @@ export default {
 
             if (this.sortMode === 'single') {
                 sorted = this.sortField && (this.sortField === this.columnProp('field') || this.sortField === this.columnProp('sortField'));
-                sortOrder = sorted ? this['data-sort-order'] : 0;
+                sortOrder = sorted ? this['sortOrder'] : 0;
             } else if (this.sortMode === 'multiple') {
                 let metaIndex = this.getMultiSortMetaIndex();
 
