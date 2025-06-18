@@ -9,7 +9,6 @@
                     :columns="columns"
                     :frozenRow="frozenRow"
                     :empty="empty"
-                    :first="first"
                     :dataKey="dataKey"
                     :selection="selection"
                     :selectionKeys="selectionKeys"
@@ -70,10 +69,10 @@
 </template>
 
 <script>
+import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
 import { cn } from '@peacepieceuix-compatibility/utils';
 import { getOuterHeight } from '@peacepieceuix-compatibility/utils/dom';
 import { resolveFieldData } from '@peacepieceuix-compatibility/utils/object';
-import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
 import BodyRow from './BodyRow.vue';
 
 export default {
@@ -136,10 +135,6 @@ export default {
         expandedRowGroups: {
             type: Array,
             default: null
-        },
-        first: {
-            type: Number,
-            default: 0
         },
         dataKey: {
             type: [String, Function],

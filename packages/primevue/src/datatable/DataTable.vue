@@ -108,7 +108,6 @@
                             :filterDisplay="filterDisplay"
                             :filterButtonProps="headerFilterButtonProps"
                             :filterInputProps="filterInputProps"
-                            :first="d_first"
                             @column-click="onColumnHeaderClick($event)"
                             @column-mousedown="onColumnHeaderMouseDown($event)"
                             @filter-change="onFilterChange"
@@ -128,7 +127,6 @@
                             :value="frozenValue"
                             :frozenRow="true"
                             :columns="slotProps.columns"
-                            :first="d_first"
                             :dataKey="dataKey"
                             :selection="selection"
                             :selectionKeys="d_selectionKeys"
@@ -321,35 +319,35 @@
 </template>
 
 <script>
+import { FilterMatchMode, FilterOperator, FilterService } from '@peacepiece-compatibility/core/api';
+import { HelperSet, getVNodeProp } from '@peacepiece-compatibility/core/utils';
 import ArrowDownIcon from '@peacepiece-compatibility/icons/arrowdown';
 import ArrowUpIcon from '@peacepiece-compatibility/icons/arrowup';
 import SpinnerIcon from '@peacepiece-compatibility/icons/spinner';
-import { cn } from '@peacepieceuix-compatibility/utils';
-import {
-    addClass,
-    addStyle,
-    clearSelection,
-    exportCSV,
-    find,
-    findSingle,
-    focus,
-    getAttribute,
-    getHiddenElementOuterHeight,
-    getHiddenElementOuterWidth,
-    getIndex,
-    getOffset,
-    getOuterHeight,
-    getOuterWidth,
-    isClickable,
-    isRTL,
-    removeClass,
-    setAttribute
-} from '@peacepieceuix-compatibility/utils/dom';
-import { equals, findIndexInList, isEmpty, isNotEmpty, localeComparator, reorderArray, resolveFieldData, sort } from '@peacepieceuix-compatibility/utils/object';
-import { FilterMatchMode, FilterOperator, FilterService } from '@peacepiece-compatibility/core/api';
-import { HelperSet, getVNodeProp } from '@peacepiece-compatibility/core/utils';
 import Paginator from '@peacepiece-compatibility/primevue/paginator';
 import VirtualScroller from '@peacepiece-compatibility/primevue/virtualscroller';
+import { cn } from '@peacepieceuix-compatibility/utils';
+import {
+addClass,
+addStyle,
+clearSelection,
+exportCSV,
+find,
+findSingle,
+focus,
+getAttribute,
+getHiddenElementOuterHeight,
+getHiddenElementOuterWidth,
+getIndex,
+getOffset,
+getOuterHeight,
+getOuterWidth,
+isClickable,
+isRTL,
+removeClass,
+setAttribute
+} from '@peacepieceuix-compatibility/utils/dom';
+import { equals, findIndexInList, isEmpty, isNotEmpty, localeComparator, reorderArray, resolveFieldData, sort } from '@peacepieceuix-compatibility/utils/object';
 import BaseDataTable from './BaseDataTable.vue';
 import TableBody from './TableBody.vue';
 import TableFooter from './TableFooter.vue';

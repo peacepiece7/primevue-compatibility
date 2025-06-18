@@ -19,7 +19,6 @@
             :class="rowClasses"
             :style="rowStyles"
             :tabindex="rowTabindex"
-
             :aria-selected="selectionMode ? isSelected : null"
             @click="onRowClick"
             @dblclick="onRowDblClick"
@@ -170,10 +169,6 @@ export default {
             type: Array,
             default: null
         },
-        // first: {
-        //     type: Number,
-        //     default: 0
-        // },
         dataKey: {
             type: [String, Function],
             default: null
