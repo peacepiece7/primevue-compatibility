@@ -328,24 +328,24 @@ import Paginator from '@peacepiece-compatibility/primevue/paginator';
 import VirtualScroller from '@peacepiece-compatibility/primevue/virtualscroller';
 import { cn } from '@peacepieceuix-compatibility/utils';
 import {
-addClass,
-addStyle,
-clearSelection,
-exportCSV,
-find,
-findSingle,
-focus,
-getAttribute,
-getHiddenElementOuterHeight,
-getHiddenElementOuterWidth,
-getIndex,
-getOffset,
-getOuterHeight,
-getOuterWidth,
-isClickable,
-isRTL,
-removeClass,
-setAttribute
+    addClass,
+    addStyle,
+    clearSelection,
+    exportCSV,
+    find,
+    findSingle,
+    focus,
+    getAttribute,
+    getHiddenElementOuterHeight,
+    getHiddenElementOuterWidth,
+    getIndex,
+    getOffset,
+    getOuterHeight,
+    getOuterWidth,
+    isClickable,
+    isRTL,
+    removeClass,
+    setAttribute
 } from '@peacepieceuix-compatibility/utils/dom';
 import { equals, findIndexInList, isEmpty, isNotEmpty, localeComparator, reorderArray, resolveFieldData, sort } from '@peacepieceuix-compatibility/utils/object';
 import BaseDataTable from './BaseDataTable.vue';

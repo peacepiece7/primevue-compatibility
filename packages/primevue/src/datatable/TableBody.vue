@@ -1,5 +1,5 @@
 <template>
-    <tbody :ref="bodyRef" :class="cx('tbody')" role="rowgroup" :style="bodyContentStyle" :data-p="dataP" v-bind="ptm('tbody', ptmTBodyOptions)">
+    <tbody :ref="bodyRef" :class="cx('tbody')" :style="bodyContentStyle" :data-p="dataP" v-bind="ptm('tbody', ptmTBodyOptions)">
         <template v-if="!empty">
             <template v-for="(rowData, rowIndex) of value" :key="getRowKey(rowData, rowIndex)">
                 <DTBodyRow

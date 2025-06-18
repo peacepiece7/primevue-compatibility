@@ -3,7 +3,6 @@
         v-if="hasFooter"
         :class="cx('tfoot')"
         :style="sx('tfoot')"
-        role="rowgroup"
         v-bind="columnGroup ? { ...ptm('tfoot', ptmTFootOptions), ...getColumnGroupPT('root') } : ptm('tfoot', ptmTFootOptions)"
         :data-p-scrollable="$parentInstance?.$parentInstance?.scrollable"
         data-pc-section="tfoot"

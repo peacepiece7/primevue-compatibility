@@ -6,7 +6,6 @@
         @keydown="onKeyDown"
         :tabindex="columnProp('sortable') ? '0' : null"
         :aria-sort="ariaSort"
-        role="columnheader"
         v-bind="{ ...getColumnPT('root'), ...getColumnPT('headerCell') }"
         :data-p-sortable-column="columnProp('sortable')"
         :data-p-resizable-column="resizableColumns"
@@ -26,13 +25,13 @@
 </template>
 
 <script>
+import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
+import { getVNodeProp } from '@peacepiece-compatibility/core/utils';
 import SortAltIcon from '@peacepiece-compatibility/icons/sortalt';
 import SortAmountDownIcon from '@peacepiece-compatibility/icons/sortamountdown';
 import SortAmountUpAltIcon from '@peacepiece-compatibility/icons/sortamountupalt';
-import { getAttribute, getIndex, getNextElementSibling, getOuterWidth, getPreviousElementSibling } from '@peacepieceuix-compatibility/utils/dom';
-import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
-import { getVNodeProp } from '@peacepiece-compatibility/core/utils';
 import Badge from '@peacepiece-compatibility/primevue/badge';
+import { getAttribute, getIndex, getNextElementSibling, getOuterWidth, getPreviousElementSibling } from '@peacepieceuix-compatibility/utils/dom';
 import { mergeProps } from 'vue';
 
 export default {

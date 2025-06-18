@@ -69,7 +69,7 @@
         </TTPaginator>
         <div :class="cx('tableContainer')" :style="[sx('tableContainer'), { maxHeight: scrollHeight }]" v-bind="ptm('tableContainer')">
             <table ref="table" role="table" :class="[cx('table'), tableClass]" :style="tableStyle" v-bind="{ ...tableProps, ...ptm('table') }">
-                <thead :class="cx('thead')" :style="sx('thead')" role="rowgroup" v-bind="ptm('thead')">
+                <thead :class="cx('thead')" :style="sx('thead')" v-bind="ptm('thead')">
                     <tr role="row" v-bind="ptm('headerRow')">
                         <template v-for="(col, i) of columns" :key="columnProp(col, 'columnKey') || columnProp(col, 'field') || i">
                             <TTHeaderCell
@@ -96,7 +96,7 @@
                         </template>
                     </tr>
                 </thead>
-                <tbody :class="cx('tbody')" role="rowgroup" v-bind="ptm('tbody')">
+                <tbody :class="cx('tbody')" v-bind="ptm('tbody')">
                     <template v-if="!empty">
                         <TTRow
                             v-for="(node, index) of dataToRender"
@@ -130,7 +130,7 @@
                         </td>
                     </tr>
                 </tbody>
-                <tfoot v-if="hasFooter" :class="cx('tfoot')" :style="sx('tfoot')" role="rowgroup" v-bind="ptm('tfoot')">
+                <tfoot v-if="hasFooter" :class="cx('tfoot')" :style="sx('tfoot')" v-bind="ptm('tfoot')">
                     <tr role="row" v-bind="ptm('footerRow')">
                         <template v-for="(col, i) of columns" :key="columnProp(col, 'columnKey') || columnProp(col, 'field') || i">
                             <TTFooterCell v-if="!columnProp(col, 'hidden')" :column="col" :index="i" :unstyled="unstyled" :pt="pt"></TTFooterCell>
@@ -203,12 +203,12 @@
 </template>
 
 <script>
-import SpinnerIcon from '@peacepiece-compatibility/icons/spinner';
-import { addStyle, clearSelection, find, getAttribute, getIndex, getOffset, getOuterWidth, isRTL, setAttribute } from '@peacepieceuix-compatibility/utils/dom';
-import { localeComparator, resolveFieldData, sort } from '@peacepieceuix-compatibility/utils/object';
 import { FilterService } from '@peacepiece-compatibility/core/api';
 import { getVNodeProp, HelperSet } from '@peacepiece-compatibility/core/utils';
+import SpinnerIcon from '@peacepiece-compatibility/icons/spinner';
 import Paginator from '@peacepiece-compatibility/primevue/paginator';
+import { addStyle, clearSelection, find, getAttribute, getIndex, getOffset, getOuterWidth, isRTL, setAttribute } from '@peacepieceuix-compatibility/utils/dom';
+import { localeComparator, resolveFieldData, sort } from '@peacepieceuix-compatibility/utils/object';
 import BaseTreeTable from './BaseTreeTable.vue';
 import FooterCell from './FooterCell.vue';
 import HeaderCell from './HeaderCell.vue';
