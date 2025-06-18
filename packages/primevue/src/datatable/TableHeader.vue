@@ -8,7 +8,7 @@
         data-pc-section="thead"
     >
         <template v-if="!columnGroup">
-            <tr role="row" v-bind="ptm('headerRow')">
+            <tr v-bind="ptm('headerRow')">
                 <template v-for="(col, i) of columns" :key="columnProp(col, 'columnKey') || columnProp(col, 'field') || i">
                     <DTHeaderCell
                         v-if="!columnProp(col, 'hidden') && (rowGroupMode !== 'subheader' || groupRowsBy !== columnProp(col, 'field'))"
@@ -52,7 +52,7 @@
             </tr>
         </template>
         <template v-else>
-            <tr v-for="(row, i) of getHeaderRows()" :key="i" role="row" v-bind="{ ...ptm('headerRow'), ...getRowPT(row, 'root', i) }">
+            <tr v-for="(row, i) of getHeaderRows()" :key="i" v-bind="{ ...ptm('headerRow'), ...getRowPT(row, 'root', i) }">
                 <template v-for="(col, j) of getHeaderColumns(row)" :key="columnProp(col, 'columnKey') || columnProp(col, 'field') || j">
                     <DTHeaderCell
                         v-if="!columnProp(col, 'hidden') && (rowGroupMode !== 'subheader' || groupRowsBy !== columnProp(col, 'field')) && typeof col.children !== 'string'"
@@ -84,7 +84,7 @@
                 </template>
             </tr>
         </template>
-        <tr v-if="filterDisplay === 'row'" role="row" v-bind="ptm('headerRow')">
+        <tr v-if="filterDisplay === 'row'" v-bind="ptm('headerRow')">
             <template v-for="(col, i) of columns" :key="columnProp(col, 'columnKey') || columnProp(col, 'field') || i">
                 <DTFilterHeaderCell
                     v-if="!columnProp(col, 'hidden') && (rowGroupMode !== 'subheader' || groupRowsBy !== columnProp(col, 'field'))"
