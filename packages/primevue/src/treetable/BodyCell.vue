@@ -1,5 +1,5 @@
 <template>
-    <td :style="containerStyle" :class="containerClass" role="cell" v-bind="{ ...getColumnPT('root'), ...getColumnPT('bodyCell') }" :data-p-frozen-column="columnProp('frozen')">
+    <td :style="containerStyle" :class="containerClass" v-bind="{ ...getColumnPT('root'), ...getColumnPT('bodyCell') }" :data-p-frozen-column="columnProp('frozen')">
         <div :class="cx('bodyCellContent')" v-bind="getColumnPT('bodyCellContent')">
             <button v-if="columnProp('expander')" v-ripple type="button" :class="cx('nodeToggleButton')" @click="toggle" :style="togglerStyle" tabindex="-1" v-bind="getColumnPT('nodeToggleButton')" data-pc-group-section="rowactionbutton">
                 <template v-if="node.loading && loadingMode === 'icon'">
@@ -41,17 +41,17 @@
 </template>
 
 <script>
+import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
+import { getVNodeProp } from '@peacepiece-compatibility/core/utils';
 import CheckIcon from '@peacepiece-compatibility/icons/check';
 import ChevronDownIcon from '@peacepiece-compatibility/icons/chevrondown';
 import ChevronRightIcon from '@peacepiece-compatibility/icons/chevronright';
 import MinusIcon from '@peacepiece-compatibility/icons/minus';
 import SpinnerIcon from '@peacepiece-compatibility/icons/spinner';
-import { getNextElementSibling, getOuterWidth, getPreviousElementSibling } from '@peacepieceuix-compatibility/utils/dom';
-import { resolveFieldData } from '@peacepieceuix-compatibility/utils/object';
-import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
-import { getVNodeProp } from '@peacepiece-compatibility/core/utils';
 import Checkbox from '@peacepiece-compatibility/primevue/checkbox';
 import Ripple from '@peacepiece-compatibility/primevue/ripple';
+import { getNextElementSibling, getOuterWidth, getPreviousElementSibling } from '@peacepieceuix-compatibility/utils/dom';
+import { resolveFieldData } from '@peacepieceuix-compatibility/utils/object';
 import { mergeProps } from 'vue';
 
 export default {

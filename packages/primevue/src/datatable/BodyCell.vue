@@ -1,5 +1,5 @@
 <template>
-    <td v-if="loading" :style="containerStyle" :class="containerClass" role="cell" v-bind="{ ...getColumnPT('root'), ...getColumnPT('bodyCell') }">
+    <td v-if="loading" :style="containerStyle" :class="containerClass" v-bind="{ ...getColumnPT('root'), ...getColumnPT('bodyCell') }">
         <component :is="column.children.loading" :data="rowData" :column="column" :field="field" :index="rowIndex" :frozenRow="frozenRow" :loadingOptions="loadingOptions" />
     </td>
     <td
@@ -10,7 +10,6 @@
         :rowspan="columnProp('rowspan')"
         @click="onClick"
         @keydown="onKeyDown"
-        role="cell"
         v-bind="{ ...getColumnPT('root'), ...getColumnPT('bodyCell') }"
         :data-p-selection-column="columnProp('selectionMode') != null"
         :data-p-editable-column="isEditable()"
@@ -133,19 +132,19 @@
 </template>
 
 <script>
+import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
+import { getVNodeProp } from '@peacepiece-compatibility/core/utils';
 import BarsIcon from '@peacepiece-compatibility/icons/bars';
 import CheckIcon from '@peacepiece-compatibility/icons/check';
 import ChevronDownIcon from '@peacepiece-compatibility/icons/chevrondown';
 import ChevronRightIcon from '@peacepiece-compatibility/icons/chevronright';
 import PencilIcon from '@peacepiece-compatibility/icons/pencil';
 import TimesIcon from '@peacepiece-compatibility/icons/times';
-import { getAttribute, getFirstFocusableElement, getNextElementSibling, getOuterWidth, getPreviousElementSibling, invokeElementMethod } from '@peacepieceuix-compatibility/utils/dom';
-import { resolveFieldData } from '@peacepieceuix-compatibility/utils/object';
-import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
-import { getVNodeProp } from '@peacepiece-compatibility/core/utils';
 import Button from '@peacepiece-compatibility/primevue/button';
 import OverlayEventBus from '@peacepiece-compatibility/primevue/overlayeventbus';
 import Ripple from '@peacepiece-compatibility/primevue/ripple';
+import { getAttribute, getFirstFocusableElement, getNextElementSibling, getOuterWidth, getPreviousElementSibling, invokeElementMethod } from '@peacepieceuix-compatibility/utils/dom';
+import { resolveFieldData } from '@peacepieceuix-compatibility/utils/object';
 import { mergeProps } from 'vue';
 import RowCheckbox from './RowCheckbox.vue';
 import RowRadioButton from './RowRadioButton.vue';
