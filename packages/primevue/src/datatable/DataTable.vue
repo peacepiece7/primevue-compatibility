@@ -183,7 +183,6 @@
                             :class="slotProps.styleClass"
                             :columns="slotProps.columns"
                             :empty="empty"
-                            :first="d_first"
                             :dataKey="dataKey"
                             :selection="selection"
                             :selectionKeys="d_selectionKeys"
