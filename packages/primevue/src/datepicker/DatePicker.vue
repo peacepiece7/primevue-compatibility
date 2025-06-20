@@ -34,7 +34,6 @@
             :data-p-has-dropdown="showIcon && iconDisplay === 'button' && !inline"
             :data-p-has-e-icon="showIcon && iconDisplay === 'input' && !inline"
             :pt="ptm('pcInputText')"
-            :formControl="{ novalidate: true }"
         />
         <slot v-if="showIcon && iconDisplay === 'button' && !inline" name="dropdownbutton" :toggleCallback="onButtonClick">
             <button
@@ -2712,6 +2711,7 @@ export default {
                 if (this.overlayVisible) {
                     this.overlayVisible = false;
                     event.preventDefault();
+                    event.stopPropagation();
                 }
             } else if (event.code === 'Tab') {
                 if (this.overlay) {
@@ -2771,6 +2771,7 @@ export default {
                     if (!this.inline) {
                         this.input.focus();
                         this.overlayVisible = false;
+                        event.stopPropagation();
                     }
 
                     break;

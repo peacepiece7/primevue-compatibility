@@ -709,7 +709,11 @@ export default {
             event.preventDefault();
         },
         onEscapeKey(event) {
-            this.overlayVisible && this.hide(true);
+            if (this.overlayVisible) {
+                this.hide(true);
+                event.stopPropagation();
+            }
+
             event.preventDefault();
         },
         onTabKey(event, pressedInInputText = false) {

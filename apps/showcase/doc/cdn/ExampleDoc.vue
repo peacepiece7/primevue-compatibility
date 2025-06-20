@@ -23,36 +23,36 @@ export default {
     <script src="https://unpkg.com/primevue/umd/primevue.min.js"><\/script>
     <script src="https://unpkg.com/@peacepieceuix-compatibility/themes/umd/aura.js"><\/script>
 
-    <div id="app">
-      <p-datepicker v-model="date"></p-datepicker>
-      <br /><br />
-      {{ date }}
-    </div>
+        <div id="app">
+            <p-datepicker v-model="date"></p-datepicker>
+            <br /><br />
+            {{ date }}
+        </div>
 
-    <script>
-      const { createApp, ref } = Vue;
+        <script>
+            const { createApp, ref } = Vue;
 
-      const app = createApp({
-        setup() {
-          const date = ref();
+            const app = createApp({
+                setup() {
+                const date = ref();
 
-          return {
-            date
-          };
-        },
-      });
+                return {
+                    date
+                };
+                },
+            });
 
-      app.use(PrimeVue.Config, {
-        theme: {
-            preset: PrimeVue.Themes.Aura
-        }
-      });
+            app.use(PrimeVue.Config, {
+                theme: {
+                    preset: PrimeUIX.Themes.Aura
+                }
+            });
 
-      app.component('p-datepicker', PrimeVue.DatePicker);
+            app.component('p-datepicker', PrimeVue.DatePicker);
 
-      app.mount('#app');
-    <\/script>
-  </body>
+            app.mount('#app');
+        <\/script>
+    </body>
 </html>
 `
             }
