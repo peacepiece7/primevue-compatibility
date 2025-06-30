@@ -67,14 +67,14 @@
 import TimesIcon from '@peacepiece-compatibility/icons/times';
 import WindowMaximizeIcon from '@peacepiece-compatibility/icons/windowmaximize';
 import WindowMinimizeIcon from '@peacepiece-compatibility/icons/windowminimize';
-import { cn } from '@peacepieceuix-compatibility/utils';
-import { addClass, addStyle, focus, getOuterHeight, getOuterWidth, getViewport, setAttribute } from '@peacepieceuix-compatibility/utils/dom';
-import { ZIndex } from '@peacepieceuix-compatibility/utils/zindex';
 import Button from '@peacepiece-compatibility/primevue/button';
 import FocusTrap from '@peacepiece-compatibility/primevue/focustrap';
 import Portal from '@peacepiece-compatibility/primevue/portal';
 import Ripple from '@peacepiece-compatibility/primevue/ripple';
 import { blockBodyScroll, unblockBodyScroll } from '@peacepiece-compatibility/primevue/utils';
+import { cn } from '@peacepieceuix-compatibility/utils';
+import { addClass, addStyle, focus, getOuterHeight, getOuterWidth, getViewport, setAttribute } from '@peacepieceuix-compatibility/utils/dom';
+import { ZIndex } from '@peacepieceuix-compatibility/utils/zindex';
 import { computed } from 'vue';
 import BaseDialog from './BaseDialog.vue';
 
@@ -233,6 +233,13 @@ export default {
             }
         },
         unbindDocumentState() {
+            /**
+             * when the dialog is nested, unblockBodyScroll is not called.
+             */
+            const modals = Array.from(document.querySelectorAll('.p-dialog-mask')).filter((dialog) => dialog.getAttribute('data-p') == 'modal');
+            const hasDuplicateDialog = modals.length > 1;
+            if (hasDuplicateDialog) return;
+
             if (this.modal || (!this.modal && this.blockScroll) || (this.maximizable && this.maximized)) {
                 unblockBodyScroll();
             }
