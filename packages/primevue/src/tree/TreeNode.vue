@@ -50,37 +50,39 @@
                 <template v-else>{{ label(node) }}</template>
             </span>
         </div>
-        <ul v-if="hasChildren && expanded" :class="cx('nodeChildren')" role="group" v-bind="ptm('nodeChildren')">
-            <TreeNode
-                v-for="childNode of node.children"
-                :key="childNode.key"
-                :node="childNode"
-                :templates="templates"
-                :level="level + 1"
-                :loadingMode="loadingMode"
-                :expandedKeys="expandedKeys"
-                @node-toggle="onChildNodeToggle"
-                @node-click="onChildNodeClick"
-                :selectionMode="selectionMode"
-                :selectionKeys="selectionKeys"
-                @checkbox-change="propagateUp"
-                :unstyled="unstyled"
-                :pt="pt"
-            />
-        </ul>
+        <transition name="tree-toggle">
+            <ul v-if="hasChildren && expanded" :class="cx('nodeChildren')" role="group" v-bind="ptm('nodeChildren')">
+                <TreeNode
+                    v-for="childNode of node.children"
+                    :key="childNode.key"
+                    :node="childNode"
+                    :templates="templates"
+                    :level="level + 1"
+                    :loadingMode="loadingMode"
+                    :expandedKeys="expandedKeys"
+                    @node-toggle="onChildNodeToggle"
+                    @node-click="onChildNodeClick"
+                    :selectionMode="selectionMode"
+                    :selectionKeys="selectionKeys"
+                    @checkbox-change="propagateUp"
+                    :unstyled="unstyled"
+                    :pt="pt"
+                />
+            </ul>
+        </transition>
     </li>
 </template>
 
 <script>
+import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
 import CheckIcon from '@peacepiece-compatibility/icons/check';
 import ChevronDownIcon from '@peacepiece-compatibility/icons/chevrondown';
 import ChevronRightIcon from '@peacepiece-compatibility/icons/chevronright';
 import MinusIcon from '@peacepiece-compatibility/icons/minus';
 import SpinnerIcon from '@peacepiece-compatibility/icons/spinner';
-import { find, findSingle, getAttribute } from '@peacepieceuix-compatibility/utils/dom';
-import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
 import Checkbox from '@peacepiece-compatibility/primevue/checkbox';
 import Ripple from '@peacepiece-compatibility/primevue/ripple';
+import { find, findSingle, getAttribute } from '@peacepieceuix-compatibility/utils/dom';
 
 export default {
     name: 'TreeNode',
@@ -472,3 +474,28 @@ export default {
     }
 };
 </script>
+
+<style>
+.tree-toggle-enter-active {
+    transition:
+        max-height 0.4s cubic-bezier(0.42, 0, 0.58, 1),
+        opacity 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    overflow: hidden;
+}
+.tree-toggle-leave-active {
+    transition:
+        max-height 0.3s cubic-bezier(0.25, 0.8, 0.25, 1),
+        opacity 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    overflow: hidden;
+}
+.tree-toggle-enter-from,
+.tree-toggle-leave-to {
+    max-height: 0;
+    opacity: 0;
+}
+.tree-toggle-enter-to,
+.tree-toggle-leave-from {
+    max-height: 1000px;
+    opacity: 1;
+}
+</style>
