@@ -19,7 +19,7 @@
 
 <script>
 import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
-import Select from '@peacepiece-compatibility/primevue/select';
+import Select from 'peacepiece-primevue/select';
 
 export default {
     name: 'JumpToPageDropdown',

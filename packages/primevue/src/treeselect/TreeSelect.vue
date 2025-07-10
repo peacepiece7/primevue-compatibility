@@ -135,11 +135,11 @@ import { absolutePosition, addStyle, find, findSingle, focus, getFirstFocusableE
 import { isEmpty, isNotEmpty } from '@peacepieceuix-compatibility/utils/object';
 import { ZIndex } from '@peacepieceuix-compatibility/utils/zindex';
 import { ConnectedOverlayScrollHandler } from '@peacepiece-compatibility/core/utils';
-import Chip from '@peacepiece-compatibility/primevue/chip';
-import OverlayEventBus from '@peacepiece-compatibility/primevue/overlayeventbus';
-import Portal from '@peacepiece-compatibility/primevue/portal';
-import Ripple from '@peacepiece-compatibility/primevue/ripple';
-import Tree from '@peacepiece-compatibility/primevue/tree';
+import Chip from 'peacepiece-primevue/chip';
+import OverlayEventBus from 'peacepiece-primevue/overlayeventbus';
+import Portal from 'peacepiece-primevue/portal';
+import Ripple from 'peacepiece-primevue/ripple';
+import Tree from 'peacepiece-primevue/tree';
 import BaseTreeSelect from './BaseTreeSelect.vue';
 
 export default {

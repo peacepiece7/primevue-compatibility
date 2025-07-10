@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import Rating from '@peacepiece-compatibility/primevue/rating';
+import Rating from 'peacepiece-primevue/rating';
 `
             }
         };

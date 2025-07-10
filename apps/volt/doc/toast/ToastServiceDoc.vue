@@ -11,7 +11,7 @@
 
 <script setup lang="ts">
 const code1 = ref(`import {createApp} from 'vue';
-import ToastService from '@peacepiece-compatibility/primevue/toastservice';
+import ToastService from 'peacepiece-primevue/toastservice';
 
 const app = createApp(App);
 app.use(ToastService);
@@ -25,7 +25,7 @@ const code2 = ref(`
 
 const code3 = ref(`
 <script setup lang="ts">
-import { useToast } from '@peacepiece-compatibility/primevue/usetoast';
+import { useToast } from 'peacepiece-primevue/usetoast';
 
 const toast = useToast();   // instance to create messages
 <\/script>

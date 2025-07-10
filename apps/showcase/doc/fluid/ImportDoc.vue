@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import Fluid from '@peacepiece-compatibility/primevue/fluid';
+import Fluid from 'peacepiece-primevue/fluid';
 `
             }
         };

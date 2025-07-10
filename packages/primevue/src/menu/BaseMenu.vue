@@ -1,6 +1,6 @@
 <script>
 import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
-import MenuStyle from '@peacepiece-compatibility/primevue/menu/style';
+import MenuStyle from 'peacepiece-primevue/menu/style';
 
 export default {
     name: 'BaseMenu',

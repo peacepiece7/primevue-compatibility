@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import Tooltip from '@peacepiece-compatibility/primevue/tooltip';
+import Tooltip from 'peacepiece-primevue/tooltip';
 
 app.directive('tooltip', Tooltip);
 `

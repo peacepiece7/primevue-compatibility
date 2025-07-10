@@ -9,8 +9,8 @@ export default {
         return {
             code: {
                 basic: `
-import IconField from '@peacepiece-compatibility/primevue/iconfield';
-import InputIcon from '@peacepiece-compatibility/primevue/inputicon';
+import IconField from 'peacepiece-primevue/iconfield';
+import InputIcon from 'peacepiece-primevue/inputicon';
 `
             }
         };

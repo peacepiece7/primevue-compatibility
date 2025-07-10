@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import InputOtp from '@peacepiece-compatibility/primevue/inputotp';
+import InputOtp from 'peacepiece-primevue/inputotp';
 `
             }
         };

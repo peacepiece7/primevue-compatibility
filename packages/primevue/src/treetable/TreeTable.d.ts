@@ -9,10 +9,10 @@
  */
 import type { DefineComponent, DesignToken, EmitFn, HintedString, PassThrough } from '@primevue/core';
 import type { ComponentHooks } from '@peacepiece-compatibility/core/basecomponent';
-import type { ColumnPassThroughOptionType } from '@peacepiece-compatibility/primevue/column';
-import type { PaginatorPassThroughOptionType } from '@peacepiece-compatibility/primevue/paginator';
-import type { PassThroughOptions } from '@peacepiece-compatibility/primevue/passthrough';
-import type { TreeNode } from '@peacepiece-compatibility/primevue/treenode';
+import type { ColumnPassThroughOptionType } from 'peacepiece-primevue/column';
+import type { PaginatorPassThroughOptionType } from 'peacepiece-primevue/paginator';
+import type { PassThroughOptions } from 'peacepiece-primevue/passthrough';
+import type { TreeNode } from 'peacepiece-primevue/treenode';
 import { VNode } from 'vue';
 
 export declare type TreeTablePassThroughOptionType = TreeTablePassThroughAttributes | ((options: TreeTablePassThroughMethodOptions) => TreeTablePassThroughAttributes | string) | string | null | undefined;

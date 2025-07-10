@@ -1,6 +1,6 @@
 <script>
 import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
-import ImageStyle from '@peacepiece-compatibility/primevue/image/style';
+import ImageStyle from 'peacepiece-primevue/image/style';
 
 export default {
     name: 'BaseImage',

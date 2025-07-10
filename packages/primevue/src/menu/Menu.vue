@@ -69,8 +69,8 @@ import { cn } from '@peacepieceuix-compatibility/utils';
 import { absolutePosition, addStyle, find, findSingle, focus, getOuterWidth, isTouchDevice } from '@peacepieceuix-compatibility/utils/dom';
 import { ZIndex } from '@peacepieceuix-compatibility/utils/zindex';
 import { ConnectedOverlayScrollHandler } from '@peacepiece-compatibility/core/utils';
-import OverlayEventBus from '@peacepiece-compatibility/primevue/overlayeventbus';
-import Portal from '@peacepiece-compatibility/primevue/portal';
+import OverlayEventBus from 'peacepiece-primevue/overlayeventbus';
+import Portal from 'peacepiece-primevue/portal';
 import BaseMenu from './BaseMenu.vue';
 import Menuitem from './Menuitem.vue';
 

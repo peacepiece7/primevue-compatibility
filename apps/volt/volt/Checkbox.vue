@@ -16,7 +16,7 @@
 <script setup lang="ts">
 import CheckIcon from '@peacepiece-compatibility/icons/check';
 import MinusIcon from '@peacepiece-compatibility/icons/minus';
-import Checkbox, { type CheckboxPassThroughOptions, type CheckboxProps } from '@peacepiece-compatibility/primevue/checkbox';
+import Checkbox, { type CheckboxPassThroughOptions, type CheckboxProps } from 'peacepiece-primevue/checkbox';
 import { ref } from 'vue';
 import { ptViewMerge } from './utils';
 

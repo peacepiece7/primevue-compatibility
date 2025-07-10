@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import InputNumber from '@peacepiece-compatibility/primevue/inputnumber';
+import InputNumber from 'peacepiece-primevue/inputnumber';
 `
             }
         };

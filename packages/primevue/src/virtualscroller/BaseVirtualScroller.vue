@@ -1,6 +1,6 @@
 <script>
 import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
-import VirtualScrollerStyle from '@peacepiece-compatibility/primevue/virtualscroller/style';
+import VirtualScrollerStyle from 'peacepiece-primevue/virtualscroller/style';
 
 export default {
     name: 'BaseVirtualScroller',

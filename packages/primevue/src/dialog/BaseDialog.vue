@@ -1,6 +1,6 @@
 <script>
 import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
-import DialogStyle from '@peacepiece-compatibility/primevue/dialog/style';
+import DialogStyle from 'peacepiece-primevue/dialog/style';
 
 export default {
     name: 'BaseDialog',

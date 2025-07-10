@@ -1,6 +1,6 @@
 <script>
 import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
-import DataViewStyle from '@peacepiece-compatibility/primevue/dataview/style';
+import DataViewStyle from 'peacepiece-primevue/dataview/style';
 
 export default {
     name: 'BaseDataView',

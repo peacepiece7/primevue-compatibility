@@ -1,6 +1,6 @@
 <script>
 import BaseEditableHolder from '@peacepiece-compatibility/core/baseeditableholder';
-import RatingStyle from '@peacepiece-compatibility/primevue/rating/style';
+import RatingStyle from 'peacepiece-primevue/rating/style';
 
 export default {
     name: 'BaseRating',

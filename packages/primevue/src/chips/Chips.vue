@@ -1,5 +1,5 @@
 <script>
-import InputChips from '@peacepiece-compatibility/primevue/inputchips';
+import InputChips from 'peacepiece-primevue/inputchips';
 
 export default {
     name: 'Chips',

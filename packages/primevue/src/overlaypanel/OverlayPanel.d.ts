@@ -8,7 +8,7 @@
  *
  */
 import type { DefineComponent, EmitFn } from '@primevue/core';
-import * as Popover from '@peacepiece-compatibility/primevue/popover';
+import * as Popover from 'peacepiece-primevue/popover';
 import 'vue';
 
 /**

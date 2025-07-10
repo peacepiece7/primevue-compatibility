@@ -40,7 +40,7 @@ const getVueApp = (props = {}, sourceType) => {
         themeSwitchCode = '';
 
     if (deps !== null && component !== null) {
-        imports += `import ${component} from '@peacepiece-compatibility/primevue/${component.toLowerCase()}';
+        imports += `import ${component} from 'peacepiece-primevue/${component.toLowerCase()}';
 `;
         element += `app.component('${component}', ${component});
 `;
@@ -136,9 +136,9 @@ import "./flags.css";
 
 import { createApp } from "vue";
 import PrimeVue from "primevue/config";
-import ConfirmationService from '@peacepiece-compatibility/primevue/confirmationservice'
-import DialogService from '@peacepiece-compatibility/primevue/dialogservice'
-import ToastService from '@peacepiece-compatibility/primevue/toastservice';
+import ConfirmationService from 'peacepiece-primevue/confirmationservice'
+import DialogService from 'peacepiece-primevue/dialogservice'
+import ToastService from 'peacepiece-primevue/toastservice';
 
 import App from "./App.vue";
 import AppState from './plugins/appState.js';

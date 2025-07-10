@@ -1,6 +1,6 @@
 <script>
 import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
-import CarouselStyle from '@peacepiece-compatibility/primevue/carousel/style';
+import CarouselStyle from 'peacepiece-primevue/carousel/style';
 
 export default {
     name: 'BaseCarousel',

@@ -11,7 +11,7 @@
 </template>
 
 <script setup lang="ts">
-import StepList, { type StepListPassThroughOptions, type StepListProps } from '@peacepiece-compatibility/primevue/steplist';
+import StepList, { type StepListPassThroughOptions, type StepListProps } from 'peacepiece-primevue/steplist';
 import { ref } from 'vue';
 import { ptViewMerge } from './utils';
 

@@ -11,7 +11,7 @@
 
 <script setup lang="ts">
 const code1 = ref(`import {createApp} from 'vue';
-import ConfirmationService from '@peacepiece-compatibility/primevue/confirmationservice';
+import ConfirmationService from 'peacepiece-primevue/confirmationservice';
 
 const app = createApp(App);
 app.use(ConfirmationService);

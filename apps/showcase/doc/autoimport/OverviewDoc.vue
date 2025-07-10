@@ -13,8 +13,8 @@ export default {
                 basic: `
 import { createApp } from "vue";
 import PrimeVue from "primevue/config";
-import InputText from '@peacepiece-compatibility/primevue/inputtext';
-import Button from '@peacepiece-compatibility/primevue/button';
+import InputText from 'peacepiece-primevue/inputtext';
+import Button from 'peacepiece-primevue/button';
 import App from './App.vue'
 const app = createApp(App);
 

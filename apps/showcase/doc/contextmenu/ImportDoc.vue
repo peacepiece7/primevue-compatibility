@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import ContextMenu from '@peacepiece-compatibility/primevue/contextmenu';
+import ContextMenu from 'peacepiece-primevue/contextmenu';
 `
             }
         };

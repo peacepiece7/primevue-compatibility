@@ -1,5 +1,5 @@
 import BaseDirective from '@peacepiece-compatibility/core/basedirective';
-import TooltipStyle from '@peacepiece-compatibility/primevue/tooltip/style';
+import TooltipStyle from 'peacepiece-primevue/tooltip/style';
 
 const BaseTooltip = BaseDirective.extend({
     style: TooltipStyle

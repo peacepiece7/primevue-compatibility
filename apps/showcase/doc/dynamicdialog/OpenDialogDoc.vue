@@ -14,7 +14,7 @@ export default {
             code1: {
                 basic: `
 import ProductListDemo from './ProductListDemo';
-import { useDialog } from '@peacepiece-compatibility/primevue/usedialog';
+import { useDialog } from 'peacepiece-primevue/usedialog';
 
 const dialog = useDialog();
 
@@ -25,7 +25,7 @@ const showProducts = () => {
             },
             code2: {
                 basic: `
-import { useDialog } from '@peacepiece-compatibility/primevue/usedialog';
+import { useDialog } from 'peacepiece-primevue/usedialog';
 
 const dialog = useDialog();
 

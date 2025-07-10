@@ -5,7 +5,7 @@
  * @module confirmationservice-useconfirm
  *
  */
-import type { ConfirmationOptions } from '@peacepiece-compatibility/primevue/confirmationoptions';
+import type { ConfirmationOptions } from 'peacepiece-primevue/confirmationoptions';
 import { Plugin } from 'vue';
 
 declare const plugin: Plugin;

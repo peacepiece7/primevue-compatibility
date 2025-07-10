@@ -40,7 +40,7 @@ import ChevronLeftIcon from '@peacepiece-compatibility/icons/chevronleft';
 import ChevronRightIcon from '@peacepiece-compatibility/icons/chevronright';
 import { find, findSingle, getAttribute } from '@peacepieceuix-compatibility/utils/dom';
 import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
-import Ripple from '@peacepiece-compatibility/primevue/ripple';
+import Ripple from 'peacepiece-primevue/ripple';
 
 export default {
     name: 'GalleriaItem',

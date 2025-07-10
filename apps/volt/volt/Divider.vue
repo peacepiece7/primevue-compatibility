@@ -13,7 +13,7 @@
 </template>
 
 <script setup lang="ts">
-import Divider, { type DividerPassThroughOptions, type DividerProps } from '@peacepiece-compatibility/primevue/divider';
+import Divider, { type DividerPassThroughOptions, type DividerProps } from 'peacepiece-primevue/divider';
 import { ref } from 'vue';
 import { ptViewMerge } from './utils';
 

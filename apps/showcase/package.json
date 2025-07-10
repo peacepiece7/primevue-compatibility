@@ -45,7 +45,7 @@
         "@peacepiece-compatibility/forms": "workspace:*",
         "@peacepiece-compatibility/nuxt-module": "workspace:*",
         "primeicons": "catalog:",
-        "@peacepiece-compatibility/primevue": "workspace:*",
+        "peacepiece-primevue": "workspace:*",
         "chart.js": "catalog:app",
         "quill": "catalog:app",
         "superstruct": "^2.0.2",

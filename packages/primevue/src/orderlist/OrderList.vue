@@ -73,9 +73,9 @@ import AngleDownIcon from '@peacepiece-compatibility/icons/angledown';
 import AngleUpIcon from '@peacepiece-compatibility/icons/angleup';
 import { find, findSingle, scrollInView, setAttribute } from '@peacepieceuix-compatibility/utils/dom';
 import { findIndexInList, isNotEmpty } from '@peacepieceuix-compatibility/utils/object';
-import Button from '@peacepiece-compatibility/primevue/button';
-import Listbox from '@peacepiece-compatibility/primevue/listbox';
-import Ripple from '@peacepiece-compatibility/primevue/ripple';
+import Button from 'peacepiece-primevue/button';
+import Listbox from 'peacepiece-primevue/listbox';
+import Ripple from 'peacepiece-primevue/ripple';
 import BaseOrderList from './BaseOrderList.vue';
 
 export default {

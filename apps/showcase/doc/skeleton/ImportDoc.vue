@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import Skeleton from '@peacepiece-compatibility/primevue/skeleton';
+import Skeleton from 'peacepiece-primevue/skeleton';
 `
             }
         };

@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import SplitButton from '@peacepiece-compatibility/primevue/splitbutton';
+import SplitButton from 'peacepiece-primevue/splitbutton';
 `
             }
         };

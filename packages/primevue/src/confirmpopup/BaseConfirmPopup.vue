@@ -1,6 +1,6 @@
 <script>
 import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
-import ConfirmPopupStyle from '@peacepiece-compatibility/primevue/confirmpopup/style';
+import ConfirmPopupStyle from 'peacepiece-primevue/confirmpopup/style';
 
 export default {
     name: 'BaseConfirmPopup',

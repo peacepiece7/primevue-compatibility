@@ -15,7 +15,7 @@ const alias = {
     '@peacepiece-compatibility/auto-import-resolver': path.resolve(__dirname, '../../packages/auto-import-resolver/src'),
     '@peacepiece-compatibility/nuxt-module': path.resolve(__dirname, '../../packages/nuxt-module/src'),
     '@peacepiece-compatibility/themes': path.resolve(__dirname, '../../packages/themes/src'),
-    '@peacepiece-compatibility/primevue': path.resolve(__dirname, '../../packages/primevue/src')
+    'peacepiece-primevue': path.resolve(__dirname, '../../packages/primevue/src')
  */
 
 let PROCESS_ENV = {};

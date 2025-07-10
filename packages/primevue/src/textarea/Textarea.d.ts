@@ -9,7 +9,7 @@
  */
 import type { DefineComponent, DesignToken, EmitFn, HintedString, Nullable, PassThrough } from '@primevue/core';
 import type { ComponentHooks } from '@peacepiece-compatibility/core/basecomponent';
-import type { PassThroughOptions } from '@peacepiece-compatibility/primevue/passthrough';
+import type { PassThroughOptions } from 'peacepiece-primevue/passthrough';
 import type { TextareaHTMLAttributes } from 'vue';
 
 export declare type TextareaPassThroughOptionType = TextareaPassThroughAttributes | ((options: TextareaPassThroughMethodOptions) => TextareaPassThroughAttributes | string) | string | null | undefined;

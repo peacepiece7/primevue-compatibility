@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import Carousel from '@peacepiece-compatibility/primevue/carousel';
+import Carousel from 'peacepiece-primevue/carousel';
 `
             }
         };

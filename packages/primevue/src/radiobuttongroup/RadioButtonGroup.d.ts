@@ -9,7 +9,7 @@
  */
 import type { DefineComponent, DesignToken, EmitFn, PassThrough } from '@primevue/core';
 import type { ComponentHooks } from '@peacepiece-compatibility/core/basecomponent';
-import type { PassThroughOptions } from '@peacepiece-compatibility/primevue/passthrough';
+import type { PassThroughOptions } from 'peacepiece-primevue/passthrough';
 import { VNode } from 'vue';
 
 export declare type RadioButtonGroupPassThroughOptionType = RadioButtonGroupPassThroughAttributes | ((options: RadioButtonGroupPassThroughMethodOptions) => RadioButtonGroupPassThroughAttributes | string) | string | null | undefined;

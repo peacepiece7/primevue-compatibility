@@ -9,8 +9,8 @@
  */
 import type { DefineComponent, DesignToken, EmitFn, HintedString, PassThrough } from '@primevue/core';
 import type { ComponentHooks } from '@peacepiece-compatibility/core/basecomponent';
-import type { MenuItem } from '@peacepiece-compatibility/primevue/menuitem';
-import type { PassThroughOptions } from '@peacepiece-compatibility/primevue/passthrough';
+import type { MenuItem } from 'peacepiece-primevue/menuitem';
+import type { PassThroughOptions } from 'peacepiece-primevue/passthrough';
 import { TransitionProps, VNode } from 'vue';
 
 export declare type MenuPassThroughOptionType = MenuPassThroughAttributes | ((options: MenuPassThroughMethodOptions) => MenuPassThroughAttributes | string) | string | null | undefined;

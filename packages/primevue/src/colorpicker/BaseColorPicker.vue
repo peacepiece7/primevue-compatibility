@@ -1,6 +1,6 @@
 <script>
 import BaseEditableHolder from '@peacepiece-compatibility/core/baseeditableholder';
-import ColorPickerStyle from '@peacepiece-compatibility/primevue/colorpicker/style';
+import ColorPickerStyle from 'peacepiece-primevue/colorpicker/style';
 
 export default {
     name: 'BaseColorPicker',

@@ -8,7 +8,7 @@
  *
  */
 import type { DefineComponent, EmitFn } from '@primevue/core';
-import * as Select from '@peacepiece-compatibility/primevue/select';
+import * as Select from 'peacepiece-primevue/select';
 import 'vue';
 
 /**

@@ -1,6 +1,6 @@
 <script>
 import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
-import ButtonStyle from '@peacepiece-compatibility/primevue/button/style';
+import ButtonStyle from 'peacepiece-primevue/button/style';
 
 export default {
     name: 'BaseButton',

@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import Image from '@peacepiece-compatibility/primevue/image';
+import Image from 'peacepiece-primevue/image';
 `
             }
         };

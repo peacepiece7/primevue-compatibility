@@ -60,7 +60,7 @@
 </template>
 
 <script>
-import Chip from '@peacepiece-compatibility/primevue/chip';
+import Chip from 'peacepiece-primevue/chip';
 import BaseInputChips from './BaseInputChips.vue';
 
 export default {

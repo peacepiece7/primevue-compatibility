@@ -1,6 +1,6 @@
 <script>
 import BaseInput from '@peacepiece-compatibility/core/baseinput';
-import MultiSelectStyle from '@peacepiece-compatibility/primevue/multiselect/style';
+import MultiSelectStyle from 'peacepiece-primevue/multiselect/style';
 
 export default {
     name: 'BaseMultiSelect',

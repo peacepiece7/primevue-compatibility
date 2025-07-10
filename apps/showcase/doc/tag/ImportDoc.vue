@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import Tag from '@peacepiece-compatibility/primevue/tag';
+import Tag from 'peacepiece-primevue/tag';
 `
             }
         };

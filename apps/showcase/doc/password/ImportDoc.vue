@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import Password from '@peacepiece-compatibility/primevue/password';
+import Password from 'peacepiece-primevue/password';
 `
             }
         };

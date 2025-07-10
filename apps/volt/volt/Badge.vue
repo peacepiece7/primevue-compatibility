@@ -13,7 +13,7 @@
 </template>
 
 <script setup lang="ts">
-import Badge, { type BadgePassThroughOptions, type BadgeProps } from '@peacepiece-compatibility/primevue/badge';
+import Badge, { type BadgePassThroughOptions, type BadgeProps } from 'peacepiece-primevue/badge';
 import { ref } from 'vue';
 import { ptViewMerge } from './utils';
 

@@ -1,6 +1,6 @@
 <script>
 import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
-import SpeedDialStyle from '@peacepiece-compatibility/primevue/speeddial/style';
+import SpeedDialStyle from 'peacepiece-primevue/speeddial/style';
 
 export default {
     name: 'BaseSpeedDial',

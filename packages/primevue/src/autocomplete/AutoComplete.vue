@@ -212,12 +212,12 @@ import { absolutePosition, addStyle, findSingle, focus, getOuterWidth, isTouchDe
 import { equals, findLastIndex, isEmpty, isNotEmpty, resolveFieldData } from '@peacepieceuix-compatibility/utils/object';
 import { ZIndex } from '@peacepieceuix-compatibility/utils/zindex';
 import { ConnectedOverlayScrollHandler } from '@peacepiece-compatibility/core/utils';
-import Chip from '@peacepiece-compatibility/primevue/chip';
-import InputText from '@peacepiece-compatibility/primevue/inputtext';
-import OverlayEventBus from '@peacepiece-compatibility/primevue/overlayeventbus';
-import Portal from '@peacepiece-compatibility/primevue/portal';
-import Ripple from '@peacepiece-compatibility/primevue/ripple';
-import VirtualScroller from '@peacepiece-compatibility/primevue/virtualscroller';
+import Chip from 'peacepiece-primevue/chip';
+import InputText from 'peacepiece-primevue/inputtext';
+import OverlayEventBus from 'peacepiece-primevue/overlayeventbus';
+import Portal from 'peacepiece-primevue/portal';
+import Ripple from 'peacepiece-primevue/ripple';
+import VirtualScroller from 'peacepiece-primevue/virtualscroller';
 import BaseAutoComplete from './BaseAutoComplete.vue';
 
 export default {

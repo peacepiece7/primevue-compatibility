@@ -11,7 +11,7 @@ export default {
         return {
             code: {
                 basic: `
-import PrimeVue from '@peacepiece-compatibility/primevue/config';
+import PrimeVue from 'peacepiece-primevue/config';
 const app = createApp(App);
 
 app.use(PrimeVue, { /* options */ });

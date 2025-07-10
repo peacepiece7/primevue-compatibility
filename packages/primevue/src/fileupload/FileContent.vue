@@ -20,8 +20,8 @@
 <script>
 import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
 import TimesIcon from '@peacepiece-compatibility/icons/times';
-import Badge from '@peacepiece-compatibility/primevue/badge';
-import Button from '@peacepiece-compatibility/primevue/button';
+import Badge from 'peacepiece-primevue/badge';
+import Button from 'peacepiece-primevue/button';
 
 export default {
     name: 'FileContent',

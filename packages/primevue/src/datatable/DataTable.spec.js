@@ -1,8 +1,8 @@
 import { FilterMatchMode } from '@peacepiece-compatibility/core/api';
 import { mount } from '@vue/test-utils';
-import Button from '@peacepiece-compatibility/primevue/button';
-import PrimeVue from '@peacepiece-compatibility/primevue/config';
-import InputText from '@peacepiece-compatibility/primevue/inputtext';
+import Button from 'peacepiece-primevue/button';
+import PrimeVue from 'peacepiece-primevue/config';
+import InputText from 'peacepiece-primevue/inputtext';
 import Column from '../column/Column.vue';
 import ColumnGroup from '../columngroup/ColumnGroup.vue';
 import Row from '../row/Row.vue';

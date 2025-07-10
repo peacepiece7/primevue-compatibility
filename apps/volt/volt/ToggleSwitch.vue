@@ -13,7 +13,7 @@
 </template>
 
 <script setup lang="ts">
-import ToggleSwitch, { type ToggleSwitchPassThroughOptions, type ToggleSwitchProps } from '@peacepiece-compatibility/primevue/toggleswitch';
+import ToggleSwitch, { type ToggleSwitchPassThroughOptions, type ToggleSwitchProps } from 'peacepiece-primevue/toggleswitch';
 import { ref } from 'vue';
 import { ptViewMerge } from './utils';
 

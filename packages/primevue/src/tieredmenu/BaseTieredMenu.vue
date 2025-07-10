@@ -1,6 +1,6 @@
 <script>
 import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
-import TieredMenuStyle from '@peacepiece-compatibility/primevue/tieredmenu/style';
+import TieredMenuStyle from 'peacepiece-primevue/tieredmenu/style';
 
 export default {
     name: 'BaseTieredMenu',

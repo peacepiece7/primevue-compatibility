@@ -1,6 +1,6 @@
 <script>
 import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
-import AvatarGroupStyle from '@peacepiece-compatibility/primevue/avatargroup/style';
+import AvatarGroupStyle from 'peacepiece-primevue/avatargroup/style';
 
 export default {
     name: 'BaseAvatarGroup',

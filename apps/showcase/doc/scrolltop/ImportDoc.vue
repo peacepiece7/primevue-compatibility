@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import ScrollTop from '@peacepiece-compatibility/primevue/scrolltop';
+import ScrollTop from 'peacepiece-primevue/scrolltop';
 `
             }
         };

@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import FocusTrap from '@peacepiece-compatibility/primevue/focustrap';
+import FocusTrap from 'peacepiece-primevue/focustrap';
 
 app.directive('focustrap', FocusTrap);
 `

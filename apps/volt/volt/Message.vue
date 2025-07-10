@@ -17,7 +17,7 @@
 
 <script setup lang="ts">
 import TimesIcon from '@peacepiece-compatibility/icons/times';
-import Message, { type MessagePassThroughOptions, type MessageProps } from '@peacepiece-compatibility/primevue/message';
+import Message, { type MessagePassThroughOptions, type MessageProps } from 'peacepiece-primevue/message';
 import { ref } from 'vue';
 import { ptViewMerge } from './utils';
 

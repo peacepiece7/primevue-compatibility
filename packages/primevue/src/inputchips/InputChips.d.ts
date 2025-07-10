@@ -9,8 +9,8 @@
  */
 import type { DefineComponent, DesignToken, EmitFn, HintedString, PassThrough } from '@primevue/core';
 import type { ComponentHooks } from '@peacepiece-compatibility/core/basecomponent';
-import type { ChipPassThroughOptions } from '@peacepiece-compatibility/primevue/chip';
-import type { PassThroughOptions } from '@peacepiece-compatibility/primevue/passthrough';
+import type { ChipPassThroughOptions } from 'peacepiece-primevue/chip';
+import type { PassThroughOptions } from 'peacepiece-primevue/passthrough';
 import { InputHTMLAttributes, VNode } from 'vue';
 
 export declare type InputChipsPassThroughOptionType = InputChipsPassThroughAttributes | ((options: InputChipsPassThroughMethodOptions) => InputChipsPassThroughAttributes | string) | string | null | undefined;

@@ -9,7 +9,7 @@
 import { cn } from '@peacepieceuix-compatibility/utils';
 import { findSingle, focus, getAttribute } from '@peacepieceuix-compatibility/utils/dom';
 import { equals } from '@peacepieceuix-compatibility/utils/object';
-import Ripple from '@peacepiece-compatibility/primevue/ripple';
+import Ripple from 'peacepiece-primevue/ripple';
 import { mergeProps } from 'vue';
 import BaseTab from './BaseTab.vue';
 

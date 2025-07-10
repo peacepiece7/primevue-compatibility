@@ -14,7 +14,7 @@
 </template>
 
 <script setup lang="ts">
-import Popover, { type PopoverPassThroughOptions, type PopoverProps } from '@peacepiece-compatibility/primevue/popover';
+import Popover, { type PopoverPassThroughOptions, type PopoverProps } from 'peacepiece-primevue/popover';
 import { ref } from 'vue';
 import { ptViewMerge } from './utils';
 

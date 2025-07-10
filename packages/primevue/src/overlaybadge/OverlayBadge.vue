@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import Badge from '@peacepiece-compatibility/primevue/badge';
+import Badge from 'peacepiece-primevue/badge';
 import BaseOverlayBadge from './BaseOverlayBadge.vue';
 
 export default {

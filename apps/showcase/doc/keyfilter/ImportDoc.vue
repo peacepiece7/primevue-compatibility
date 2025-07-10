@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import KeyFilter from '@peacepiece-compatibility/primevue/keyfilter';
+import KeyFilter from 'peacepiece-primevue/keyfilter';
 
 app.directive('keyfilter', KeyFilter);
 `

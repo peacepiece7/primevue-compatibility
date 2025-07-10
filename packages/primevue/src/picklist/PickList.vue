@@ -176,9 +176,9 @@ import AngleRightIcon from '@peacepiece-compatibility/icons/angleright';
 import AngleUpIcon from '@peacepiece-compatibility/icons/angleup';
 import { find, scrollInView, setAttribute } from '@peacepieceuix-compatibility/utils/dom';
 import { findIndexInList, isEmpty } from '@peacepieceuix-compatibility/utils/object';
-import Button from '@peacepiece-compatibility/primevue/button';
-import Listbox from '@peacepiece-compatibility/primevue/listbox';
-import Ripple from '@peacepiece-compatibility/primevue/ripple';
+import Button from 'peacepiece-primevue/button';
+import Listbox from 'peacepiece-primevue/listbox';
+import Ripple from 'peacepiece-primevue/ripple';
 import BasePickList from './BasePickList.vue';
 
 export default {

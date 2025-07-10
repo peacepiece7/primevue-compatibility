@@ -59,19 +59,19 @@ export { default as ChartStyle } from '../chart/style/ChartStyle.js';
         `/***************** PrimeVue (Auto-Generated) *****************/
 
 // Utils
-export * from '@peacepiece-compatibility/primevue/utils';
+export * from 'peacepiece-primevue/utils';
 
 // UseConfirm
-export * from '@peacepiece-compatibility/primevue/useconfirm';
+export * from 'peacepiece-primevue/useconfirm';
 
 // UseDialog
-export * from '@peacepiece-compatibility/primevue/usedialog';
+export * from 'peacepiece-primevue/usedialog';
 
 // UseToast
-export * from '@peacepiece-compatibility/primevue/usetoast';
+export * from 'peacepiece-primevue/usetoast';
 
 // UseStyle
-export * from '@peacepiece-compatibility/primevue/usestyle';
+export * from 'peacepiece-primevue/usestyle';
 `
     ]
 };
@@ -101,8 +101,8 @@ export { default as ${fileName} } from '../${folderName}/${file}';
                     modules.esm.push(
                         `
 // ${fileName}
-export * from '@peacepiece-compatibility/primevue/${folderName}';
-export { default as ${fileName} } from '@peacepiece-compatibility/primevue/${folderName}';
+export * from 'peacepiece-primevue/${folderName}';
+export { default as ${fileName} } from 'peacepiece-primevue/${folderName}';
 `
                     );
                 }
@@ -122,8 +122,8 @@ export { default as ${subFileName} } from '../${folderName}/style/${file}';
 `
                                 );
                                 modules.esm.push(
-                                    `export * from '@peacepiece-compatibility/primevue/${folderName}/style';
-export { default as ${subFileName} } from '@peacepiece-compatibility/primevue/${folderName}/style';
+                                    `export * from 'peacepiece-primevue/${folderName}/style';
+export { default as ${subFileName} } from 'peacepiece-primevue/${folderName}/style';
 `
                                 );
                             }

@@ -9,8 +9,8 @@ export default {
         return {
             code: {
                 basic: `
-import RadioButton from '@peacepiece-compatibility/primevue/radiobutton';
-import RadioButtonGroup from '@peacepiece-compatibility/primevue/radiobuttongroup';
+import RadioButton from 'peacepiece-primevue/radiobutton';
+import RadioButtonGroup from 'peacepiece-primevue/radiobuttongroup';
 `
             }
         };

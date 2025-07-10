@@ -7,7 +7,7 @@
 <script>
 import { addClass, createElement, hasCSSAnimation } from '@peacepieceuix-compatibility/utils/dom';
 import { ZIndex } from '@peacepieceuix-compatibility/utils/zindex';
-import { blockBodyScroll, unblockBodyScroll } from '@peacepiece-compatibility/primevue/utils';
+import { blockBodyScroll, unblockBodyScroll } from 'peacepiece-primevue/utils';
 import BaseBlockUI from './BaseBlockUI.vue';
 
 export default {

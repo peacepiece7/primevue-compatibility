@@ -1,6 +1,6 @@
 <script>
 import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
-import BlockUIStyle from '@peacepiece-compatibility/primevue/blockui/style';
+import BlockUIStyle from 'peacepiece-primevue/blockui/style';
 
 export default {
     name: 'BaseBlockUI',

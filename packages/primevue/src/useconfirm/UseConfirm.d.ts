@@ -1,4 +1,4 @@
-import type { ConfirmationOptions } from '@peacepiece-compatibility/primevue/confirmationoptions';
+import type { ConfirmationOptions } from 'peacepiece-primevue/confirmationoptions';
 
 export declare function useConfirm(): {
     require: (option: ConfirmationOptions) => void;

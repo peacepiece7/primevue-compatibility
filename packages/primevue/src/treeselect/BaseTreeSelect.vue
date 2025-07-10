@@ -1,6 +1,6 @@
 <script>
 import BaseInput from '@peacepiece-compatibility/core/baseinput';
-import TreeSelectStyle from '@peacepiece-compatibility/primevue/treeselect/style';
+import TreeSelectStyle from 'peacepiece-primevue/treeselect/style';
 
 export default {
     name: 'BaseTreeSelect',

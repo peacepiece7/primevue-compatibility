@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import Timeline from '@peacepiece-compatibility/primevue/timeline';
+import Timeline from 'peacepiece-primevue/timeline';
 `
             }
         };

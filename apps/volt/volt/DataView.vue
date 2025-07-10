@@ -46,7 +46,7 @@ import AngleDoubleLeftIcon from '@peacepiece-compatibility/icons/angledoubleleft
 import AngleDoubleRightIcon from '@peacepiece-compatibility/icons/angledoubleright';
 import AngleLeftIcon from '@peacepiece-compatibility/icons/angleleft';
 import AngleRightIcon from '@peacepiece-compatibility/icons/angleright';
-import DataView, { type DataViewPassThroughOptions, type DataViewProps } from '@peacepiece-compatibility/primevue/dataview';
+import DataView, { type DataViewPassThroughOptions, type DataViewProps } from 'peacepiece-primevue/dataview';
 import { ref } from 'vue';
 import SecondaryButton from './SecondaryButton.vue';
 import { ptViewMerge } from './utils';

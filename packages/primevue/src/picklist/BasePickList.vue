@@ -1,6 +1,6 @@
 <script>
 import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
-import PickListStyle from '@peacepiece-compatibility/primevue/picklist/style';
+import PickListStyle from 'peacepiece-primevue/picklist/style';
 
 export default {
     name: 'BasePickList',

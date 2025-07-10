@@ -23,7 +23,7 @@
 <script>
 import { cn } from '@peacepieceuix-compatibility/utils';
 import TimesIcon from '@peacepiece-compatibility/icons/times';
-import Ripple from '@peacepiece-compatibility/primevue/ripple';
+import Ripple from 'peacepiece-primevue/ripple';
 import BaseMessage from './BaseMessage.vue';
 
 export default {

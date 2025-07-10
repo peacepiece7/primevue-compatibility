@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import ColorPicker from '@peacepiece-compatibility/primevue/colorpicker';
+import ColorPicker from 'peacepiece-primevue/colorpicker';
 `
             }
         };

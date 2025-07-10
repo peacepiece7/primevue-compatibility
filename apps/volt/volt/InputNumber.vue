@@ -21,7 +21,7 @@
 <script setup lang="ts">
 import AngleDownIcon from '@peacepiece-compatibility/icons/angledown';
 import AngleUpIcon from '@peacepiece-compatibility/icons/angleup';
-import InputNumber, { type InputNumberPassThroughOptions, type InputNumberProps } from '@peacepiece-compatibility/primevue/inputnumber';
+import InputNumber, { type InputNumberPassThroughOptions, type InputNumberProps } from 'peacepiece-primevue/inputnumber';
 import { ref } from 'vue';
 import { ptViewMerge } from './utils';
 

@@ -1,4 +1,4 @@
-import PrimeVue from '@peacepiece-compatibility/primevue/config';
+import PrimeVue from 'peacepiece-primevue/config';
 import { mount } from '@vue/test-utils';
 import Dialog from './Dialog.vue';
 

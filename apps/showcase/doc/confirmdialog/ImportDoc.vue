@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import ConfirmDialog from '@peacepiece-compatibility/primevue/confirmdialog';
+import ConfirmDialog from 'peacepiece-primevue/confirmdialog';
 `
             }
         };

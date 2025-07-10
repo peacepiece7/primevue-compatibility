@@ -68,9 +68,9 @@
 import { $dt } from '@peacepieceuix-compatibility/styled';
 import { find, findSingle, focus, hasClass } from '@peacepieceuix-compatibility/utils/dom';
 import PlusIcon from '@peacepiece-compatibility/icons/plus';
-import Button from '@peacepiece-compatibility/primevue/button';
-import Ripple from '@peacepiece-compatibility/primevue/ripple';
-import Tooltip from '@peacepiece-compatibility/primevue/tooltip';
+import Button from 'peacepiece-primevue/button';
+import Ripple from 'peacepiece-primevue/ripple';
+import Tooltip from 'peacepiece-primevue/tooltip';
 import BaseSpeedDial from './BaseSpeedDial.vue';
 
 // Set fix value for SSR.

@@ -9,7 +9,7 @@
 </template>
 
 <script setup lang="ts">
-import Slider, { type SliderPassThroughOptions, type SliderProps } from '@peacepiece-compatibility/primevue/slider';
+import Slider, { type SliderPassThroughOptions, type SliderProps } from 'peacepiece-primevue/slider';
 import { ref } from 'vue';
 import { ptViewMerge } from './utils';
 

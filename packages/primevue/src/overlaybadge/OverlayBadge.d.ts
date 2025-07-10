@@ -9,8 +9,8 @@
  */
 import type { DefineComponent, DesignToken, EmitFn, HintedString, PassThrough } from '@primevue/core';
 import type { ComponentHooks } from '@peacepiece-compatibility/core/basecomponent';
-import type { BadgePassThroughOptions } from '@peacepiece-compatibility/primevue/badge';
-import type { PassThroughOptions } from '@peacepiece-compatibility/primevue/passthrough';
+import type { BadgePassThroughOptions } from 'peacepiece-primevue/badge';
+import type { PassThroughOptions } from 'peacepiece-primevue/passthrough';
 import { VNode } from 'vue';
 
 export declare type OverlayBadgePassThroughOptionType<T = any> = OverlayBadgePassThroughAttributes | ((options: OverlayBadgePassThroughMethodOptions<T>) => OverlayBadgePassThroughAttributes | string) | string | null | undefined;

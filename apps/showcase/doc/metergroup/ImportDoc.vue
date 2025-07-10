@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import MeterGroup from '@peacepiece-compatibility/primevue/metergroup';
+import MeterGroup from 'peacepiece-primevue/metergroup';
 `
             }
         };

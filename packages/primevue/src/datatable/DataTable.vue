@@ -323,8 +323,8 @@ import { HelperSet, getVNodeProp } from '@peacepiece-compatibility/core/utils';
 import ArrowDownIcon from '@peacepiece-compatibility/icons/arrowdown';
 import ArrowUpIcon from '@peacepiece-compatibility/icons/arrowup';
 import SpinnerIcon from '@peacepiece-compatibility/icons/spinner';
-import Paginator from '@peacepiece-compatibility/primevue/paginator';
-import VirtualScroller from '@peacepiece-compatibility/primevue/virtualscroller';
+import Paginator from 'peacepiece-primevue/paginator';
+import VirtualScroller from 'peacepiece-primevue/virtualscroller';
 import { cn } from '@peacepieceuix-compatibility/utils';
 import {
     addClass,

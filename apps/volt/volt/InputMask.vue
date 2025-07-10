@@ -9,7 +9,7 @@
 </template>
 
 <script setup lang="ts">
-import InputMask, { type InputMaskPassThroughOptions, type InputMaskProps } from '@peacepiece-compatibility/primevue/inputmask';
+import InputMask, { type InputMaskPassThroughOptions, type InputMaskProps } from 'peacepiece-primevue/inputmask';
 import { ref } from 'vue';
 import { ptViewMerge } from './utils';
 

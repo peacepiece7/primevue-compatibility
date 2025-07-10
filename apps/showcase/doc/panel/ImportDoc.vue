@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import Panel from '@peacepiece-compatibility/primevue/panel';
+import Panel from 'peacepiece-primevue/panel';
 `
             }
         };

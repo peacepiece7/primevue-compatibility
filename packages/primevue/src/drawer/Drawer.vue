@@ -47,10 +47,10 @@ import { cn } from '@peacepieceuix-compatibility/utils';
 import { addClass, focus } from '@peacepieceuix-compatibility/utils/dom';
 import { ZIndex } from '@peacepieceuix-compatibility/utils/zindex';
 import TimesIcon from '@peacepiece-compatibility/icons/times';
-import Button from '@peacepiece-compatibility/primevue/button';
-import FocusTrap from '@peacepiece-compatibility/primevue/focustrap';
-import Portal from '@peacepiece-compatibility/primevue/portal';
-import { blockBodyScroll, unblockBodyScroll } from '@peacepiece-compatibility/primevue/utils';
+import Button from 'peacepiece-primevue/button';
+import FocusTrap from 'peacepiece-primevue/focustrap';
+import Portal from 'peacepiece-primevue/portal';
+import { blockBodyScroll, unblockBodyScroll } from 'peacepiece-primevue/utils';
 import BaseDrawer from './BaseDrawer.vue';
 
 export default {

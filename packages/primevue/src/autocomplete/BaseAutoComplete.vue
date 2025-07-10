@@ -1,6 +1,6 @@
 <script>
 import BaseInput from '@peacepiece-compatibility/core/baseinput';
-import AutoCompleteStyle from '@peacepiece-compatibility/primevue/autocomplete/style';
+import AutoCompleteStyle from 'peacepiece-primevue/autocomplete/style';
 
 export default {
     name: 'BaseAutoComplete',

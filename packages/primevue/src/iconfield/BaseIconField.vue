@@ -1,6 +1,6 @@
 <script>
 import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
-import IconFieldStyle from '@peacepiece-compatibility/primevue/iconfield/style';
+import IconFieldStyle from 'peacepiece-primevue/iconfield/style';
 
 export default {
     name: 'BaseIconField',

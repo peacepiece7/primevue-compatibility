@@ -1,6 +1,6 @@
 <script>
 import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
-import OrganizationChartStyle from '@peacepiece-compatibility/primevue/organizationchart/style';
+import OrganizationChartStyle from 'peacepiece-primevue/organizationchart/style';
 
 export default {
     name: 'BaseOrganizationChart',

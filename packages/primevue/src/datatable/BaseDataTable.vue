@@ -1,6 +1,6 @@
 <script>
 import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
-import DataTableStyle from '@peacepiece-compatibility/primevue/datatable/style';
+import DataTableStyle from 'peacepiece-primevue/datatable/style';
 
 export default {
     name: 'BaseDataTable',

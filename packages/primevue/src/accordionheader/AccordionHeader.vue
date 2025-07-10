@@ -26,7 +26,7 @@ import ChevronDownIcon from '@peacepiece-compatibility/icons/chevrondown';
 import ChevronUpIcon from '@peacepiece-compatibility/icons/chevronup';
 import { cn } from '@peacepieceuix-compatibility/utils';
 import { findSingle, focus, getAttribute } from '@peacepieceuix-compatibility/utils/dom';
-import Ripple from '@peacepiece-compatibility/primevue/ripple';
+import Ripple from 'peacepiece-primevue/ripple';
 import { mergeProps } from 'vue';
 import BaseAccordionHeader from './BaseAccordionHeader.vue';
 

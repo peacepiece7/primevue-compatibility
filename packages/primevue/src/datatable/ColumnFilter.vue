@@ -174,11 +174,11 @@ import { ZIndex } from '@peacepieceuix-compatibility/utils/zindex';
 import { FilterOperator } from '@peacepiece-compatibility/core/api';
 import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
 import { ConnectedOverlayScrollHandler } from '@peacepiece-compatibility/core/utils';
-import Button from '@peacepiece-compatibility/primevue/button';
-import FocusTrap from '@peacepiece-compatibility/primevue/focustrap';
-import OverlayEventBus from '@peacepiece-compatibility/primevue/overlayeventbus';
-import Portal from '@peacepiece-compatibility/primevue/portal';
-import Select from '@peacepiece-compatibility/primevue/select';
+import Button from 'peacepiece-primevue/button';
+import FocusTrap from 'peacepiece-primevue/focustrap';
+import OverlayEventBus from 'peacepiece-primevue/overlayeventbus';
+import Portal from 'peacepiece-primevue/portal';
+import Select from 'peacepiece-primevue/select';
 import { mergeProps } from 'vue';
 
 export default {

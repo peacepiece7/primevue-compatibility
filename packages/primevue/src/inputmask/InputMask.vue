@@ -25,7 +25,7 @@
 
 <script>
 import { getUserAgent } from '@peacepieceuix-compatibility/utils/dom';
-import InputText from '@peacepiece-compatibility/primevue/inputtext';
+import InputText from 'peacepiece-primevue/inputtext';
 import { mergeProps } from 'vue';
 import BaseInputMask from './BaseInputMask.vue';
 

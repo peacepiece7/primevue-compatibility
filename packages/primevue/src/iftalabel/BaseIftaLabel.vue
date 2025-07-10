@@ -1,6 +1,6 @@
 <script>
 import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
-import IftaLabelStyle from '@peacepiece-compatibility/primevue/iftalabel/style';
+import IftaLabelStyle from 'peacepiece-primevue/iftalabel/style';
 
 export default {
     name: 'BaseIftaLabel',

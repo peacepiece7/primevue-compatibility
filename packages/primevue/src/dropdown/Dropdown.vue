@@ -1,5 +1,5 @@
 <script>
-import Select from '@peacepiece-compatibility/primevue/select';
+import Select from 'peacepiece-primevue/select';
 
 export default {
     name: 'Dropdown',

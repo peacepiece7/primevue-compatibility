@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import SelectButton from '@peacepiece-compatibility/primevue/selectbutton';
+import SelectButton from 'peacepiece-primevue/selectbutton';
 `
             }
         };

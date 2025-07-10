@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import ProgressSpinner from '@peacepiece-compatibility/primevue/progressspinner';
+import ProgressSpinner from 'peacepiece-primevue/progressspinner';
 `
             }
         };

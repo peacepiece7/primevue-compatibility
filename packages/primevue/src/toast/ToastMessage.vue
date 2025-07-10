@@ -27,7 +27,7 @@ import TimesIcon from '@peacepiece-compatibility/icons/times';
 import TimesCircleIcon from '@peacepiece-compatibility/icons/timescircle';
 import { cn } from '@peacepieceuix-compatibility/utils';
 import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
-import Ripple from '@peacepiece-compatibility/primevue/ripple';
+import Ripple from 'peacepiece-primevue/ripple';
 
 export default {
     name: 'ToastMessage',

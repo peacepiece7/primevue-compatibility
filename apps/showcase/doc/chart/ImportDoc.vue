@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import Chart from '@peacepiece-compatibility/primevue/chart';
+import Chart from 'peacepiece-primevue/chart';
 `
             }
         };

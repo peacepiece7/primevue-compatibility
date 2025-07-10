@@ -1,6 +1,6 @@
 <script>
 import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
-import InputGroupAddonStyle from '@peacepiece-compatibility/primevue/inputgroupaddon/style';
+import InputGroupAddonStyle from 'peacepiece-primevue/inputgroupaddon/style';
 
 export default {
     name: 'BaseInputGroupAddon',

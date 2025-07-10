@@ -183,7 +183,7 @@ export default {
 import { ref } from 'vue';
 import { useToast } from "primevue/usetoast";
 import { useRouter } from 'vue-router';
-import Menu from '@peacepiece-compatibility/primevue/menu';
+import Menu from 'peacepiece-primevue/menu';
 
 const menu = ref(null);
 const toast = useToast();

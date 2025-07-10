@@ -12,7 +12,7 @@
 </template>
 
 <script setup lang="ts">
-import AccordionPanel, { type AccordionPanelPassThroughOptions, type AccordionPanelProps } from '@peacepiece-compatibility/primevue/accordionpanel';
+import AccordionPanel, { type AccordionPanelPassThroughOptions, type AccordionPanelProps } from 'peacepiece-primevue/accordionpanel';
 import { ref } from 'vue';
 import { ptViewMerge } from './utils';
 

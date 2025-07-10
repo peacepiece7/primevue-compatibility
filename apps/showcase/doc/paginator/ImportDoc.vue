@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import Paginator from '@peacepiece-compatibility/primevue/paginator';
+import Paginator from 'peacepiece-primevue/paginator';
 `
             }
         };

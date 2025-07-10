@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import Divider from '@peacepiece-compatibility/primevue/divider';
+import Divider from 'peacepiece-primevue/divider';
 `
             }
         };

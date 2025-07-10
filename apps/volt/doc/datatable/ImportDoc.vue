@@ -7,8 +7,8 @@
 import { ref } from 'vue';
 
 const code = ref(`import DataTable from '@/volt/DataTable.vue';
-import Column from '@peacepiece-compatibility/primevue/column';
-import ColumnGroup from '@peacepiece-compatibility/primevue/columngroup';  // optional
-import Row from '@peacepiece-compatibility/primevue/row';          // optional
+import Column from 'peacepiece-primevue/column';
+import ColumnGroup from 'peacepiece-primevue/columngroup';  // optional
+import Row from 'peacepiece-primevue/row';          // optional
 `);
 </script>

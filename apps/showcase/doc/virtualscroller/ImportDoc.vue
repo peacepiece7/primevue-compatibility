@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import VirtualScroller from '@peacepiece-compatibility/primevue/virtualscroller';
+import VirtualScroller from 'peacepiece-primevue/virtualscroller';
 `
             }
         };

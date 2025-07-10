@@ -9,8 +9,8 @@ export default {
         return {
             code: {
                 basic: `
-import Avatar from '@peacepiece-compatibility/primevue/avatar';
-import AvatarGroup from '@peacepiece-compatibility/primevue/avatargroup';   //Optional for grouping
+import Avatar from 'peacepiece-primevue/avatar';
+import AvatarGroup from 'peacepiece-primevue/avatargroup';   //Optional for grouping
 `
             }
         };

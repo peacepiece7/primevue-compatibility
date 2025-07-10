@@ -67,7 +67,7 @@
 import { equals, isNotEmpty, resolveFieldData } from '@peacepieceuix-compatibility/utils/object';
 import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
 import AngleRightIcon from '@peacepiece-compatibility/icons/angleright';
-import Ripple from '@peacepiece-compatibility/primevue/ripple';
+import Ripple from 'peacepiece-primevue/ripple';
 export default {
     name: 'CascadeSelectSub',
     hostName: 'CascadeSelect',

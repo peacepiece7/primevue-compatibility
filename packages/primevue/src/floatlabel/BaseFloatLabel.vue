@@ -1,6 +1,6 @@
 <script>
 import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
-import FloatLabelStyle from '@peacepiece-compatibility/primevue/floatlabel/style';
+import FloatLabelStyle from 'peacepiece-primevue/floatlabel/style';
 
 export default {
     name: 'BaseFloatLabel',

@@ -1,6 +1,6 @@
 <script>
 import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
-import ScrollTopStyle from '@peacepiece-compatibility/primevue/scrolltop/style';
+import ScrollTopStyle from 'peacepiece-primevue/scrolltop/style';
 
 export default {
     name: 'BaseScrollTop',

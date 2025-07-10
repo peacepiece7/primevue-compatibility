@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import IftaLabel from '@peacepiece-compatibility/primevue/iftalabel';
+import IftaLabel from 'peacepiece-primevue/iftalabel';
 `
             }
         };

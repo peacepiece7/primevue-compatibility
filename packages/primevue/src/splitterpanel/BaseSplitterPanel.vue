@@ -1,6 +1,6 @@
 <script>
 import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
-import SplitterPanelStyle from '@peacepiece-compatibility/primevue/splitterpanel/style';
+import SplitterPanelStyle from 'peacepiece-primevue/splitterpanel/style';
 
 export default {
     name: 'BaseSplitterPanel',

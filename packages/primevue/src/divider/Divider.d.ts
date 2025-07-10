@@ -9,7 +9,7 @@
  */
 import type { DefineComponent, DesignToken, EmitFn, HintedString, PassThrough } from '@primevue/core';
 import type { ComponentHooks } from '@peacepiece-compatibility/core/basecomponent';
-import type { PassThroughOptions } from '@peacepiece-compatibility/primevue/passthrough';
+import type { PassThroughOptions } from 'peacepiece-primevue/passthrough';
 import { VNode } from 'vue';
 
 export declare type DividerPassThroughOptionType = DividerPassThroughAttributes | ((options: DividerPassThroughMethodOptions) => DividerPassThroughAttributes | string) | string | null | undefined;

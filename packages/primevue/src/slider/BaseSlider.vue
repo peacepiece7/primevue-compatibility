@@ -1,6 +1,6 @@
 <script>
 import BaseEditableHolder from '@peacepiece-compatibility/core/baseeditableholder';
-import SliderStyle from '@peacepiece-compatibility/primevue/slider/style';
+import SliderStyle from 'peacepiece-primevue/slider/style';
 
 export default {
     name: 'BaseSlider',

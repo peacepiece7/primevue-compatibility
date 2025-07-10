@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import SpeedDial from '@peacepiece-compatibility/primevue/speeddial';
+import SpeedDial from 'peacepiece-primevue/speeddial';
 `
             }
         };

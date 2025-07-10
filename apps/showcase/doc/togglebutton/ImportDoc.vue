@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import ToggleButton from '@peacepiece-compatibility/primevue/togglebutton';
+import ToggleButton from 'peacepiece-primevue/togglebutton';
 `
             }
         };

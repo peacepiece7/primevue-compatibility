@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import Galleria from '@peacepiece-compatibility/primevue/galleria';
+import Galleria from 'peacepiece-primevue/galleria';
 `
             }
         };

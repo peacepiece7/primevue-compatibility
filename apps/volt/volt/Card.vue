@@ -13,7 +13,7 @@
 </template>
 
 <script setup lang="ts">
-import Card, { type CardPassThroughOptions, type CardProps } from '@peacepiece-compatibility/primevue/card';
+import Card, { type CardPassThroughOptions, type CardProps } from 'peacepiece-primevue/card';
 import { ref } from 'vue';
 import { ptViewMerge } from './utils';
 

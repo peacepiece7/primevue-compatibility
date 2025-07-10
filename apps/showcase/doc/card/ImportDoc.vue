@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import Card from '@peacepiece-compatibility/primevue/card';
+import Card from 'peacepiece-primevue/card';
 `
             }
         };

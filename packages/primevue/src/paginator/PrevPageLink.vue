@@ -7,7 +7,7 @@
 <script>
 import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
 import AngleLeftIcon from '@peacepiece-compatibility/icons/angleleft';
-import Ripple from '@peacepiece-compatibility/primevue/ripple';
+import Ripple from 'peacepiece-primevue/ripple';
 
 export default {
     name: 'PrevPageLink',

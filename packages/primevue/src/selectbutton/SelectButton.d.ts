@@ -8,9 +8,9 @@
  *
  */
 import type { ComponentHooks } from '@peacepiece-compatibility/core/basecomponent';
-import type { PassThroughOptions } from '@peacepiece-compatibility/primevue/passthrough';
+import type { PassThroughOptions } from 'peacepiece-primevue/passthrough';
 import { VNode } from 'vue';
-// import { ToggleButtonPassThroughOptions } from '@peacepiece-compatibility/primevue/togglebutton';
+// import { ToggleButtonPassThroughOptions } from 'peacepiece-primevue/togglebutton';
 import type { DefineComponent, DesignToken, EmitFn, HintedString, PassThrough } from '@primevue/core';
 
 export declare type SelectButtonPassThroughOptionType = SelectButtonPassThroughAttributes | ((options: SelectButtonPassThroughMethodOptions) => SelectButtonPassThroughAttributes | string) | string | null | undefined;

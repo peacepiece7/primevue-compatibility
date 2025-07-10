@@ -67,11 +67,11 @@
 import TimesIcon from '@peacepiece-compatibility/icons/times';
 import WindowMaximizeIcon from '@peacepiece-compatibility/icons/windowmaximize';
 import WindowMinimizeIcon from '@peacepiece-compatibility/icons/windowminimize';
-import Button from '@peacepiece-compatibility/primevue/button';
-import FocusTrap from '@peacepiece-compatibility/primevue/focustrap';
-import Portal from '@peacepiece-compatibility/primevue/portal';
-import Ripple from '@peacepiece-compatibility/primevue/ripple';
-import { blockBodyScroll, unblockBodyScroll } from '@peacepiece-compatibility/primevue/utils';
+import Button from 'peacepiece-primevue/button';
+import FocusTrap from 'peacepiece-primevue/focustrap';
+import Portal from 'peacepiece-primevue/portal';
+import Ripple from 'peacepiece-primevue/ripple';
+import { blockBodyScroll, unblockBodyScroll } from 'peacepiece-primevue/utils';
 import { cn } from '@peacepieceuix-compatibility/utils';
 import { addClass, addStyle, focus, getOuterHeight, getOuterWidth, getViewport, setAttribute } from '@peacepieceuix-compatibility/utils/dom';
 import { ZIndex } from '@peacepieceuix-compatibility/utils/zindex';

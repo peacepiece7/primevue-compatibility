@@ -9,12 +9,12 @@ export default {
         return {
             code: {
                 basic: `
-import Stepper from '@peacepiece-compatibility/primevue/stepper';
-import StepList from '@peacepiece-compatibility/primevue/steplist';
-import StepPanels from '@peacepiece-compatibility/primevue/steppanels';
-import StepItem from '@peacepiece-compatibility/primevue/stepitem';
-import Step from '@peacepiece-compatibility/primevue/step';
-import StepPanel from '@peacepiece-compatibility/primevue/steppanel';
+import Stepper from 'peacepiece-primevue/stepper';
+import StepList from 'peacepiece-primevue/steplist';
+import StepPanels from 'peacepiece-primevue/steppanels';
+import StepItem from 'peacepiece-primevue/stepitem';
+import Step from 'peacepiece-primevue/step';
+import StepPanel from 'peacepiece-primevue/steppanel';
 `
             }
         };

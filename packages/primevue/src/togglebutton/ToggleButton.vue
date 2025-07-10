@@ -29,7 +29,7 @@
 <script>
 import { cn } from '@peacepieceuix-compatibility/utils';
 import { isNotEmpty } from '@peacepieceuix-compatibility/utils/object';
-import Ripple from '@peacepiece-compatibility/primevue/ripple';
+import Ripple from 'peacepiece-primevue/ripple';
 import BaseToggleButton from './BaseToggleButton.vue';
 
 export default {

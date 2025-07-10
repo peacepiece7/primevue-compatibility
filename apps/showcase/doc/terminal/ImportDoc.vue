@@ -9,8 +9,8 @@ export default {
         return {
             code: {
                 basic: `
-import Terminal from '@peacepiece-compatibility/primevue/terminal';
-import TerminalService from '@peacepiece-compatibility/primevue/terminalservice'
+import Terminal from 'peacepiece-primevue/terminal';
+import TerminalService from 'peacepiece-primevue/terminalservice'
 `
             }
         };

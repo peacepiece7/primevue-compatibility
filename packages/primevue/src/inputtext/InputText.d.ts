@@ -9,7 +9,7 @@
  */
 import type { DefineComponent, DesignToken, EmitFn, HintedString, Nullable, PassThrough } from '@primevue/core';
 import type { ComponentHooks } from '@peacepiece-compatibility/core/basecomponent';
-import type { PassThroughOptions } from '@peacepiece-compatibility/primevue/passthrough';
+import type { PassThroughOptions } from 'peacepiece-primevue/passthrough';
 import { InputHTMLAttributes } from 'vue';
 
 export declare type InputTextPassThroughOptionType<T = any> = InputTextPassThroughAttributes | ((options: InputTextPassThroughMethodOptions<T>) => InputTextPassThroughAttributes | string) | string | null | undefined;

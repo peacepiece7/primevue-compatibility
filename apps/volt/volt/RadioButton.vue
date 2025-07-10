@@ -9,7 +9,7 @@
 </template>
 
 <script setup lang="ts">
-import RadioButton, { type RadioButtonPassThroughOptions, type RadioButtonProps } from '@peacepiece-compatibility/primevue/radiobutton';
+import RadioButton, { type RadioButtonPassThroughOptions, type RadioButtonProps } from 'peacepiece-primevue/radiobutton';
 import { ref } from 'vue';
 import { ptViewMerge } from './utils';
 

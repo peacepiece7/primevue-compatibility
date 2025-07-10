@@ -1,6 +1,6 @@
 <script>
 import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
-import InputIconStyle from '@peacepiece-compatibility/primevue/inputicon/style';
+import InputIconStyle from 'peacepiece-primevue/inputicon/style';
 
 export default {
     name: 'BaseInputIcon',

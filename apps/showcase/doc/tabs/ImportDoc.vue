@@ -9,11 +9,11 @@ export default {
         return {
             code: {
                 basic: `
-import Tabs from '@peacepiece-compatibility/primevue/tabs';
-import TabList from '@peacepiece-compatibility/primevue/tablist';
-import Tab from '@peacepiece-compatibility/primevue/tab';
-import TabPanels from '@peacepiece-compatibility/primevue/tabpanels';
-import TabPanel from '@peacepiece-compatibility/primevue/tabpanel';
+import Tabs from 'peacepiece-primevue/tabs';
+import TabList from 'peacepiece-primevue/tablist';
+import Tab from 'peacepiece-primevue/tab';
+import TabPanels from 'peacepiece-primevue/tabpanels';
+import TabPanel from 'peacepiece-primevue/tabpanel';
 `
             }
         };

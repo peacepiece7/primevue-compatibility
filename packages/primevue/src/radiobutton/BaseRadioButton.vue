@@ -1,6 +1,6 @@
 <script>
 import BaseInput from '@peacepiece-compatibility/core/baseinput';
-import RadioButtonStyle from '@peacepiece-compatibility/primevue/radiobutton/style';
+import RadioButtonStyle from 'peacepiece-primevue/radiobutton/style';
 
 export default {
     name: 'BaseRadioButton',

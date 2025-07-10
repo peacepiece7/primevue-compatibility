@@ -21,7 +21,7 @@ mounted() {
 }
 `,
                 composition: `
-import { usePrimeVue } from '@peacepiece-compatibility/primevue/config';
+import { usePrimeVue } from 'peacepiece-primevue/config';
 
 const PrimeVue = usePrimeVue();
 

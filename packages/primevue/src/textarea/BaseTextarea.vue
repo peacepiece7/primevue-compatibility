@@ -1,6 +1,6 @@
 <script>
 import BaseInput from '@peacepiece-compatibility/core/baseinput';
-import TextareaStyle from '@peacepiece-compatibility/primevue/textarea/style';
+import TextareaStyle from 'peacepiece-primevue/textarea/style';
 
 export default {
     name: 'BaseTextarea',

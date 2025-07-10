@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import AnimateOnScroll from '@peacepiece-compatibility/primevue/animateonscroll';
+import AnimateOnScroll from 'peacepiece-primevue/animateonscroll';
 
 app.directive('animateonscroll', AnimateOnScroll);
 `

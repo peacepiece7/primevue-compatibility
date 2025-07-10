@@ -31,7 +31,7 @@
 import TimesIcon from '@peacepiece-compatibility/icons/times';
 import WindowMaximizeIcon from '@peacepiece-compatibility/icons/windowmaximize';
 import WindowMinimizeIcon from '@peacepiece-compatibility/icons/windowminimize';
-import Dialog, { type DialogPassThroughOptions, type DialogProps } from '@peacepiece-compatibility/primevue/dialog';
+import Dialog, { type DialogPassThroughOptions, type DialogProps } from 'peacepiece-primevue/dialog';
 import { ref } from 'vue';
 import SecondaryButton from './SecondaryButton.vue';
 import { ptViewMerge } from './utils';

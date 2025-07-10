@@ -25,8 +25,8 @@
 <script>
 import { cn } from '@peacepieceuix-compatibility/utils';
 import { equals, resolveFieldData } from '@peacepieceuix-compatibility/utils/object';
-import Ripple from '@peacepiece-compatibility/primevue/ripple';
-import ToggleButton from '@peacepiece-compatibility/primevue/togglebutton';
+import Ripple from 'peacepiece-primevue/ripple';
+import ToggleButton from 'peacepiece-primevue/togglebutton';
 import BaseSelectButton from './BaseSelectButton.vue';
 
 export default {

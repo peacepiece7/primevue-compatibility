@@ -21,7 +21,7 @@
 
 <script setup lang="ts">
 import TimesIcon from '@peacepiece-compatibility/icons/times';
-import Drawer, { type DrawerPassThroughOptions, type DrawerProps } from '@peacepiece-compatibility/primevue/drawer';
+import Drawer, { type DrawerPassThroughOptions, type DrawerProps } from 'peacepiece-primevue/drawer';
 import { ref } from 'vue';
 import SecondaryButton from './SecondaryButton.vue';
 import { ptViewMerge } from './utils';

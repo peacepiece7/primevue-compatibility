@@ -1,6 +1,6 @@
 <script>
 import BaseInput from '@peacepiece-compatibility/core/baseinput';
-import DatePickerStyle from '@peacepiece-compatibility/primevue/datepicker/style';
+import DatePickerStyle from 'peacepiece-primevue/datepicker/style';
 
 export default {
     name: 'BaseDatePicker',

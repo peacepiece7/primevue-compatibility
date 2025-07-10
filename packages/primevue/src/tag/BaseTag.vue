@@ -1,6 +1,6 @@
 <script>
 import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
-import TagStyle from '@peacepiece-compatibility/primevue/tag/style';
+import TagStyle from 'peacepiece-primevue/tag/style';
 
 export default {
     name: 'BaseTag',

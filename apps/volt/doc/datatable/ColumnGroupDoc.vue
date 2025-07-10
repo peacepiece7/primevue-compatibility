@@ -56,9 +56,9 @@
 
 <script setup lang="ts">
 import DataTable from '@/volt/DataTable.vue';
-import Column from '@peacepiece-compatibility/primevue/column';
-import ColumnGroup from '@peacepiece-compatibility/primevue/columngroup';
-import Row from '@peacepiece-compatibility/primevue/row';
+import Column from 'peacepiece-primevue/column';
+import ColumnGroup from 'peacepiece-primevue/columngroup';
+import Row from 'peacepiece-primevue/row';
 import { ref } from 'vue';
 
 const sales = ref(null);
@@ -150,9 +150,9 @@ const code = ref(`
 
 <script setup lang="ts">
 import DataTable from '@/volt/DataTable.vue';
-import Column from '@peacepiece-compatibility/primevue/column';
-import ColumnGroup from '@peacepiece-compatibility/primevue/columngroup';
-import Row from '@peacepiece-compatibility/primevue/row';
+import Column from 'peacepiece-primevue/column';
+import ColumnGroup from 'peacepiece-primevue/columngroup';
+import Row from 'peacepiece-primevue/row';
 import { ref } from 'vue';
 
 const sales = ref([

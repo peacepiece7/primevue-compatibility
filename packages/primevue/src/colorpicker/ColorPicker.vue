@@ -24,8 +24,8 @@
 import { absolutePosition, addClass, isTouchDevice, relativePosition, removeClass } from '@peacepieceuix-compatibility/utils/dom';
 import { ZIndex } from '@peacepieceuix-compatibility/utils/zindex';
 import { ConnectedOverlayScrollHandler } from '@peacepiece-compatibility/core/utils';
-import OverlayEventBus from '@peacepiece-compatibility/primevue/overlayeventbus';
-import Portal from '@peacepiece-compatibility/primevue/portal';
+import OverlayEventBus from 'peacepiece-primevue/overlayeventbus';
+import Portal from 'peacepiece-primevue/portal';
 import BaseColorPicker from './BaseColorPicker.vue';
 
 export default {

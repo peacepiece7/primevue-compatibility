@@ -27,7 +27,7 @@
 import Button from '@/volt/Button.vue';
 import DataTable from '@/volt/DataTable.vue';
 import Dialog from '@/volt/Dialog.vue';
-import Column from '@peacepiece-compatibility/primevue/column';
+import Column from 'peacepiece-primevue/column';
 import { ref } from 'vue';
 import { CustomerService } from '~/service/CustomerService';
 
@@ -62,7 +62,7 @@ import { CustomerService } from '@/service/CustomerService';
 import Button from '@/volt/Button.vue';
 import DataTable from '@/volt/DataTable.vue';
 import Dialog from '@/volt/Dialog.vue';
-import Column from '@peacepiece-compatibility/primevue/column';
+import Column from 'peacepiece-primevue/column';
 import { ref } from 'vue';
 
 const customers = ref(null);

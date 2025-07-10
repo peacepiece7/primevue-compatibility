@@ -9,9 +9,9 @@
  */
 import type { DefineComponent, DesignToken, EmitFn, HintedString, PassThrough } from '@primevue/core';
 import type { ComponentHooks } from '@peacepiece-compatibility/core/basecomponent';
-import type { ButtonPassThroughOptions, ButtonProps } from '@peacepiece-compatibility/primevue/button';
-import type { InputTextPassThroughOptions } from '@peacepiece-compatibility/primevue/inputtext';
-import type { PassThroughOptions } from '@peacepiece-compatibility/primevue/passthrough';
+import type { ButtonPassThroughOptions, ButtonProps } from 'peacepiece-primevue/button';
+import type { InputTextPassThroughOptions } from 'peacepiece-primevue/inputtext';
+import type { PassThroughOptions } from 'peacepiece-primevue/passthrough';
 import { TransitionProps, VNode } from 'vue';
 
 export declare type DatePickerPassThroughOptionType = DatePickerPassThroughAttributes | ((options: DatePickerPassThroughMethodOptions) => DatePickerPassThroughAttributes | string) | string | null | undefined;

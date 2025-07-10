@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import CascadeSelect from '@peacepiece-compatibility/primevue/cascadeselect';
+import CascadeSelect from 'peacepiece-primevue/cascadeselect';
 `
             }
         };

@@ -7,6 +7,6 @@
 import { ref } from 'vue';
 
 const code = ref(`import Splitter from '@/volt/Splitter.vue';
-import SplitterPanel from '@peacepiece-compatibility/primevue/splitterpanel';
+import SplitterPanel from 'peacepiece-primevue/splitterpanel';
 `);
 </script>

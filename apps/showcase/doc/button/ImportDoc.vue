@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import Button from '@peacepiece-compatibility/primevue/button';
+import Button from 'peacepiece-primevue/button';
 `
             }
         };

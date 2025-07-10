@@ -46,7 +46,7 @@ import AngleDoubleLeftIcon from '@peacepiece-compatibility/icons/angledoubleleft
 import AngleDoubleRightIcon from '@peacepiece-compatibility/icons/angledoubleright';
 import AngleLeftIcon from '@peacepiece-compatibility/icons/angleleft';
 import AngleRightIcon from '@peacepiece-compatibility/icons/angleright';
-import Paginator, { type PaginatorPassThroughOptions, type PaginatorProps } from '@peacepiece-compatibility/primevue/paginator';
+import Paginator, { type PaginatorPassThroughOptions, type PaginatorProps } from 'peacepiece-primevue/paginator';
 import { ref } from 'vue';
 import SecondaryButton from './SecondaryButton.vue';
 import { ptViewMerge } from './utils';

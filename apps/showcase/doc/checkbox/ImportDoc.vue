@@ -9,8 +9,8 @@ export default {
         return {
             code: {
                 basic: `
-import Checkbox from '@peacepiece-compatibility/primevue/checkbox';
-import CheckboxGroup from '@peacepiece-compatibility/primevue/checkboxgroup';
+import Checkbox from 'peacepiece-primevue/checkbox';
+import CheckboxGroup from 'peacepiece-primevue/checkboxgroup';
 `
             }
         };

@@ -1,6 +1,6 @@
 <script>
 import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
-import CardStyle from '@peacepiece-compatibility/primevue/card/style';
+import CardStyle from 'peacepiece-primevue/card/style';
 
 export default {
     name: 'BaseCard',

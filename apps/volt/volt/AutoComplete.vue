@@ -17,7 +17,7 @@
 
 <script setup lang="ts">
 import ChevronDownIcon from '@peacepiece-compatibility/icons/chevrondown';
-import AutoComplete, { type AutoCompletePassThroughOptions, type AutoCompleteProps } from '@peacepiece-compatibility/primevue/autocomplete';
+import AutoComplete, { type AutoCompletePassThroughOptions, type AutoCompleteProps } from 'peacepiece-primevue/autocomplete';
 import { ref } from 'vue';
 import { ptViewMerge } from './utils';
 

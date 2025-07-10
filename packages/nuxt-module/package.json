@@ -71,7 +71,7 @@
         "@nuxt/kit": "^3",
         "@peacepieceuix-compatibility/styled": "catalog:",
         "@peacepieceuix-compatibility/utils": "catalog:",
-        "@peacepiece-compatibility/primevue": "workspace:*",
+        "peacepiece-primevue": "workspace:*",
         "@primevue/auto-import-resolver": "workspace:*",
         "@primevue/metadata": "workspace:*",
         "unplugin-vue-components": "28.4.1",

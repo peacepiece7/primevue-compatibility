@@ -1,6 +1,6 @@
 <script>
 import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
-import ChipStyle from '@peacepiece-compatibility/primevue/chip/style';
+import ChipStyle from 'peacepiece-primevue/chip/style';
 
 export default {
     name: 'BaseChip',

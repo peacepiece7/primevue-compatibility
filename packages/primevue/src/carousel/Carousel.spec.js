@@ -1,5 +1,5 @@
 import { mount } from '@vue/test-utils';
-import PrimeVue from '@peacepiece-compatibility/primevue/config';
+import PrimeVue from 'peacepiece-primevue/config';
 import Carousel from './Carousel.vue';
 
 describe('Carousel.vue', () => {

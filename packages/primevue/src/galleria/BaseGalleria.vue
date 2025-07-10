@@ -1,6 +1,6 @@
 <script>
 import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
-import GalleriaStyle from '@peacepiece-compatibility/primevue/galleria/style';
+import GalleriaStyle from 'peacepiece-primevue/galleria/style';
 
 export default {
     name: 'BaseGalleria',

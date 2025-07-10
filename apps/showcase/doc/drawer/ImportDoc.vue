@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import Drawer from '@peacepiece-compatibility/primevue/drawer';
+import Drawer from 'peacepiece-primevue/drawer';
 `
             }
         };

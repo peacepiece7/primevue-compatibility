@@ -100,7 +100,7 @@ import ChevronDownIcon from '@peacepiece-compatibility/icons/chevrondown';
 import ChevronLeftIcon from '@peacepiece-compatibility/icons/chevronleft';
 import ChevronRightIcon from '@peacepiece-compatibility/icons/chevronright';
 import ChevronUpIcon from '@peacepiece-compatibility/icons/chevronup';
-import DatePicker from '@peacepiece-compatibility/primevue/datepicker';
+import DatePicker from 'peacepiece-primevue/datepicker';
 import { ref } from 'vue';
 import SecondaryButton from './SecondaryButton.vue';
 import { ptViewMerge } from './utils';

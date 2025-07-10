@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import Chip from '@peacepiece-compatibility/primevue/chip';
+import Chip from 'peacepiece-primevue/chip';
 `
             }
         };

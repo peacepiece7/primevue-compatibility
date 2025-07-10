@@ -1,6 +1,6 @@
 <script>
 import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
-import TabViewStyle from '@peacepiece-compatibility/primevue/tabview/style';
+import TabViewStyle from 'peacepiece-primevue/tabview/style';
 
 export default {
     name: 'BaseTabView',

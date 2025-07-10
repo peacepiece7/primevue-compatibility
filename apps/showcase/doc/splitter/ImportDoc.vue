@@ -9,8 +9,8 @@ export default {
         return {
             code: {
                 basic: `
-import Splitter from '@peacepiece-compatibility/primevue/splitter';
-import SplitterPanel from '@peacepiece-compatibility/primevue/splitterpanel';
+import Splitter from 'peacepiece-primevue/splitter';
+import SplitterPanel from 'peacepiece-primevue/splitterpanel';
 `
             }
         };

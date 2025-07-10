@@ -1,6 +1,6 @@
 <script>
 import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
-import InputChipsStyle from '@peacepiece-compatibility/primevue/inputchips/style';
+import InputChipsStyle from 'peacepiece-primevue/inputchips/style';
 
 export default {
     name: 'BaseInputChips',

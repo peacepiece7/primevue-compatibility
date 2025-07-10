@@ -6,7 +6,7 @@
 
 <script>
 import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
-import DeferredContentStyle from '@peacepiece-compatibility/primevue/deferredcontent/style';
+import DeferredContentStyle from 'peacepiece-primevue/deferredcontent/style';
 
 export default {
     name: 'DeferredContent',

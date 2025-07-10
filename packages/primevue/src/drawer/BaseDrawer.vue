@@ -1,6 +1,6 @@
 <script>
 import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
-import DrawerStyle from '@peacepiece-compatibility/primevue/drawer/style';
+import DrawerStyle from 'peacepiece-primevue/drawer/style';
 
 export default {
     name: 'BaseDrawer',

@@ -23,7 +23,7 @@
 import ChevronDownIcon from '@peacepiece-compatibility/icons/chevrondown';
 import ChevronRightIcon from '@peacepiece-compatibility/icons/chevronright';
 import SearchIcon from '@peacepiece-compatibility/icons/search';
-import Tree, { type TreePassThroughOptions, type TreeProps } from '@peacepiece-compatibility/primevue/tree';
+import Tree, { type TreePassThroughOptions, type TreeProps } from 'peacepiece-primevue/tree';
 import { ref } from 'vue';
 import { ptViewMerge } from './utils';
 

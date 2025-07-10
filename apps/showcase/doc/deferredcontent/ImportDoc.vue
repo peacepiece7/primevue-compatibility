@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import DeferredContent from '@peacepiece-compatibility/primevue/deferredcontent';
+import DeferredContent from 'peacepiece-primevue/deferredcontent';
 `
             }
         };

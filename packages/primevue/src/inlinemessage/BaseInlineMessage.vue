@@ -1,6 +1,6 @@
 <script>
 import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
-import InlineMessageStyle from '@peacepiece-compatibility/primevue/inlinemessage/style';
+import InlineMessageStyle from 'peacepiece-primevue/inlinemessage/style';
 
 export default {
     name: 'BaseInlineMessage',

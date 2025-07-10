@@ -12,7 +12,7 @@
 </template>
 
 <script setup lang="ts">
-import Tabs, { type TabsPassThroughOptions, type TabsProps } from '@peacepiece-compatibility/primevue/tabs';
+import Tabs, { type TabsPassThroughOptions, type TabsProps } from 'peacepiece-primevue/tabs';
 import { ref } from 'vue';
 import { ptViewMerge } from './utils';
 

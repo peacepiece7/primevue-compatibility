@@ -89,7 +89,7 @@ export default {
 
 <script setup>
 import { ref, onMounted } from 'vue';
-import { useToast } from '@peacepiece-compatibility/primevue/usetoast';
+import { useToast } from 'peacepiece-primevue/usetoast';
 import { ProductService } from '@/service/ProductService';
 
 onMounted(() => {

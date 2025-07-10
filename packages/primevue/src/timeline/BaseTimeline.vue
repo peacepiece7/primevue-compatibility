@@ -1,6 +1,6 @@
 <script>
 import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
-import TimelineStyle from '@peacepiece-compatibility/primevue/timeline/style';
+import TimelineStyle from 'peacepiece-primevue/timeline/style';
 
 export default {
     name: 'BaseTimeline',

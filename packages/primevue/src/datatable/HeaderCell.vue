@@ -94,7 +94,7 @@ import { getVNodeProp } from '@peacepiece-compatibility/core/utils';
 import SortAltIcon from '@peacepiece-compatibility/icons/sortalt';
 import SortAmountDownIcon from '@peacepiece-compatibility/icons/sortamountdown';
 import SortAmountUpAltIcon from '@peacepiece-compatibility/icons/sortamountupalt';
-import Badge from '@peacepiece-compatibility/primevue/badge';
+import Badge from 'peacepiece-primevue/badge';
 import { getAttribute, getIndex, getNextElementSibling, getOuterWidth, getPreviousElementSibling } from '@peacepieceuix-compatibility/utils/dom';
 import { mergeProps } from 'vue';
 import ColumnFilter from './ColumnFilter.vue';

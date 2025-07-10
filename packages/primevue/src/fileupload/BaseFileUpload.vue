@@ -1,6 +1,6 @@
 <script>
 import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
-import FileUploadStyle from '@peacepiece-compatibility/primevue/fileupload/style';
+import FileUploadStyle from 'peacepiece-primevue/fileupload/style';
 
 export default {
     name: 'BaseFileUpload',

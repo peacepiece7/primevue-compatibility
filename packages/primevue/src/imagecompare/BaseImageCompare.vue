@@ -1,6 +1,6 @@
 <script>
 import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
-import ImageCompareStyle from '@peacepiece-compatibility/primevue/imagecompare/style';
+import ImageCompareStyle from 'peacepiece-primevue/imagecompare/style';
 
 export default {
     name: 'BaseImageCompare',

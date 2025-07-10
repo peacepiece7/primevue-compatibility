@@ -9,7 +9,7 @@
  */
 import type { DesignToken, HintedString, PassThrough } from '@primevue/core';
 import type { DirectiveHooks } from '@peacepiece-compatibility/core/basedirective';
-import type { PassThroughOptions } from '@peacepiece-compatibility/primevue/passthrough';
+import type { PassThroughOptions } from 'peacepiece-primevue/passthrough';
 import { DirectiveBinding, ObjectDirective } from 'vue';
 
 /**

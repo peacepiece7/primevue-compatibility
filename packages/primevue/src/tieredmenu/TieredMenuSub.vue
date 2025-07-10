@@ -80,7 +80,7 @@ import { nestedPosition } from '@peacepieceuix-compatibility/utils/dom';
 import { isNotEmpty, resolve } from '@peacepieceuix-compatibility/utils/object';
 import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
 import AngleRightIcon from '@peacepiece-compatibility/icons/angleright';
-import Ripple from '@peacepiece-compatibility/primevue/ripple';
+import Ripple from 'peacepiece-primevue/ripple';
 import { mergeProps } from 'vue';
 
 export default {

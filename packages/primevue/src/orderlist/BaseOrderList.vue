@@ -1,6 +1,6 @@
 <script>
 import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
-import OrderListStyle from '@peacepiece-compatibility/primevue/orderlist/style';
+import OrderListStyle from 'peacepiece-primevue/orderlist/style';
 
 export default {
     name: 'BaseOrderList',

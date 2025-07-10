@@ -9,13 +9,13 @@
  */
 import type { DefineComponent, DesignToken, EmitFn, HintedString, NoInfer, Nullable, PassThrough } from '@primevue/core';
 import type { ComponentHooks } from '@peacepiece-compatibility/core/basecomponent';
-import type { ButtonProps } from '@peacepiece-compatibility/primevue/button';
-import type { ColumnPassThroughOptionType } from '@peacepiece-compatibility/primevue/column';
-import type { ColumnGroupPassThroughOptionType } from '@peacepiece-compatibility/primevue/columngroup';
-import type { PaginatorPassThroughOptionType } from '@peacepiece-compatibility/primevue/paginator';
-import type { PassThroughOptions } from '@peacepiece-compatibility/primevue/passthrough';
-import type { RowPassThroughOptionType } from '@peacepiece-compatibility/primevue/row';
-import type { VirtualScrollerPassThroughOptionType, VirtualScrollerProps } from '@peacepiece-compatibility/primevue/virtualscroller';
+import type { ButtonProps } from 'peacepiece-primevue/button';
+import type { ColumnPassThroughOptionType } from 'peacepiece-primevue/column';
+import type { ColumnGroupPassThroughOptionType } from 'peacepiece-primevue/columngroup';
+import type { PaginatorPassThroughOptionType } from 'peacepiece-primevue/paginator';
+import type { PassThroughOptions } from 'peacepiece-primevue/passthrough';
+import type { RowPassThroughOptionType } from 'peacepiece-primevue/row';
+import type { VirtualScrollerPassThroughOptionType, VirtualScrollerProps } from 'peacepiece-primevue/virtualscroller';
 import { InputHTMLAttributes, TableHTMLAttributes, TransitionProps, VNode } from 'vue';
 
 export declare type DataTablePassThroughOptionType = DataTablePassThroughAttributes | ((options: DataTablePassThroughMethodOptions) => DataTablePassThroughAttributes | string) | string | null | undefined;

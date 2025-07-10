@@ -9,9 +9,9 @@
  */
 import type { DefineComponent, DesignToken, EmitFn, HintedString, PassThrough } from '@primevue/core';
 import type { ComponentHooks } from '@peacepiece-compatibility/core/basecomponent';
-import type { ButtonPassThroughOptions, ButtonProps } from '@peacepiece-compatibility/primevue/button';
-import type { MenuItem } from '@peacepiece-compatibility/primevue/menuitem';
-import type { PassThroughOptions } from '@peacepiece-compatibility/primevue/passthrough';
+import type { ButtonPassThroughOptions, ButtonProps } from 'peacepiece-primevue/button';
+import type { MenuItem } from 'peacepiece-primevue/menuitem';
+import type { PassThroughOptions } from 'peacepiece-primevue/passthrough';
 import { VNode } from 'vue';
 
 export declare type SpeedDialPassThroughOptionType = SpeedDialPassThroughAttributes | ((options: SpeedDialPassThroughMethodOptions) => SpeedDialPassThroughAttributes | string) | string | null | undefined;

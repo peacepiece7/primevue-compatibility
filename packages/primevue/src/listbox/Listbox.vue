@@ -139,11 +139,11 @@ import { cn } from '@peacepieceuix-compatibility/utils';
 import { findSingle, focus, getFirstFocusableElement, isElement } from '@peacepieceuix-compatibility/utils/dom';
 import { equals, findLastIndex, isNotEmpty, isPrintableCharacter, resolveFieldData } from '@peacepieceuix-compatibility/utils/object';
 import { FilterService } from '@peacepiece-compatibility/core/api';
-import IconField from '@peacepiece-compatibility/primevue/iconfield';
-import InputIcon from '@peacepiece-compatibility/primevue/inputicon';
-import InputText from '@peacepiece-compatibility/primevue/inputtext';
-import Ripple from '@peacepiece-compatibility/primevue/ripple';
-import VirtualScroller from '@peacepiece-compatibility/primevue/virtualscroller';
+import IconField from 'peacepiece-primevue/iconfield';
+import InputIcon from 'peacepiece-primevue/inputicon';
+import InputText from 'peacepiece-primevue/inputtext';
+import Ripple from 'peacepiece-primevue/ripple';
+import VirtualScroller from 'peacepiece-primevue/virtualscroller';
 import BaseListbox from './BaseListbox.vue';
 
 export default {

@@ -77,9 +77,9 @@ import { cn } from '@peacepieceuix-compatibility/utils';
 import { absolutePosition, addStyle, getOuterWidth, isTouchDevice, relativePosition } from '@peacepieceuix-compatibility/utils/dom';
 import { ZIndex } from '@peacepieceuix-compatibility/utils/zindex';
 import { ConnectedOverlayScrollHandler } from '@peacepiece-compatibility/core/utils';
-import InputText from '@peacepiece-compatibility/primevue/inputtext';
-import OverlayEventBus from '@peacepiece-compatibility/primevue/overlayeventbus';
-import Portal from '@peacepiece-compatibility/primevue/portal';
+import InputText from 'peacepiece-primevue/inputtext';
+import OverlayEventBus from 'peacepiece-primevue/overlayeventbus';
+import Portal from 'peacepiece-primevue/portal';
 import BasePassword from './BasePassword.vue';
 
 export default {

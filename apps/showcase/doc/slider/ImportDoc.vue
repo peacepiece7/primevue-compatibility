@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import Slider from '@peacepiece-compatibility/primevue/slider';
+import Slider from 'peacepiece-primevue/slider';
 `
             }
         };

@@ -13,7 +13,7 @@
 </template>
 
 <script setup lang="ts">
-import Tag, { type TagPassThroughOptions, type TagProps } from '@peacepiece-compatibility/primevue/tag';
+import Tag, { type TagPassThroughOptions, type TagProps } from 'peacepiece-primevue/tag';
 import { ref } from 'vue';
 import { ptViewMerge } from './utils';
 

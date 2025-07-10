@@ -1,5 +1,5 @@
 import { mount } from '@vue/test-utils';
-import PrimeVue from '@peacepiece-compatibility/primevue/config';
+import PrimeVue from 'peacepiece-primevue/config';
 import SplitButton from './SplitButton.vue';
 
 describe('SplitButton.vue', () => {

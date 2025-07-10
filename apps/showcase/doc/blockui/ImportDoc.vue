@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import BlockUI from '@peacepiece-compatibility/primevue/blockui';
+import BlockUI from 'peacepiece-primevue/blockui';
 `
             }
         };

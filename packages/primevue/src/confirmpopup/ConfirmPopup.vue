@@ -62,11 +62,11 @@ import { $dt } from '@peacepieceuix-compatibility/styled';
 import { absolutePosition, addClass, focus, getOffset, isTouchDevice } from '@peacepieceuix-compatibility/utils/dom';
 import { ZIndex } from '@peacepieceuix-compatibility/utils/zindex';
 import { ConnectedOverlayScrollHandler } from '@peacepiece-compatibility/core/utils';
-import Button from '@peacepiece-compatibility/primevue/button';
-import ConfirmationEventBus from '@peacepiece-compatibility/primevue/confirmationeventbus';
-import FocusTrap from '@peacepiece-compatibility/primevue/focustrap';
-import OverlayEventBus from '@peacepiece-compatibility/primevue/overlayeventbus';
-import Portal from '@peacepiece-compatibility/primevue/portal';
+import Button from 'peacepiece-primevue/button';
+import ConfirmationEventBus from 'peacepiece-primevue/confirmationeventbus';
+import FocusTrap from 'peacepiece-primevue/focustrap';
+import OverlayEventBus from 'peacepiece-primevue/overlayeventbus';
+import Portal from 'peacepiece-primevue/portal';
 import BaseConfirmPopup from './BaseConfirmPopup.vue';
 
 export default {

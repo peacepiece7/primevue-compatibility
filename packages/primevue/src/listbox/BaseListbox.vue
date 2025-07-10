@@ -1,6 +1,6 @@
 <script>
 import BaseEditableHolder from '@peacepiece-compatibility/core/baseeditableholder';
-import ListboxStyle from '@peacepiece-compatibility/primevue/listbox/style';
+import ListboxStyle from 'peacepiece-primevue/listbox/style';
 
 export default {
     name: 'BaseListbox',

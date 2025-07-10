@@ -48,7 +48,7 @@
 <script>
 import { NodeService } from '@/service/NodeService';
 import { PhotoService } from '@/service/PhotoService';
-import TerminalService from '@peacepiece-compatibility/primevue/terminalservice';
+import TerminalService from 'peacepiece-primevue/terminalservice';
 
 export default {
     data() {
@@ -297,7 +297,7 @@ export default {
 </template>
 
 <script>
-import TerminalService from '@peacepiece-compatibility/primevue/terminalservice';
+import TerminalService from 'peacepiece-primevue/terminalservice';
 import { NodeService } from '@/service/NodeService';
 import { PhotoService } from '@/service/PhotoService';
 
@@ -604,8 +604,8 @@ export default {
 
 <script setup>
 import { ref, onMounted, onBeforeUnmount } from 'vue';
-import { useToast } from '@peacepiece-compatibility/primevue/usetoast';
-import TerminalService from '@peacepiece-compatibility/primevue/terminalservice';
+import { useToast } from 'peacepiece-primevue/usetoast';
+import TerminalService from 'peacepiece-primevue/terminalservice';
 import { NodeService } from '@/service/NodeService';
 import { PhotoService } from '@/service/PhotoService';
 

@@ -9,9 +9,9 @@
  */
 import type { DefineComponent, DesignToken, EmitFn, PassThrough } from '@primevue/core';
 import type { ComponentHooks } from '@peacepiece-compatibility/core/basecomponent';
-import type { DropdownPassThroughOptions } from '@peacepiece-compatibility/primevue/dropdown';
-import type { InputNumberPassThroughOptions } from '@peacepiece-compatibility/primevue/inputnumber';
-import type { PassThroughOptions } from '@peacepiece-compatibility/primevue/passthrough';
+import type { DropdownPassThroughOptions } from 'peacepiece-primevue/dropdown';
+import type { InputNumberPassThroughOptions } from 'peacepiece-primevue/inputnumber';
+import type { PassThroughOptions } from 'peacepiece-primevue/passthrough';
 import { VNode } from 'vue';
 
 export declare type PaginatorPassThroughOptionType<T = any> = PaginatorPassThroughAttributes | ((options: PaginatorPassThroughMethodOptions<T>) => PaginatorPassThroughAttributes | string) | string | null | undefined;

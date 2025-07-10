@@ -1,5 +1,5 @@
 import BaseDirective from '@peacepiece-compatibility/core/basedirective';
-import AnimateOnScrollStyle from '@peacepiece-compatibility/primevue/animateonscroll/style';
+import AnimateOnScrollStyle from 'peacepiece-primevue/animateonscroll/style';
 
 const BaseAnimateOnScroll = BaseDirective.extend({
     style: AnimateOnScrollStyle

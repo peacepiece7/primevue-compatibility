@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import Popover from '@peacepiece-compatibility/primevue/popover';
+import Popover from 'peacepiece-primevue/popover';
 `
             }
         };

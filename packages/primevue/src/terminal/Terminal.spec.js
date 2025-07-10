@@ -1,5 +1,5 @@
 import { mount } from '@vue/test-utils';
-import TerminalService from '@peacepiece-compatibility/primevue/terminalservice';
+import TerminalService from 'peacepiece-primevue/terminalservice';
 import Terminal from './Terminal.vue';
 
 describe('Terminal.vue', () => {

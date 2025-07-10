@@ -80,8 +80,8 @@ import ChevronDownIcon from '@peacepiece-compatibility/icons/chevrondown';
 import ChevronRightIcon from '@peacepiece-compatibility/icons/chevronright';
 import MinusIcon from '@peacepiece-compatibility/icons/minus';
 import SpinnerIcon from '@peacepiece-compatibility/icons/spinner';
-import Checkbox from '@peacepiece-compatibility/primevue/checkbox';
-import Ripple from '@peacepiece-compatibility/primevue/ripple';
+import Checkbox from 'peacepiece-primevue/checkbox';
+import Ripple from 'peacepiece-primevue/ripple';
 import { find, findSingle, getAttribute } from '@peacepieceuix-compatibility/utils/dom';
 
 export default {

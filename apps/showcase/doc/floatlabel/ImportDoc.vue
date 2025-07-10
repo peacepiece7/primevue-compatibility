@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import FloatLabel from '@peacepiece-compatibility/primevue/floatlabel';
+import FloatLabel from 'peacepiece-primevue/floatlabel';
 `
             }
         };

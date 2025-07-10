@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import Dialog from '@peacepiece-compatibility/primevue/dialog';
+import Dialog from 'peacepiece-primevue/dialog';
 `
             }
         };

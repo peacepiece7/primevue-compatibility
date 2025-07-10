@@ -1,6 +1,6 @@
 <script>
 import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
-import MegaMenuStyle from '@peacepiece-compatibility/primevue/megamenu/style';
+import MegaMenuStyle from 'peacepiece-primevue/megamenu/style';
 
 export default {
     name: 'BaseMegaMenu',

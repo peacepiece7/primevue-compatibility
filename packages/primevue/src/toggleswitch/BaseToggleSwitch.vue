@@ -1,6 +1,6 @@
 <script>
 import BaseEditableHolder from '@peacepiece-compatibility/core/baseeditableholder';
-import ToggleSwitchStyle from '@peacepiece-compatibility/primevue/toggleswitch/style';
+import ToggleSwitchStyle from 'peacepiece-primevue/toggleswitch/style';
 
 export default {
     name: 'BaseToggleSwitch',

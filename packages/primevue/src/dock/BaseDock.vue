@@ -1,6 +1,6 @@
 <script>
 import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
-import DockStyle from '@peacepiece-compatibility/primevue/dock/style';
+import DockStyle from 'peacepiece-primevue/dock/style';
 
 export default {
     name: 'BaseDock',

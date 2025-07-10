@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import Fieldset from '@peacepiece-compatibility/primevue/fieldset';
+import Fieldset from 'peacepiece-primevue/fieldset';
 `
             }
         };

@@ -2,7 +2,7 @@ import { addComponent, addImports } from '@nuxt/kit';
 import { isNotEmpty, isString, resolve } from '@peacepieceuix-compatibility/utils/object';
 import type { MetaType } from '@primevue/metadata';
 import { components, composables, directives } from '@primevue/metadata';
-import type { PrimeVueConfiguration } from '@peacepiece-compatibility/primevue/config';
+import type { PrimeVueConfiguration } from 'peacepiece-primevue/config';
 import type { ConstructsType, ModuleOptions, ResolvePathOptions } from './types';
 import { Utils } from './utils';
 

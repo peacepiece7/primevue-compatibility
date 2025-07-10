@@ -308,7 +308,7 @@ export default {
 
 <script setup>
 import { ref } from 'vue';
-import { usePrimeVue } from '@peacepiece-compatibility/primevue/config';
+import { usePrimeVue } from 'peacepiece-primevue/config';
 import { useToast } from "primevue/usetoast";
 
 const $primevue = usePrimeVue();

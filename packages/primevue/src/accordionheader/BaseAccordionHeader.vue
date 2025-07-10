@@ -1,6 +1,6 @@
 <script>
 import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
-import AccordionHeaderStyle from '@peacepiece-compatibility/primevue/accordionheader/style';
+import AccordionHeaderStyle from 'peacepiece-primevue/accordionheader/style';
 
 export default {
     name: 'BaseAccordionHeader',

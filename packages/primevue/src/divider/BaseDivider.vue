@@ -1,6 +1,6 @@
 <script>
 import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
-import DividerStyle from '@peacepiece-compatibility/primevue/divider/style';
+import DividerStyle from 'peacepiece-primevue/divider/style';
 
 export default {
     name: 'BaseDivider',

@@ -1,6 +1,6 @@
 <script>
 import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
-import AccordionPanelStyle from '@peacepiece-compatibility/primevue/accordionpanel/style';
+import AccordionPanelStyle from 'peacepiece-primevue/accordionpanel/style';
 
 export default {
     name: 'BaseAccordionPanel',

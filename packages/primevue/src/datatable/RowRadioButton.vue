@@ -4,7 +4,7 @@
 
 <script>
 import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
-import RadioButton from '@peacepiece-compatibility/primevue/radiobutton';
+import RadioButton from 'peacepiece-primevue/radiobutton';
 import { mergeProps } from 'vue';
 
 export default {

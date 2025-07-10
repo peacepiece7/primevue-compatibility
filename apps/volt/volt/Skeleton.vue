@@ -9,7 +9,7 @@
 </template>
 
 <script setup lang="ts">
-import Skeleton, { type SkeletonPassThroughOptions, type SkeletonProps } from '@peacepiece-compatibility/primevue/skeleton';
+import Skeleton, { type SkeletonPassThroughOptions, type SkeletonProps } from 'peacepiece-primevue/skeleton';
 import { ref } from 'vue';
 import { ptViewMerge } from './utils';
 

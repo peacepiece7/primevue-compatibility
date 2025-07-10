@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import Editor from '@peacepiece-compatibility/primevue/editor';
+import Editor from 'peacepiece-primevue/editor';
 `
             }
         };

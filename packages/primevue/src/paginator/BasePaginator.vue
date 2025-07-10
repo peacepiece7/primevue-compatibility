@@ -1,6 +1,6 @@
 <script>
 import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
-import PaginatorStyle from '@peacepiece-compatibility/primevue/paginator/style';
+import PaginatorStyle from 'peacepiece-primevue/paginator/style';
 
 export default {
     name: 'BasePaginator',

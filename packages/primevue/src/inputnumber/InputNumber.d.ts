@@ -9,8 +9,8 @@
  */
 import type { DefineComponent, DesignToken, EmitFn, HintedString, Nullable, PassThrough } from '@primevue/core';
 import type { ComponentHooks } from '@peacepiece-compatibility/core/basecomponent';
-import type { InputTextPassThroughOptions } from '@peacepiece-compatibility/primevue/inputtext';
-import type { PassThroughOptions } from '@peacepiece-compatibility/primevue/passthrough';
+import type { InputTextPassThroughOptions } from 'peacepiece-primevue/inputtext';
+import type { PassThroughOptions } from 'peacepiece-primevue/passthrough';
 import { VNode } from 'vue';
 
 export declare type RoundingMode = 'ceil' | 'floor' | 'expand' | 'trunc' | 'halfCeil' | 'halfFloor' | 'halfExpand' | 'halfTrunc' | 'halfEven';

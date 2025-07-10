@@ -30,7 +30,7 @@
 <script setup lang="ts">
 import ExclamationTriangeIcon from '@peacepiece-compatibility/icons/exclamationtriangle';
 import TimesIcon from '@peacepiece-compatibility/icons/times';
-import ConfirmDialog, { type ConfirmDialogPassThroughOptions, type ConfirmDialogProps } from '@peacepiece-compatibility/primevue/confirmdialog';
+import ConfirmDialog, { type ConfirmDialogPassThroughOptions, type ConfirmDialogProps } from 'peacepiece-primevue/confirmdialog';
 import { ref } from 'vue';
 import Button from './Button.vue';
 import SecondaryButton from './SecondaryButton.vue';

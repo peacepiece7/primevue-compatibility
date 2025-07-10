@@ -14,7 +14,7 @@
 import { getWindowScrollTop } from '@peacepieceuix-compatibility/utils/dom';
 import { ZIndex } from '@peacepieceuix-compatibility/utils/zindex';
 import ChevronUpIcon from '@peacepiece-compatibility/icons/chevronup';
-import Button from '@peacepiece-compatibility/primevue/button';
+import Button from 'peacepiece-primevue/button';
 import BaseScrollTop from './BaseScrollTop.vue';
 
 export default {

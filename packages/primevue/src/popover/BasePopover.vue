@@ -1,6 +1,6 @@
 <script>
 import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
-import PopoverStyle from '@peacepiece-compatibility/primevue/popover/style';
+import PopoverStyle from 'peacepiece-primevue/popover/style';
 
 export default {
     name: 'BasePopover',

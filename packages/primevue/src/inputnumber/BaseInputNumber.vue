@@ -1,6 +1,6 @@
 <script>
 import BaseInput from '@peacepiece-compatibility/core/baseinput';
-import InputNumberStyle from '@peacepiece-compatibility/primevue/inputnumber/style';
+import InputNumberStyle from 'peacepiece-primevue/inputnumber/style';
 
 export default {
     name: 'BaseInputNumber',

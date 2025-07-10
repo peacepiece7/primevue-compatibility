@@ -1,6 +1,6 @@
 <script>
 import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
-import MessageStyle from '@peacepiece-compatibility/primevue/message/style';
+import MessageStyle from 'peacepiece-primevue/message/style';
 
 export default {
     name: 'BaseMessage',

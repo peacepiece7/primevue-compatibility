@@ -1,6 +1,6 @@
 <script>
 import BaseInput from '@peacepiece-compatibility/core/baseinput';
-import InputOtpStyle from '@peacepiece-compatibility/primevue/inputotp/style';
+import InputOtpStyle from 'peacepiece-primevue/inputotp/style';
 
 export default {
     name: 'BaseInputOtp',

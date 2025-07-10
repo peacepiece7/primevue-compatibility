@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import Menubar from '@peacepiece-compatibility/primevue/menubar';
+import Menubar from 'peacepiece-primevue/menubar';
 `
             }
         };

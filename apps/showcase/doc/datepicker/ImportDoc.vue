@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import DatePicker from '@peacepiece-compatibility/primevue/datepicker';
+import DatePicker from 'peacepiece-primevue/datepicker';
 `
             }
         };

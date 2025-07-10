@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import ConfirmPopup from '@peacepiece-compatibility/primevue/confirmpopup';
+import ConfirmPopup from 'peacepiece-primevue/confirmpopup';
 `
             }
         };

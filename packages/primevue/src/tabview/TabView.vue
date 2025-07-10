@@ -94,7 +94,7 @@
 import ChevronLeftIcon from '@peacepiece-compatibility/icons/chevronleft';
 import ChevronRightIcon from '@peacepiece-compatibility/icons/chevronright';
 import { findSingle, focus, getAttribute, getOffset, getWidth } from '@peacepieceuix-compatibility/utils/dom';
-import Ripple from '@peacepiece-compatibility/primevue/ripple';
+import Ripple from 'peacepiece-primevue/ripple';
 import { mergeProps } from 'vue';
 import BaseTabView from './BaseTabView.vue';
 

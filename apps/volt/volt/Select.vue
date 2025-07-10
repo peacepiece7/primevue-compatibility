@@ -29,7 +29,7 @@ import ChevronDownIcon from '@peacepiece-compatibility/icons/chevrondown';
 import SearchIcon from '@peacepiece-compatibility/icons/search';
 import SpinnerIcon from '@peacepiece-compatibility/icons/spinner';
 import TimesIcon from '@peacepiece-compatibility/icons/times';
-import Select, { type SelectPassThroughOptions, type SelectProps } from '@peacepiece-compatibility/primevue/select';
+import Select, { type SelectPassThroughOptions, type SelectProps } from 'peacepiece-primevue/select';
 import { ref } from 'vue';
 import { ptViewMerge } from './utils';
 

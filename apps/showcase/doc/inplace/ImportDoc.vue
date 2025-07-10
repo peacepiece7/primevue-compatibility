@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import Inplace from '@peacepiece-compatibility/primevue/inplace';
+import Inplace from 'peacepiece-primevue/inplace';
 `
             }
         };

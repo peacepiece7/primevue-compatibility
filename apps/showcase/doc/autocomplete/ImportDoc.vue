@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import AutoComplete from '@peacepiece-compatibility/primevue/autocomplete';
+import AutoComplete from 'peacepiece-primevue/autocomplete';
 `
             }
         };

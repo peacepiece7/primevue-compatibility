@@ -1,6 +1,6 @@
 <script>
 import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
-import MeterGroupStyle from '@peacepiece-compatibility/primevue/metergroup/style';
+import MeterGroupStyle from 'peacepiece-primevue/metergroup/style';
 
 export default {
     name: 'MeterGroup',

@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import StyleClass from '@peacepiece-compatibility/primevue/styleclass';
+import StyleClass from 'peacepiece-primevue/styleclass';
 
 app.directive('styleclass', StyleClass);
 `

@@ -1,6 +1,6 @@
 <script>
 import BaseInput from '@peacepiece-compatibility/core/baseinput';
-import CascadeSelectStyle from '@peacepiece-compatibility/primevue/cascadeselect/style';
+import CascadeSelectStyle from 'peacepiece-primevue/cascadeselect/style';
 
 export default {
     name: 'BaseCascadeSelect',

@@ -78,7 +78,7 @@ import ChevronUpIcon from '@peacepiece-compatibility/icons/chevronup';
 import { addClass, find, findSingle, getAttribute, removeClass, setAttribute } from '@peacepieceuix-compatibility/utils/dom';
 import { localeComparator, sort } from '@peacepieceuix-compatibility/utils/object';
 import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
-import Ripple from '@peacepiece-compatibility/primevue/ripple';
+import Ripple from 'peacepiece-primevue/ripple';
 
 export default {
     name: 'GalleriaThumbnails',

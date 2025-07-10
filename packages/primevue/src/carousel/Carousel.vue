@@ -107,8 +107,8 @@ import ChevronRightIcon from '@peacepiece-compatibility/icons/chevronright';
 import ChevronUpIcon from '@peacepiece-compatibility/icons/chevronup';
 import { addClass, find, findSingle, getAttribute, removeClass, setAttribute } from '@peacepieceuix-compatibility/utils/dom';
 import { localeComparator, sort } from '@peacepieceuix-compatibility/utils/object';
-import Button from '@peacepiece-compatibility/primevue/button';
-import Ripple from '@peacepiece-compatibility/primevue/ripple';
+import Button from 'peacepiece-primevue/button';
+import Ripple from 'peacepiece-primevue/ripple';
 import BaseCarousel from './BaseCarousel.vue';
 
 export default {

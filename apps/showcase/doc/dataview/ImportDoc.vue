@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import DataView from '@peacepiece-compatibility/primevue/dataview';
+import DataView from 'peacepiece-primevue/dataview';
 `
             }
         };

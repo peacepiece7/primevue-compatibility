@@ -11,7 +11,7 @@
 </template>
 
 <script setup lang="ts">
-import Stepper, { type StepperPassThroughOptions, type StepperProps } from '@peacepiece-compatibility/primevue/stepper';
+import Stepper, { type StepperPassThroughOptions, type StepperProps } from 'peacepiece-primevue/stepper';
 import { ref } from 'vue';
 import { ptViewMerge } from './utils';
 

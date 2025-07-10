@@ -46,8 +46,8 @@
 import MinusIcon from '@peacepiece-compatibility/icons/minus';
 import PlusIcon from '@peacepiece-compatibility/icons/plus';
 import { cn } from '@peacepieceuix-compatibility/utils';
-import Button from '@peacepiece-compatibility/primevue/button';
-import Ripple from '@peacepiece-compatibility/primevue/ripple';
+import Button from 'peacepiece-primevue/button';
+import Ripple from 'peacepiece-primevue/ripple';
 import BasePanel from './BasePanel.vue';
 
 export default {

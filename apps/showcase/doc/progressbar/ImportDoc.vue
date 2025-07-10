@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import ProgressBar from '@peacepiece-compatibility/primevue/progressbar';
+import ProgressBar from 'peacepiece-primevue/progressbar';
 `
             }
         };

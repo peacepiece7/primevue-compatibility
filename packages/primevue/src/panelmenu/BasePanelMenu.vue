@@ -1,6 +1,6 @@
 <script>
 import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
-import PanelMenuStyle from '@peacepiece-compatibility/primevue/panelmenu/style';
+import PanelMenuStyle from 'peacepiece-primevue/panelmenu/style';
 
 export default {
     name: 'BasePanelMenu',

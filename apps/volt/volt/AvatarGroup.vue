@@ -13,7 +13,7 @@
 </template>
 
 <script setup lang="ts">
-import AvatarGroup, { type AvatarGroupPassThroughOptions, type AvatarGroupProps } from '@peacepiece-compatibility/primevue/avatargroup';
+import AvatarGroup, { type AvatarGroupPassThroughOptions, type AvatarGroupProps } from 'peacepiece-primevue/avatargroup';
 import { ref } from 'vue';
 import { ptViewMerge } from './utils';
 

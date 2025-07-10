@@ -1,6 +1,6 @@
 <script>
 import BaseEditableHolder from '@peacepiece-compatibility/core/baseeditableholder';
-import EditorStyle from '@peacepiece-compatibility/primevue/editor/style';
+import EditorStyle from 'peacepiece-primevue/editor/style';
 
 export default {
     name: 'BaseEditor',

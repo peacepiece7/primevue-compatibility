@@ -12,7 +12,7 @@ export default {
             code: {
                 basic: `
 import ProductListDemo from './ProductListDemo';
-import { useDialog } from '@peacepiece-compatibility/primevue/usedialog';
+import { useDialog } from 'peacepiece-primevue/usedialog';
 
 const dialog = useDialog();
 

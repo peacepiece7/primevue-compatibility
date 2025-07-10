@@ -7,6 +7,6 @@
  * @module overlaypanelstyle
  *
  */
-import type { PopoverStyle } from '@peacepiece-compatibility/primevue/popover/style';
+import type { PopoverStyle } from 'peacepiece-primevue/popover/style';
 
 export interface OverlayPanelStyle extends PopoverStyle {}

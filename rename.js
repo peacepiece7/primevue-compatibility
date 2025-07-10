@@ -2,8 +2,8 @@
 const fs = require('fs');
 const path = require('path');
 
-const OLD_SCOPE = "from '@primevue/themes/";
-const NEW_SCOPE = "from '@peacepiece-compatibility/themes/";
+const OLD_SCOPE = '@peacepiece-compatibility/primevue';
+const NEW_SCOPE = 'peacepiece-primevue';
 
 const TARGET_DIRS = ['.', './packages', './apps'];
 

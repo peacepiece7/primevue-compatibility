@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import Listbox from '@peacepiece-compatibility/primevue/listbox';
+import Listbox from 'peacepiece-primevue/listbox';
 `
             }
         };

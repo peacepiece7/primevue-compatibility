@@ -15,7 +15,7 @@
 
 <script setup lang="ts">
 import SecondaryButton from '@/volt/SecondaryButton.vue';
-import { useToast } from '@peacepiece-compatibility/primevue/usetoast';
+import { useToast } from 'peacepiece-primevue/usetoast';
 import { ref } from 'vue';
 
 const toast = useToast();

@@ -1,6 +1,6 @@
 <script>
 import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
-import ProgressSpinnerStyle from '@peacepiece-compatibility/primevue/progressspinner/style';
+import ProgressSpinnerStyle from 'peacepiece-primevue/progressspinner/style';
 
 export default {
     name: 'BaseProgressSpinner',

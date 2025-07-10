@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import TreeSelect from '@peacepiece-compatibility/primevue/treeselect';
+import TreeSelect from 'peacepiece-primevue/treeselect';
 `
             }
         };

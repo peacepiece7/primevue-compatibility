@@ -1,6 +1,6 @@
 <script>
 import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
-import TreeTableStyle from '@peacepiece-compatibility/primevue/treetable/style';
+import TreeTableStyle from 'peacepiece-primevue/treetable/style';
 
 export default {
     name: 'BaseTreeTable',

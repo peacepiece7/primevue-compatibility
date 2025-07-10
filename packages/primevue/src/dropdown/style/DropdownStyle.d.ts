@@ -7,7 +7,7 @@
  * @module dropdownstyle
  *
  */
-import type { SelectStyle } from '@peacepiece-compatibility/primevue/select/style';
+import type { SelectStyle } from 'peacepiece-primevue/select/style';
 
 export enum DropdownClasses {}
 

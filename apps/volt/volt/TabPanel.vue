@@ -12,7 +12,7 @@
 </template>
 
 <script setup lang="ts">
-import TabPanel, { type TabPanelPassThroughOptions, type TabPanelProps } from '@peacepiece-compatibility/primevue/tabpanel';
+import TabPanel, { type TabPanelPassThroughOptions, type TabPanelProps } from 'peacepiece-primevue/tabpanel';
 import { ref } from 'vue';
 import { ptViewMerge } from './utils';
 

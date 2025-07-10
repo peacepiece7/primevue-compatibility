@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import ScrollPanel from '@peacepiece-compatibility/primevue/scrollpanel';
+import ScrollPanel from 'peacepiece-primevue/scrollpanel';
 `
             }
         };

@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import TieredMenu from '@peacepiece-compatibility/primevue/tieredmenu';
+import TieredMenu from 'peacepiece-primevue/tieredmenu';
 `
             }
         };

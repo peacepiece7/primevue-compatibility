@@ -1,6 +1,6 @@
 <script>
 import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
-import StepperStyle from '@peacepiece-compatibility/primevue/stepper/style';
+import StepperStyle from 'peacepiece-primevue/stepper/style';
 
 export default {
     name: 'BaseStepper',

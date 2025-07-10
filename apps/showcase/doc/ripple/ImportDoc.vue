@@ -17,7 +17,7 @@ export default {
             code1: {
                 basic: `
 import { createApp } from 'vue';
-import PrimeVue from '@peacepiece-compatibility/primevue/config';
+import PrimeVue from 'peacepiece-primevue/config';
 const app = createApp(App);
 
 app.use(PrimeVue, { ripple: true });
@@ -25,7 +25,7 @@ app.use(PrimeVue, { ripple: true });
             },
             code2: {
                 basic: `
-import Ripple from '@peacepiece-compatibility/primevue/ripple';
+import Ripple from 'peacepiece-primevue/ripple';
 
 app.directive('ripple', Ripple);
 `

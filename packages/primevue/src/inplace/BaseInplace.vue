@@ -1,6 +1,6 @@
 <script>
 import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
-import InplaceStyle from '@peacepiece-compatibility/primevue/inplace/style';
+import InplaceStyle from 'peacepiece-primevue/inplace/style';
 
 export default {
     name: 'BaseInplace',

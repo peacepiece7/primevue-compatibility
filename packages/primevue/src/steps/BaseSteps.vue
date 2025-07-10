@@ -1,6 +1,6 @@
 <script>
 import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
-import StepsStyle from '@peacepiece-compatibility/primevue/steps/style';
+import StepsStyle from 'peacepiece-primevue/steps/style';
 
 export default {
     name: 'BaseSteps',

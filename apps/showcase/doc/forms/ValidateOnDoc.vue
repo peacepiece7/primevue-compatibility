@@ -141,7 +141,7 @@ export default {
 
 <script setup>
 import { ref } from 'vue';
-import { useToast } from '@peacepiece-compatibility/primevue/usetoast';
+import { useToast } from 'peacepiece-primevue/usetoast';
 
 const toast = useToast();
 

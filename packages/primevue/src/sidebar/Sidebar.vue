@@ -1,5 +1,5 @@
 <script>
-import Drawer from '@peacepiece-compatibility/primevue/drawer';
+import Drawer from 'peacepiece-primevue/drawer';
 
 export default {
     name: 'Sidebar',

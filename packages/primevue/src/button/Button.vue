@@ -19,8 +19,8 @@
 import { cn } from '@peacepieceuix-compatibility/utils';
 import { isEmpty } from '@peacepieceuix-compatibility/utils/object';
 import SpinnerIcon from '@peacepiece-compatibility/icons/spinner';
-import Badge from '@peacepiece-compatibility/primevue/badge';
-import Ripple from '@peacepiece-compatibility/primevue/ripple';
+import Badge from 'peacepiece-primevue/badge';
+import Ripple from 'peacepiece-primevue/ripple';
 import { mergeProps } from 'vue';
 import BaseButton from './BaseButton.vue';
 

@@ -21,7 +21,7 @@
 <script setup lang="ts">
 import EyeIcon from '@peacepiece-compatibility/icons/eye';
 import EyeSlashIcon from '@peacepiece-compatibility/icons/eyeslash';
-import Password, { type PasswordPassThroughOptions, type PasswordProps } from '@peacepiece-compatibility/primevue/password';
+import Password, { type PasswordPassThroughOptions, type PasswordProps } from 'peacepiece-primevue/password';
 import { ref } from 'vue';
 import { ptViewMerge } from './utils';
 

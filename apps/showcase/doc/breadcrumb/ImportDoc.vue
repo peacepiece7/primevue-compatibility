@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import Breadcrumb from '@peacepiece-compatibility/primevue/breadcrumb';
+import Breadcrumb from 'peacepiece-primevue/breadcrumb';
 `
             }
         };

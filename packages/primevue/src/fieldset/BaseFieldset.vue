@@ -1,6 +1,6 @@
 <script>
 import BaseComponent from '@peacepiece-compatibility/core/basecomponent';
-import FieldsetStyle from '@peacepiece-compatibility/primevue/fieldset/style';
+import FieldsetStyle from 'peacepiece-primevue/fieldset/style';
 
 export default {
     name: 'BaseFieldset',

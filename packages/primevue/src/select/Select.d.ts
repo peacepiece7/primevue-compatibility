@@ -9,11 +9,11 @@
  */
 import type { DefineComponent, DesignToken, EmitFn, HintedString, PassThrough } from '@primevue/core';
 import type { ComponentHooks } from '@peacepiece-compatibility/core/basecomponent';
-import type { IconFieldPassThroughOptions } from '@peacepiece-compatibility/primevue/iconfield';
-import type { InputIconPassThroughOptions } from '@peacepiece-compatibility/primevue/inputicon';
-import type { InputTextPassThroughOptions } from '@peacepiece-compatibility/primevue/inputtext';
-import type { PassThroughOptions } from '@peacepiece-compatibility/primevue/passthrough';
-import type { VirtualScrollerItemOptions, VirtualScrollerPassThroughOptionType, VirtualScrollerProps } from '@peacepiece-compatibility/primevue/virtualscroller';
+import type { IconFieldPassThroughOptions } from 'peacepiece-primevue/iconfield';
+import type { InputIconPassThroughOptions } from 'peacepiece-primevue/inputicon';
+import type { InputTextPassThroughOptions } from 'peacepiece-primevue/inputtext';
+import type { PassThroughOptions } from 'peacepiece-primevue/passthrough';
+import type { VirtualScrollerItemOptions, VirtualScrollerPassThroughOptionType, VirtualScrollerProps } from 'peacepiece-primevue/virtualscroller';
 import { TransitionProps, VNode } from 'vue';
 
 export declare type SelectPassThroughOptionType<T = any> = SelectPassThroughAttributes | ((options: SelectPassThroughMethodOptions<T>) => SelectPassThroughAttributes | string) | string | null | undefined;

@@ -9,7 +9,7 @@ export default {
         return {
             code: {
                 basic: `
-import InputMask from '@peacepiece-compatibility/primevue/inputmask';
+import InputMask from 'peacepiece-primevue/inputmask';
 `
             }
         };
