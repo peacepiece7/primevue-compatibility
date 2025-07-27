@@ -67,7 +67,7 @@
                 :aria-expanded="isRowExpanded"
                 :aria-controls="ariaControls"
                 :aria-label="expandButtonAriaLabel"
-                @click="toggleRow"
+                @click.stop="toggleRow"
                 data-p-selected="selected"
                 v-bind="getColumnPT('rowToggleButton')"
                 data-pc-group-section="rowactionbutton"

@@ -332,7 +332,7 @@ export default {
                 this.bindDocumentDragEndListener();
             }
 
-            if (this.closeOnEscape && this.closable) {
+            if (this.closeOnEscape) {
                 this.bindDocumentKeyDownListener();
             }
         },

@@ -2093,6 +2093,7 @@ export default {
             return Math.floor(Math.round((time - checkDate.getTime()) / 86400000) / 7) + 1;
         },
         onDateCellKeydown(event, date, groupIndex) {
+            event.preventDefault();
             const cellContent = event.currentTarget;
             const cell = cellContent.parentElement;
 
@@ -2845,7 +2846,16 @@ export default {
 
             if (propValue && Array.isArray(propValue)) {
                 if (this.isRangeSelection()) {
-                    propValue = propValue[1] || propValue[0];
+                    if (propValue.length === 1) {
+                        propValue = propValue[0];
+                    } else {
+                        let lastVisibleMonth = new Date(propValue[0].getFullYear(), propValue[0].getMonth() + this.numberOfMonths, 1);
+                        if (propValue[1] < lastVisibleMonth) {
+                            propValue = propValue[0];
+                        } else {
+                            propValue = new Date(propValue[1].getFullYear(), propValue[1].getMonth() - this.numberOfMonths + 1, 1);
+                        }
+                    }
                 } else if (this.isMultipleSelection()) {
                     propValue = propValue[propValue.length - 1];
                 }

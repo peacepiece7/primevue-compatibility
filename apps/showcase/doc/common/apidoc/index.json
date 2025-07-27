@@ -1028,6 +1028,162 @@
                     "methods": [],
                     "extendedBy": "FormFieldState"
                 },
+                "useFormFieldOptions": {
+                    "relatedProp": "",
+                    "props": [
+                        {
+                            "name": "initialValue",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "any",
+                            "default": ""
+                        },
+                        {
+                            "name": "props",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "Record<string, any> | Function",
+                            "default": ""
+                        },
+                        {
+                            "name": "validateOnBlur",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "boolean",
+                            "default": ""
+                        },
+                        {
+                            "name": "validateOnValueUpdate",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "boolean",
+                            "default": ""
+                        },
+                        {
+                            "name": "resolver",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "Function",
+                            "default": ""
+                        },
+                        {
+                            "name": "onBlur",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "Function",
+                            "default": ""
+                        },
+                        {
+                            "name": "onInput",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "Function",
+                            "default": ""
+                        },
+                        {
+                            "name": "onChange",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "Function",
+                            "default": ""
+                        },
+                        {
+                            "name": "onInvalid",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "Function",
+                            "default": ""
+                        },
+                        {
+                            "name": "[key: string]",
+                            "optional": false,
+                            "readonly": false,
+                            "type": "any"
+                        }
+                    ],
+                    "methods": []
+                },
+                "useFormFieldProps": {
+                    "relatedProp": "",
+                    "props": [
+                        {
+                            "name": "name",
+                            "optional": false,
+                            "readonly": false,
+                            "type": "string",
+                            "default": ""
+                        },
+                        {
+                            "name": "onBlur",
+                            "optional": false,
+                            "readonly": false,
+                            "type": "Function",
+                            "default": ""
+                        },
+                        {
+                            "name": "onInput",
+                            "optional": false,
+                            "readonly": false,
+                            "type": "Function",
+                            "default": ""
+                        },
+                        {
+                            "name": "onChange",
+                            "optional": false,
+                            "readonly": false,
+                            "type": "Function",
+                            "default": ""
+                        },
+                        {
+                            "name": "onInvalid",
+                            "optional": false,
+                            "readonly": false,
+                            "type": "Function",
+                            "default": ""
+                        },
+                        {
+                            "name": "[key: string]",
+                            "optional": false,
+                            "readonly": false,
+                            "type": "any"
+                        }
+                    ],
+                    "methods": []
+                },
+                "useFormFieldInstance": {
+                    "relatedProp": "",
+                    "props": [
+                        {
+                            "name": "props",
+                            "optional": false,
+                            "readonly": false,
+                            "type": "useFormFieldProps",
+                            "default": ""
+                        },
+                        {
+                            "name": "states",
+                            "optional": false,
+                            "readonly": false,
+                            "type": "useFormFieldState",
+                            "default": ""
+                        },
+                        {
+                            "name": "options",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "useFormFieldOptions",
+                            "default": ""
+                        },
+                        {
+                            "name": "_watcher",
+                            "optional": false,
+                            "readonly": false,
+                            "type": "Object",
+                            "default": ""
+                        }
+                    ],
+                    "methods": []
+                },
                 "useFormReturn": {
                     "relatedProp": "",
                     "props": [
@@ -1099,6 +1255,13 @@
                             "optional": false,
                             "readonly": false,
                             "type": "Record<string, useFormFieldState>",
+                            "default": ""
+                        },
+                        {
+                            "name": "fields",
+                            "optional": false,
+                            "readonly": false,
+                            "type": "Record<string, useFormFieldInstance>",
                             "default": ""
                         }
                     ],
@@ -1178,6 +1341,15 @@
             "description": "Define design tokens used by the component.",
             "values": {
                 "useFormFieldState": {
+                    "props": []
+                },
+                "useFormFieldOptions": {
+                    "props": []
+                },
+                "useFormFieldProps": {
+                    "props": []
+                },
+                "useFormFieldInstance": {
                     "props": []
                 },
                 "useFormReturn": {
@@ -20658,7 +20830,7 @@
                             "name": "value",
                             "optional": true,
                             "readonly": false,
-                            "type": "null | T[]",
+                            "type": "null | readonly T[]",
                             "default": "",
                             "description": "An array of objects to display."
                         },
@@ -30185,6 +30357,14 @@
                             "description": "Used to pass attributes to the empty's DOM element."
                         },
                         {
+                            "name": "basicContent",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "any",
+                            "default": "",
+                            "description": "Used to pass attributes to the content in basic mode."
+                        },
+                        {
                             "name": "hooks",
                             "optional": true,
                             "readonly": false,
@@ -30959,6 +31139,13 @@
                             "readonly": false,
                             "value": "\"p-fileupload-file-remove-button\"",
                             "description": "Class name of the file remove button element"
+                        },
+                        {
+                            "name": "basicContent",
+                            "optional": false,
+                            "readonly": false,
+                            "value": "\"p-fileupload-basic-content\"",
+                            "description": "Class name of the content element in basic mode"
                         }
                     ]
                 }
@@ -41763,6 +41950,14 @@
                             "type": "boolean",
                             "default": "false",
                             "description": "When specified, disables the component."
+                        },
+                        {
+                            "name": "fluid",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "boolean",
+                            "default": "null",
+                            "description": "Spans 100% width of the container when enabled."
                         },
                         {
                             "name": "dataKey",
@@ -57724,7 +57919,7 @@
                                 {
                                     "name": "scope",
                                     "optional": false,
-                                    "type": "{\n  \t <span class=\"ml-3 doc-option-parameter-name\">value</span>: <span class=\"doc-option-parameter-type\">number</span>, <span class=\"doc-option-parameter-type\">// Option value</span>\n  \t <span class=\"ml-3 doc-option-parameter-name\">class</span>: <span class=\"doc-option-parameter-type\">string</span>, <span class=\"doc-option-parameter-type\">// Style class of the icon.</span>\n }",
+                                    "type": "{\n  \t <span class=\"ml-3 doc-option-parameter-name\">value</span>: <span class=\"doc-option-parameter-type\">number</span>, <span class=\"doc-option-parameter-type\">// Option value</span>\n  \t <span class=\"ml-3 doc-option-parameter-name\">class</span>: <span class=\"doc-option-parameter-type\">string</span>, <span class=\"doc-option-parameter-type\">// Style class of the icon.</span>\n \t <span class=\"ml-3 doc-option-parameter-name\">toggleCallback</span>: <span class=\"doc-option-parameter-type\">(<span class=\"doc-option-parameter-name\">event</span>: Event) &rArr; void</span>, <span class=\"doc-option-parameter-type\">// Toggle function.</span>\n}",
                                     "description": "on icon slot's params."
                                 }
                             ],
@@ -57737,7 +57932,7 @@
                                 {
                                     "name": "scope",
                                     "optional": false,
-                                    "type": "{\n  \t <span class=\"ml-3 doc-option-parameter-name\">value</span>: <span class=\"doc-option-parameter-type\">number</span>, <span class=\"doc-option-parameter-type\">// Option value</span>\n  \t <span class=\"ml-3 doc-option-parameter-name\">class</span>: <span class=\"doc-option-parameter-type\">string</span>, <span class=\"doc-option-parameter-type\">// Style class of the icon.</span>\n }",
+                                    "type": "{\n  \t <span class=\"ml-3 doc-option-parameter-name\">value</span>: <span class=\"doc-option-parameter-type\">number</span>, <span class=\"doc-option-parameter-type\">// Option value</span>\n  \t <span class=\"ml-3 doc-option-parameter-name\">class</span>: <span class=\"doc-option-parameter-type\">string</span>, <span class=\"doc-option-parameter-type\">// Style class of the icon.</span>\n \t <span class=\"ml-3 doc-option-parameter-name\">toggleCallback</span>: <span class=\"doc-option-parameter-type\">(<span class=\"doc-option-parameter-name\">event</span>: Event) &rArr; void</span>, <span class=\"doc-option-parameter-type\">// Toggle function.</span>\n}",
                                     "description": "off icon slot's params."
                                 }
                             ],
@@ -60864,6 +61059,14 @@
                             "type": "boolean",
                             "default": "false",
                             "description": "When present, it specifies that the element should be disabled."
+                        },
+                        {
+                            "name": "fluid",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "boolean",
+                            "default": "null",
+                            "description": "Spans 100% width of the container when enabled."
                         },
                         {
                             "name": "dataKey",
@@ -73040,6 +73243,21 @@
                         }
                     ]
                 },
+                "ToastEvent": {
+                    "description": "Custom toast event.",
+                    "relatedProp": "undefined. - ",
+                    "props": [
+                        {
+                            "name": "message",
+                            "optional": false,
+                            "readonly": false,
+                            "type": "ToastMessageOptions",
+                            "default": "",
+                            "description": "Toast message."
+                        }
+                    ],
+                    "methods": []
+                },
                 "ToastEmitsOptions": {
                     "description": "Defines valid emits in Toast component.",
                     "relatedProp": "",
@@ -73049,10 +73267,10 @@
                             "name": "close",
                             "parameters": [
                                 {
-                                    "name": "message",
+                                    "name": "event",
                                     "optional": false,
-                                    "type": "ToastMessageOptions",
-                                    "description": "Toast message."
+                                    "type": "ToastEvent",
+                                    "description": "Toast close event."
                                 }
                             ],
                             "returnType": "void",
@@ -73062,10 +73280,10 @@
                             "name": "life-end",
                             "parameters": [
                                 {
-                                    "name": "message",
+                                    "name": "event",
                                     "optional": false,
-                                    "type": "ToastMessageOptions",
-                                    "description": "Toast message."
+                                    "type": "ToastEvent",
+                                    "description": "Toast life end event."
                                 }
                             ],
                             "returnType": "void",
@@ -73108,6 +73326,10 @@
                 },
                 "ToastSlots": {
                     "description": "Defines valid slot in Toast component.",
+                    "props": []
+                },
+                "ToastEvent": {
+                    "description": "Custom toast event.",
                     "props": []
                 },
                 "ToastEmitsOptions": {
@@ -73527,6 +73749,14 @@
                             "type": "boolean",
                             "default": "false",
                             "description": "When present, it specifies that the element should be disabled."
+                        },
+                        {
+                            "name": "fluid",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "boolean",
+                            "default": "null",
+                            "description": "Spans 100% width of the container when enabled."
                         },
                         {
                             "name": "readonly",
