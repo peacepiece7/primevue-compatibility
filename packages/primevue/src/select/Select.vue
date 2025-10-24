@@ -18,7 +18,7 @@
             :aria-labelledby="ariaLabelledby"
             aria-haspopup="listbox"
             :aria-expanded="overlayVisible"
-            :aria-controls="$id + '_list'"
+            :aria-controls="overlayVisible ? $id + '_list' : undefined"
             :aria-activedescendant="focused ? focusedOptionId : undefined"
             :aria-invalid="invalid || undefined"
             @focus="onFocus"
@@ -450,6 +450,7 @@ export default {
                     if (!metaKey && isPrintableCharacter(event.key)) {
                         !this.overlayVisible && this.show();
                         !this.editable && this.searchOptions(event, event.key);
+                        this.filter && (this.filterValue = event.key);
                     }
 
                     break;
@@ -497,7 +498,7 @@ export default {
             focus(focusableEl);
         },
         onOptionSelect(event, option, isHide = true) {
-            const value = this.getOptionValue(option) !== '' ? this.getOptionValue(option) : this.getOptionLabel(option);
+            const value = this.getOptionValue(option);
             this.updateModel(event, value);
             isHide && this.hide(true);
         },
@@ -552,7 +553,7 @@ export default {
                     break;
 
                 case 'Tab':
-                    this.onTabKey(event, true);
+                    this.onTabKey(event);
                     break;
 
                 default:
@@ -863,7 +864,7 @@ export default {
             return this.isValidOption(option) && this.isSelected(option);
         },
         isSelected(option) {
-            return equals(this.d_value, this.getOptionValue(option) !== '' ? this.getOptionValue(option) : this.getOptionLabel(option), this.equalityKey);
+            return equals(this.d_value, this.getOptionValue(option), this.equalityKey);
         },
         findFirstOptionIndex() {
             return this.visibleOptions.findIndex((option) => this.isValidOption(option));
@@ -882,7 +883,7 @@ export default {
             return matchedOptionIndex > -1 ? matchedOptionIndex : index;
         },
         findSelectedOptionIndex() {
-            return this.$filled ? this.visibleOptions.findIndex((option) => this.isValidSelectedOption(option)) : -1;
+            return this.visibleOptions.findIndex((option) => this.isValidSelectedOption(option));
         },
         findFirstFocusedOptionIndex() {
             const selectedIndex = this.findSelectedOptionIndex();
@@ -1062,7 +1063,7 @@ export default {
             return this.visibleOptions.filter((option) => !this.isOptionGroup(option)).length;
         },
         isClearIconVisible() {
-            return this.showClear && this.d_value != null && isNotEmpty(this.options);
+            return this.showClear && this.d_value != null && !this.disabled && !this.loading;
         },
         virtualScrollerDisabled() {
             return !this.virtualScrollerOptions;

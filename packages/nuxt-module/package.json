@@ -1,6 +1,6 @@
 {
     "name": "@primevue/nuxt-module",
-    "version": "4.3.6",
+    "version": "4.4.1",
     "author": "PrimeTek Informatics",
     "description": "Nuxt module for PrimeVue",
     "homepage": "https://primevue.org/",
@@ -74,6 +74,7 @@
         "primevue": "workspace:*",
         "@primevue/auto-import-resolver": "workspace:*",
         "@primevue/metadata": "workspace:*",
+        "@primevue/forms": "workspace:*",
         "unplugin-vue-components": "28.4.1",
         "pathe": "^1.1.2"
     },

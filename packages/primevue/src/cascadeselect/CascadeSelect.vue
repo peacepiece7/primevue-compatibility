@@ -16,7 +16,7 @@
                 :aria-labelledby="ariaLabelledby"
                 aria-haspopup="tree"
                 :aria-expanded="overlayVisible"
-                :aria-controls="$id + '_tree'"
+                :aria-controls="overlayVisible ? $id + '_tree' : undefined"
                 :aria-activedescendant="focused ? focusedOptionId : undefined"
                 :aria-invalid="invalid || undefined"
                 @focus="onFocus"
@@ -854,7 +854,7 @@ export default {
             return this.focusedOptionInfo.index !== -1 ? `${this.$id}${isNotEmpty(this.focusedOptionInfo.parentKey) ? '_' + this.focusedOptionInfo.parentKey : ''}_${this.focusedOptionInfo.index}` : null;
         },
         isClearIconVisible() {
-            return this.showClear && this.d_value != null && isNotEmpty(this.options);
+            return this.showClear && this.d_value != null && isNotEmpty(this.options) && !this.disabled && !this.loading;
         }
     },
     components: {

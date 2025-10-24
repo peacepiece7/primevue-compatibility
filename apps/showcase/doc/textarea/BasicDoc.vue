@@ -3,7 +3,7 @@
         <p>Textarea is used with the <i>v-model</i> property for two-way value binding.</p>
     </DocSectionText>
     <div class="card flex justify-center">
-        <Textarea v-model="value" rows="5" cols="30" style="resize: none" />
+        <Textarea v-model="value" rows="5" cols="30" />
     </div>
     <DocSectionCode :code="code" />
 </template>

@@ -6,10 +6,12 @@
 import AccessibilityDoc from '@/doc/datepicker/AccessibilityDoc';
 import BasicDoc from '@/doc/datepicker/BasicDoc.vue';
 import ButtonBarDoc from '@/doc/datepicker/ButtonBarDoc.vue';
+import ClearIconDoc from '@/doc/datepicker/ClearIconDoc.vue';
 import DateTemplateDoc from '@/doc/datepicker/DateTemplateDoc.vue';
 import DisabledDoc from '@/doc/datepicker/DisabledDoc.vue';
 import FilledDoc from '@/doc/datepicker/FilledDoc.vue';
 import FloatLabelDoc from '@/doc/datepicker/FloatLabelDoc.vue';
+import FluidDoc from '@/doc/datepicker/FluidDoc.vue';
 import FormatDoc from '@/doc/datepicker/FormatDoc.vue';
 import FormsDoc from '@/doc/datepicker/FormsDoc.vue';
 import IconDoc from '@/doc/datepicker/IconDoc.vue';
@@ -19,6 +21,7 @@ import InlineDoc from '@/doc/datepicker/InlineDoc.vue';
 import InvalidDoc from '@/doc/datepicker/InvalidDoc.vue';
 import LocaleDoc from '@/doc/datepicker/LocaleDoc.vue';
 import MinMaxDoc from '@/doc/datepicker/MinMaxDoc.vue';
+import ModelTypeDoc from '@/doc/datepicker/ModelTypeDoc.vue';
 import MonthPickerDoc from '@/doc/datepicker/MonthPickerDoc.vue';
 import MultipleDoc from '@/doc/datepicker/MultipleDoc.vue';
 import MultipleMonthsDoc from '@/doc/datepicker/MultipleMonthsDoc.vue';
@@ -104,6 +107,11 @@ export default {
                     component: MultipleMonthsDoc
                 },
                 {
+                    id: 'modeltype',
+                    label: 'Model Type',
+                    component: ModelTypeDoc
+                },
+                {
                     id: 'datetemplate',
                     label: 'Date Template',
                     component: DateTemplateDoc
@@ -112,11 +120,6 @@ export default {
                     id: 'inline',
                     label: 'Inline',
                     component: InlineDoc
-                },
-                {
-                    id: 'filled',
-                    label: 'Filled',
-                    component: FilledDoc
                 },
                 {
                     id: 'floatlabel',
@@ -129,19 +132,34 @@ export default {
                     component: IftaLabelDoc
                 },
                 {
+                    id: 'clearicon',
+                    label: 'Clear Icon',
+                    component: ClearIconDoc
+                },
+                {
                     id: 'sizes',
                     label: 'Sizes',
                     component: SizesDoc
                 },
                 {
-                    id: 'invalid',
-                    label: 'Invalid',
-                    component: InvalidDoc
+                    id: 'fluid',
+                    label: 'Fluid',
+                    component: FluidDoc
+                },
+                {
+                    id: 'filled',
+                    label: 'Filled',
+                    component: FilledDoc
                 },
                 {
                     id: 'disabled',
                     label: 'Disabled',
                     component: DisabledDoc
+                },
+                {
+                    id: 'invalid',
+                    label: 'Invalid',
+                    component: InvalidDoc
                 },
                 {
                     id: 'accessibility',

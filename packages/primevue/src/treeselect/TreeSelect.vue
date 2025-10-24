@@ -15,7 +15,7 @@
                 :aria-label="ariaLabel"
                 aria-haspopup="tree"
                 :aria-expanded="overlayVisible"
-                :aria-controls="listId"
+                :aria-controls="overlayVisible ? listId : undefined"
                 @focus="onFocus($event)"
                 @blur="onBlur($event)"
                 @keydown="onKeyDown($event)"
@@ -67,6 +67,7 @@
                     <slot name="header" :value="d_value" :options="options"></slot>
                     <div :class="cx('treeContainer')" :style="{ 'max-height': scrollHeight }" v-bind="ptm('treeContainer')">
                         <TSTree
+                            v-if="options && options.length > 0"
                             ref="tree"
                             :id="listId"
                             :value="options"
@@ -458,7 +459,7 @@ export default {
             }
         },
         isSelected(node, keys) {
-            return this.selectionMode === 'checkbox' ? keys[node.key] && keys[node.key].checked : keys[node.key];
+            return this.selectionMode === 'checkbox' ? keys[node?.key] && keys[node?.key].checked : keys[node?.key];
         },
         updateTreeState() {
             let keys = { ...this.d_value };
@@ -564,7 +565,7 @@ export default {
             return isEmpty(this.fluid) ? !!this.$pcFluid : this.fluid;
         },
         isClearIconVisible() {
-            return this.showClear && this.d_value != null && isNotEmpty(this.options);
+            return this.showClear && this.d_value != null && isNotEmpty(this.options) && !this.disabled && !this.loading;
         }
     },
     components: {

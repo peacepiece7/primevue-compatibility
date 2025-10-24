@@ -3284,14 +3284,14 @@
                             "name": "arg",
                             "optional": true,
                             "readonly": false,
-                            "type": "string",
+                            "type": "any",
                             "default": ""
                         },
                         {
                             "name": "dir",
                             "optional": false,
                             "readonly": false,
-                            "type": "ObjectDirective<any, any, string, string>",
+                            "type": "ObjectDirective<any, any, string, any>",
                             "default": ""
                         },
                         {
@@ -3667,6 +3667,14 @@
                             "description": "Used to pass attributes to the loader's DOM element."
                         },
                         {
+                            "name": "clearIcon",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "AutoCompletePassThroughOptionType",
+                            "default": "",
+                            "description": "Used to pass attributes to the clear icon's DOM element."
+                        },
+                        {
                             "name": "dropdown",
                             "optional": true,
                             "readonly": false,
@@ -4003,6 +4011,14 @@
                             "type": "boolean",
                             "default": "false",
                             "description": "Specifies if multiple values can be selected."
+                        },
+                        {
+                            "name": "showClear",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "boolean",
+                            "default": "false",
+                            "description": "When enabled, a clear icon is displayed to clear the value."
                         },
                         {
                             "name": "placeholder",
@@ -4538,6 +4554,19 @@
                             ],
                             "returnType": "VNode<RendererNode, RendererElement, Object>[]",
                             "description": "Custom dropdown template."
+                        },
+                        {
+                            "name": "clearicon",
+                            "parameters": [
+                                {
+                                    "name": "scope",
+                                    "optional": false,
+                                    "type": "{\n \t <span class=\"ml-3 doc-option-parameter-name\">clearCallback</span>: <span class=\"doc-option-parameter-type\">(<span class=\"doc-option-parameter-name\">event</span>: Event) &rArr; void</span>, <span class=\"doc-option-parameter-type\">// Clear icon click function.</span>\n}",
+                                    "description": "clear icon slot's params."
+                                }
+                            ],
+                            "returnType": "VNode<RendererNode, RendererElement, Object>[]",
+                            "description": "Custom clear icon template."
                         }
                     ]
                 },
@@ -4849,6 +4878,13 @@
                             "readonly": false,
                             "value": "\"p-autocomplete-input-multiple\"",
                             "description": "Class name of the input multiple element"
+                        },
+                        {
+                            "name": "clearIcon",
+                            "optional": false,
+                            "readonly": false,
+                            "value": "\"p-autocomplete-clear-icon\"",
+                            "description": "Class name of the clear icon element"
                         },
                         {
                             "name": "chipItem",
@@ -6027,14 +6063,14 @@
                             "name": "arg",
                             "optional": true,
                             "readonly": false,
-                            "type": "string",
+                            "type": "any",
                             "default": ""
                         },
                         {
                             "name": "dir",
                             "optional": false,
                             "readonly": false,
-                            "type": "ObjectDirective<any, any, string, string>",
+                            "type": "ObjectDirective<any, any, string, any>",
                             "default": ""
                         },
                         {
@@ -7957,6 +7993,13 @@
                             "default": ""
                         },
                         {
+                            "name": "onFormdata",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "Function",
+                            "default": ""
+                        },
+                        {
                             "name": "onInput",
                             "optional": true,
                             "readonly": false,
@@ -7979,6 +8022,20 @@
                         },
                         {
                             "name": "onInvalid",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "Function",
+                            "default": ""
+                        },
+                        {
+                            "name": "onFullscreenchange",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "Function",
+                            "default": ""
+                        },
+                        {
+                            "name": "onFullscreenerror",
                             "optional": true,
                             "readonly": false,
                             "type": "Function",
@@ -8014,27 +8071,6 @@
                         },
                         {
                             "name": "onKeyup",
-                            "optional": true,
-                            "readonly": false,
-                            "type": "Function",
-                            "default": ""
-                        },
-                        {
-                            "name": "onAuxclick",
-                            "optional": true,
-                            "readonly": false,
-                            "type": "Function",
-                            "default": ""
-                        },
-                        {
-                            "name": "onClick",
-                            "optional": true,
-                            "readonly": false,
-                            "type": "Function",
-                            "default": ""
-                        },
-                        {
-                            "name": "onContextmenu",
                             "optional": true,
                             "readonly": false,
                             "type": "Function",
@@ -8300,6 +8336,41 @@
                             "default": ""
                         },
                         {
+                            "name": "onAuxclick",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "Function",
+                            "default": ""
+                        },
+                        {
+                            "name": "onClick",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "Function",
+                            "default": ""
+                        },
+                        {
+                            "name": "onContextmenu",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "Function",
+                            "default": ""
+                        },
+                        {
+                            "name": "onGotpointercapture",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "Function",
+                            "default": ""
+                        },
+                        {
+                            "name": "onLostpointercapture",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "Function",
+                            "default": ""
+                        },
+                        {
                             "name": "onPointerdown",
                             "optional": true,
                             "readonly": false,
@@ -8356,7 +8427,28 @@
                             "default": ""
                         },
                         {
+                            "name": "onBeforetoggle",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "Function",
+                            "default": ""
+                        },
+                        {
+                            "name": "onToggle",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "Function",
+                            "default": ""
+                        },
+                        {
                             "name": "onWheel",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "Function",
+                            "default": ""
+                        },
+                        {
+                            "name": "onAnimationcancel",
                             "optional": true,
                             "readonly": false,
                             "type": "Function",
@@ -8384,7 +8476,28 @@
                             "default": ""
                         },
                         {
+                            "name": "onSecuritypolicyviolation",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "Function",
+                            "default": ""
+                        },
+                        {
+                            "name": "onTransitioncancel",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "Function",
+                            "default": ""
+                        },
+                        {
                             "name": "onTransitionend",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "Function",
+                            "default": ""
+                        },
+                        {
+                            "name": "onTransitionrun",
                             "optional": true,
                             "readonly": false,
                             "type": "Function",
@@ -9057,14 +9170,14 @@
                 },
                 "CalendarMonthChangeEvent": {
                     "description": "Custom Calendar month change event.",
-                    "relatedProp": "CalendarEmitsOptions['month-change']]",
+                    "relatedProp": "CalendarEmitsOptions['month-change']",
                     "props": [],
                     "methods": [],
                     "extendedTypes": "default"
                 },
                 "CalendarYearChangeEvent": {
                     "description": "Custom Calendar year change event.",
-                    "relatedProp": "CalendarEmitsOptions['year-change']]",
+                    "relatedProp": "CalendarEmitsOptions['year-change']",
                     "props": [],
                     "methods": [],
                     "extendedTypes": "default"
@@ -14246,7 +14359,7 @@
         "description": "Column component defines various options to specify corresponding features.\nIt is a helper component for DataTable and TreeTable.\n\n[Live Demo](https://www.primevue.org/datatable/)",
         "components": {
             "default": {
-                "description": "Column is a helper component for Column and TreeTable.",
+                "description": "Column is a helper component for DataTable and TreeTable.",
                 "methods": {
                     "description": "Defines methods that can be accessed by the component's reference.",
                     "values": []
@@ -17624,7 +17737,7 @@
                                 {
                                     "name": "scope",
                                     "optional": false,
-                                    "type": "{\n  \t <span class=\"ml-3 doc-option-parameter-name\">message</span>: <span class=\"doc-option-parameter-type\">any</span>, <span class=\"doc-option-parameter-type\">// Message of the component</span>\n \t <span class=\"ml-3 doc-option-parameter-name\">closeCallback</span>: <span class=\"doc-option-parameter-type\">() &rArr; void</span>, <span class=\"doc-option-parameter-type\">// Close dialog function.</span>\n\t <span class=\"ml-3 doc-option-parameter-name\">acceptCallback</span>: <span class=\"doc-option-parameter-type\">() &rArr; void</span>, <span class=\"doc-option-parameter-type\">// Accept function of the component</span>\n\t <span class=\"ml-3 doc-option-parameter-name\">rejectCallback</span>: <span class=\"doc-option-parameter-type\">() &rArr; void</span>, <span class=\"doc-option-parameter-type\">// Reject function of the component</span>\n}",
+                                    "type": "{\n  \t <span class=\"ml-3 doc-option-parameter-name\">message</span>: <span class=\"doc-option-parameter-type\">any</span>, <span class=\"doc-option-parameter-type\">// Message of the component</span>\n \t <span class=\"ml-3 doc-option-parameter-name\">closeCallback</span>: <span class=\"doc-option-parameter-type\">() &rArr; void</span>, <span class=\"doc-option-parameter-type\">// Close dialog function.</span>\n\t <span class=\"ml-3 doc-option-parameter-name\">acceptCallback</span>: <span class=\"doc-option-parameter-type\">() &rArr; void</span>, <span class=\"doc-option-parameter-type\">// Accept function of the component</span>\n\t <span class=\"ml-3 doc-option-parameter-name\">rejectCallback</span>: <span class=\"doc-option-parameter-type\">() &rArr; void</span>, <span class=\"doc-option-parameter-type\">// Reject function of the component</span>\n\t <span class=\"ml-3 doc-option-parameter-name\">initDragCallback</span>: <span class=\"doc-option-parameter-type\">(<span class=\"doc-option-parameter-name\">event</span>: Event) &rArr; void</span>, <span class=\"doc-option-parameter-type\">// Initialize drag function for custom container elements.</span>\n}",
                                     "description": "container slot's params."
                                 }
                             ],
@@ -19646,7 +19759,7 @@
                 },
                 "DataTableRowDoubleClickEvent": {
                     "description": "Custom row double click event.",
-                    "relatedProp": "DataTableEmitsOptions['row-dblclick']]",
+                    "relatedProp": "DataTableEmitsOptions['row-dblclick']",
                     "props": [
                         {
                             "name": "originalEvent",
@@ -23505,7 +23618,7 @@
                 },
                 "DatePickerMonthChangeEvent": {
                     "description": "Custom DatePicker month change event.",
-                    "relatedProp": "DatePickerEmitsOptions['month-change']]",
+                    "relatedProp": "DatePickerEmitsOptions['month-change']",
                     "props": [
                         {
                             "name": "month",
@@ -23528,7 +23641,7 @@
                 },
                 "DatePickerYearChangeEvent": {
                     "description": "Custom DatePicker year change event.",
-                    "relatedProp": "DatePickerEmitsOptions['year-change']]",
+                    "relatedProp": "DatePickerEmitsOptions['year-change']",
                     "props": [
                         {
                             "name": "month",
@@ -23623,6 +23736,14 @@
                             "type": "DatePickerPassThroughOptionType",
                             "default": "",
                             "description": "Used to pass attributes to the input icon's DOM element."
+                        },
+                        {
+                            "name": "clearIcon",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "DatePickerPassThroughOptionType",
+                            "default": "",
+                            "description": "Used to pass attributes to the label's DOM element."
                         },
                         {
                             "name": "panel",
@@ -24320,6 +24441,14 @@
                             "description": "Format of the date. Defaults to PrimeVue Locale configuration."
                         },
                         {
+                            "name": "updateModelType",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "HintedString<\"string\" | \"date\">",
+                            "default": "date",
+                            "description": "Type of the value to write back to modelValue."
+                        },
+                        {
                             "name": "inline",
                             "optional": true,
                             "readonly": false,
@@ -24608,6 +24737,14 @@
                             "description": "Whether to allow entering the date manually via typing."
                         },
                         {
+                            "name": "showClear",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "boolean",
+                            "default": "false",
+                            "description": "When enabled, a clear icon is displayed to clear the value."
+                        },
+                        {
                             "name": "size",
                             "optional": true,
                             "readonly": false,
@@ -24654,6 +24791,13 @@
                             "type": "string",
                             "default": "",
                             "description": "Placeholder text for the input."
+                        },
+                        {
+                            "name": "required",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "boolean",
+                            "default": ""
                         },
                         {
                             "name": "appendTo",
@@ -24887,13 +25031,26 @@
                             "description": "Custom next button template"
                         },
                         {
+                            "name": "buttonbar",
+                            "parameters": [
+                                {
+                                    "name": "scope",
+                                    "optional": false,
+                                    "type": "{\n \t <span class=\"ml-3 doc-option-parameter-name\">todayCallback</span>: <span class=\"doc-option-parameter-type\">(<span class=\"doc-option-parameter-name\">event</span>: Event) &rArr; void</span>, <span class=\"doc-option-parameter-type\">// Today click function.</span>\n\t <span class=\"ml-3 doc-option-parameter-name\">clearCallback</span>: <span class=\"doc-option-parameter-type\">(<span class=\"doc-option-parameter-name\">event</span>: Event) &rArr; void</span>, <span class=\"doc-option-parameter-type\">// Clear click function.</span>\n}",
+                                    "description": "buttonbar slot's params."
+                                }
+                            ],
+                            "returnType": "VNode<RendererNode, RendererElement, Object>[]",
+                            "description": "Custom buttonbar template"
+                        },
+                        {
                             "name": "todaybutton",
                             "parameters": [
                                 {
                                     "name": "scope",
                                     "optional": false,
                                     "type": "{\n \t <span class=\"ml-3 doc-option-parameter-name\">actionCallback</span>: <span class=\"doc-option-parameter-type\">(<span class=\"doc-option-parameter-name\">event</span>: Event) &rArr; void</span>, <span class=\"doc-option-parameter-type\">// Action function.</span>\n\t <span class=\"ml-3 doc-option-parameter-name\">keydownCallback</span>: <span class=\"doc-option-parameter-type\">(<span class=\"doc-option-parameter-name\">event</span>: Event) &rArr; void</span>, <span class=\"doc-option-parameter-type\">// Keydown function.</span>\n}",
-                                    "description": "button slot's params."
+                                    "description": "today button slot's params."
                                 }
                             ],
                             "returnType": "VNode<RendererNode, RendererElement, Object>[]",
@@ -24906,7 +25063,7 @@
                                     "name": "scope",
                                     "optional": false,
                                     "type": "{\n \t <span class=\"ml-3 doc-option-parameter-name\">actionCallback</span>: <span class=\"doc-option-parameter-type\">(<span class=\"doc-option-parameter-name\">event</span>: Event) &rArr; void</span>, <span class=\"doc-option-parameter-type\">// Action function.</span>\n\t <span class=\"ml-3 doc-option-parameter-name\">keydownCallback</span>: <span class=\"doc-option-parameter-type\">(<span class=\"doc-option-parameter-name\">event</span>: Event) &rArr; void</span>, <span class=\"doc-option-parameter-type\">// Keydown function.</span>\n}",
-                                    "description": "button slot's params."
+                                    "description": "clear button slot's params."
                                 }
                             ],
                             "returnType": "VNode<RendererNode, RendererElement, Object>[]",
@@ -25154,6 +25311,19 @@
                             ],
                             "returnType": "VNode<RendererNode, RendererElement, Object>[]",
                             "description": "Custom dropdown button template."
+                        },
+                        {
+                            "name": "clearicon",
+                            "parameters": [
+                                {
+                                    "name": "scope",
+                                    "optional": false,
+                                    "type": "{\n \t <span class=\"ml-3 doc-option-parameter-name\">clearCallback</span>: <span class=\"doc-option-parameter-type\">(<span class=\"doc-option-parameter-name\">event</span>: Event) &rArr; void</span>, <span class=\"doc-option-parameter-type\">// Clear icon click function.</span>\n}",
+                                    "description": "clear icon slot's params."
+                                }
+                            ],
+                            "returnType": "VNode<RendererNode, RendererElement, Object>[]",
+                            "description": "Custom clear icon template."
                         }
                     ]
                 },
@@ -25470,6 +25640,13 @@
                             "readonly": false,
                             "value": "\"p-datepicker-input-icon\"",
                             "description": "Class name of the input icon element"
+                        },
+                        {
+                            "name": "clearIcon",
+                            "optional": false,
+                            "readonly": false,
+                            "value": "\"p-datepicker-clear-icon\"",
+                            "description": "Class name of the clear icon element"
                         },
                         {
                             "name": "panel",
@@ -26549,7 +26726,7 @@
                                 {
                                     "name": "scope",
                                     "optional": false,
-                                    "type": "{\n \t <span class=\"ml-3 doc-option-parameter-name\">closeCallback</span>: <span class=\"doc-option-parameter-type\">() &rArr; void</span>, <span class=\"doc-option-parameter-type\">// Close dialog function.</span>\n\t <span class=\"ml-3 doc-option-parameter-name\">maximizeCallback</span>: <span class=\"doc-option-parameter-type\">(<span class=\"doc-option-parameter-name\">event</span>: Event) &rArr; void</span>, <span class=\"doc-option-parameter-type\">// Maximize/minimize dialog function.</span>\n}",
+                                    "type": "{\n \t <span class=\"ml-3 doc-option-parameter-name\">closeCallback</span>: <span class=\"doc-option-parameter-type\">() &rArr; void</span>, <span class=\"doc-option-parameter-type\">// Close dialog function.</span>\n\t <span class=\"ml-3 doc-option-parameter-name\">maximizeCallback</span>: <span class=\"doc-option-parameter-type\">(<span class=\"doc-option-parameter-name\">event</span>: Event) &rArr; void</span>, <span class=\"doc-option-parameter-type\">// Maximize/minimize dialog function.</span>\n\t <span class=\"ml-3 doc-option-parameter-name\">initDragCallback</span>: <span class=\"doc-option-parameter-type\">(<span class=\"doc-option-parameter-name\">event</span>: Event) &rArr; void</span>, <span class=\"doc-option-parameter-type\">// Initialize drag function for custom container elements.</span>\n}",
                                     "description": "container slot's params."
                                 }
                             ],
@@ -28067,6 +28244,14 @@
                             "type": "boolean",
                             "default": "false",
                             "description": "When enabled, it removes component related styles in the core."
+                        },
+                        {
+                            "name": "closeOnEscape",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "boolean",
+                            "default": "true",
+                            "description": "Specifies if pressing escape key should hide the drawer."
                         }
                     ],
                     "methods": []
@@ -31779,14 +31964,14 @@
                             "name": "arg",
                             "optional": true,
                             "readonly": false,
-                            "type": "string",
+                            "type": "any",
                             "default": ""
                         },
                         {
                             "name": "dir",
                             "optional": false,
                             "readonly": false,
-                            "type": "ObjectDirective<any, any, string, string>",
+                            "type": "ObjectDirective<any, any, string, any>",
                             "default": ""
                         },
                         {
@@ -34002,11 +34187,6 @@
                 "ImageEmitsOptions": {
                     "relatedProp": "",
                     "props": [],
-                    "methods": []
-                },
-                "ImageMethods": {
-                    "relatedProp": "",
-                    "props": [],
                     "methods": [
                         {
                             "name": "show",
@@ -34027,6 +34207,11 @@
                             "description": "Triggered when an error occurs while loading an image file."
                         }
                     ]
+                },
+                "ImageMethods": {
+                    "relatedProp": "",
+                    "props": [],
+                    "methods": []
                 }
             }
         },
@@ -37257,6 +37442,14 @@
                             "description": "Used to pass attributes to the InputText component."
                         },
                         {
+                            "name": "clearIcon",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "InputNumberPassThroughOptionType<T>",
+                            "default": "",
+                            "description": "Used to pass attributes to the label's DOM element."
+                        },
+                        {
                             "name": "buttonGroup",
                             "optional": true,
                             "readonly": false,
@@ -37625,6 +37818,14 @@
                             "description": "Highlights automatically the input value."
                         },
                         {
+                            "name": "showClear",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "boolean",
+                            "default": "false",
+                            "description": "When enabled, a clear icon is displayed to clear the value."
+                        },
+                        {
                             "name": "size",
                             "optional": true,
                             "readonly": false,
@@ -37817,6 +38018,19 @@
                             "parameters": [],
                             "returnType": "VNode<RendererNode, RendererElement, Object>[]",
                             "description": "Custom decrement icon template."
+                        },
+                        {
+                            "name": "clearicon",
+                            "parameters": [
+                                {
+                                    "name": "scope",
+                                    "optional": false,
+                                    "type": "{\n \t <span class=\"ml-3 doc-option-parameter-name\">clearCallback</span>: <span class=\"doc-option-parameter-type\">(<span class=\"doc-option-parameter-name\">event</span>: Event) &rArr; void</span>, <span class=\"doc-option-parameter-type\">// Clear icon click function.</span>\n}",
+                                    "description": "clear icon slot's params."
+                                }
+                            ],
+                            "returnType": "VNode<RendererNode, RendererElement, Object>[]",
+                            "description": "Custom clear icon template."
                         }
                     ]
                 },
@@ -39771,6 +39985,13 @@
                             "default": ""
                         },
                         {
+                            "name": "onCancel",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "Function",
+                            "default": ""
+                        },
+                        {
                             "name": "onCopy",
                             "optional": true,
                             "readonly": false,
@@ -39911,6 +40132,13 @@
                             "default": ""
                         },
                         {
+                            "name": "onFormdata",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "Function",
+                            "default": ""
+                        },
+                        {
                             "name": "onInput",
                             "optional": true,
                             "readonly": false,
@@ -39933,6 +40161,20 @@
                         },
                         {
                             "name": "onInvalid",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "Function",
+                            "default": ""
+                        },
+                        {
+                            "name": "onFullscreenchange",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "Function",
+                            "default": ""
+                        },
+                        {
+                            "name": "onFullscreenerror",
                             "optional": true,
                             "readonly": false,
                             "type": "Function",
@@ -39968,27 +40210,6 @@
                         },
                         {
                             "name": "onKeyup",
-                            "optional": true,
-                            "readonly": false,
-                            "type": "Function",
-                            "default": ""
-                        },
-                        {
-                            "name": "onAuxclick",
-                            "optional": true,
-                            "readonly": false,
-                            "type": "Function",
-                            "default": ""
-                        },
-                        {
-                            "name": "onClick",
-                            "optional": true,
-                            "readonly": false,
-                            "type": "Function",
-                            "default": ""
-                        },
-                        {
-                            "name": "onContextmenu",
                             "optional": true,
                             "readonly": false,
                             "type": "Function",
@@ -40254,6 +40475,41 @@
                             "default": ""
                         },
                         {
+                            "name": "onAuxclick",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "Function",
+                            "default": ""
+                        },
+                        {
+                            "name": "onClick",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "Function",
+                            "default": ""
+                        },
+                        {
+                            "name": "onContextmenu",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "Function",
+                            "default": ""
+                        },
+                        {
+                            "name": "onGotpointercapture",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "Function",
+                            "default": ""
+                        },
+                        {
+                            "name": "onLostpointercapture",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "Function",
+                            "default": ""
+                        },
+                        {
                             "name": "onPointerdown",
                             "optional": true,
                             "readonly": false,
@@ -40310,7 +40566,28 @@
                             "default": ""
                         },
                         {
+                            "name": "onBeforetoggle",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "Function",
+                            "default": ""
+                        },
+                        {
+                            "name": "onToggle",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "Function",
+                            "default": ""
+                        },
+                        {
                             "name": "onWheel",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "Function",
+                            "default": ""
+                        },
+                        {
+                            "name": "onAnimationcancel",
                             "optional": true,
                             "readonly": false,
                             "type": "Function",
@@ -40338,7 +40615,28 @@
                             "default": ""
                         },
                         {
+                            "name": "onSecuritypolicyviolation",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "Function",
+                            "default": ""
+                        },
+                        {
+                            "name": "onTransitioncancel",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "Function",
+                            "default": ""
+                        },
+                        {
                             "name": "onTransitionend",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "Function",
+                            "default": ""
+                        },
+                        {
+                            "name": "onTransitionrun",
                             "optional": true,
                             "readonly": false,
                             "type": "Function",
@@ -40777,14 +41075,14 @@
                             "name": "arg",
                             "optional": true,
                             "readonly": false,
-                            "type": "string",
+                            "type": "any",
                             "default": ""
                         },
                         {
                             "name": "dir",
                             "optional": false,
                             "readonly": false,
-                            "type": "ObjectDirective<any, any, string, string>",
+                            "type": "ObjectDirective<any, any, string, any>",
                             "default": ""
                         },
                         {
@@ -50926,7 +51224,7 @@
                                 {
                                     "name": "scope",
                                     "optional": false,
-                                    "type": "{\n  \t <span class=\"ml-3 doc-option-parameter-name\">id</span>: <span class=\"doc-option-parameter-type\">string</span>, <span class=\"doc-option-parameter-type\">// Current id state as a string</span>\n  \t <span class=\"ml-3 doc-option-parameter-name\">class</span>: <span class=\"doc-option-parameter-type\">string</span>, <span class=\"doc-option-parameter-type\">// Style class of the icon</span>\n }",
+                                    "type": "{\n  \t <span class=\"ml-3 doc-option-parameter-name\">id</span>: <span class=\"doc-option-parameter-type\">string</span>, <span class=\"doc-option-parameter-type\">// Current id state as a string</span>\n  \t <span class=\"ml-3 doc-option-parameter-name\">class</span>: <span class=\"doc-option-parameter-type\">string</span>, <span class=\"doc-option-parameter-type\">// Style class of the icon</span>\n  \t <span class=\"ml-3 doc-option-parameter-name\">collapsed</span>: <span class=\"doc-option-parameter-type\">boolean</span>, <span class=\"doc-option-parameter-type\">// Collapsed state as a boolean</span>\n }",
                                     "description": "header slot's params."
                                 }
                             ],
@@ -52218,6 +52516,14 @@
                             "description": "Used to pass attributes to the unmask icon's DOM element."
                         },
                         {
+                            "name": "clearIcon",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "PasswordPassThroughOptionType",
+                            "default": "",
+                            "description": "Used to pass attributes to the clear icon's DOM element."
+                        },
+                        {
                             "name": "overlay",
                             "optional": true,
                             "readonly": false,
@@ -53235,6 +53541,13 @@
                             "default": ""
                         },
                         {
+                            "name": "onCancel",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "Function",
+                            "default": ""
+                        },
+                        {
                             "name": "onCopy",
                             "optional": true,
                             "readonly": false,
@@ -53375,6 +53688,13 @@
                             "default": ""
                         },
                         {
+                            "name": "onFormdata",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "Function",
+                            "default": ""
+                        },
+                        {
                             "name": "onInput",
                             "optional": true,
                             "readonly": false,
@@ -53397,6 +53717,20 @@
                         },
                         {
                             "name": "onInvalid",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "Function",
+                            "default": ""
+                        },
+                        {
+                            "name": "onFullscreenchange",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "Function",
+                            "default": ""
+                        },
+                        {
+                            "name": "onFullscreenerror",
                             "optional": true,
                             "readonly": false,
                             "type": "Function",
@@ -53432,27 +53766,6 @@
                         },
                         {
                             "name": "onKeyup",
-                            "optional": true,
-                            "readonly": false,
-                            "type": "Function",
-                            "default": ""
-                        },
-                        {
-                            "name": "onAuxclick",
-                            "optional": true,
-                            "readonly": false,
-                            "type": "Function",
-                            "default": ""
-                        },
-                        {
-                            "name": "onClick",
-                            "optional": true,
-                            "readonly": false,
-                            "type": "Function",
-                            "default": ""
-                        },
-                        {
-                            "name": "onContextmenu",
                             "optional": true,
                             "readonly": false,
                             "type": "Function",
@@ -53718,6 +54031,41 @@
                             "default": ""
                         },
                         {
+                            "name": "onAuxclick",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "Function",
+                            "default": ""
+                        },
+                        {
+                            "name": "onClick",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "Function",
+                            "default": ""
+                        },
+                        {
+                            "name": "onContextmenu",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "Function",
+                            "default": ""
+                        },
+                        {
+                            "name": "onGotpointercapture",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "Function",
+                            "default": ""
+                        },
+                        {
+                            "name": "onLostpointercapture",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "Function",
+                            "default": ""
+                        },
+                        {
                             "name": "onPointerdown",
                             "optional": true,
                             "readonly": false,
@@ -53774,7 +54122,28 @@
                             "default": ""
                         },
                         {
+                            "name": "onBeforetoggle",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "Function",
+                            "default": ""
+                        },
+                        {
+                            "name": "onToggle",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "Function",
+                            "default": ""
+                        },
+                        {
                             "name": "onWheel",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "Function",
+                            "default": ""
+                        },
+                        {
+                            "name": "onAnimationcancel",
                             "optional": true,
                             "readonly": false,
                             "type": "Function",
@@ -53802,7 +54171,28 @@
                             "default": ""
                         },
                         {
+                            "name": "onSecuritypolicyviolation",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "Function",
+                            "default": ""
+                        },
+                        {
+                            "name": "onTransitioncancel",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "Function",
+                            "default": ""
+                        },
+                        {
                             "name": "onTransitionend",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "Function",
+                            "default": ""
+                        },
+                        {
+                            "name": "onTransitionrun",
                             "optional": true,
                             "readonly": false,
                             "type": "Function",
@@ -53926,6 +54316,14 @@
                             "type": "string",
                             "default": "",
                             "description": "Icon to show displaying the password as plain text."
+                        },
+                        {
+                            "name": "showClear",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "boolean",
+                            "default": "false",
+                            "description": "When enabled, a clear icon is displayed to clear the value."
                         },
                         {
                             "name": "size",
@@ -54223,6 +54621,19 @@
                             ],
                             "returnType": "VNode<RendererNode, RendererElement, Object>[]",
                             "description": "Custom unmask icon template."
+                        },
+                        {
+                            "name": "clearicon",
+                            "parameters": [
+                                {
+                                    "name": "scope",
+                                    "optional": false,
+                                    "type": "{\n \t <span class=\"ml-3 doc-option-parameter-name\">clearCallback</span>: <span class=\"doc-option-parameter-type\">(<span class=\"doc-option-parameter-name\">event</span>: Event) &rArr; void</span>, <span class=\"doc-option-parameter-type\">// Clear icon click function.</span>\n}",
+                                    "description": "clear icon slot's params."
+                                }
+                            ],
+                            "returnType": "VNode<RendererNode, RendererElement, Object>[]",
+                            "description": "Custom clear icon template."
                         }
                     ]
                 },
@@ -54384,6 +54795,13 @@
                             "readonly": false,
                             "value": "\"p-password-unmask-icon\"",
                             "description": "Class name of the unmask icon element"
+                        },
+                        {
+                            "name": "clearIcon",
+                            "optional": false,
+                            "readonly": false,
+                            "value": "\"p-password-clear-icon\"",
+                            "description": "Class name of the clear icon element"
                         },
                         {
                             "name": "overlay",
@@ -58234,14 +58652,14 @@
                             "name": "arg",
                             "optional": true,
                             "readonly": false,
-                            "type": "string",
+                            "type": "any",
                             "default": ""
                         },
                         {
                             "name": "dir",
                             "optional": false,
                             "readonly": false,
-                            "type": "ObjectDirective<any, any, string, string>",
+                            "type": "ObjectDirective<any, any, string, any>",
                             "default": ""
                         },
                         {
@@ -61911,7 +62329,7 @@
                             "name": "value",
                             "optional": false,
                             "readonly": false,
-                            "type": "number",
+                            "type": "number | number[]",
                             "default": "",
                             "description": "New value."
                         }
@@ -62112,7 +62530,7 @@
                                 {
                                     "name": "value",
                                     "optional": false,
-                                    "type": "number",
+                                    "type": "number | number[]",
                                     "description": "New value"
                                 }
                             ],
@@ -66472,7 +66890,7 @@
                             "name": "selector",
                             "optional": true,
                             "readonly": false,
-                            "type": "HintedString<\"@next\" | \"@prev\" | \"@parent\" | \"@grandparent\">",
+                            "type": "string | string & Object",
                             "default": "",
                             "description": "Selector to define the target element. Available selectors are '@next', '@prev', '@parent' and '@grandparent'."
                         },
@@ -66549,6 +66967,22 @@
                             "description": "Adds or removes a class when no enter-leave animation is required."
                         },
                         {
+                            "name": "hideOnResize",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "boolean",
+                            "default": "false",
+                            "description": "Whether to trigger leave animation when the target element resized."
+                        },
+                        {
+                            "name": "resizeSelector",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "string",
+                            "default": "window",
+                            "description": "Target element to listen resize. Valid values are \"window\", \"document\" or target element."
+                        },
+                        {
                             "name": "dt",
                             "optional": true,
                             "readonly": false,
@@ -66612,14 +67046,14 @@
                             "name": "arg",
                             "optional": true,
                             "readonly": false,
-                            "type": "string",
+                            "type": "any",
                             "default": ""
                         },
                         {
                             "name": "dir",
                             "optional": false,
                             "readonly": false,
-                            "type": "ObjectDirective<any, any, string, string>",
+                            "type": "ObjectDirective<any, any, string, any>",
                             "default": ""
                         },
                         {
@@ -70809,6 +71243,13 @@
                             "default": ""
                         },
                         {
+                            "name": "onFormdata",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "Function",
+                            "default": ""
+                        },
+                        {
                             "name": "onInput",
                             "optional": true,
                             "readonly": false,
@@ -70831,6 +71272,20 @@
                         },
                         {
                             "name": "onInvalid",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "Function",
+                            "default": ""
+                        },
+                        {
+                            "name": "onFullscreenchange",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "Function",
+                            "default": ""
+                        },
+                        {
+                            "name": "onFullscreenerror",
                             "optional": true,
                             "readonly": false,
                             "type": "Function",
@@ -70866,27 +71321,6 @@
                         },
                         {
                             "name": "onKeyup",
-                            "optional": true,
-                            "readonly": false,
-                            "type": "Function",
-                            "default": ""
-                        },
-                        {
-                            "name": "onAuxclick",
-                            "optional": true,
-                            "readonly": false,
-                            "type": "Function",
-                            "default": ""
-                        },
-                        {
-                            "name": "onClick",
-                            "optional": true,
-                            "readonly": false,
-                            "type": "Function",
-                            "default": ""
-                        },
-                        {
-                            "name": "onContextmenu",
                             "optional": true,
                             "readonly": false,
                             "type": "Function",
@@ -71152,6 +71586,41 @@
                             "default": ""
                         },
                         {
+                            "name": "onAuxclick",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "Function",
+                            "default": ""
+                        },
+                        {
+                            "name": "onClick",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "Function",
+                            "default": ""
+                        },
+                        {
+                            "name": "onContextmenu",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "Function",
+                            "default": ""
+                        },
+                        {
+                            "name": "onGotpointercapture",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "Function",
+                            "default": ""
+                        },
+                        {
+                            "name": "onLostpointercapture",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "Function",
+                            "default": ""
+                        },
+                        {
                             "name": "onPointerdown",
                             "optional": true,
                             "readonly": false,
@@ -71208,7 +71677,28 @@
                             "default": ""
                         },
                         {
+                            "name": "onBeforetoggle",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "Function",
+                            "default": ""
+                        },
+                        {
+                            "name": "onToggle",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "Function",
+                            "default": ""
+                        },
+                        {
                             "name": "onWheel",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "Function",
+                            "default": ""
+                        },
+                        {
+                            "name": "onAnimationcancel",
                             "optional": true,
                             "readonly": false,
                             "type": "Function",
@@ -71236,7 +71726,28 @@
                             "default": ""
                         },
                         {
+                            "name": "onSecuritypolicyviolation",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "Function",
+                            "default": ""
+                        },
+                        {
+                            "name": "onTransitioncancel",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "Function",
+                            "default": ""
+                        },
+                        {
                             "name": "onTransitionend",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "Function",
+                            "default": ""
+                        },
+                        {
+                            "name": "onTransitionrun",
                             "optional": true,
                             "readonly": false,
                             "type": "Function",
@@ -73727,14 +74238,6 @@
                             "description": "Label for the off state."
                         },
                         {
-                            "name": "iconPos",
-                            "optional": true,
-                            "readonly": false,
-                            "type": "HintedString<\"left\" | \"right\">",
-                            "default": "left",
-                            "description": "Position of the icon."
-                        },
-                        {
                             "name": "invalid",
                             "optional": true,
                             "readonly": false,
@@ -75167,14 +75670,14 @@
                             "name": "arg",
                             "optional": true,
                             "readonly": false,
-                            "type": "string",
+                            "type": "any",
                             "default": ""
                         },
                         {
                             "name": "dir",
                             "optional": false,
                             "readonly": false,
-                            "type": "ObjectDirective<any, any, string, string>",
+                            "type": "ObjectDirective<any, any, string, any>",
                             "default": ""
                         },
                         {
@@ -75439,6 +75942,131 @@
                     ],
                     "methods": []
                 },
+                "TreeNodeDropEvent": {
+                    "description": "Custom node drop event.",
+                    "relatedProp": "TreeEmitsOptions.node-drop",
+                    "props": [
+                        {
+                            "name": "originalEvent",
+                            "optional": false,
+                            "readonly": false,
+                            "type": "Event",
+                            "default": "",
+                            "description": "Original event"
+                        },
+                        {
+                            "name": "value",
+                            "optional": false,
+                            "readonly": false,
+                            "type": "TreeNode[]",
+                            "default": "",
+                            "description": "New tree value state"
+                        },
+                        {
+                            "name": "dragNode",
+                            "optional": false,
+                            "readonly": false,
+                            "type": "TreeNode",
+                            "default": "",
+                            "description": "Dragged node"
+                        },
+                        {
+                            "name": "dropNode",
+                            "optional": false,
+                            "readonly": false,
+                            "type": "TreeNode",
+                            "default": "",
+                            "description": "Dropped node"
+                        },
+                        {
+                            "name": "index",
+                            "optional": false,
+                            "readonly": false,
+                            "type": "number",
+                            "default": "",
+                            "description": "Index of the dropped node"
+                        }
+                    ],
+                    "methods": []
+                },
+                "TreeDragEnterEvent": {
+                    "description": "Custom tree drag enter event.",
+                    "relatedProp": "TreeEmitsOptions.drag-enter",
+                    "props": [
+                        {
+                            "name": "originalEvent",
+                            "optional": false,
+                            "readonly": false,
+                            "type": "Event",
+                            "default": "",
+                            "description": "Original event"
+                        },
+                        {
+                            "name": "value",
+                            "optional": false,
+                            "readonly": false,
+                            "type": "TreeNode[]",
+                            "default": "",
+                            "description": "Current tree value state"
+                        },
+                        {
+                            "name": "dragNode",
+                            "optional": false,
+                            "readonly": false,
+                            "type": "TreeNode",
+                            "default": "",
+                            "description": "Dragged node"
+                        },
+                        {
+                            "name": "dragNodeScope",
+                            "optional": false,
+                            "readonly": false,
+                            "type": "string",
+                            "default": "",
+                            "description": "Dragged node's scope"
+                        }
+                    ],
+                    "methods": []
+                },
+                "TreeDragLeaveEvent": {
+                    "description": "Custom tree drag leave event.",
+                    "relatedProp": "TreeEmitsOptions.drag-leave",
+                    "props": [
+                        {
+                            "name": "originalEvent",
+                            "optional": false,
+                            "readonly": false,
+                            "type": "Event",
+                            "default": "",
+                            "description": "Original event"
+                        },
+                        {
+                            "name": "value",
+                            "optional": false,
+                            "readonly": false,
+                            "type": "TreeNode[]",
+                            "default": "",
+                            "description": "Current tree value state"
+                        },
+                        {
+                            "name": "dragNode",
+                            "optional": false,
+                            "readonly": false,
+                            "type": "TreeNode",
+                            "default": "",
+                            "description": "Dragged node"
+                        },
+                        {
+                            "name": "dragNodeScope",
+                            "optional": false,
+                            "readonly": false,
+                            "type": "string",
+                            "default": "",
+                            "description": "Dragged node's scope"
+                        }
+                    ],
+                    "methods": []
+                },
                 "TreePassThroughOptions": {
                     "description": "Custom passthrough(pt) options.",
                     "relatedProp": "TreeProps.pt",
@@ -75578,6 +76206,22 @@
                             "type": "TreePassThroughOptionType<T>",
                             "default": "",
                             "description": "Used to pass attributes to the loading icon's DOM element."
+                        },
+                        {
+                            "name": "emptyMessage",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "TreePassThroughOptionType<T>",
+                            "default": "",
+                            "description": "Used to pass attributes to the empty message's DOM element."
+                        },
+                        {
+                            "name": "dropPoint",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "TreePassThroughOptionType<T>",
+                            "default": "",
+                            "description": "Used to pass attributes to the drop point's DOM element."
                         },
                         {
                             "name": "hooks",
@@ -75814,6 +76458,46 @@
                             "description": "Height of the scroll viewport in fixed units or the 'flex' keyword for a dynamic size."
                         },
                         {
+                            "name": "draggableNodes",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "boolean",
+                            "default": "null",
+                            "description": "Whether the nodes are draggable."
+                        },
+                        {
+                            "name": "droppableNodes",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "boolean",
+                            "default": "null",
+                            "description": "Whether the nodes are droppable."
+                        },
+                        {
+                            "name": "draggableScope",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "string | string[]",
+                            "default": "null",
+                            "description": "Scope of the draggable nodes to match a droppableScope."
+                        },
+                        {
+                            "name": "droppableScope",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "string | string[]",
+                            "default": "null",
+                            "description": "Scope of the droppable nodes to match a draggableScope."
+                        },
+                        {
+                            "name": "validateDrop",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "boolean",
+                            "default": "false",
+                            "description": "When enabled, drop can be accepted or rejected based on condition defined at node-drop."
+                        },
+                        {
                             "name": "ariaLabel",
                             "optional": true,
                             "readonly": false,
@@ -76020,6 +76704,12 @@
                             ],
                             "returnType": "VNode<RendererNode, RendererElement, Object>[]",
                             "description": "Custom footer"
+                        },
+                        {
+                            "name": "empty",
+                            "parameters": [],
+                            "returnType": "VNode<RendererNode, RendererElement, Object>[]",
+                            "description": "Custom empty template."
                         }
                     ]
                 },
@@ -76028,6 +76718,19 @@
                     "relatedProp": "",
                     "props": [],
                     "methods": [
+                        {
+                            "name": "update:value",
+                            "parameters": [
+                                {
+                                    "name": "value",
+                                    "optional": false,
+                                    "type": "TreeNode[]",
+                                    "description": "New value."
+                                }
+                            ],
+                            "returnType": "void",
+                            "description": "Emitted when the value change."
+                        },
                         {
                             "name": "update:expandedKeys",
                             "parameters": [
@@ -76107,6 +76810,45 @@
                             "description": "Callback to invoke when a node is collapsed."
                         },
                         {
+                            "name": "node-drop",
+                            "parameters": [
+                                {
+                                    "name": "event",
+                                    "optional": false,
+                                    "type": "TreeNodeDropEvent",
+                                    "description": ""
+                                }
+                            ],
+                            "returnType": "void",
+                            "description": "Callback to invoke when a node is collapsed."
+                        },
+                        {
+                            "name": "node-dragenter",
+                            "parameters": [
+                                {
+                                    "name": "node",
+                                    "optional": false,
+                                    "type": "TreeNode",
+                                    "description": "Node instance."
+                                }
+                            ],
+                            "returnType": "void",
+                            "description": "Callback to invoke when a dragged element enters a node."
+                        },
+                        {
+                            "name": "node-dragleave",
+                            "parameters": [
+                                {
+                                    "name": "node",
+                                    "optional": false,
+                                    "type": "TreeNode",
+                                    "description": "Node instance."
+                                }
+                            ],
+                            "returnType": "void",
+                            "description": "Callback to invoke when a dragged element leaves a node."
+                        },
+                        {
                             "name": "filter",
                             "parameters": [
                                 {
@@ -76118,6 +76860,32 @@
                             ],
                             "returnType": "void",
                             "description": "Callback to invoke on filter input."
+                        },
+                        {
+                            "name": "drag-enter",
+                            "parameters": [
+                                {
+                                    "name": "event",
+                                    "optional": false,
+                                    "type": "TreeDragEnterEvent",
+                                    "description": "Custom drag enter event."
+                                }
+                            ],
+                            "returnType": "void",
+                            "description": "Callback to invoke on drag enter."
+                        },
+                        {
+                            "name": "drag-leave",
+                            "parameters": [
+                                {
+                                    "name": "event",
+                                    "optional": false,
+                                    "type": "TreeDragLeaveEvent",
+                                    "description": "Custom drag leave event."
+                                }
+                            ],
+                            "returnType": "void",
+                            "description": "Callback to invoke on drag leave."
                         }
                     ]
                 }
@@ -76144,6 +76912,18 @@
                 },
                 "TreeFilterEvent": {
                     "description": "Custom filter event.",
+                    "props": []
+                },
+                "TreeNodeDropEvent": {
+                    "description": "Custom node drop event.",
+                    "props": []
+                },
+                "TreeDragEnterEvent": {
+                    "description": "Custom tree drag enter event.",
+                    "props": []
+                },
+                "TreeDragLeaveEvent": {
+                    "description": "Custom tree drag leave event.",
                     "props": []
                 },
                 "TreePassThroughOptions": {
@@ -76434,6 +77214,22 @@
                             "type": "string",
                             "default": "",
                             "description": "Icon to use in collapsed state."
+                        },
+                        {
+                            "name": "draggable",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "boolean",
+                            "default": "null",
+                            "description": "Specifies if the node is draggable.\nAvailable only for Tree component."
+                        },
+                        {
+                            "name": "droppable",
+                            "optional": true,
+                            "readonly": false,
+                            "type": "boolean",
+                            "default": "null",
+                            "description": "Specifies if the node is droppable.\nAvailable only for Tree component."
                         },
                         {
                             "name": "[key: string]",
@@ -78820,9 +79616,14 @@
                         },
                         {
                             "name": "paginatorcontainer",
-                            "parameters": [],
-                            "returnType": "VNode<RendererNode, RendererElement, Object>[]",
-                            "description": "Custom paginator container template."
+                            "parameters": [
+                                {
+                                    "name": "scope",
+                                    "optional": false,
+                                    "type": "{\n  \t <span class=\"ml-3 doc-option-parameter-name\">first</span>: <span class=\"doc-option-parameter-type\">number</span>, <span class=\"doc-option-parameter-type\">// Index of first record</span>\n  \t <span class=\"ml-3 doc-option-parameter-name\">last</span>: <span class=\"doc-option-parameter-type\">number</span>, <span class=\"doc-option-parameter-type\">// Index of last record</span>\n  \t <span class=\"ml-3 doc-option-parameter-name\">rows</span>: <span class=\"doc-option-parameter-type\">number</span>, <span class=\"doc-option-parameter-type\">// Number of rows to display in new page</span>\n  \t <span class=\"ml-3 doc-option-parameter-name\">page</span>: <span class=\"doc-option-parameter-type\">number</span>, <span class=\"doc-option-parameter-type\">// New page number</span>\n  \t <span class=\"ml-3 doc-option-parameter-name\">pageCount</span>: <span class=\"doc-option-parameter-type\">number</span>, <span class=\"doc-option-parameter-type\">// Total number of pages</span>\n  \t <span class=\"ml-3 doc-option-parameter-name\">pageLinks</span>: <span class=\"doc-option-parameter-type\">number</span>, <span class=\"doc-option-parameter-type\">// Direct page links</span>\n  \t <span class=\"ml-3 doc-option-parameter-name\">totalRecords</span>: <span class=\"doc-option-parameter-type\">number</span>, <span class=\"doc-option-parameter-type\">// Total records</span>\n \t <span class=\"ml-3 doc-option-parameter-name\">firstPageCallback</span>: <span class=\"doc-option-parameter-type\">(<span class=\"doc-option-parameter-name\">event</span>: Event) &rArr; void</span>, <span class=\"doc-option-parameter-type\">// First page function.</span>\n\t <span class=\"ml-3 doc-option-parameter-name\">lastPageCallback</span>: <span class=\"doc-option-parameter-type\">(<span class=\"doc-option-parameter-name\">event</span>: Event) &rArr; void</span>, <span class=\"doc-option-parameter-type\">// Last page function.</span>\n\t <span class=\"ml-3 doc-option-parameter-name\">prevPageCallback</span>: <span class=\"doc-option-parameter-type\">(<span class=\"doc-option-parameter-name\">event</span>: Event) &rArr; void</span>, <span class=\"doc-option-parameter-type\">// Previous page function.</span>\n\t <span class=\"ml-3 doc-option-parameter-name\">nextPageCallback</span>: <span class=\"doc-option-parameter-type\">(<span class=\"doc-option-parameter-name\">event</span>: Event) &rArr; void</span>, <span class=\"doc-option-parameter-type\">// Next page function.</span>\n\t <span class=\"ml-3 doc-option-parameter-name\">rowChangeCallback</span>: <span class=\"doc-option-parameter-type\">(<span class=\"doc-option-parameter-name\">value</span>: number) &rArr; void</span>, <span class=\"doc-option-parameter-type\">// Row change function.</span>\n\t <span class=\"ml-3 doc-option-parameter-name\">changePageCallback</span>: <span class=\"doc-option-parameter-type\">(<span class=\"doc-option-parameter-name\">value</span>: number) &rArr; void</span>, <span class=\"doc-option-parameter-type\">// Page change function.</span>\n}"
+                                }
+                            ],
+                            "returnType": "VNode<RendererNode, RendererElement, Object>[]"
                         },
                         {
                             "name": "paginatorstart",

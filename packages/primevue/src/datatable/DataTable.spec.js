@@ -3,6 +3,7 @@ import { mount } from '@vue/test-utils';
 import Button from 'primevue/button';
 import PrimeVue from 'primevue/config';
 import InputText from 'primevue/inputtext';
+import { defineComponent, nextTick } from 'vue';
 import Column from '../column/Column.vue';
 import ColumnGroup from '../columngroup/ColumnGroup.vue';
 import Row from '../row/Row.vue';
@@ -175,6 +176,42 @@ describe('DataTable.vue', () => {
     });
 
     // column templating
+
+    it('should allow column wrappers', async () => {
+        const ColumnWrapper = defineComponent({
+            name: 'ColumnWrapper',
+            components: { Column },
+            template: `<Column sortable></Column>`
+        });
+
+        wrapper = mount(DataTable, {
+            global: {
+                plugins: [PrimeVue],
+                components: {
+                    ColumnWrapper
+                }
+            },
+            props: {
+                value: smallData
+            },
+            slots: {
+                default: `
+                    <ColumnWrapper key="code" field="code" header="Code"></ColumnWrapper>
+                    <ColumnWrapper key="name" field="name" header="Name"></ColumnWrapper>
+                `
+            }
+        });
+
+        // Helpers are registered on Column mount, it is not immediate
+        await nextTick();
+
+        expect(wrapper.findAll('.p-datatable-column-header-content').length).toEqual(2);
+        const tbody = wrapper.find('.p-datatable-tbody');
+        const rows = tbody.findAll('tr');
+
+        expect(rows[0].findAll('td').length).toEqual(2);
+        expect(wrapper.findAll('.p-datatable-sortable-column').length).toEqual(2);
+    });
 
     // column grouping
     it('should exist', () => {
@@ -1439,4 +1476,68 @@ describe('DataTable.vue', () => {
     // contextmenu
 
     // row styling
+    it('should render custom headercheckboxicon slot in Column', () => {
+        wrapper = mount(DataTable, {
+            global: {
+                plugins: [PrimeVue],
+                components: {
+                    Column
+                }
+            },
+            props: {
+                value: smallData,
+                selection: null
+            },
+            slots: {
+                default: `
+                    <Column selectionMode="multiple">
+                        <template #headercheckboxicon>
+                            <span class="custom-header-checkbox-icon">CustomIcon</span>
+                        </template>
+                    </Column>
+                    <Column field="code" header="Code"></Column>
+                    <Column field="name" header="Name"></Column>
+                `
+            }
+        });
+
+        const headerCheckboxIcon = wrapper.find('.custom-header-checkbox-icon');
+
+        expect(headerCheckboxIcon.exists()).toBe(true);
+        expect(headerCheckboxIcon.text()).toBe('CustomIcon');
+    });
+
+    it('should render custom rowcheckboxicon slot in Column', () => {
+        wrapper = mount(DataTable, {
+            global: {
+                plugins: [PrimeVue],
+                components: {
+                    Column
+                }
+            },
+            props: {
+                value: smallData,
+                selection: null
+            },
+            slots: {
+                default: `
+                    <Column selectionMode="multiple">
+                        <template #rowcheckboxicon>
+                            <span class="custom-row-checkbox-icon">CustomIcon</span>
+                        </template>
+                    </Column>
+                    <Column field="code" header="Code"></Column>
+                    <Column field="name" header="Name"></Column>
+                `
+            }
+        });
+
+        // custom-row-checkbox-icon should be rendered in each row, so 3 times
+        const rowCheckboxIcons = wrapper.findAll('.custom-row-checkbox-icon');
+
+        expect(rowCheckboxIcons.length).toBe(3);
+        expect(rowCheckboxIcons[0].text()).toBe('CustomIcon');
+        expect(rowCheckboxIcons[1].text()).toBe('CustomIcon');
+        expect(rowCheckboxIcons[2].text()).toBe('CustomIcon');
+    });
 });
